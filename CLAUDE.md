@@ -89,8 +89,10 @@ anonymize.education/
 ├── js/                 # main.js
 ├── images/             # Deployed assets (logo, icons, favicons, hero)
 ├── tests/              # Playwright test suites
-│   ├── mobile-test.js      # Mobile browser compatibility tests
-│   └── accessibility-test.js # Accessibility compliance tests
+│   ├── accessibility-test.js # Accessibility compliance tests
+│   ├── mobile-test.js        # Mobile browser compatibility tests
+│   ├── form-check.js         # Contact form structure validation
+│   └── production-check.js   # Comprehensive production health check
 ├── brand/              # NOT deployed (source assets, marketing materials, generators)
 ├── CHANGELOG.md
 ├── DEPLOYMENT.md
@@ -133,6 +135,12 @@ node tests/mobile-test.js
 
 # Accessibility compliance
 node tests/accessibility-test.js
+
+# Contact form structure validation
+node tests/form-check.js
+
+# Full production health check (pages, links, assets, meta tags)
+node tests/production-check.js
 ```
 
 ### Device Profiles Tested
