@@ -4,6 +4,32 @@ All notable changes to the Anonymize.Education website will be documented in thi
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
+## [1.0.2] - 2026-02-07
+
+### Added
+
+#### Contact Form Backend
+- Implemented contact form backend with Microsoft Graph API for email sending
+- Added reCAPTCHA v3 spam protection (same keys as curta.solutions)
+- Server-side rate limiting (5 requests/minute per IP)
+- Spam detection for common patterns
+- CORS protection for allowed origins only
+- Secure server-side configuration (credentials outside web root)
+
+#### Form Features
+- Interest topics: Desktop App, Office Add-in, MCP Server, Enterprise, Pricing, Support
+- Institution/School field for educational context
+- Success message with animation on successful submission
+- Error handling with user-friendly messages
+
+#### Files Added
+- api/send-message.php - Contact form handler
+- api/config.php - Placeholder config (production uses /var/www/config/)
+
+### Changed
+- Updated contact.html with reCAPTCHA script and success message
+- Updated main.js with async form submission handler
+
 ## [1.0.1] - 2026-02-07
 
 ### Fixed

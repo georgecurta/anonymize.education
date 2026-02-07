@@ -5,7 +5,7 @@
 **Domain**: anonymize.education
 **Purpose**: Marketing website for education-focused data anonymization platform
 **Parent Platform**: anonym.legal
-**Status**: Live in production (v1.0.1, deployed 2026-02-07)
+**Status**: Live in production (v1.0.2, deployed 2026-02-07)
 
 ## Key Information
 
@@ -82,6 +82,9 @@ GIT_SSH_COMMAND='ssh -i ~/.ssh/macxpress26 -o IdentitiesOnly=yes' git push produ
 ```
 anonymize.education/
 ├── *.html              # 8 pages (index, features, products, use-cases, pricing, contact, datenschutz, impressum)
+├── api/                # Backend API
+│   ├── send-message.php    # Contact form handler (MS Graph + reCAPTCHA)
+│   └── config.php          # Placeholder (production uses server config)
 ├── css/                # style.css, animations.css
 ├── js/                 # main.js
 ├── images/             # Deployed assets (logo, icons, favicons, hero)
@@ -94,6 +97,30 @@ anonymize.education/
 ├── MARKETING-CONCEPT.md
 └── CLAUDE.md           # This file
 ```
+
+## Contact Form Backend
+
+### Configuration
+- Production config: `/var/www/config/anonymize-education-mail.php`
+- Uses same reCAPTCHA keys as curta.solutions
+- Uses same MS Graph credentials as macxpress.net
+- Emails sent via Microsoft Graph API from noreply@anonymize.solutions
+
+### Security Features
+- reCAPTCHA v3 with 0.5 minimum score
+- Rate limiting: 5 requests/minute per IP
+- CORS: Only allows https://anonymize.education origins
+- Spam detection for common patterns
+- Config file outside web root (not accessible via HTTP)
+
+### Interest Topics
+- desktop: Free Desktop App
+- office: Office Add-in
+- mcp: MCP Server for AI
+- enterprise: Enterprise Solution
+- pricing: Volume/Education Pricing
+- support: Technical Support
+- other: General Inquiry
 
 ## Testing
 
@@ -137,5 +164,6 @@ node tests/accessibility-test.js
 
 | Version | Date | Changes |
 |---------|------|---------|
+| 1.0.2 | 2026-02-07 | Contact form backend with MS Graph + reCAPTCHA v3 |
 | 1.0.1 | 2026-02-07 | Accessibility fixes, mobile compatibility, test suites |
 | 1.0.0 | 2026-02-07 | Initial release with all 8 pages, brand assets, marketing materials |
