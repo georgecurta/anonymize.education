@@ -4,6 +4,29 @@ All notable changes to the Anonymize.Education website will be documented in thi
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
+## [1.0.1] - 2026-02-07
+
+### Fixed
+
+#### Accessibility
+- Added skip navigation link to all pages
+- Added ARIA landmarks (role="navigation", role="contentinfo")
+- Fixed heading hierarchy issues (h4→h3 for sub-sections, h3→h2 where needed)
+- Fixed malformed heading tags (h4 opening/h2 closing)
+- Added screen-reader-only (sr-only) CSS class for hidden headings
+- Added main content wrapper with id="main-content"
+
+#### Mobile Compatibility
+- Added minimum touch target size (44x44px) for all interactive elements
+- Prevented horizontal scroll on small screens (overflow-x: hidden)
+- Added responsive styles for extra small screens (360px and below)
+- Fixed hero title size on very small devices
+
+#### Testing
+- Added Playwright-based mobile compatibility test suite (tests/mobile-test.js)
+- Added accessibility test suite (tests/accessibility-test.js)
+- Tests cover 6 device profiles: iPhone 12, iPhone SE, Pixel 5, Galaxy S9+, iPad Mini, iPad Pro
+
 ## [1.0.0] - 2026-02-07
 
 ### Added
