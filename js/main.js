@@ -163,20 +163,22 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 
   // ===========================================
-  // CONTACT FORM HANDLING
+  // CONTACT FORM HANDLING WITH reCAPTCHA v3
   // ===========================================
 
-  const contactForm = document.querySelector('.contact-form__body');
+  const RECAPTCHA_SITE_KEY = '6LcFEFosAAAAAH6zUMF5USUNKGGjr07y97nC5uDr';
+  const contactForm = document.getElementById('contactForm');
+  const formSuccess = document.getElementById('formSuccess');
+
   if (contactForm) {
     // Add animation classes to form inputs
     contactForm.querySelectorAll('input, textarea, select').forEach(input => {
       input.classList.add('form-input-animated');
     });
 
-    contactForm.addEventListener('submit', function(e) {
+    contactForm.addEventListener('submit', async function(e) {
       e.preventDefault();
 
-      const formData = new FormData(this);
       const submitButton = this.querySelector('button[type="submit"]');
       const originalText = submitButton.innerHTML;
 
@@ -184,33 +186,78 @@ document.addEventListener('DOMContentLoaded', function() {
       submitButton.innerHTML = '<span class="loading-ring" style="width:20px;height:20px;border-width:2px;margin-right:8px;"></span> Sending...';
       submitButton.disabled = true;
 
-      // Simulate form submission (replace with actual endpoint)
-      setTimeout(() => {
-        // Show success message with animation
-        const successMessage = document.createElement('div');
-        successMessage.className = 'form-message scroll-reveal visible';
-        successMessage.style.cssText = 'padding: 1rem; background: #ecfdf5; color: #065f46; border-radius: 0.5rem; text-align: center; margin-top: 1rem; animation: fadeInScale 0.4s ease-out;';
-        successMessage.innerHTML = `
-          <svg class="success-checkmark" viewBox="0 0 52 52" style="width:40px;height:40px;display:block;margin:0 auto 10px;">
-            <circle cx="26" cy="26" r="25" fill="none" stroke="#10b981" stroke-width="2"/>
-            <path class="checkmark-path" fill="none" stroke="#10b981" stroke-width="3" d="M14 27l7 7 17-17"/>
-          </svg>
-          Thank you! Your message has been sent. We will respond within 24 hours.
-        `;
+      try {
+        // Get reCAPTCHA token
+        let recaptchaToken = '';
+        if (typeof grecaptcha !== 'undefined') {
+          try {
+            recaptchaToken = await grecaptcha.execute(RECAPTCHA_SITE_KEY, { action: 'contact_form' });
+          } catch (recaptchaError) {
+            console.error('reCAPTCHA error:', recaptchaError);
+          }
+        }
 
-        this.appendChild(successMessage);
-        this.reset();
+        // Collect form data
+        const formData = {
+          name: this.querySelector('#name').value.trim(),
+          email: this.querySelector('#email').value.trim(),
+          institution: this.querySelector('#institution').value.trim(),
+          interest: this.querySelector('#interest').value,
+          message: this.querySelector('#message').value.trim(),
+          recaptcha_token: recaptchaToken
+        };
 
+        // Send to backend
+        const response = await fetch('api/send-message.php', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify(formData)
+        });
+
+        const result = await response.json();
+
+        if (result.success) {
+          // Hide form, show success message
+          this.style.display = 'none';
+          if (formSuccess) {
+            formSuccess.style.display = 'block';
+            formSuccess.style.animation = 'fadeInScale 0.4s ease-out';
+          }
+          this.reset();
+        } else {
+          // Show error message
+          const errorMsg = result.errors ? result.errors.join(', ') : (result.error || 'Failed to send message');
+          showFormError(this, errorMsg);
+          submitButton.innerHTML = originalText;
+          submitButton.disabled = false;
+        }
+      } catch (error) {
+        console.error('Form submission error:', error);
+        showFormError(this, 'Network error. Please try again later.');
         submitButton.innerHTML = originalText;
         submitButton.disabled = false;
-
-        // Remove success message after 5 seconds
-        setTimeout(() => {
-          successMessage.style.animation = 'fadeInScale 0.4s ease-out reverse';
-          setTimeout(() => successMessage.remove(), 400);
-        }, 5000);
-      }, 1500);
+      }
     });
+  }
+
+  function showFormError(form, message) {
+    // Remove any existing error message
+    const existingError = form.querySelector('.form-error');
+    if (existingError) existingError.remove();
+
+    const errorDiv = document.createElement('div');
+    errorDiv.className = 'form-error';
+    errorDiv.style.cssText = 'padding: 1rem; background: #fef2f2; color: #991b1b; border-radius: 0.5rem; text-align: center; margin-top: 1rem; animation: fadeInScale 0.3s ease-out;';
+    errorDiv.innerHTML = `<strong>Error:</strong> ${message}`;
+    form.appendChild(errorDiv);
+
+    // Remove after 5 seconds
+    setTimeout(() => {
+      errorDiv.style.animation = 'fadeInScale 0.3s ease-out reverse';
+      setTimeout(() => errorDiv.remove(), 300);
+    }, 5000);
   }
 
   // ===========================================

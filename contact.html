@@ -10,6 +10,8 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
+  <!-- Google reCAPTCHA v3 -->
+  <script src="https://www.google.com/recaptcha/api.js?render=6LcFEFosAAAAAH6zUMF5USUNKGGjr07y97nC5uDr"></script>
 </head>
 <body>
   <!-- Skip Navigation Link for Accessibility -->
@@ -92,7 +94,7 @@
         <div class="contact-form__header">
           Contact Form
         </div>
-        <form class="contact-form__body" action="api/send-message.php" method="POST">
+        <form id="contactForm" class="contact-form__body" action="api/send-message.php" method="POST">
           <div class="form-group">
             <label class="form-label" for="name">Your Name *</label>
             <input type="text" id="name" name="name" class="form-input" required placeholder="e.g., Maria Schmidt">
@@ -137,7 +139,21 @@
           <p style="margin-top: var(--space-md); font-size: 0.75rem; color: var(--text-muted); text-align: center;">
             By submitting this form, you agree to our <a href="datenschutz.html">Privacy Policy</a>.
           </p>
+          <p style="margin-top: var(--space-sm); font-size: 0.7rem; color: var(--text-muted); text-align: center;">
+            This site is protected by reCAPTCHA and the Google
+            <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Privacy Policy</a> and
+            <a href="https://policies.google.com/terms" target="_blank" rel="noopener">Terms of Service</a> apply.
+          </p>
         </form>
+        <!-- Success Message (hidden by default) -->
+        <div id="formSuccess" class="form-success" style="display: none; padding: 2rem; text-align: center;">
+          <svg viewBox="0 0 52 52" style="width: 60px; height: 60px; margin-bottom: 1rem;">
+            <circle cx="26" cy="26" r="25" fill="none" stroke="var(--primary)" stroke-width="2"/>
+            <path fill="none" stroke="var(--primary)" stroke-width="3" d="M14 27l7 7 17-17"/>
+          </svg>
+          <h3 style="color: var(--primary); margin-bottom: 0.5rem;">Message Sent!</h3>
+          <p style="color: var(--text-secondary);">Thank you for contacting us. We will respond within 24 hours.</p>
+        </div>
       </div>
     </div>
   </section>
