@@ -5,7 +5,7 @@
 **Domain**: anonymize.education
 **Purpose**: Marketing website for education-focused data anonymization platform
 **Parent Platform**: anonym.legal
-**Status**: Live in production (v1.0.0, deployed 2026-02-07)
+**Status**: Live in production (v1.0.1, deployed 2026-02-07)
 
 ## Key Information
 
@@ -85,6 +85,9 @@ anonymize.education/
 ├── css/                # style.css, animations.css
 ├── js/                 # main.js
 ├── images/             # Deployed assets (logo, icons, favicons, hero)
+├── tests/              # Playwright test suites
+│   ├── mobile-test.js      # Mobile browser compatibility tests
+│   └── accessibility-test.js # Accessibility compliance tests
 ├── brand/              # NOT deployed (source assets, marketing materials, generators)
 ├── CHANGELOG.md
 ├── DEPLOYMENT.md
@@ -92,9 +95,47 @@ anonymize.education/
 └── CLAUDE.md           # This file
 ```
 
+## Testing
+
+### Test Suites
+Run from project directory with Node.js and Playwright installed:
+
+```bash
+# Mobile compatibility (6 device profiles)
+node tests/mobile-test.js
+
+# Accessibility compliance
+node tests/accessibility-test.js
+```
+
+### Device Profiles Tested
+- iPhone 12 (390x664)
+- iPhone SE (320x568)
+- Pixel 5 (393x727)
+- Galaxy S9+ (320x658)
+- iPad Mini (768x1024)
+- iPad Pro 11 (834x1194)
+
+### Accessibility Features
+- Skip navigation link on all pages
+- ARIA landmarks (role="navigation", role="contentinfo")
+- Proper heading hierarchy (h1→h2→h3)
+- Screen-reader-only content (.sr-only class)
+- Minimum touch target size (44x44px)
+- Reduced motion support (@media prefers-reduced-motion)
+
 ## Important Notes
 
 1. Legal pages (datenschutz.html, impressum.html) intentionally reference anonym.legal for complete details
 2. brand/ directory excluded from production deployment (contains source files and generators)
 3. Always verify new features/claims against anonym.legal before adding
 4. The site targets educational institutions globally with focus on GDPR compliance
+5. All pages have skip-link, proper ARIA landmarks, and correct heading hierarchy
+6. Run accessibility tests after any HTML structure changes to verify compliance
+
+## Version History
+
+| Version | Date | Changes |
+|---------|------|---------|
+| 1.0.1 | 2026-02-07 | Accessibility fixes, mobile compatibility, test suites |
+| 1.0.0 | 2026-02-07 | Initial release with all 8 pages, brand assets, marketing materials |
