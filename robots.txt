@@ -1,0 +1,10 @@
+# Robots.txt for anonymize.education
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://anonymize.education/sitemap.xml
+
+# Crawl delay (optional, be gentle with the server)
+Crawl-delay: 1

@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contact Anonymize.Education - Get in touch for education data protection solutions, enterprise inquiries, or support.">
+  <title>Contact | Anonymize.Education</title>
+  <link rel="canonical" href="https://anonymize.education/contact.html">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="nav">
+    <div class="nav__inner">
+      <a href="/" class="nav__logo">
+        <span class="nav__logo-icon">A</span>
+        Anonymize.Education
+      </a>
+      <div class="nav__links">
+        <a href="features.html" class="nav__link">Features</a>
+        <a href="products.html" class="nav__link">Products</a>
+        <a href="use-cases.html" class="nav__link">Use Cases</a>
+        <a href="pricing.html" class="nav__link">Pricing</a>
+        <a href="contact.html" class="nav__link nav__link--active">Contact</a>
+      </div>
+      <div class="nav__cta">
+        <a href="https://anonym.legal" class="btn btn--primary" target="_blank">Start Free</a>
+      </div>
+      <button class="nav__toggle" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+    </div>
+  </nav>
+
+  <!-- Contact Section -->
+  <section class="section" style="padding-top: calc(var(--nav-height) + var(--space-3xl)); min-height: 100vh; background: var(--bg-secondary);">
+    <div class="contact-grid">
+      <!-- Contact Info -->
+      <div class="contact-info">
+        <h1 class="contact-info__title">Get in Touch</h1>
+        <p class="contact-info__text">
+          Have questions about protecting student data? Need help choosing the right solution for your school?
+          We are here to help.
+        </p>
+
+        <div class="contact-info__links">
+          <div class="contact-info__link">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="var(--primary)">
+              <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
+            </svg>
+            <span>Germany (EU)</span>
+          </div>
+          <div class="contact-info__link">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="var(--primary)">
+              <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+            </svg>
+            <span>Response within 24 hours</span>
+          </div>
+        </div>
+
+        <div style="margin-top: var(--space-xl);">
+          <h3 style="margin-bottom: var(--space-md); font-size: 1rem;">Quick Links</h3>
+          <div style="display: flex; flex-direction: column; gap: var(--space-sm);">
+            <a href="https://anonym.legal" class="btn btn--secondary" target="_blank" style="justify-content: flex-start;">
+              Main Platform (anonym.legal)
+            </a>
+            <a href="https://anonymize.solutions" class="btn btn--secondary" target="_blank" style="justify-content: flex-start;">
+              Enterprise Solutions
+            </a>
+          </div>
+        </div>
+
+        <div style="margin-top: var(--space-2xl);">
+          <h3 style="margin-bottom: var(--space-md); font-size: 1rem;">Certifications</h3>
+          <div class="trust__badges" style="flex-wrap: wrap;">
+            <span class="trust__badge">ISO 27001</span>
+            <span class="trust__badge">GDPR Compliant</span>
+            <span class="trust__badge">German Servers</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Contact Form -->
+      <div class="contact-form">
+        <div class="contact-form__header">
+          Contact Form
+        </div>
+        <form class="contact-form__body" action="api/send-message.php" method="POST">
+          <div class="form-group">
+            <label class="form-label" for="name">Your Name *</label>
+            <input type="text" id="name" name="name" class="form-input" required placeholder="e.g., Maria Schmidt">
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="email">Email Address *</label>
+            <input type="email" id="email" name="email" class="form-input" required placeholder="e.g., maria@school.edu">
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="institution">Institution / School</label>
+            <input type="text" id="institution" name="institution" class="form-input" placeholder="e.g., Berlin International School">
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="interest">I am interested in:</label>
+            <select id="interest" name="interest" class="form-input form-select">
+              <option value="">Please select...</option>
+              <option value="desktop">Free Desktop App</option>
+              <option value="office">Office Add-in</option>
+              <option value="mcp">MCP Server for AI</option>
+              <option value="enterprise">Enterprise Solution</option>
+              <option value="pricing">Volume/Education Pricing</option>
+              <option value="support">Technical Support</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="message">Your Message *</label>
+            <textarea id="message" name="message" class="form-textarea" required placeholder="How can we help you?"></textarea>
+          </div>
+
+          <button type="submit" class="btn btn--primary" style="width: 100%;">
+            Send Message
+            <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" width="16" height="16">
+              <path d="M3 8H13M9 4L13 8L9 12"/>
+            </svg>
+          </button>
+
+          <p style="margin-top: var(--space-md); font-size: 0.75rem; color: var(--text-muted); text-align: center;">
+            By submitting this form, you agree to our <a href="datenschutz.html">Privacy Policy</a>.
+          </p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ Section -->
+  <section class="section">
+    <div class="section__header">
+      <h2 class="section__title">Common Questions</h2>
+    </div>
+
+    <div class="container" style="max-width: 800px;">
+      <div class="use-cases-grid" style="grid-template-columns: 1fr;">
+        <div class="use-case">
+          <h3 class="use-case__title">How quickly will I get a response?</h3>
+          <p class="use-case__problem">
+            We typically respond within 24 hours on business days. For urgent technical issues, paid accounts receive priority support.
+          </p>
+        </div>
+
+        <div class="use-case">
+          <h3 class="use-case__title">Can I get a demo for my school?</h3>
+          <p class="use-case__problem">
+            Yes! We offer online demonstrations for schools and districts. Just mention "demo request" in your message and we will schedule a call.
+          </p>
+        </div>
+
+        <div class="use-case">
+          <h3 class="use-case__title">Do you offer volume discounts?</h3>
+          <p class="use-case__problem">
+            Yes, we offer special pricing for school districts, university systems, and educational organizations. Contact us with your requirements.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer__grid">
+      <div class="footer__brand">
+        <a href="/" class="footer__logo">Anonymize.Education</a>
+        <p class="footer__tagline">Simple data protection for schools and universities.</p>
+      </div>
+      <div>
+        <h4 class="footer__title">Products</h4>
+        <a href="products.html#desktop" class="footer__link">Desktop App</a>
+        <a href="products.html#office" class="footer__link">Office Add-in</a>
+        <a href="products.html#mcp" class="footer__link">MCP Server</a>
+      </div>
+      <div>
+        <h4 class="footer__title">Resources</h4>
+        <a href="features.html" class="footer__link">Features</a>
+        <a href="use-cases.html" class="footer__link">Use Cases</a>
+        <a href="pricing.html" class="footer__link">Pricing</a>
+      </div>
+      <div>
+        <h4 class="footer__title">Contact</h4>
+        <a href="contact.html" class="footer__link">Contact Form</a>
+        <a href="https://anonym.legal" class="footer__link" target="_blank">Main Platform</a>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p class="footer__copyright">2026 Anonymize.Education. All rights reserved.</p>
+      <div class="footer__legal">
+        <a href="datenschutz.html">Privacy Policy</a>
+        <a href="impressum.html">Imprint</a>
+      </div>
+    </div>
+  </footer>
+  <script src="js/main.js"></script>
+</body>
+</html>

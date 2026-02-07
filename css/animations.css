@@ -1,0 +1,607 @@
+/**
+ * Anonymize.Education - Protective Clarity Animations
+ * Based on the design philosophy: concentric protection, organic flow, systematic rhythm
+ */
+
+/* ============================================
+   CORE ANIMATION KEYFRAMES
+   ============================================ */
+
+/* Concentric ring pulse - layers of protection breathing */
+@keyframes protectionPulse {
+    0%, 100% {
+        transform: scale(1);
+        opacity: 0.8;
+    }
+    50% {
+        transform: scale(1.05);
+        opacity: 1;
+    }
+}
+
+/* Shield shimmer effect */
+@keyframes shieldShimmer {
+    0% {
+        background-position: -200% center;
+    }
+    100% {
+        background-position: 200% center;
+    }
+}
+
+/* Data flow animation - points traveling */
+@keyframes dataFlow {
+    0% {
+        transform: translateX(0);
+        opacity: 0;
+    }
+    10% {
+        opacity: 1;
+    }
+    90% {
+        opacity: 1;
+    }
+    100% {
+        transform: translateX(100px);
+        opacity: 0;
+    }
+}
+
+/* Gentle float for cards */
+@keyframes gentleFloat {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-8px);
+    }
+}
+
+/* Fade in and rise */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Fade in and scale */
+@keyframes fadeInScale {
+    from {
+        opacity: 0;
+        transform: scale(0.9);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+/* Rotate slowly - for loading states */
+@keyframes gentleRotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/* Dot pattern wave */
+@keyframes dotWave {
+    0%, 100% {
+        opacity: 0.3;
+    }
+    50% {
+        opacity: 0.6;
+    }
+}
+
+/* Staggered reveal */
+@keyframes staggerReveal {
+    from {
+        opacity: 0;
+        transform: translateY(20px) scale(0.95);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+}
+
+/* Typewriter cursor blink for code sections */
+@keyframes cursorBlink {
+    0%, 50% {
+        opacity: 1;
+    }
+    51%, 100% {
+        opacity: 0;
+    }
+}
+
+/* Security check animation */
+@keyframes securityCheck {
+    0% {
+        stroke-dashoffset: 100;
+    }
+    100% {
+        stroke-dashoffset: 0;
+    }
+}
+
+/* Ring expansion */
+@keyframes ringExpand {
+    0% {
+        transform: scale(0.8);
+        opacity: 0.8;
+    }
+    100% {
+        transform: scale(1.5);
+        opacity: 0;
+    }
+}
+
+/* Gradient shift for backgrounds */
+@keyframes gradientShift {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+
+/* ============================================
+   HERO SECTION ANIMATIONS
+   ============================================ */
+
+.hero-animated {
+    position: relative;
+    overflow: hidden;
+}
+
+/* Concentric protection circles in hero */
+.protection-rings {
+    position: absolute;
+    right: -100px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 500px;
+    height: 500px;
+    pointer-events: none;
+}
+
+.protection-ring {
+    position: absolute;
+    border-radius: 50%;
+    border: 2px solid var(--nurture-green, #5eead4);
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    animation: protectionPulse 4s ease-in-out infinite;
+}
+
+.protection-ring:nth-child(1) {
+    width: 100%;
+    height: 100%;
+    opacity: 0.15;
+    animation-delay: 0s;
+}
+
+.protection-ring:nth-child(2) {
+    width: 80%;
+    height: 80%;
+    opacity: 0.25;
+    animation-delay: 0.5s;
+    border-color: var(--guardian-teal, #0d9488);
+}
+
+.protection-ring:nth-child(3) {
+    width: 60%;
+    height: 60%;
+    opacity: 0.35;
+    animation-delay: 1s;
+}
+
+.protection-ring:nth-child(4) {
+    width: 40%;
+    height: 40%;
+    opacity: 0.5;
+    animation-delay: 1.5s;
+    border-color: var(--guardian-teal, #0d9488);
+}
+
+.protection-ring:nth-child(5) {
+    width: 20%;
+    height: 20%;
+    opacity: 0.7;
+    background: var(--deep-knowledge, #134e4a);
+    animation-delay: 2s;
+}
+
+/* Hero content fade in */
+.hero-content {
+    animation: fadeInUp 1s ease-out forwards;
+}
+
+.hero-title {
+    animation: fadeInUp 1s ease-out 0.2s forwards;
+    opacity: 0;
+}
+
+.hero-subtitle {
+    animation: fadeInUp 1s ease-out 0.4s forwards;
+    opacity: 0;
+}
+
+.hero-cta {
+    animation: fadeInUp 1s ease-out 0.6s forwards;
+    opacity: 0;
+}
+
+
+/* ============================================
+   CARD ANIMATIONS
+   ============================================ */
+
+.card-animated {
+    transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1),
+                box-shadow 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.card-animated:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 20px 40px rgba(13, 148, 136, 0.15);
+}
+
+/* Card stagger on page load */
+.cards-container .card-animated {
+    animation: staggerReveal 0.6s ease-out forwards;
+    opacity: 0;
+}
+
+.cards-container .card-animated:nth-child(1) { animation-delay: 0.1s; }
+.cards-container .card-animated:nth-child(2) { animation-delay: 0.2s; }
+.cards-container .card-animated:nth-child(3) { animation-delay: 0.3s; }
+.cards-container .card-animated:nth-child(4) { animation-delay: 0.4s; }
+.cards-container .card-animated:nth-child(5) { animation-delay: 0.5s; }
+.cards-container .card-animated:nth-child(6) { animation-delay: 0.6s; }
+
+
+/* ============================================
+   BUTTON ANIMATIONS
+   ============================================ */
+
+.btn-animated {
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.btn-animated::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+        90deg,
+        transparent,
+        rgba(255, 255, 255, 0.3),
+        transparent
+    );
+    transition: left 0.5s ease;
+}
+
+.btn-animated:hover::before {
+    left: 100%;
+}
+
+.btn-animated:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(13, 148, 136, 0.3);
+}
+
+.btn-animated:active {
+    transform: translateY(0);
+}
+
+
+/* ============================================
+   DATA PROTECTION VISUALIZATION
+   ============================================ */
+
+.data-flow-container {
+    position: relative;
+    height: 200px;
+    overflow: hidden;
+}
+
+.data-point {
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: var(--warm-amber, #f59e0b);
+    animation: dataFlow 3s ease-in-out infinite;
+}
+
+.data-point:nth-child(1) { top: 20%; animation-delay: 0s; }
+.data-point:nth-child(2) { top: 35%; animation-delay: 0.5s; }
+.data-point:nth-child(3) { top: 50%; animation-delay: 1s; }
+.data-point:nth-child(4) { top: 65%; animation-delay: 1.5s; }
+.data-point:nth-child(5) { top: 80%; animation-delay: 2s; }
+
+.data-point.protected {
+    background: var(--nurture-green, #5eead4);
+}
+
+
+/* ============================================
+   SCROLL-TRIGGERED ANIMATIONS
+   ============================================ */
+
+.scroll-reveal {
+    opacity: 0;
+    transform: translateY(40px);
+    transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.scroll-reveal.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.scroll-reveal-left {
+    opacity: 0;
+    transform: translateX(-40px);
+    transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.scroll-reveal-left.visible {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.scroll-reveal-right {
+    opacity: 0;
+    transform: translateX(40px);
+    transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.scroll-reveal-right.visible {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.scroll-reveal-scale {
+    opacity: 0;
+    transform: scale(0.9);
+    transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.scroll-reveal-scale.visible {
+    opacity: 1;
+    transform: scale(1);
+}
+
+
+/* ============================================
+   ICON ANIMATIONS
+   ============================================ */
+
+.icon-animated {
+    transition: transform 0.3s ease;
+}
+
+.icon-animated:hover {
+    transform: scale(1.1) rotate(5deg);
+}
+
+.icon-shield {
+    animation: protectionPulse 3s ease-in-out infinite;
+}
+
+.icon-spin {
+    animation: gentleRotate 8s linear infinite;
+}
+
+.icon-float {
+    animation: gentleFloat 4s ease-in-out infinite;
+}
+
+
+/* ============================================
+   LOADING STATES
+   ============================================ */
+
+.loading-ring {
+    display: inline-block;
+    width: 48px;
+    height: 48px;
+    border: 3px solid var(--safe-cream, #f0fdfa);
+    border-top-color: var(--guardian-teal, #0d9488);
+    border-radius: 50%;
+    animation: gentleRotate 1s linear infinite;
+}
+
+.loading-dots {
+    display: flex;
+    gap: 8px;
+}
+
+.loading-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: var(--guardian-teal, #0d9488);
+    animation: dotWave 1.4s ease-in-out infinite;
+}
+
+.loading-dot:nth-child(1) { animation-delay: 0s; }
+.loading-dot:nth-child(2) { animation-delay: 0.2s; }
+.loading-dot:nth-child(3) { animation-delay: 0.4s; }
+
+
+/* ============================================
+   PROTECTION BADGE ANIMATION
+   ============================================ */
+
+.protection-badge {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 16px;
+    background: var(--guardian-teal, #0d9488);
+    color: white;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.protection-badge::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(
+        90deg,
+        transparent,
+        rgba(255, 255, 255, 0.2),
+        transparent
+    );
+    animation: shieldShimmer 3s ease-in-out infinite;
+    background-size: 200% 100%;
+}
+
+
+/* ============================================
+   STATS COUNTER ANIMATION
+   ============================================ */
+
+.stat-number {
+    font-variant-numeric: tabular-nums;
+    transition: transform 0.3s ease;
+}
+
+.stat-number:hover {
+    transform: scale(1.1);
+}
+
+.stat-card {
+    animation: fadeInScale 0.6s ease-out forwards;
+    opacity: 0;
+}
+
+.stat-card:nth-child(1) { animation-delay: 0.1s; }
+.stat-card:nth-child(2) { animation-delay: 0.2s; }
+.stat-card:nth-child(3) { animation-delay: 0.3s; }
+.stat-card:nth-child(4) { animation-delay: 0.4s; }
+
+
+/* ============================================
+   BACKGROUND ANIMATIONS
+   ============================================ */
+
+.bg-gradient-animated {
+    background: linear-gradient(
+        -45deg,
+        var(--safe-cream, #f0fdfa),
+        var(--nurture-green, #5eead4),
+        var(--guardian-teal, #0d9488),
+        var(--deep-knowledge, #134e4a)
+    );
+    background-size: 400% 400%;
+    animation: gradientShift 15s ease infinite;
+}
+
+.bg-dots-pattern {
+    background-image: radial-gradient(
+        var(--guardian-teal, #0d9488) 1px,
+        transparent 1px
+    );
+    background-size: 30px 30px;
+    opacity: 0.1;
+}
+
+.bg-rings-pattern {
+    background-image:
+        radial-gradient(circle at center, transparent 30%, var(--nurture-green, #5eead4) 31%, transparent 32%),
+        radial-gradient(circle at center, transparent 50%, var(--guardian-teal, #0d9488) 51%, transparent 52%),
+        radial-gradient(circle at center, transparent 70%, var(--deep-knowledge, #134e4a) 71%, transparent 72%);
+    background-size: 200px 200px;
+    opacity: 0.1;
+}
+
+
+/* ============================================
+   FORM ANIMATIONS
+   ============================================ */
+
+.form-input-animated {
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.form-input-animated:focus {
+    border-color: var(--guardian-teal, #0d9488);
+    box-shadow: 0 0 0 3px rgba(13, 148, 136, 0.15);
+}
+
+.form-label-animated {
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.form-input-animated:focus + .form-label-animated,
+.form-input-animated:not(:placeholder-shown) + .form-label-animated {
+    transform: translateY(-20px) scale(0.85);
+    color: var(--guardian-teal, #0d9488);
+}
+
+
+/* ============================================
+   SUCCESS STATE ANIMATIONS
+   ============================================ */
+
+.success-checkmark {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: block;
+    stroke-width: 3;
+    stroke: var(--nurture-green, #5eead4);
+    stroke-miterlimit: 10;
+    box-shadow: inset 0 0 0 var(--nurture-green, #5eead4);
+    animation: fadeInScale 0.4s ease-in-out forwards;
+}
+
+.success-checkmark .checkmark-path {
+    stroke-dasharray: 100;
+    stroke-dashoffset: 100;
+    animation: securityCheck 0.6s cubic-bezier(0.65, 0, 0.45, 1) 0.4s forwards;
+}
+
+
+/* ============================================
+   REDUCED MOTION SUPPORT
+   ============================================ */
+
+@media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+    }
+}
