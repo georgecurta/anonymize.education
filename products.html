@@ -12,8 +12,11 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+  <!-- Skip Navigation Link for Accessibility -->
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
   <!-- Navigation -->
-  <nav class="nav">
+  <nav class="nav" role="navigation" aria-label="Main navigation">
     <div class="nav__inner">
       <a href="/" class="nav__logo">
         <span class="nav__logo-icon">A</span>
@@ -32,6 +35,9 @@
       <button class="nav__toggle" aria-label="Toggle menu"><span></span><span></span><span></span></button>
     </div>
   </nav>
+
+  <!-- Main Content -->
+  <main id="main-content">
 
   <!-- Hero -->
   <section class="hero">
@@ -104,7 +110,7 @@
           </p>
 
           <div style="margin-bottom: var(--space-xl);">
-            <h4 style="margin-bottom: var(--space-md); font-weight: 600;">Key Features:</h4>
+            <h4 style="margin-bottom: var(--space-md); font-weight: 600;">Key Features:</h2>
             <ul style="list-style: none; padding: 0;">
               <li style="padding: var(--space-sm) 0; color: var(--text-secondary);">&#10003; Works without internet connection</li>
               <li style="padding: var(--space-sm) 0; color: var(--text-secondary);">&#10003; Drag and drop files</li>
@@ -114,7 +120,7 @@
           </div>
 
           <div style="margin-bottom: var(--space-xl);">
-            <h4 style="margin-bottom: var(--space-md); font-weight: 600;">How It Works:</h4>
+            <h4 style="margin-bottom: var(--space-md); font-weight: 600;">How It Works:</h2>
             <ol style="padding-left: var(--space-lg); color: var(--text-secondary);">
               <li style="margin-bottom: var(--space-sm);">Download and install (Windows)</li>
               <li style="margin-bottom: var(--space-sm);">Open a document or paste text</li>
@@ -160,7 +166,7 @@
           </p>
 
           <div style="margin-bottom: var(--space-xl);">
-            <h4 style="margin-bottom: var(--space-md); font-weight: 600;">Supported Applications:</h4>
+            <h4 style="margin-bottom: var(--space-md); font-weight: 600;">Supported Applications:</h2>
             <ul style="list-style: none; padding: 0;">
               <li style="padding: var(--space-sm) 0; color: var(--text-secondary);">&#10003; Microsoft Word</li>
               <li style="padding: var(--space-sm) 0; color: var(--text-secondary);">&#10003; Microsoft Excel</li>
@@ -169,7 +175,7 @@
           </div>
 
           <div style="margin-bottom: var(--space-xl);">
-            <h4 style="margin-bottom: var(--space-md); font-weight: 600;">Use Cases:</h4>
+            <h4 style="margin-bottom: var(--space-md); font-weight: 600;">Use Cases:</h2>
             <ul style="list-style: none; padding: 0;">
               <li style="padding: var(--space-sm) 0; color: var(--text-secondary);">&#8226; Anonymizing student reports before sharing</li>
               <li style="padding: var(--space-sm) 0; color: var(--text-secondary);">&#8226; Cleaning spreadsheets of personal data</li>
@@ -196,7 +202,7 @@
           </p>
 
           <div style="margin-bottom: var(--space-xl);">
-            <h4 style="margin-bottom: var(--space-md); font-weight: 600;">Why This Matters:</h4>
+            <h4 style="margin-bottom: var(--space-md); font-weight: 600;">Why This Matters:</h2>
             <ul style="list-style: none; padding: 0;">
               <li style="padding: var(--space-sm) 0; color: var(--text-secondary);">&#10003; Many schools use free software to save costs</li>
               <li style="padding: var(--space-sm) 0; color: var(--text-secondary);">&#10003; Same powerful anonymization engine</li>
@@ -234,7 +240,7 @@
           </p>
 
           <div style="margin-bottom: var(--space-xl);">
-            <h4 style="margin-bottom: var(--space-md); font-weight: 600;">Why You Need This:</h4>
+            <h4 style="margin-bottom: var(--space-md); font-weight: 600;">Why You Need This:</h2>
             <ul style="list-style: none; padding: 0;">
               <li style="padding: var(--space-sm) 0; color: var(--text-secondary);">&#8226; Teachers using AI for grading assistance</li>
               <li style="padding: var(--space-sm) 0; color: var(--text-secondary);">&#8226; Researchers using AI for data analysis</li>
@@ -243,7 +249,7 @@
           </div>
 
           <div style="margin-bottom: var(--space-xl);">
-            <h4 style="margin-bottom: var(--space-md); font-weight: 600;">How It Works:</h4>
+            <h4 style="margin-bottom: var(--space-md); font-weight: 600;">How It Works:</h2>
             <div style="background: var(--bg-primary); padding: var(--space-lg); border-radius: var(--radius-lg); border: 1px solid var(--border-color);">
               <p style="text-align: center; color: var(--text-secondary); margin: 0;">
                 Your text &#8594; <strong style="color: var(--primary);">MCP Server (anonymizes)</strong> &#8594; AI Tool &#8594; Response &#8594; De-anonymize if needed
@@ -255,7 +261,7 @@
           </div>
 
           <div style="margin-bottom: var(--space-xl);">
-            <h4 style="margin-bottom: var(--space-md); font-weight: 600;">Supported Tools:</h4>
+            <h4 style="margin-bottom: var(--space-md); font-weight: 600;">Supported Tools:</h2>
             <ul style="list-style: none; padding: 0; display: flex; gap: var(--space-md); flex-wrap: wrap;">
               <li style="padding: var(--space-sm) var(--space-md); background: var(--bg-primary); border: 1px solid var(--border-color); border-radius: var(--radius-md);">Claude Desktop</li>
               <li style="padding: var(--space-sm) var(--space-md); background: var(--bg-primary); border: 1px solid var(--border-color); border-radius: var(--radius-md);">Cursor IDE</li>
@@ -320,19 +326,19 @@
         <p class="footer__tagline">Simple data protection for schools and universities.</p>
       </div>
       <div>
-        <h4 class="footer__title">Products</h4>
+        <h2 class="footer__title">Products</h2>
         <a href="products.html#desktop" class="footer__link">Desktop App</a>
         <a href="products.html#office" class="footer__link">Office Add-in</a>
         <a href="products.html#mcp" class="footer__link">MCP Server</a>
       </div>
       <div>
-        <h4 class="footer__title">Resources</h4>
+        <h2 class="footer__title">Resources</h2>
         <a href="features.html" class="footer__link">Features</a>
         <a href="use-cases.html" class="footer__link">Use Cases</a>
         <a href="pricing.html" class="footer__link">Pricing</a>
       </div>
       <div>
-        <h4 class="footer__title">Contact</h4>
+        <h2 class="footer__title">Contact</h2>
         <a href="contact.html" class="footer__link">Contact Form</a>
         <a href="https://anonym.legal" class="footer__link" target="_blank">Main Platform</a>
       </div>

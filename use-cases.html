@@ -12,8 +12,11 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+  <!-- Skip Navigation Link for Accessibility -->
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
   <!-- Navigation -->
-  <nav class="nav">
+  <nav class="nav" role="navigation" aria-label="Main navigation">
     <div class="nav__inner">
       <a href="/" class="nav__logo">
         <span class="nav__logo-icon">A</span>
@@ -32,6 +35,9 @@
       <button class="nav__toggle" aria-label="Toggle menu"><span></span><span></span><span></span></button>
     </div>
   </nav>
+
+  <!-- Main Content -->
+  <main id="main-content">
 
   <!-- Hero -->
   <section class="hero">
@@ -52,7 +58,7 @@
           <h2 class="section__title" style="text-align: left; margin-top: var(--space-md);">Sharing Student Records with External Parties</h2>
 
           <div style="margin: var(--space-xl) 0;">
-            <h4 style="margin-bottom: var(--space-sm); color: var(--text-muted);">THE PROBLEM</h4>
+            <h4 style="margin-bottom: var(--space-sm); color: var(--text-muted);">THE PROBLEM</h2>
             <p style="color: var(--text-secondary); line-height: 1.7;">
               Schools often need to share student files with external evaluators, auditors, contractors, or partner institutions.
               But GDPR and other regulations prohibit sharing identifiable student information without proper consent.
@@ -60,7 +66,7 @@
           </div>
 
           <div style="margin: var(--space-xl) 0;">
-            <h4 style="margin-bottom: var(--space-sm); color: var(--primary);">THE SOLUTION</h4>
+            <h4 style="margin-bottom: var(--space-sm); color: var(--primary);">THE SOLUTION</h2>
             <p style="color: var(--text-secondary); line-height: 1.7;">
               Use the <strong>Replace</strong> method to swap real names with realistic fake names.
               The document remains readable and professional, but no actual student can be identified.
@@ -68,7 +74,7 @@
           </div>
 
           <div style="background: var(--bg-secondary); padding: var(--space-lg); border-radius: var(--radius-lg); margin: var(--space-xl) 0;">
-            <h4 style="margin-bottom: var(--space-md);">Example:</h4>
+            <h4 style="margin-bottom: var(--space-md);">Example:</h2>
             <p style="font-family: monospace; margin-bottom: var(--space-sm);">
               <span style="color: #dc2626;">Before:</span> "Maria Schmidt achieved excellent results in mathematics."
             </p>
@@ -100,7 +106,7 @@
           <h2 class="section__title" style="text-align: left; margin-top: var(--space-md);">AI-Assisted Grading and Feedback</h2>
 
           <div style="margin: var(--space-xl) 0;">
-            <h4 style="margin-bottom: var(--space-sm); color: var(--text-muted);">THE PROBLEM</h4>
+            <h4 style="margin-bottom: var(--space-sm); color: var(--text-muted);">THE PROBLEM</h2>
             <p style="color: var(--text-secondary); line-height: 1.7;">
               Teachers want to use AI tools like ChatGPT or Claude for grading assistance, generating feedback, or analyzing student work.
               But sending student names and personal information to AI companies violates data protection policies.
@@ -108,7 +114,7 @@
           </div>
 
           <div style="margin: var(--space-xl) 0;">
-            <h4 style="margin-bottom: var(--space-sm); color: var(--primary);">THE SOLUTION</h4>
+            <h4 style="margin-bottom: var(--space-sm); color: var(--primary);">THE SOLUTION</h2>
             <p style="color: var(--text-secondary); line-height: 1.7;">
               Use the <strong>MCP Server</strong> to automatically strip all personal identifiers before text reaches the AI.
               Get AI assistance without exposing any student data.
@@ -116,7 +122,7 @@
           </div>
 
           <div style="background: var(--bg-primary); padding: var(--space-lg); border-radius: var(--radius-lg); border: 1px solid var(--border-color); margin: var(--space-xl) 0;">
-            <h4 style="margin-bottom: var(--space-md);">How it works:</h4>
+            <h4 style="margin-bottom: var(--space-md);">How it works:</h2>
             <p style="text-align: center; color: var(--text-secondary);">
               Teacher types &#8594; MCP Server removes names &#8594; AI provides feedback &#8594; Names restored in response
             </p>
@@ -137,7 +143,7 @@
           <h2 class="section__title" style="text-align: left; margin-top: var(--space-md);">Publishing Educational Research</h2>
 
           <div style="margin: var(--space-xl) 0;">
-            <h4 style="margin-bottom: var(--space-sm); color: var(--text-muted);">THE PROBLEM</h4>
+            <h4 style="margin-bottom: var(--space-sm); color: var(--text-muted);">THE PROBLEM</h2>
             <p style="color: var(--text-secondary); line-height: 1.7;">
               Educational researchers need to publish findings based on student data, but cannot include real identities.
               They also need to track patterns across multiple data points without knowing who is who.
@@ -145,7 +151,7 @@
           </div>
 
           <div style="margin: var(--space-xl) 0;">
-            <h4 style="margin-bottom: var(--space-sm); color: var(--primary);">THE SOLUTION</h4>
+            <h4 style="margin-bottom: var(--space-sm); color: var(--primary);">THE SOLUTION</h2>
             <p style="color: var(--text-secondary); line-height: 1.7;">
               Use the <strong>Hash (SHA-256)</strong> method. Each name becomes a unique code that's consistent across documents.
               "Student A" always maps to the same hash, enabling longitudinal studies without identification.
@@ -153,7 +159,7 @@
           </div>
 
           <div style="background: var(--bg-secondary); padding: var(--space-lg); border-radius: var(--radius-lg); margin: var(--space-xl) 0;">
-            <h4 style="margin-bottom: var(--space-md);">Example:</h4>
+            <h4 style="margin-bottom: var(--space-md);">Example:</h2>
             <p style="font-family: monospace; margin-bottom: var(--space-sm);">
               <span style="color: #dc2626;">Before:</span> "Jan Kowalski" (appears 15 times in dataset)
             </p>
@@ -185,7 +191,7 @@
           <h2 class="section__title" style="text-align: left; margin-top: var(--space-md);">Creating Parent Communication Templates</h2>
 
           <div style="margin: var(--space-xl) 0;">
-            <h4 style="margin-bottom: var(--space-sm); color: var(--text-muted);">THE PROBLEM</h4>
+            <h4 style="margin-bottom: var(--space-sm); color: var(--text-muted);">THE PROBLEM</h2>
             <p style="color: var(--text-secondary); line-height: 1.7;">
               School administrators want to create template libraries from successful parent communications.
               But real letters contain student names and sensitive details that cannot be shared.
@@ -193,7 +199,7 @@
           </div>
 
           <div style="margin: var(--space-xl) 0;">
-            <h4 style="margin-bottom: var(--space-sm); color: var(--primary);">THE SOLUTION</h4>
+            <h4 style="margin-bottom: var(--space-sm); color: var(--primary);">THE SOLUTION</h2>
             <p style="color: var(--text-secondary); line-height: 1.7;">
               Use the <strong>Redact</strong> method to completely remove all personal information.
               Placeholders like [STUDENT_NAME] make templates easy to use while protecting privacy.
@@ -201,7 +207,7 @@
           </div>
 
           <div style="background: var(--bg-primary); padding: var(--space-lg); border-radius: var(--radius-lg); border: 1px solid var(--border-color); margin: var(--space-xl) 0;">
-            <h4 style="margin-bottom: var(--space-md);">Example:</h4>
+            <h4 style="margin-bottom: var(--space-md);">Example:</h2>
             <p style="font-family: monospace; margin-bottom: var(--space-sm);">
               <span style="color: #dc2626;">Before:</span> "Dear Mr. and Mrs. Fischer, your son Max..."
             </p>
@@ -225,7 +231,7 @@
           <h2 class="section__title" style="text-align: left; margin-top: var(--space-md);">Training New Staff with Real Examples</h2>
 
           <div style="margin: var(--space-xl) 0;">
-            <h4 style="margin-bottom: var(--space-sm); color: var(--text-muted);">THE PROBLEM</h4>
+            <h4 style="margin-bottom: var(--space-sm); color: var(--text-muted);">THE PROBLEM</h2>
             <p style="color: var(--text-secondary); line-height: 1.7;">
               New teachers and staff need realistic training materials based on actual student files.
               But using real student data for training purposes is not permitted under data protection laws.
@@ -233,7 +239,7 @@
           </div>
 
           <div style="margin: var(--space-xl) 0;">
-            <h4 style="margin-bottom: var(--space-sm); color: var(--primary);">THE SOLUTION</h4>
+            <h4 style="margin-bottom: var(--space-sm); color: var(--primary);">THE SOLUTION</h2>
             <p style="color: var(--text-secondary); line-height: 1.7;">
               Use the <strong>Replace</strong> method to create realistic training materials.
               Real documents become training examples with fictional but believable student profiles.
@@ -241,7 +247,7 @@
           </div>
 
           <div style="background: var(--bg-secondary); padding: var(--space-lg); border-radius: var(--radius-lg); margin: var(--space-xl) 0;">
-            <h4 style="margin-bottom: var(--space-md);">Benefits:</h4>
+            <h4 style="margin-bottom: var(--space-md);">Benefits:</h2>
             <ul style="color: var(--text-secondary); padding-left: var(--space-lg);">
               <li style="margin-bottom: var(--space-sm);">Realistic scenarios for effective training</li>
               <li style="margin-bottom: var(--space-sm);">No risk of privacy violations</li>
@@ -272,7 +278,7 @@
           <h2 class="section__title" style="text-align: left; margin-top: var(--space-md);">Demonstrating Compliance in Audits</h2>
 
           <div style="margin: var(--space-xl) 0;">
-            <h4 style="margin-bottom: var(--space-sm); color: var(--text-muted);">THE PROBLEM</h4>
+            <h4 style="margin-bottom: var(--space-sm); color: var(--text-muted);">THE PROBLEM</h2>
             <p style="color: var(--text-secondary); line-height: 1.7;">
               Schools must demonstrate GDPR compliance to auditors and regulators.
               This often requires showing examples of data processing without exposing actual personal data.
@@ -280,7 +286,7 @@
           </div>
 
           <div style="margin: var(--space-xl) 0;">
-            <h4 style="margin-bottom: var(--space-sm); color: var(--primary);">THE SOLUTION</h4>
+            <h4 style="margin-bottom: var(--space-sm); color: var(--primary);">THE SOLUTION</h2>
             <p style="color: var(--text-secondary); line-height: 1.7;">
               Use any anonymization method to create audit-ready documentation.
               The audit trail shows your data protection processes while keeping actual data private.
@@ -288,7 +294,7 @@
           </div>
 
           <div style="background: var(--bg-primary); padding: var(--space-lg); border-radius: var(--radius-lg); border: 1px solid var(--border-color); margin: var(--space-xl) 0;">
-            <h4 style="margin-bottom: var(--space-md);">What you can show auditors:</h4>
+            <h4 style="margin-bottom: var(--space-md);">What you can show auditors:</h2>
             <ul style="color: var(--text-secondary); padding-left: var(--space-lg);">
               <li style="margin-bottom: var(--space-sm);">Anonymized sample documents</li>
               <li style="margin-bottom: var(--space-sm);">Process documentation</li>
@@ -403,19 +409,19 @@
         <p class="footer__tagline">Simple data protection for schools and universities.</p>
       </div>
       <div>
-        <h4 class="footer__title">Products</h4>
+        <h2 class="footer__title">Products</h2>
         <a href="products.html#desktop" class="footer__link">Desktop App</a>
         <a href="products.html#office" class="footer__link">Office Add-in</a>
         <a href="products.html#mcp" class="footer__link">MCP Server</a>
       </div>
       <div>
-        <h4 class="footer__title">Resources</h4>
+        <h2 class="footer__title">Resources</h2>
         <a href="features.html" class="footer__link">Features</a>
         <a href="use-cases.html" class="footer__link">Use Cases</a>
         <a href="pricing.html" class="footer__link">Pricing</a>
       </div>
       <div>
-        <h4 class="footer__title">Contact</h4>
+        <h2 class="footer__title">Contact</h2>
         <a href="contact.html" class="footer__link">Contact Form</a>
         <a href="https://anonym.legal" class="footer__link" target="_blank">Main Platform</a>
       </div>

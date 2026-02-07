@@ -12,8 +12,11 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+  <!-- Skip Navigation Link for Accessibility -->
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
   <!-- Navigation -->
-  <nav class="nav">
+  <nav class="nav" role="navigation" aria-label="Main navigation">
     <div class="nav__inner">
       <a href="/" class="nav__logo">
         <span class="nav__logo-icon">A</span>
@@ -32,6 +35,9 @@
       <button class="nav__toggle" aria-label="Toggle menu"><span></span><span></span><span></span></button>
     </div>
   </nav>
+
+  <!-- Main Content -->
+  <main id="main-content">
 
   <!-- Hero -->
   <section class="hero">
@@ -169,7 +175,7 @@
         </table>
 
         <div style="margin-top: var(--space-xl); padding: var(--space-lg); background: var(--bg-secondary); border-radius: var(--radius-lg);">
-          <h4 style="margin-bottom: var(--space-md);">What This Means</h4>
+          <h4 style="margin-bottom: var(--space-md);">What This Means</h2>
           <p style="color: var(--text-secondary); margin-bottom: var(--space-md);">
             <strong>200 free tokens</strong> = approximately <strong>15-18 pages</strong> of text per month
           </p>
@@ -234,42 +240,42 @@
       <div style="background: var(--bg-primary); border-radius: var(--radius-xl); overflow: hidden; box-shadow: var(--shadow-lg);">
 
         <div style="padding: var(--space-lg); border-bottom: 1px solid var(--border-color);">
-          <h4 style="margin-bottom: var(--space-sm);">What are tokens exactly?</h4>
+          <h4 style="margin-bottom: var(--space-sm);">What are tokens exactly?</h2>
           <p style="color: var(--text-secondary);">
             Tokens are like credits or coins. Each time you analyze or anonymize text, you use tokens based on the length of the text and the number of entities detected. Think of them like prepaid phone minutes.
           </p>
         </div>
 
         <div style="padding: var(--space-lg); border-bottom: 1px solid var(--border-color);">
-          <h4 style="margin-bottom: var(--space-sm);">Do unused tokens roll over to the next month?</h4>
+          <h4 style="margin-bottom: var(--space-sm);">Do unused tokens roll over to the next month?</h2>
           <p style="color: var(--text-secondary);">
             No, monthly tokens reset at the beginning of each billing cycle. However, if you top up with additional tokens, those also expire at your next cycle reset. This keeps pricing simple and predictable.
           </p>
         </div>
 
         <div style="padding: var(--space-lg); border-bottom: 1px solid var(--border-color);">
-          <h4 style="margin-bottom: var(--space-sm);">Can I upgrade or downgrade anytime?</h4>
+          <h4 style="margin-bottom: var(--space-sm);">Can I upgrade or downgrade anytime?</h2>
           <p style="color: var(--text-secondary);">
             Yes, you can change your plan at any time. Upgrades take effect immediately. Downgrades take effect at the start of your next billing cycle.
           </p>
         </div>
 
         <div style="padding: var(--space-lg); border-bottom: 1px solid var(--border-color);">
-          <h4 style="margin-bottom: var(--space-sm);">Is the Desktop App really free?</h4>
+          <h4 style="margin-bottom: var(--space-sm);">Is the Desktop App really free?</h2>
           <p style="color: var(--text-secondary);">
             Yes, the Desktop App is completely free for basic use. It works offline and doesn't require an account. Some advanced features (like custom presets) require a paid account.
           </p>
         </div>
 
         <div style="padding: var(--space-lg); border-bottom: 1px solid var(--border-color);">
-          <h4 style="margin-bottom: var(--space-sm);">Are there education discounts available?</h4>
+          <h4 style="margin-bottom: var(--space-sm);">Are there education discounts available?</h2>
           <p style="color: var(--text-secondary);">
             We offer volume discounts for school districts and academic institutions. Please <a href="contact.html">contact us</a> to discuss your specific needs.
           </p>
         </div>
 
         <div style="padding: var(--space-lg);">
-          <h4 style="margin-bottom: var(--space-sm);">What payment methods do you accept?</h4>
+          <h4 style="margin-bottom: var(--space-sm);">What payment methods do you accept?</h2>
           <p style="color: var(--text-secondary);">
             We accept major credit cards and PayPal. For enterprise accounts, we can arrange invoicing with purchase orders.
           </p>
@@ -345,19 +351,19 @@
         <p class="footer__tagline">Simple data protection for schools and universities.</p>
       </div>
       <div>
-        <h4 class="footer__title">Products</h4>
+        <h2 class="footer__title">Products</h2>
         <a href="products.html#desktop" class="footer__link">Desktop App</a>
         <a href="products.html#office" class="footer__link">Office Add-in</a>
         <a href="products.html#mcp" class="footer__link">MCP Server</a>
       </div>
       <div>
-        <h4 class="footer__title">Resources</h4>
+        <h2 class="footer__title">Resources</h2>
         <a href="features.html" class="footer__link">Features</a>
         <a href="use-cases.html" class="footer__link">Use Cases</a>
         <a href="pricing.html" class="footer__link">Pricing</a>
       </div>
       <div>
-        <h4 class="footer__title">Contact</h4>
+        <h2 class="footer__title">Contact</h2>
         <a href="contact.html" class="footer__link">Contact Form</a>
         <a href="https://anonym.legal" class="footer__link" target="_blank">Main Platform</a>
       </div>
