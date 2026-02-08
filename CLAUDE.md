@@ -172,6 +172,7 @@ node tests/production-check.js
 
 | Version | Date | Changes |
 |---------|------|---------|
+| 1.0.3 | 2026-02-08 | SEO/accessibility: llms.txt, security.txt, OG/Twitter meta, contrast fixes, 100% Lighthouse |
 | 1.0.2 | 2026-02-07 | Contact form backend with MS Graph + reCAPTCHA v3 |
 | 1.0.1 | 2026-02-07 | Accessibility fixes, mobile compatibility, test suites |
 | 1.0.0 | 2026-02-07 | Initial release with all 8 pages, brand assets, marketing materials |

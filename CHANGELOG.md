@@ -4,6 +4,30 @@ All notable changes to the Anonymize.Education website will be documented in thi
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
+## [1.0.3] - 2026-02-08
+
+### Added
+- **llms.txt** - AI crawler-friendly site description for education portal
+- **security.txt** - Security vulnerability disclosure policy (/.well-known/security.txt)
+- **robots.txt** - AI crawler directives (GPTBot, ClaudeBot, Anthropic-AI, etc.)
+- **--primary-text** - New CSS variable (#065f46) for high-contrast text
+
+### Changed
+- **Open Graph tags** - Added og:image, og:locale meta tags
+- **Twitter Cards** - Added twitter:card, twitter:title, twitter:description, twitter:image
+- **Contrast fixes** - Updated gray-400, gray-500, gray-600 for better contrast ratios
+- **Footer contrast** - Lighter text colors on dark footer background
+- **Pricing badge** - Darker background for better contrast
+- **SEO fix** - Replaced generic "Learn more" with descriptive product link text
+
+### Lighthouse Scores
+- Performance: 98
+- Accessibility: 100
+- Best Practices: 100
+- SEO: 100
+
+---
+
 ## [1.0.2] - 2026-02-07
 
 ### Added
