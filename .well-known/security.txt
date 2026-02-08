@@ -1,0 +1,10 @@
+# Security Policy for anonymize.education
+# https://securitytxt.org/
+
+Contact: https://anonymize.education/contact.html
+Expires: 2027-02-08T00:00:00.000Z
+Preferred-Languages: en, de
+Canonical: https://anonymize.education/.well-known/security.txt
+
+# We appreciate responsible disclosure of security vulnerabilities.
+# Please report any security issues via our contact form.
