@@ -728,7 +728,7 @@ h1, h2, h3, h4, h5, h6 {
   left: 50%;
   transform: translateX(-50%);
   padding: var(--space-xs) var(--space-md);
-  background: var(--primary);
+  background: var(--primary-dark);
   color: white;
   font-size: 0.75rem;
   font-weight: 600;
@@ -1088,7 +1088,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .footer__tagline {
   font-size: 0.938rem;
-  color: var(--gray-400);
+  color: var(--gray-300);
   line-height: 1.6;
 }
 
@@ -1097,7 +1097,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.05em;
-  color: var(--gray-400);
+  color: var(--gray-200);
   margin-bottom: var(--space-md);
 }
 
@@ -1133,7 +1133,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .footer__copyright {
   font-size: 0.875rem;
-  color: var(--gray-500);
+  color: var(--gray-300);
 }
 
 .footer__legal {
@@ -1143,7 +1143,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .footer__legal a {
   font-size: 0.875rem;
-  color: var(--gray-500);
+  color: var(--gray-300);
 }
 
 .footer__legal a:hover {
