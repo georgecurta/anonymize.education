@@ -1,0 +1,2128 @@
+{
+  "version": "1.0",
+  "presentation": "technical",
+  "generated_at": "2026-02-11T12:16:01.942Z",
+  "total_pages": 17,
+  "pages": [
+    {
+      "page_id": "page-01",
+      "title": "What is PII?",
+      "subtitle": "",
+      "sections": [],
+      "tables": [],
+      "tooltips": [],
+      "links": {
+        "internal": [
+          {
+            "href": "/content/page-02.html",
+            "text": "Next"
+          }
+        ],
+        "external": []
+      },
+      "key_statistics": [
+        "100%",
+        "50%"
+      ],
+      "navigation": {
+        "indicator": "1 / 18",
+        "current": 1,
+        "total": 18
+      }
+    },
+    {
+      "page_id": "page-02",
+      "title": "Microsoft Presidio",
+      "subtitle": "",
+      "sections": [],
+      "tables": [],
+      "tooltips": [
+        {
+          "trigger": "popover_1",
+          "title": "Info",
+          "body": "Finds data that follows a fixed format, like emails or phone numbers."
+        },
+        {
+          "trigger": "popover_2",
+          "title": "Info",
+          "body": "AI models that understand language to find names, places, and organizations."
+        },
+        {
+          "trigger": "popover_3",
+          "title": "Info",
+          "body": "Math checks to verify if a number is real (like credit card or IBAN)."
+        },
+        {
+          "trigger": "popover_4",
+          "title": "Info",
+          "body": "Looks at nearby words like \"SSN:\" to be more sure about a match."
+        },
+        {
+          "trigger": "popover_5",
+          "title": "Info",
+          "body": "Swaps the data with a label like &lt;PERSON&gt; or your own text."
+        },
+        {
+          "trigger": "popover_6",
+          "title": "Info",
+          "body": "Deletes the data completely. Nothing is left behind."
+        },
+        {
+          "trigger": "popover_7",
+          "title": "Info",
+          "body": "Hides part of the data with stars or other characters."
+        },
+        {
+          "trigger": "popover_8",
+          "title": "Info",
+          "body": "Turns data into a unique code. Cannot be reversed."
+        },
+        {
+          "trigger": "popover_9",
+          "title": "Info",
+          "body": "Locks data with a secret key. Can be unlocked later."
+        },
+        {
+          "trigger": "popover_10",
+          "title": "Info",
+          "body": "Unlocks encrypted data to get the original back."
+        },
+        {
+          "trigger": "popover_11",
+          "title": "Info",
+          "body": "The main scanner. Tells you what PII was found and how sure it is."
+        },
+        {
+          "trigger": "popover_12",
+          "title": "Info",
+          "body": "Uses OCR to read images, finds PII, then blacks it out."
+        },
+        {
+          "trigger": "popover_13",
+          "title": "Info",
+          "body": "Uses the secret key to unlock and restore the original data."
+        }
+      ],
+      "links": {
+        "internal": [
+          {
+            "href": "/content/page-01.html",
+            "text": "Previous"
+          },
+          {
+            "href": "/content/page-03.html",
+            "text": "Next"
+          }
+        ],
+        "external": [
+          {
+            "href": "https://microsoft.github.io/presidio/analyzer/adding_recognizers/",
+            "text": "Docs &#8599;"
+          },
+          {
+            "href": "https://microsoft.github.io/presidio/analyzer/nlp_engines/spacy_stanza/",
+            "text": "Docs &#8599;"
+          },
+          {
+            "href": "https://microsoft.github.io/presidio/supported_entities/",
+            "text": "Docs &#8599;"
+          },
+          {
+            "href": "https://microsoft.github.io/presidio/tutorial/06_context/",
+            "text": "Docs &#8599;"
+          },
+          {
+            "href": "https://microsoft.github.io/presidio/tutorial/10_simple_anonymization/",
+            "text": "Docs &#8599;"
+          },
+          {
+            "href": "https://microsoft.github.io/presidio/tutorial/12_encryption/",
+            "text": "Docs &#8599;"
+          },
+          {
+            "href": "https://microsoft.github.io/presidio/analyzer/",
+            "text": "Docs &#8599;"
+          },
+          {
+            "href": "https://microsoft.github.io/presidio/image-redactor/",
+            "text": "Docs &#8599;"
+          }
+        ]
+      },
+      "key_statistics": [
+        "100%",
+        "50%"
+      ],
+      "navigation": {
+        "indicator": "2 / 18",
+        "current": 2,
+        "total": 18
+      }
+    },
+    {
+      "page_id": "page-03",
+      "title": "What is anonymize.today?",
+      "subtitle": "",
+      "sections": [],
+      "tables": [],
+      "tooltips": [
+        {
+          "trigger": "popover_1",
+          "title": "Info",
+          "body": "Deploy anywhere:"
+        },
+        {
+          "trigger": "popover_2",
+          "title": "Info",
+          "body": "Decoupled frontend:"
+        },
+        {
+          "trigger": "popover_3",
+          "title": "Info",
+          "body": "Full-featured web application. Works in any modern browser - Chrome, Firefox, Safari, Edge."
+        },
+        {
+          "trigger": "popover_4",
+          "title": "Info",
+          "body": "Native desktop application with drag-and-drop file processing. Supports PDF, DOCX, XLSX, CSV, JSON, XML, TXT."
+        },
+        {
+          "trigger": "popover_5",
+          "title": "Info",
+          "body": "Native Microsoft Office integration. Anonymize documents directly inside Word, Excel, and PowerPoint."
+        },
+        {
+          "trigger": "popover_6",
+          "title": "Info",
+          "body": "Full REST API with JWT authentication. Integrate PII detection into your own applications."
+        },
+        {
+          "trigger": "popover_7",
+          "title": "Info",
+          "body": "Protects your personal data before sending to AI assistants like ChatGPT, Claude, and Gemini."
+        },
+        {
+          "trigger": "popover_8",
+          "title": "Info",
+          "body": "Access via mobile browser - no app store download needed. Works on iOS and Android devices."
+        }
+      ],
+      "links": {
+        "internal": [
+          {
+            "href": "/content/page-02.html",
+            "text": "Previous"
+          },
+          {
+            "href": "/content/page-04.html",
+            "text": "Next"
+          }
+        ],
+        "external": [
+          {
+            "href": "https://anonymize.today/security-compliance/infrastructure",
+            "text": "Security Details ↗"
+          },
+          {
+            "href": "https://nextjs.org",
+            "text": "Next.js Docs ↗"
+          },
+          {
+            "href": "https://anonymize.today",
+            "text": "Open Web App ↗"
+          },
+          {
+            "href": "https://anonymize.today/download",
+            "text": "Download ↗"
+          },
+          {
+            "href": "https://docs.anonymize.today/docs/user-guide#office-addin",
+            "text": "Get Add-in ↗"
+          },
+          {
+            "href": "https://docs.anonymize.today/docs/technical",
+            "text": "API Docs ↗"
+          },
+          {
+            "href": "https://anonymize.today/features/chrome-extension",
+            "text": "Learn More ↗"
+          },
+          {
+            "href": "https://anonymize.today/features/mobile-app",
+            "text": "Learn More ↗"
+          }
+        ]
+      },
+      "key_statistics": [
+        "100%",
+        "50%"
+      ],
+      "navigation": {
+        "indicator": "3 / 18",
+        "current": 3,
+        "total": 18
+      }
+    },
+    {
+      "page_id": "page-04",
+      "title": "Presidio vs anonymize.today",
+      "subtitle": "",
+      "sections": [],
+      "tables": [],
+      "tooltips": [
+        {
+          "trigger": "popover_1",
+          "title": "Info",
+          "body": "Why language-specific matters:"
+        },
+        {
+          "trigger": "popover_2",
+          "title": "Info",
+          "body": "Developer-friendly API:"
+        },
+        {
+          "trigger": "popover_3",
+          "title": "Info",
+          "body": "EU jurisdiction only:"
+        },
+        {
+          "trigger": "popover_4",
+          "title": "Info",
+          "body": "Ready in 30 seconds:"
+        }
+      ],
+      "links": {
+        "internal": [
+          {
+            "href": "/content/page-03.html",
+            "text": "Previous"
+          },
+          {
+            "href": "/content/page-05.html",
+            "text": "Next"
+          }
+        ],
+        "external": [
+          {
+            "href": "https://microsoft.github.io/presidio/installation/",
+            "text": "Installation Guide ↗"
+          },
+          {
+            "href": "https://anonymize.today",
+            "text": "Get Started ↗"
+          },
+          {
+            "href": "https://microsoft.github.io/presidio/supported_entities/",
+            "text": "Supported Entities ↗"
+          },
+          {
+            "href": "https://anonymize.today/features",
+            "text": "All Entity Types ↗"
+          },
+          {
+            "href": "https://microsoft.github.io/presidio/analyzer/nlp_engines/spacy_stanza/",
+            "text": "NLP Engines ↗"
+          },
+          {
+            "href": "https://microsoft.github.io/presidio/analyzer/",
+            "text": "Analyzer Docs ↗"
+          },
+          {
+            "href": "https://docs.anonymize.today/docs/technical",
+            "text": "Technical Docs ↗"
+          },
+          {
+            "href": "https://anonymize.today/security-compliance",
+            "text": "Compliance Info ↗"
+          },
+          {
+            "href": "https://anonymize.today/security-compliance/infrastructure",
+            "text": "Security Details ↗"
+          },
+          {
+            "href": "https://microsoft.github.io/presidio/",
+            "text": "Presidio Home ↗"
+          },
+          {
+            "href": "https://docs.anonymize.today/docs/user-guide#office-addin",
+            "text": "Office Add-in ↗"
+          },
+          {
+            "href": "https://anonymize.today/download",
+            "text": "Download ↗"
+          },
+          {
+            "href": "https://anonymize.today/features/chrome-extension",
+            "text": "Chrome Extension ↗"
+          },
+          {
+            "href": "https://anonymize.today/features/mobile-app",
+            "text": "Mobile Access ↗"
+          },
+          {
+            "href": "https://microsoft.github.io/presidio/analyzer/adding_recognizers/",
+            "text": "Custom Recognizers ↗"
+          },
+          {
+            "href": "https://docs.anonymize.today/docs/user-guide#custom-entities",
+            "text": "Custom Entities Guide ↗"
+          },
+          {
+            "href": "https://docs.anonymize.today/docs/user-guide#shared-presets",
+            "text": "Preset Library ↗"
+          }
+        ]
+      },
+      "key_statistics": [
+        "100%",
+        "50%",
+        "0%",
+        "27 languages",
+        "256 types",
+        "9%"
+      ],
+      "navigation": {
+        "indicator": "03/15",
+        "current": 3,
+        "total": 15
+      }
+    },
+    {
+      "page_id": "page-05",
+      "title": "anonymize.today Delivery",
+      "subtitle": "",
+      "sections": [],
+      "tables": [],
+      "tooltips": [
+        {
+          "trigger": "popover_1",
+          "title": "Info",
+          "body": "Standard Docker deployment:"
+        },
+        {
+          "trigger": "popover_2",
+          "title": "Info",
+          "body": "Fully customized deployment:"
+        },
+        {
+          "trigger": "popover_3",
+          "title": "Info",
+          "body": "SaaS solution:"
+        },
+        {
+          "trigger": "popover_4",
+          "title": "Info",
+          "body": "Full Office 365 compatibility:"
+        },
+        {
+          "trigger": "popover_5",
+          "title": "Info",
+          "body": "Enterprise desktop deployment:"
+        },
+        {
+          "trigger": "popover_6",
+          "title": "Info",
+          "body": "Identity provider integration:"
+        },
+        {
+          "trigger": "popover_7",
+          "title": "Info",
+          "body": "Full admin control:"
+        },
+        {
+          "trigger": "popover_8",
+          "title": "Info",
+          "body": "M365 ecosystem:"
+        },
+        {
+          "trigger": "popover_9",
+          "title": "Info",
+          "body": "Global language coverage:"
+        },
+        {
+          "trigger": "popover_10",
+          "title": "Info",
+          "body": "European identity providers:"
+        },
+        {
+          "trigger": "popover_11",
+          "title": "Info",
+          "body": "Frontend admin interface:"
+        },
+        {
+          "trigger": "popover_12",
+          "title": "Info",
+          "body": "Enterprise security by default:"
+        },
+        {
+          "trigger": "popover_13",
+          "title": "Info",
+          "body": "Automated health monitoring:"
+        },
+        {
+          "trigger": "popover_14",
+          "title": "Info",
+          "body": "Zero-maintenance updates:"
+        },
+        {
+          "trigger": "popover_15",
+          "title": "Info",
+          "body": "Full update management:"
+        },
+        {
+          "trigger": "popover_16",
+          "title": "Info",
+          "body": "Compliance certified:"
+        },
+        {
+          "trigger": "popover_17",
+          "title": "Info",
+          "body": "Network integration:"
+        }
+      ],
+      "links": {
+        "internal": [
+          {
+            "href": "/content/page-04.html",
+            "text": "Previous"
+          },
+          {
+            "href": "/content/page-06.html",
+            "text": "Next"
+          }
+        ],
+        "external": [
+          {
+            "href": "https://anonymize.today/",
+            "text": "&#127760;\n                \n                    anonymize.today — Enterprise-Grade PII Detection & Anonymization\n                    Deterministic, regex-based PII detection for GDPR compliance. No AI, no guessing—transparent, auditable results. 256 Entity Types · 27 Languages · ISO 27001 German Servers · 99.9% SLA\n                \n                Visit Site &#8599;"
+          },
+          {
+            "href": "https://docs.anonymize.today/docs/technical",
+            "text": "Docker Guide ↗"
+          },
+          {
+            "href": "https://anonymize.today/enterprise",
+            "text": "Enterprise Info ↗"
+          },
+          {
+            "href": "https://anonymize.today/pricing",
+            "text": "Pricing Plans ↗"
+          },
+          {
+            "href": "https://anonymize.today/features/multi-language",
+            "text": "Language details ↗"
+          }
+        ]
+      },
+      "key_statistics": [
+        "100%",
+        "50%",
+        "0%",
+        "27 Languages",
+        "9%",
+        "27 languages",
+        "115 Countries",
+        "115 countries"
+      ],
+      "navigation": {
+        "indicator": "24/7",
+        "current": 24,
+        "total": 7
+      }
+    },
+    {
+      "page_id": "page-06",
+      "title": "anonymize.today Platform",
+      "subtitle": "",
+      "sections": [],
+      "tables": [],
+      "tooltips": [
+        {
+          "trigger": "popover_1",
+          "title": "Info",
+          "body": "Freelancers & Consultants: Protect client data in proposals and deliverables before sharing."
+        },
+        {
+          "trigger": "popover_2",
+          "title": "Info",
+          "body": "Translators: Anonymize documents before CAT tools. Protect source material confidentiality."
+        },
+        {
+          "trigger": "popover_3",
+          "title": "Info",
+          "body": "HR Teams: Handle CVs and employee records safely. GDPR-compliant processing of personal data."
+        },
+        {
+          "trigger": "popover_4",
+          "title": "Info",
+          "body": "Developers: Create safe test data from production. Transform real data into realistic synthetic data."
+        },
+        {
+          "trigger": "popover_5",
+          "title": "Info",
+          "body": "Researchers: Anonymize interview transcripts and survey responses for ethical research."
+        },
+        {
+          "trigger": "popover_6",
+          "title": "Info",
+          "body": "Marketing Agencies: Sanitize case studies and client examples. Safe portfolio sharing."
+        },
+        {
+          "trigger": "popover_7",
+          "title": "Info",
+          "body": "Journalists: Protect sources and sensitive information. Maintain confidentiality in reporting."
+        },
+        {
+          "trigger": "popover_8",
+          "title": "Info",
+          "body": "Comprehensive detection: Names, emails, phone numbers, credit cards, SSNs, IBANs, IP addresses across 15 categories with confidence scoring."
+        },
+        {
+          "trigger": "popover_9",
+          "title": "Info",
+          "body": "Global support: English, German, Spanish, French, Italian, Portuguese, Dutch, Polish, Russian, Japanese, Chinese, Korean, Arabic and more. Auto-detection included."
+        },
+        {
+          "trigger": "popover_10",
+          "title": "Info",
+          "body": "Protection methods: Replace (synthetic data), Redact (remove), Hash (SHA-256), Encrypt (AES-256-GCM reversible), Mask (partial hide)."
+        },
+        {
+          "trigger": "popover_11",
+          "title": "Info",
+          "body": "Transparent & auditable: Uses predefined patterns for 100% reproducible results. Same input = same output. Fully auditable for compliance."
+        },
+        {
+          "trigger": "popover_12",
+          "title": "Info",
+          "body": "Desktop App: Windows, macOS, Linux. Supports PDF, DOCX, XLSX, CSV, JSON, XML, TXT. Offline capability with secure vault."
+        },
+        {
+          "trigger": "popover_13",
+          "title": "Info",
+          "body": "Office Integration: Native Word, Excel, PowerPoint add-in. Works in-place without copy-paste. Reversible encryption supported."
+        },
+        {
+          "trigger": "popover_14",
+          "title": "Info",
+          "body": "Chrome Extension: Developer Preview. Protects PII before sharing with ChatGPT, Claude, Gemini. Real-time detection."
+        },
+        {
+          "trigger": "popover_15",
+          "title": "Info",
+          "body": "Developer API: RESTful endpoints with JWT authentication. Batch processing support. Rate limiting per tier."
+        },
+        {
+          "trigger": "popover_16",
+          "title": "Info",
+          "body": "Mobile Access: Full functionality in any mobile browser (Chrome, Safari, Firefox, Edge). No app store installation needed."
+        },
+        {
+          "trigger": "popover_17",
+          "title": "Info",
+          "body": "EU-hosted: Processing in Hetzner's ISO 27001-certified data centers in Germany. No data transfers outside EU. No jurisdiction surprises."
+        },
+        {
+          "trigger": "popover_18",
+          "title": "Info",
+          "body": "ISO 27001: Certified infrastructure with 99.9% uptime SLA. Enterprise-grade security without vendor lock-in complexity."
+        },
+        {
+          "trigger": "popover_19",
+          "title": "Info",
+          "body": "GDPR: Full GDPR compliance with Data Processing Agreement (DPA) available. Transparent, auditable processing for regulatory requirements."
+        },
+        {
+          "trigger": "popover_20",
+          "title": "Info",
+          "body": "Built on Presidio: Microsoft's open-source PII detection framework. Proven technology, transparent codebase, no black-box AI."
+        }
+      ],
+      "links": {
+        "internal": [
+          {
+            "href": "/content/page-05.html",
+            "text": "Previous"
+          },
+          {
+            "href": "/content/page-07.html",
+            "text": "Next"
+          }
+        ],
+        "external": [
+          {
+            "href": "https://anonymize.today",
+            "text": "Learn more ↗"
+          },
+          {
+            "href": "https://anonymize.today/features",
+            "text": "See all entities ↗"
+          }
+        ]
+      },
+      "key_statistics": [
+        "100%",
+        "50%",
+        "0%",
+        "45%",
+        "27 Languages",
+        "9%"
+      ],
+      "navigation": {
+        "indicator": "6 / 18",
+        "current": 6,
+        "total": 18
+      }
+    },
+    {
+      "page_id": "page-07",
+      "title": "anonymize.today - Brand Portals",
+      "subtitle": "",
+      "sections": [],
+      "tables": [],
+      "tooltips": [
+        {
+          "trigger": "popover_1",
+          "title": "Info",
+          "body": "Target: Legal (court docs, contracts), Healthcare (HIPAA), Teachers (student essays), Students (screenshots)."
+        },
+        {
+          "trigger": "popover_2",
+          "title": "Info",
+          "body": "Use case: Detect and remove sensitive data before pasting into AI chat interfaces."
+        },
+        {
+          "trigger": "popover_3",
+          "title": "Info",
+          "body": "Positioning: \"Finally a privacy tool that doesn't require a computer science degree!\""
+        },
+        {
+          "trigger": "popover_4",
+          "title": "Info",
+          "body": "Testimonial: \"I was afraid of computers, but this was so easy!\" - Helga, 72, Bavaria."
+        },
+        {
+          "trigger": "popover_5",
+          "title": "Info",
+          "body": "Target: Companies in EU and US, multinational teams, international document exchange."
+        },
+        {
+          "trigger": "popover_6",
+          "title": "Info",
+          "body": "Use case: Sanitize logs, API data, test environments. Batch processing via REST."
+        }
+      ],
+      "links": {
+        "internal": [
+          {
+            "href": "/content/page-06.html",
+            "text": "Previous"
+          },
+          {
+            "href": "/content/page-08.html",
+            "text": "Next"
+          }
+        ],
+        "external": [
+          {
+            "href": "https://anonym.today",
+            "text": "Visit Site ↗"
+          },
+          {
+            "href": "https://anonymize.live",
+            "text": "Visit Site ↗"
+          },
+          {
+            "href": "https://anonymize.fun",
+            "text": "Visit Site ↗"
+          },
+          {
+            "href": "https://anonymize.center",
+            "text": "Visit Site ↗"
+          },
+          {
+            "href": "https://anonymize.world",
+            "text": "Visit Site ↗"
+          },
+          {
+            "href": "https://anonymize.website",
+            "text": "Visit Site ↗"
+          }
+        ]
+      },
+      "key_statistics": [
+        "100%",
+        "50%",
+        "0%",
+        "85%",
+        "256 Entities",
+        "27 Languages"
+      ],
+      "navigation": {
+        "indicator": "7 / 18",
+        "current": 7,
+        "total": 18
+      }
+    },
+    {
+      "page_id": "page-08",
+      "title": "What is Zero-Knowledge?",
+      "subtitle": "",
+      "sections": [],
+      "tables": [],
+      "tooltips": [
+        {
+          "trigger": "popover_1",
+          "title": "Info",
+          "body": "Zero-knowledge proofs were invented in 1985 by Goldwasser, Micali, and Rackoff at MIT."
+        },
+        {
+          "trigger": "popover_2",
+          "title": "Info",
+          "body": "This is known as the \"Ali Baba Cave\" - a classic example from cryptography textbooks."
+        },
+        {
+          "trigger": "popover_3",
+          "title": "Info",
+          "body": "HIPAA requires protecting patient health information. Zero-knowledge ensures providers can't access data."
+        },
+        {
+          "trigger": "popover_4",
+          "title": "Info",
+          "body": "Financial regulations require encryption of cardholder data and audit trails for transactions."
+        },
+        {
+          "trigger": "popover_5",
+          "title": "Info",
+          "body": "GDPR Article 32 requires \"pseudonymisation and encryption\" of personal data."
+        },
+        {
+          "trigger": "popover_6",
+          "title": "Info",
+          "body": "Attorney-client privilege requires confidential storage. Zero-knowledge prevents even admin access."
+        },
+        {
+          "trigger": "popover_7",
+          "title": "Info",
+          "body": "The \"zero-knowledge\" property: verifier gains no information beyond \"the statement is true.\""
+        },
+        {
+          "trigger": "popover_8",
+          "title": "Info",
+          "body": "After 20 rounds, the chance of guessing is 1 in 1,048,576. This is called \"soundness.\""
+        },
+        {
+          "trigger": "popover_9",
+          "title": "Info",
+          "body": "Used in blockchain, identity verification, and password systems where trust is limited."
+        }
+      ],
+      "links": {
+        "internal": [
+          {
+            "href": "/content/page-07.html",
+            "text": "Previous"
+          },
+          {
+            "href": "/content/page-09.html",
+            "text": "Next"
+          }
+        ],
+        "external": [
+          {
+            "href": "https://chain.link/education/zero-knowledge-proof-zkp",
+            "text": "Chainlink: ZKP Education ↗"
+          },
+          {
+            "href": "https://www.dock.io/post/zero-knowledge-proofs",
+            "text": "Dock.io: ZKP Guide ↗"
+          },
+          {
+            "href": "https://www.hhs.gov/hipaa/index.html",
+            "text": "HHS.gov: HIPAA ↗"
+          },
+          {
+            "href": "https://www.pcisecuritystandards.org/",
+            "text": "PCI Security Standards ↗"
+          },
+          {
+            "href": "https://gdpr.eu/article-32-security-of-processing/",
+            "text": "GDPR.eu: Article 32 ↗"
+          },
+          {
+            "href": "https://www.americanbar.org/groups/professional_responsibility/",
+            "text": "ABA: Ethics ↗"
+          }
+        ]
+      },
+      "key_statistics": [
+        "100%",
+        "0%",
+        "50%"
+      ],
+      "navigation": {
+        "indicator": "8 / 18",
+        "current": 8,
+        "total": 18
+      }
+    },
+    {
+      "page_id": "page-09",
+      "title": "Anonym.legal - Highest Level of Security",
+      "subtitle": "",
+      "sections": [],
+      "tables": [],
+      "tooltips": [
+        {
+          "trigger": "popover_1",
+          "title": "Info",
+          "body": "Argon2id is the winner of the Password Hashing Competition, resistant to GPU attacks."
+        },
+        {
+          "trigger": "popover_2",
+          "title": "Info",
+          "body": "Local: Original files never leave device. Server: Only extracted text sent via TLS for PII detection, then discarded. Results in encrypted local vault."
+        },
+        {
+          "trigger": "popover_3",
+          "title": "Info",
+          "body": "Server: Selected text sent via secure API for PII detection. Document stays in Office. One-click anonymization, preserves formatting."
+        },
+        {
+          "trigger": "popover_4",
+          "title": "Info",
+          "body": "Server: Message text sent for PII detection before reaching AI. Anonymized text goes to ChatGPT/Claude/Gemini. Auto-decrypts responses."
+        },
+        {
+          "trigger": "popover_5",
+          "title": "Info",
+          "body": "Server: Code/text sent for PII detection before AI processing. Native Claude Desktop (stdio) or HTTP for Cursor/VS Code."
+        },
+        {
+          "trigger": "popover_6",
+          "title": "Info",
+          "body": "RESTful endpoints with JWT authentication. Rate limiting. Comprehensive docs for developers."
+        },
+        {
+          "trigger": "popover_7",
+          "title": "Info",
+          "body": "Substitute PII with realistic fake data. Maintains readability. Use for testing, demos, training data."
+        },
+        {
+          "trigger": "popover_8",
+          "title": "Info",
+          "body": "Complete removal with placeholder. Use for legal documents, FOIA requests, court filings, public records."
+        },
+        {
+          "trigger": "popover_9",
+          "title": "Info",
+          "body": "One-way cryptographic hash. Consistent across documents. Use for research, analytics, pseudonymization."
+        },
+        {
+          "trigger": "popover_10",
+          "title": "Info",
+          "body": "Reversible AES-256-GCM encryption. Recover original with key. Use for temporary anonymization, audits."
+        },
+        {
+          "trigger": "popover_11",
+          "title": "Info",
+          "body": "Partial obscuring - some characters visible. Use for customer support, verification, user interfaces."
+        },
+        {
+          "trigger": "popover_12",
+          "title": "Info",
+          "body": "Modern authenticated encryption. Used by Cloudflare, WireGuard, Signal. Constant-time to prevent timing attacks."
+        },
+        {
+          "trigger": "popover_13",
+          "title": "Info",
+          "body": "Full NLP support for 48 languages. RTL support for Arabic, Hebrew, Persian, Urdu. Auto-detection."
+        },
+        {
+          "trigger": "popover_14",
+          "title": "Info",
+          "body": "Detects names, emails, phones, credit cards, SSNs, IBANs, IPs, medical IDs, license plates, and 40+ more."
+        },
+        {
+          "trigger": "popover_15",
+          "title": "Info",
+          "body": "Pre-configured profiles for GDPR, HIPAA, PCI-DSS. 18+ country presets. Custom entity patterns."
+        }
+      ],
+      "links": {
+        "internal": [
+          {
+            "href": "/content/page-08.html",
+            "text": "Previous"
+          },
+          {
+            "href": "/content/page-10.html",
+            "text": "Next"
+          }
+        ],
+        "external": [
+          {
+            "href": "https://anonym.legal/features/zero-knowledge",
+            "text": "Zero-Knowledge Details ↗"
+          },
+          {
+            "href": "https://anonym.legal/features/desktop-app",
+            "text": "Desktop App ↗"
+          },
+          {
+            "href": "https://anonym.legal/features/office-addin",
+            "text": "Office Add-in ↗"
+          },
+          {
+            "href": "https://anonym.legal/features/chrome-extension",
+            "text": "Chrome Extension ↗"
+          },
+          {
+            "href": "https://anonym.legal/features/mcp-server",
+            "text": "MCP Server ↗"
+          },
+          {
+            "href": "https://anonym.legal/features/api",
+            "text": "API Docs ↗"
+          },
+          {
+            "href": "https://anonym.legal/features/anonymization-methods",
+            "text": "Learn more ↗"
+          },
+          {
+            "href": "https://anonym.legal/features/multi-language",
+            "text": "Languages ↗"
+          },
+          {
+            "href": "https://anonym.legal/features/pii-detection",
+            "text": "PII Detection ↗"
+          },
+          {
+            "href": "https://anonym.legal/features",
+            "text": "All Features ↗"
+          }
+        ]
+      },
+      "key_statistics": [
+        "100%",
+        "0%",
+        "50%",
+        "48 Languages",
+        "48 languages"
+      ],
+      "navigation": {
+        "indicator": "9 / 18",
+        "current": 9,
+        "total": 18
+      }
+    },
+    {
+      "page_id": "page-10",
+      "title": "Anonym.legal vs Anonymize.today",
+      "subtitle": "",
+      "sections": [],
+      "tables": [],
+      "tooltips": [
+        {
+          "trigger": "popover_1",
+          "title": "Info",
+          "body": "Open-source PII detection engine by Microsoft. ML-powered entity recognition."
+        },
+        {
+          "trigger": "popover_2",
+          "title": "Info",
+          "body": "Same Presidio backend with additional zero-knowledge security layer on top."
+        },
+        {
+          "trigger": "popover_3",
+          "title": "Info",
+          "body": "Standard authentication. Password sent to server for verification."
+        },
+        {
+          "trigger": "popover_4",
+          "title": "Info",
+          "body": "Password processed locally with Argon2id. Only mathematical proof sent to server. Staff cannot access credentials."
+        },
+        {
+          "trigger": "popover_5",
+          "title": "Info",
+          "body": "Industry standard encryption for data at rest and in transit."
+        },
+        {
+          "trigger": "popover_6",
+          "title": "Info",
+          "body": "Modern cryptography: Argon2id key derivation (GPU-resistant), XChaCha20-Poly1305 authenticated encryption."
+        },
+        {
+          "trigger": "popover_7",
+          "title": "Info",
+          "body": "Standard password reset via email link."
+        },
+        {
+          "trigger": "popover_8",
+          "title": "Info",
+          "body": "BIP39 recovery phrase. Recover account without server support. No admin can reset your password."
+        },
+        {
+          "trigger": "popover_9",
+          "title": "Info",
+          "body": "Pre-built patterns for 256 entity types including country-specific IDs."
+        },
+        {
+          "trigger": "popover_10",
+          "title": "Info",
+          "body": "Core entity types with ML-powered recognition."
+        },
+        {
+          "trigger": "popover_11",
+          "title": "Info",
+          "body": "Language-specific regex patterns for 27 languages."
+        },
+        {
+          "trigger": "popover_12",
+          "title": "Info",
+          "body": "spaCy (25), Stanza (7), XLM-RoBERTa (16) with RTL support for Arabic, Hebrew, Persian, Urdu."
+        },
+        {
+          "trigger": "popover_13",
+          "title": "Info",
+          "body": "No native AI tool integration available."
+        },
+        {
+          "trigger": "popover_14",
+          "title": "Info",
+          "body": "Native Claude Desktop integration (stdio). HTTP for Cursor & VS Code. Protects code secrets in AI tools."
+        },
+        {
+          "trigger": "popover_15",
+          "title": "Info",
+          "body": "Native desktop app with drag-and-drop file processing."
+        },
+        {
+          "trigger": "popover_16",
+          "title": "Info",
+          "body": "Files stay local. Only extracted text sent encrypted for PII detection. Encrypted local vault."
+        },
+        {
+          "trigger": "popover_17",
+          "title": "Info",
+          "body": "One-click anonymization in Microsoft Office."
+        },
+        {
+          "trigger": "popover_18",
+          "title": "Info",
+          "body": "Same Office integration with zero-knowledge authentication."
+        },
+        {
+          "trigger": "popover_19",
+          "title": "Info",
+          "body": "Protect PII before sending to ChatGPT, Claude, Gemini."
+        },
+        {
+          "trigger": "popover_20",
+          "title": "Info",
+          "body": "Real-time PII detection with auto-decryption in responses."
+        },
+        {
+          "trigger": "popover_21",
+          "title": "Info",
+          "body": "Microsoft Presidio Recognizers"
+        },
+        {
+          "trigger": "popover_22",
+          "title": "Info",
+          "body": "spaCy - Industrial NLP"
+        },
+        {
+          "trigger": "popover_23",
+          "title": "Info",
+          "body": "Stanford Stanza"
+        },
+        {
+          "trigger": "popover_24",
+          "title": "Info",
+          "body": "XLM-RoBERTa by Meta AI"
+        },
+        {
+          "trigger": "popover_25",
+          "title": "Info",
+          "body": "Tesseract OCR by Google"
+        }
+      ],
+      "links": {
+        "internal": [
+          {
+            "href": "/content/page-09.html",
+            "text": "Previous"
+          },
+          {
+            "href": "/content/page-11.html",
+            "text": "Next"
+          }
+        ],
+        "external": [
+          {
+            "href": "https://microsoft.github.io/presidio/",
+            "text": "Microsoft Presidio ↗"
+          },
+          {
+            "href": "https://anonym.legal/features",
+            "text": "anonym.legal ↗"
+          },
+          {
+            "href": "https://anonymize.today",
+            "text": "anonymize.today ↗"
+          },
+          {
+            "href": "https://anonym.legal/features/zero-knowledge",
+            "text": "Zero-Knowledge ↗"
+          },
+          {
+            "href": "https://anonymize.today/features",
+            "text": "anonymize.today ↗"
+          },
+          {
+            "href": "https://anonym.legal/features/pii-detection",
+            "text": "PII Detection ↗"
+          },
+          {
+            "href": "https://anonym.legal/features/multi-language",
+            "text": "Languages ↗"
+          },
+          {
+            "href": "https://anonym.legal/features/mcp-server",
+            "text": "MCP Server ↗"
+          },
+          {
+            "href": "https://anonym.legal/features/desktop-app",
+            "text": "Desktop App ↗"
+          },
+          {
+            "href": "https://anonym.legal/features/office-addin",
+            "text": "Office Add-in ↗"
+          },
+          {
+            "href": "https://anonym.legal/features/chrome-extension",
+            "text": "Chrome Extension ↗"
+          },
+          {
+            "href": "https://microsoft.github.io/presidio/supported_entities/",
+            "text": "Presidio Entities ↗"
+          },
+          {
+            "href": "https://spacy.io/models",
+            "text": "spaCy Models ↗"
+          },
+          {
+            "href": "https://stanfordnlp.github.io/stanza/",
+            "text": "Stanford Stanza ↗"
+          },
+          {
+            "href": "https://huggingface.co/xlm-roberta-large-finetuned-conll03-english",
+            "text": "HuggingFace Model ↗"
+          },
+          {
+            "href": "https://github.com/tesseract-ocr/tesseract",
+            "text": "Tesseract GitHub ↗"
+          },
+          {
+            "href": "https://anonym.legal/docs",
+            "text": "Ask the AI Documentation Assistant ↗"
+          }
+        ]
+      },
+      "key_statistics": [
+        "100%",
+        "50%",
+        "0%",
+        "256 types",
+        "50+ types",
+        "27 languages",
+        "48 languages",
+        "25 languages",
+        "25+ languages",
+        "7 languages",
+        "16 languages",
+        "100 languages",
+        "38 languages",
+        "100+ language"
+      ],
+      "navigation": {
+        "indicator": "10 / 18",
+        "current": 10,
+        "total": 18
+      }
+    },
+    {
+      "page_id": "page-11",
+      "title": "anonym.legal Delivery",
+      "subtitle": "",
+      "sections": [],
+      "tables": [],
+      "tooltips": [
+        {
+          "trigger": "popover_1",
+          "title": "Info",
+          "body": "Local-first processing:"
+        },
+        {
+          "trigger": "popover_2",
+          "title": "Info",
+          "body": "Token-based pricing:"
+        },
+        {
+          "trigger": "popover_3",
+          "title": "Info",
+          "body": "AI privacy protection:"
+        },
+        {
+          "trigger": "popover_4",
+          "title": "Info",
+          "body": "Microsoft Office integration:"
+        },
+        {
+          "trigger": "popover_5",
+          "title": "Info",
+          "body": "Developer API:"
+        },
+        {
+          "trigger": "popover_6",
+          "title": "Info",
+          "body": "AI chatbot protection:"
+        },
+        {
+          "trigger": "popover_7",
+          "title": "Info",
+          "body": "Native stdio transport:"
+        },
+        {
+          "trigger": "popover_8",
+          "title": "Info",
+          "body": "AI coding assistant:"
+        },
+        {
+          "trigger": "popover_9",
+          "title": "Info",
+          "body": "NLP-powered detection:"
+        },
+        {
+          "trigger": "popover_10",
+          "title": "Info",
+          "body": "Entity detection:"
+        },
+        {
+          "trigger": "popover_11",
+          "title": "Info",
+          "body": "Compliance presets:"
+        },
+        {
+          "trigger": "popover_12",
+          "title": "Info",
+          "body": "Password never transmitted:"
+        },
+        {
+          "trigger": "popover_13",
+          "title": "Info",
+          "body": "Account recovery:"
+        },
+        {
+          "trigger": "popover_14",
+          "title": "Info",
+          "body": "Military-grade encryption:"
+        },
+        {
+          "trigger": "popover_15",
+          "title": "Info",
+          "body": "Two-factor authentication:"
+        },
+        {
+          "trigger": "popover_16",
+          "title": "Info",
+          "body": "Made in Germany:"
+        },
+        {
+          "trigger": "popover_17",
+          "title": "Info",
+          "body": "NLP detection engine:"
+        }
+      ],
+      "links": {
+        "internal": [
+          {
+            "href": "/content/page-10.html",
+            "text": "Previous"
+          },
+          {
+            "href": "/content/page-12.html",
+            "text": "Next"
+          }
+        ],
+        "external": [
+          {
+            "href": "https://anonym.legal/",
+            "text": "&#128737;\n                \n                    anonym.legal — Enterprise-Grade PII Detection & Anonymization\n                    Regex patterns for structured data, proven ML models for names. Transparent, auditable results on ISO 27001-certified German servers. 260+ Entity Types · 48 Languages · Zero-Knowledge\n                \n                Visit Site &#8599;"
+          },
+          {
+            "href": "https://anonym.legal/features/desktop-app",
+            "text": "Desktop App ↗"
+          },
+          {
+            "href": "https://anonym.legal/pricing",
+            "text": "Pricing Plans ↗"
+          },
+          {
+            "href": "https://anonym.legal/features/mcp-server",
+            "text": "MCP Server ↗"
+          },
+          {
+            "href": "https://anonym.legal/features/office-addin",
+            "text": "Office Add-in ↗"
+          },
+          {
+            "href": "https://anonym.legal/features/api",
+            "text": "API Docs ↗"
+          },
+          {
+            "href": "https://anonym.legal/features/chrome-extension",
+            "text": "Chrome Ext ↗"
+          },
+          {
+            "href": "https://anonym.legal/features/multi-language",
+            "text": "Languages ↗"
+          },
+          {
+            "href": "https://anonym.legal/features/pii-detection",
+            "text": "Entity Types ↗"
+          },
+          {
+            "href": "https://anonym.legal/features",
+            "text": "Presets ↗"
+          },
+          {
+            "href": "https://anonym.legal/features/zero-knowledge",
+            "text": "ZK Details ↗"
+          },
+          {
+            "href": "https://anonym.legal/security",
+            "text": "Encryption ↗"
+          }
+        ]
+      },
+      "key_statistics": [
+        "100%",
+        "50%",
+        "0%",
+        "48 Languages",
+        "50+ Entities"
+      ],
+      "navigation": {
+        "indicator": "11 / 18",
+        "current": 11,
+        "total": 18
+      }
+    },
+    {
+      "page_id": "page-12",
+      "title": "anonym.legal Platform",
+      "subtitle": "",
+      "sections": [],
+      "tables": [],
+      "tooltips": [
+        {
+          "trigger": "popover_1",
+          "title": "Info",
+          "body": "Legal Professionals: Contract anonymization, court document redaction, client confidentiality protection."
+        },
+        {
+          "trigger": "popover_2",
+          "title": "Info",
+          "body": "Healthcare Providers: Patient data protection, HIPAA compliance, medical record anonymization."
+        },
+        {
+          "trigger": "popover_3",
+          "title": "Info",
+          "body": "Financial Institutions: PCI-DSS compliance, transaction data protection, regulatory reporting."
+        },
+        {
+          "trigger": "popover_4",
+          "title": "Info",
+          "body": "Government Agencies: Public records redaction, FOIA requests, citizen data protection."
+        },
+        {
+          "trigger": "popover_5",
+          "title": "Info",
+          "body": "Researchers: Academic data sharing, IRB compliance, interview transcript anonymization."
+        },
+        {
+          "trigger": "popover_6",
+          "title": "Info",
+          "body": "Enterprise Organizations: Cross-department data sharing, M&A due diligence, vendor data exchange."
+        },
+        {
+          "trigger": "popover_7",
+          "title": "Info",
+          "body": "Developers: CI/CD integration, test data generation, API-first workflows, MCP server integration."
+        },
+        {
+          "trigger": "popover_8",
+          "title": "Info",
+          "body": "NLP-powered detection: Names, emails, phone numbers, credit cards, SSNs, IBANs, medical IDs with confidence scoring."
+        },
+        {
+          "trigger": "popover_9",
+          "title": "Info",
+          "body": "Global NLP support: spaCy, Stanza, XLM-RoBERTa engines. Full RTL support for Arabic, Hebrew, Persian, Urdu."
+        },
+        {
+          "trigger": "popover_10",
+          "title": "Info",
+          "body": "Anonymization operators: Replace (synthetic), Redact (remove), Hash (SHA-256/512), Encrypt (AES-256-GCM), Mask (partial), Keep (whitelist)."
+        },
+        {
+          "trigger": "popover_11",
+          "title": "Info",
+          "body": "True zero-knowledge: Argon2id + XChaCha20-Poly1305 encryption. Only mathematical proof transmitted. 24-word recovery phrase."
+        },
+        {
+          "trigger": "popover_12",
+          "title": "Info",
+          "body": "Desktop App: Windows 10+, macOS 10.15+, Linux. PDF (50MB), DOCX (30MB), XLSX (20MB). Encrypted local vault."
+        },
+        {
+          "trigger": "popover_13",
+          "title": "Info",
+          "body": "Office Integration: Word 2016+, Excel, PowerPoint. Real-time PII highlighting, one-click anonymization. Free for all plans."
+        },
+        {
+          "trigger": "popover_14",
+          "title": "Info",
+          "body": "AI IDE Integration: Native stdio for Claude Desktop, HTTP for Cursor/VS Code. Auto-anonymize before AI processing."
+        },
+        {
+          "trigger": "popover_15",
+          "title": "Info",
+          "body": "Developer API: Analyze, Anonymize, Batch endpoints. JWT authentication. 300 free calls/month. Enterprise: 100 docs/batch."
+        },
+        {
+          "trigger": "popover_16",
+          "title": "Info",
+          "body": "Chrome Extension: Developer Preview. Protects PII before sharing with AI chatbots. Real-time browser detection."
+        },
+        {
+          "trigger": "popover_17",
+          "title": "Info",
+          "body": "Self-custody recovery: 24-word BIP39 phrase as master key. No server-side password storage. User controls all keys."
+        },
+        {
+          "trigger": "popover_18",
+          "title": "Info",
+          "body": "Two-factor authentication: Optional 2FA via TOTP authenticator apps (Google Authenticator, Authy) or email verification codes."
+        },
+        {
+          "trigger": "popover_19",
+          "title": "Info",
+          "body": "Made in Germany: Hetzner ISO 27001-certified data centers. GDPR compliant with DPA. No data transfers outside EU."
+        },
+        {
+          "trigger": "popover_20",
+          "title": "Info",
+          "body": "Open-source foundation: Built on Microsoft Presidio with spaCy, Stanza, XLM-RoBERTa NLP models for intelligent detection."
+        }
+      ],
+      "links": {
+        "internal": [
+          {
+            "href": "/content/page-11.html",
+            "text": "Previous"
+          },
+          {
+            "href": "/content/page-14.html",
+            "text": "Next"
+          }
+        ],
+        "external": [
+          {
+            "href": "https://anonym.legal/use-cases/legal",
+            "text": "Legal use cases ↗"
+          },
+          {
+            "href": "https://anonym.legal/use-cases/healthcare",
+            "text": "Healthcare use cases ↗"
+          },
+          {
+            "href": "https://anonym.legal/use-cases/financial",
+            "text": "Financial use cases ↗"
+          },
+          {
+            "href": "https://anonym.legal/use-cases/government",
+            "text": "Government use cases ↗"
+          },
+          {
+            "href": "https://anonym.legal/use-cases/research",
+            "text": "Research use cases ↗"
+          },
+          {
+            "href": "https://anonym.legal/use-cases/enterprise",
+            "text": "Enterprise use cases ↗"
+          },
+          {
+            "href": "https://anonym.legal/use-cases/developers",
+            "text": "Developer use cases ↗"
+          },
+          {
+            "href": "https://anonym.legal/features/pii-detection",
+            "text": "See all entities ↗"
+          },
+          {
+            "href": "https://anonym.legal/features/multi-language",
+            "text": "Language details ↗"
+          },
+          {
+            "href": "https://anonym.legal/features/anonymization-methods",
+            "text": "Method details ↗"
+          },
+          {
+            "href": "https://anonym.legal/features/zero-knowledge",
+            "text": "ZK details ↗"
+          },
+          {
+            "href": "https://anonym.legal/features/desktop-app",
+            "text": "Desktop details ↗"
+          },
+          {
+            "href": "https://anonym.legal/features/office-addin",
+            "text": "Office details ↗"
+          },
+          {
+            "href": "https://anonym.legal/features/mcp-server",
+            "text": "MCP details ↗"
+          },
+          {
+            "href": "https://anonym.legal/features/api",
+            "text": "API docs ↗"
+          },
+          {
+            "href": "https://anonym.legal/features/chrome-extension",
+            "text": "Extension details ↗"
+          },
+          {
+            "href": "https://anonym.legal/security",
+            "text": "Security details ↗"
+          },
+          {
+            "href": "https://anonym.legal/features",
+            "text": "Technology info ↗"
+          }
+        ]
+      },
+      "key_statistics": [
+        "100%",
+        "50%",
+        "0%",
+        "45%",
+        "48 Languages"
+      ],
+      "navigation": {
+        "indicator": "256/512",
+        "current": 256,
+        "total": 512
+      }
+    },
+    {
+      "page_id": "page-14",
+      "title": "Anonym.legal - Brand Portals",
+      "subtitle": "",
+      "sections": [],
+      "tables": [],
+      "tooltips": [
+        {
+          "trigger": "popover_1",
+          "title": "Info",
+          "body": "Highlight: Image anonymization with OCR - extract and redact PII from scanned documents, photos, screenshots."
+        },
+        {
+          "trigger": "popover_2",
+          "title": "Info",
+          "body": "Target: Developers integrating PII detection into AI workflows - Claude Desktop, Cursor IDE, Windsurf."
+        },
+        {
+          "trigger": "popover_3",
+          "title": "Info",
+          "body": "Target: Enterprises requiring GDPR/CCPA compliance with full audit trails."
+        },
+        {
+          "trigger": "popover_4",
+          "title": "Info",
+          "body": "Target: Educational institutions protecting student PII - FERPA compliance."
+        }
+      ],
+      "links": {
+        "internal": [
+          {
+            "href": "/content/page-12.html",
+            "text": "Previous"
+          },
+          {
+            "href": "/content/page-15.html",
+            "text": "Next"
+          }
+        ],
+        "external": [
+          {
+            "href": "https://blurgate.legal/features/image-anonymization",
+            "text": "View Image Features &#8599;"
+          },
+          {
+            "href": "https://anonymize.dev",
+            "text": "Visit Site &#8599;"
+          },
+          {
+            "href": "https://cloak.business",
+            "text": "Visit Site &#8599;"
+          },
+          {
+            "href": "https://anonymize.education",
+            "text": "Visit Site &#8599;"
+          }
+        ]
+      },
+      "key_statistics": [
+        "100%",
+        "0%",
+        "50%",
+        "50+ Entities",
+        "48 Languages"
+      ],
+      "navigation": {
+        "indicator": "14 / 18",
+        "current": 14,
+        "total": 18
+      }
+    },
+    {
+      "page_id": "page-15",
+      "title": "anonymize.solutions",
+      "subtitle": "",
+      "sections": [],
+      "tables": [],
+      "tooltips": [
+        {
+          "trigger": "popover_1",
+          "title": "Info",
+          "body": "Use cases: Consulting firms (ChatGPT, Perplexity, DeepSeek), Software teams (API keys, credentials), Financial services (deal info, valuations)"
+        },
+        {
+          "trigger": "popover_2",
+          "title": "Info",
+          "body": "Use cases: DevOps (AWS keys, SSH keys), Backend teams (JWT secrets, OAuth), Security teams (pen test reports)"
+        },
+        {
+          "trigger": "popover_3",
+          "title": "Info",
+          "body": "Use cases: Customer support chatbots (OpenAI GPT-4), RAG pipelines (Pinecone/Weaviate), AI agents with MCP"
+        },
+        {
+          "trigger": "popover_4",
+          "title": "Info",
+          "body": "Use cases: MSPs (L1/L2/L3 access levels), IT departments (HR ticket protection), Support (offshore access control)"
+        },
+        {
+          "trigger": "popover_5",
+          "title": "Info",
+          "body": "Use cases: Conference organizers (sponsor leads), Corporate events (HCP regulations), Virtual events (networking tokens)"
+        },
+        {
+          "trigger": "popover_6",
+          "title": "Info",
+          "body": "Use cases: Document processing with Ollama, Customer feedback with LM Studio, Invoice extraction with vLLM"
+        },
+        {
+          "trigger": "popover_7",
+          "title": "Info",
+          "body": "Use cases: Legal firms (DE/EN/FR), Healthcare (HIPAA Dropbox), Enterprise CRM (Salesforce/BC sync)"
+        },
+        {
+          "trigger": "popover_8",
+          "title": "Info",
+          "body": "Use cases: Recruitment ATS, Performance reviews (benchmarking), Exit interviews (legal hold)"
+        },
+        {
+          "trigger": "popover_9",
+          "title": "Info",
+          "body": "Use cases: Whistleblower docs (metadata stripping), Cross-border investigations (country keys), AI research (local LLM)"
+        },
+        {
+          "trigger": "popover_10",
+          "title": "Info",
+          "body": "Use cases: MSPs (50+ clients rebranding), Legal tech (embedded API), IT consultancies (reseller margins)"
+        },
+        {
+          "trigger": "popover_11",
+          "title": "Info",
+          "body": "Use cases: Hospital HIE sharing, Clinical trials (multi-country), Telemedicine (AI notes)"
+        },
+        {
+          "trigger": "popover_12",
+          "title": "Info",
+          "body": "Use cases: Universities (advisor/accreditor roles), Research IRB data, K-12 (COPPA/FERPA AI tools)"
+        },
+        {
+          "trigger": "popover_13",
+          "title": "Info",
+          "body": "Use cases: Litigation (500K docs, privilege logs), M&A (bidder-tier access), International (jurisdictional keys)"
+        },
+        {
+          "trigger": "popover_14",
+          "title": "Info",
+          "body": "Use cases: Retail bank KYC, Mortgage underwriting, Investment firms (research/trading separation)"
+        },
+        {
+          "trigger": "popover_15",
+          "title": "Info",
+          "body": "Use cases: Health insurer claims (medical reviewer), P&C underwriting (actuarial), Multi-line fraud detection"
+        },
+        {
+          "trigger": "popover_16",
+          "title": "Info",
+          "body": "Use cases: Municipal FOIA redaction, Social services (inter-agency), Public health surveillance"
+        },
+        {
+          "trigger": "popover_17",
+          "title": "Info",
+          "body": "SaaS: We operate, you define policies. Updates, monitoring, DR included."
+        },
+        {
+          "trigger": "popover_18",
+          "title": "Info",
+          "body": "Private: Isolated environment, managed ops. White-label for service providers."
+        },
+        {
+          "trigger": "popover_19",
+          "title": "Info",
+          "body": "Self-Managed: Your infrastructure. Data residency, KMS/HSM, audit integration."
+        },
+        {
+          "trigger": "popover_20",
+          "title": "Info",
+          "body": "Dedicated: Policy design, integrations, training across all deployments."
+        },
+        {
+          "trigger": "popover_21",
+          "title": "Info",
+          "body": "Custom: Tailored implementations, complex compliance, custom development."
+        }
+      ],
+      "links": {
+        "internal": [
+          {
+            "href": "/content/page-14.html",
+            "text": "Previous"
+          },
+          {
+            "href": "/content/page-16.html",
+            "text": "Next"
+          }
+        ],
+        "external": [
+          {
+            "href": "https://anonymize.solutions/",
+            "text": "&#127760;\n                \n                    anonymize.solutions — Detect PII. Anonymize Data. Use AI Securely.\n                    PII detection and anonymization solution for regulated industries with flexible deployment options. 260+ Entity Types · 100% EU · Zero-Knowledge Architecture\n                \n                Visit Site &#8599;"
+          },
+          {
+            "href": "https://anonymize.solutions/solutions.html",
+            "text": "View Details ↗"
+          },
+          {
+            "href": "https://anonymize.solutions/packages.html",
+            "text": "Compare ↗"
+          }
+        ]
+      },
+      "key_statistics": [
+        "100%",
+        "0%",
+        "50%"
+      ],
+      "navigation": {
+        "indicator": "15 / 18",
+        "current": 15,
+        "total": 18
+      }
+    },
+    {
+      "page_id": "page-16",
+      "title": "Custom Engineering",
+      "subtitle": "",
+      "sections": [],
+      "tables": [],
+      "tooltips": [
+        {
+          "trigger": "popover_1",
+          "title": "Info",
+          "body": "Zero Knowledge Architecture: Pattern-based PII detection with 40+ regex recognizers. Customer-managed keys (BYOK), MPC threshold custody, checksum validation (Luhn, IBAN). GDPR compliance with audit trail logging."
+        },
+        {
+          "trigger": "popover_2",
+          "title": "Info",
+          "body": "Fully Offline Processing: Bundled Presidio + spaCy NLP engine. PDF, DOCX, XLSX, images with OCR in 38 languages. 5 operators: Replace, Redact, Mask, Hash, Encrypt. 20+ NLP language models."
+        },
+        {
+          "trigger": "popover_3",
+          "title": "Info",
+          "body": "No entity limits. Create custom entity types using AI wizard — provide examples, system generates recognizers. Test instantly against sample data."
+        },
+        {
+          "trigger": "popover_4",
+          "title": "Info",
+          "body": "Global coverage. Country-specific formats: national IDs, tax numbers, phone formats, postal codes, banking identifiers across 155+ jurisdictions."
+        },
+        {
+          "trigger": "popover_5",
+          "title": "Info",
+          "body": "Sophisticated patterns. Highly refined regex with edge case handling for language variations, OCR errors, format inconsistencies. Predictable, auditable results."
+        },
+        {
+          "trigger": "popover_6",
+          "title": "Info",
+          "body": "Optimal resources. Language models loaded on-demand from server. Unused models automatically unloaded to free RAM. Scales efficiently."
+        },
+        {
+          "trigger": "popover_7",
+          "title": "Info",
+          "body": "Seamless updates. Components reload on every start. Admin-controlled backend updates per component. No user reinstallation needed."
+        },
+        {
+          "trigger": "popover_8",
+          "title": "Info",
+          "body": "Universal integration. Office Add-in injection works across Word, Excel, Outlook and most enterprise productivity platforms."
+        },
+        {
+          "trigger": "popover_9",
+          "title": "Info",
+          "body": "Enterprise control. Inject into almost all pages including Google & Co. Admin enforce mode for mandatory protection. Central policy management."
+        },
+        {
+          "trigger": "popover_10",
+          "title": "Info",
+          "body": "Enterprise ready. Integration with Intune, SCCM, Jamf and most IT management systems for deployment, updates, and policy enforcement."
+        },
+        {
+          "trigger": "popover_11",
+          "title": "Info",
+          "body": "AI without risk. Regulated markets can use independent or free AI safely. MCP integration into any AI workflow — Cursor, Claude Desktop, VS Code."
+        },
+        {
+          "trigger": "popover_12",
+          "title": "Info",
+          "body": "Full programmatic access. API for all capabilities: text, documents, images. Custom presets, image anonymization, all API compatible solutions."
+        },
+        {
+          "trigger": "popover_13",
+          "title": "Info",
+          "body": "Unified experience. Desktop app, Office Add-in, Browser Extension, MCP Server, API — all share identical anonymization capabilities."
+        },
+        {
+          "trigger": "popover_14",
+          "title": "Info",
+          "body": "Full operator set. Replace (substitution), Redact (removal), Mask (partial hiding), Hash (SHA-256 one-way), Encrypt (reversible AES-256-GCM)."
+        },
+        {
+          "trigger": "popover_15",
+          "title": "Info",
+          "body": "Batch support. Process multiple files at once with customizable filename patterns. Queue management for large document sets."
+        },
+        {
+          "trigger": "popover_16",
+          "title": "Info",
+          "body": "Large file handling. PDF up to 50 MB, DOCX up to 30 MB, XLSX up to 100,000 rows, TXT/CSV/JSON/XML up to 30 MB each."
+        },
+        {
+          "trigger": "popover_17",
+          "title": "Info",
+          "body": "anonym.plus Desktop: Files processed and stored locally only. No data sent externally. AES-256-GCM encrypted vault with 24-word BIP39 recovery."
+        },
+        {
+          "trigger": "popover_18",
+          "title": "Info",
+          "body": "Cloud processing: Desktop app with online recognizer has text in memory on the server for the processing time only. Cleared immediately after."
+        },
+        {
+          "trigger": "popover_19",
+          "title": "Info",
+          "body": "True privacy. Client-side encryption with user-held keys. Server stores only encrypted blobs — admin has no access to plaintext content."
+        },
+        {
+          "trigger": "popover_20",
+          "title": "Info",
+          "body": "Hardened infrastructure. Optimized servers with continuous self-monitoring, intrusion detection, automated threat response, and security auditing."
+        },
+        {
+          "trigger": "popover_21",
+          "title": "Info",
+          "body": "Always available. AI-powered documentation chatbot available 24/7. Instant answers to configuration, integration, and troubleshooting questions."
+        },
+        {
+          "trigger": "popover_22",
+          "title": "Info",
+          "body": "Data sovereignty. Full solution packaged with EU-only infrastructure. German hosting, GDPR-native, no transatlantic data transfers."
+        }
+      ],
+      "links": {
+        "internal": [
+          {
+            "href": "/content/page-15.html",
+            "text": "Previous"
+          },
+          {
+            "href": "/content/page-17.html",
+            "text": "Next"
+          }
+        ],
+        "external": [
+          {
+            "href": "https://anonym.life/",
+            "text": "Visit anonym.life ↗"
+          },
+          {
+            "href": "https://anonym.plus/",
+            "text": "Visit anonym.plus ↗"
+          }
+        ]
+      },
+      "key_statistics": [
+        "100%",
+        "50%",
+        "15%",
+        "200+ Entities",
+        "48 Languages",
+        "38 languages"
+      ],
+      "navigation": {
+        "indicator": "24/7",
+        "current": 24,
+        "total": 7
+      }
+    },
+    {
+      "page_id": "page-17",
+      "title": "Try It Now",
+      "subtitle": "",
+      "sections": [],
+      "tables": [],
+      "tooltips": [],
+      "links": {
+        "internal": [
+          {
+            "href": "/content/page-16.html",
+            "text": "Previous"
+          },
+          {
+            "href": "/content/page-18.html",
+            "text": "Next"
+          }
+        ],
+        "external": [
+          {
+            "href": "https://curta.solutions/",
+            "text": "Visit curta.solutions"
+          },
+          {
+            "href": "https://anonymize.today/",
+            "text": "anonymize.today\n                        FREE TIER\n                    \n                    Enterprise-grade PII detection. Desktop app, Office add-in, Chrome extension. 300 free tokens monthly.\n                    \n                        256+ Entity Types\n                        27 Languages\n                        5 Protection Methods\n                        ISO 27001 Germany\n                    \n                    \n                        Try anonymize.today"
+          },
+          {
+            "href": "https://anonym.legal/",
+            "text": "anonym.legal\n                        ZERO-KNOWLEDGE\n                    \n                    Privacy-first architecture. AI tools receive anonymized data without accessing original PII. 200 free tokens monthly.\n                    \n                        50+ Entity Types\n                        48 Languages\n                        MCP Server\n                        AES-256-GCM\n                    \n                    \n                        Try anonym.legal"
+          },
+          {
+            "href": "https://cloak.business/",
+            "text": "cloak.business\n                        ENTERPRISE\n                    \n                    Maximum entity coverage for enterprises, legal, healthcare, financial, research, and government organizations.\n                    \n                        290+ Entity Types\n                        48 Languages\n                        Image Redaction\n                        OCR 38 Languages\n                    \n                    \n                        Try cloak.business"
+          },
+          {
+            "href": "https://anonym.today/",
+            "text": "anonym.today\n                        REAL-TIME\n                    \n                    Instant processing with no waiting. Real-time detection and anonymization. GDPR compliant with end-to-end encryption.\n                    \n                        256+ Entity Types\n                        27 Languages\n                        No Data Storage\n                        E2E Encryption\n                    \n                    \n                        Try anonym.today"
+          },
+          {
+            "href": "https://anonymize.solutions/",
+            "text": "&#127970;\n                    \n                        anonymize.solutions\n                        Detect PII. Anonymize Data. Use AI Securely.\n                    \n                    &#8599;"
+          },
+          {
+            "href": "https://anonym.life/",
+            "text": "&#128154;\n                    \n                        anonym.life\n                        Pattern-Based PII Detection for Enterprise\n                    \n                    &#8599;"
+          },
+          {
+            "href": "https://anonymize.world/",
+            "text": "&#127758;\n                    \n                        anonymize.world\n                        Privacy Without Borders - Global Coverage\n                    \n                    &#8599;"
+          },
+          {
+            "href": "https://anonymize.website/",
+            "text": "&#128295;\n                    \n                        anonymize.website\n                        Privacy API for Developers\n                    \n                    &#8599;"
+          },
+          {
+            "href": "https://anonym.plus/",
+            "text": "&#128187;\n                    \n                        anonym.plus\n                        100% Offline Desktop Anonymization\n                    \n                    &#8599;"
+          },
+          {
+            "href": "https://anonymize.live/",
+            "text": "&#128172;\n                    \n                        anonymize.live\n                        AI Chat Protection Made Simple\n                    \n                    &#8599;"
+          },
+          {
+            "href": "https://anonymize.center/",
+            "text": "&#127918;\n                    \n                        anonymize.center\n                        Privacy Playground - Learn & Experiment\n                    \n                    &#8599;"
+          },
+          {
+            "href": "https://anonymize.fun/",
+            "text": "&#127881;\n                    \n                        anonymize.fun\n                        The Disappearing Act for Your Data\n                    \n                    &#8599;"
+          },
+          {
+            "href": "https://anonymize.info/",
+            "text": "&#128218;\n                    \n                        anonymize.info\n                        Educational Resource Portal (This Site)\n                    \n                    &#8599;"
+          }
+        ]
+      },
+      "key_statistics": [
+        "100%",
+        "0%",
+        "27 Languages",
+        "48 Languages",
+        "38 Languages"
+      ],
+      "navigation": {
+        "indicator": "17 / 18",
+        "current": 17,
+        "total": 18
+      }
+    },
+    {
+      "page_id": "page-18",
+      "title": "Thank you for exploring",
+      "subtitle": "",
+      "sections": [],
+      "tables": [],
+      "tooltips": [],
+      "links": {
+        "internal": [
+          {
+            "href": "/content/page-17.html",
+            "text": "Previous"
+          }
+        ],
+        "external": [
+          {
+            "href": "https://curta.solutions/",
+            "text": "Continue to curta.solutions"
+          }
+        ]
+      },
+      "key_statistics": [
+        "100%",
+        "0%"
+      ],
+      "navigation": {
+        "indicator": "18 / 18",
+        "current": 18,
+        "total": 18
+      }
+    }
+  ]
+}

@@ -1,0 +1,3039 @@
+{
+  "version": "1.0",
+  "presentation": "financial",
+  "generated_at": "2026-02-11T12:16:01.933Z",
+  "total_pages": 18,
+  "pages": [
+    {
+      "page_id": "f01",
+      "title": "Technology Investment Thesis",
+      "subtitle": "",
+      "sections": [],
+      "tables": [
+        {
+          "headers": [
+            "Segment",
+            "2025",
+            "2034",
+            "CAGR"
+          ],
+          "rows": [
+            [
+              "Data Privacy",
+              "$5.37B",
+              "$60.4B",
+              "35.5%"
+            ],
+            [
+              "Anonymization",
+              "$3.2B",
+              "$13.4B",
+              "17.4%"
+            ],
+            [
+              "Zero-Knowledge",
+              "$1.28B",
+              "$7.59B",
+              "22.1%"
+            ],
+            [
+              "GDPR Compliance",
+              "$3.37B",
+              "$28.4B",
+              "23.8%"
+            ],
+            [
+              "DevSecOps",
+              "$10.1B",
+              "$26.2B",
+              "14.6%"
+            ]
+          ]
+        },
+        {
+          "headers": [
+            "Layer",
+            "Technology",
+            "Purpose"
+          ],
+          "rows": [
+            [
+              "Detection",
+              "Microsoft Presidio",
+              "PII patterns"
+            ],
+            [
+              "Password",
+              "Argon2id (RFC 9106)",
+              "ZK auth"
+            ],
+            [
+              "Encryption",
+              "XChaCha20-Poly1305",
+              "WireGuard std"
+            ],
+            [
+              "NLP",
+              "spaCy + Stanza",
+              "Entity NER"
+            ],
+            [
+              "Multilingual",
+              "XLM-RoBERTa",
+              "10-20 langs"
+            ],
+            [
+              "OCR",
+              "Tesseract",
+              "48-lang OCR"
+            ],
+            [
+              "Recovery",
+              "BIP39 24-word",
+              "Crypto seed"
+            ]
+          ]
+        },
+        {
+          "headers": [
+            "Aspect",
+            "anonymize",
+            "AI/ML"
+          ],
+          "rows": [
+            [
+              "Audit Trail",
+              "Perfect",
+              "Varies"
+            ],
+            [
+              "GDPR Art. 35",
+              "Native",
+              "Docs req"
+            ],
+            [
+              "Model Drift",
+              "None",
+              "Monitor"
+            ],
+            [
+              "Cost",
+              "Lower",
+              "GPU"
+            ],
+            [
+              "Speed",
+              "Fast",
+              "Slower"
+            ],
+            [
+              "Explainability",
+              "100%",
+              "Black box"
+            ],
+            [
+              "Legal Evidence",
+              "Court-OK",
+              "Risk"
+            ]
+          ]
+        }
+      ],
+      "tooltips": [
+        {
+          "trigger": "privacySoftware",
+          "title": "$60.4B projected by 2034",
+          "body": "$60.4B projected by 2034 - Data Privacy Software is the fastest-growing segment in enterprise technology. 2025 market size: $5.37B 2034 projection: $60.4B Growth driven by GDPR, CCPA, and 17+ global privacy regulations Key driver Europe leads adoption (40%+ market share), with Asia-Pacific fastest growing at 41% CAGR. Source: Fortune Business Insights"
+        },
+        {
+          "trigger": "privacyCagr",
+          "title": "35.5% CAGR",
+          "body": "35.5% CAGR - Compound Annual Growth Rate for Data Privacy Software (2025-2034). This is one of the highest growth rates in enterprise software, driven by: Increasing regulatory pressure (GDPR fines up 40% YoY) Rising breach costs ($4.45M average per incident) Consumer privacy awareness AI governance requirements Source: Fortune Business Insights"
+        },
+        {
+          "trigger": "dataPrivacy",
+          "title": "Data Privacy Software Market",
+          "body": "Data Privacy Software Market - The core segment for PII detection and protection. 2025: $5.37B 2034: $60.4B (11x growth) CAGR: 35.5% Market leaders BigID ($100M+ revenue), OneTrust ($550M ARR), Securiti ($1.72B acquisition). anonymize ecosystem targets the underserved SMB/mid-market. Source: Fortune Business Insights"
+        },
+        {
+          "trigger": "anonymization",
+          "title": "Data Anonymization Tools",
+          "body": "Data Anonymization Tools - Specialized segment for data masking and de-identification. 2025: $3.2B 2033: $13.4B CAGR: 17.4% anonymize advantage Deterministic regex detection produces audit-proof results. AI competitors (BigID, Securiti) use probabilistic methods with confidence scores. Source: Growth Market Reports"
+        },
+        {
+          "trigger": "zeroKnowledge",
+          "title": "Zero-Knowledge Proof Market",
+          "body": "Zero-Knowledge Proof Market - Cryptographic protocols where servers never see plaintext data. 2024: $1.28B 2033: $7.59B CAGR: 22.1% Unique position No competitor combines ZK architecture with PII anonymization. anonym.legal is the only platform offering both. Source: Fortune Business Insights"
+        },
+        {
+          "trigger": "gdprCompliance",
+          "title": "GDPR Compliance Software",
+          "body": "GDPR Compliance Software - Tools for EU data protection regulation compliance. 2025: $3.37B 2035: $28.43B CAGR: 23.78% GDPR fines exceeded €4.5B total since 2018. Organizations need deterministic, audit-proof detection for compliance documentation. Source: Fortune Business Insights"
+        },
+        {
+          "trigger": "devSecOps",
+          "title": "DevSecOps Market",
+          "body": "DevSecOps Market - Security integrated into development pipelines. 2025: $10.1B 2032: $26.21B CAGR: 14.6% anonymize.dev position First MCP Server for PII protection in AI coding assistants. 97M+ monthly SDK downloads in the MCP ecosystem. Source: Marketing Analysis - Brand Portals (lines 78-84)"
+        },
+        {
+          "trigger": "presidio",
+          "title": "Microsoft Presidio",
+          "body": "Microsoft Presidio - Open-source PII detection engine with pattern recognizers. PatternRecognizer class with regex + checksums NLP integration via spaCy/Stanza Extensible with custom recognizers How anonymize uses it anonymize.today builds on Presidio with 256 pre-built entity types, 27 languages, and turnkey SaaS - no Python/Docker required. Source: Microsoft Presidio GitHub"
+        },
+        {
+          "trigger": "argon2",
+          "title": "Argon2id",
+          "body": "Argon2id - Password-Based Key Derivation Function (PBKDF). Winner of Password Hashing Competition (PHC) 2015 RFC 9106 standardized Memory-hard against GPU/ASIC attacks Used by 1Password, Bitwarden In anonym.legal Derives encryption keys from user password. Server never sees the password or derived key - true zero-knowledge. Source: Marketing Analysis - Anonym Legal (lines 32-45)"
+        },
+        {
+          "trigger": "xchacha",
+          "title": "XChaCha20-Poly1305",
+          "body": "XChaCha20-Poly1305 - Authenticated encryption cipher suite. 256-bit encryption strength 192-bit nonce (safer than AES-GCM's 96-bit) Same cipher used by WireGuard VPN Implemented in libsodium Why XChaCha20 Extended nonce eliminates IV collision risk. No AES hardware required - constant-time on all platforms. Source: Marketing Analysis - Anonym Legal (lines 46-58)"
+        },
+        {
+          "trigger": "nlp",
+          "title": "spaCy + Stanza",
+          "body": "spaCy + Stanza - Industrial NLP libraries for Named Entity Recognition. spaCy: 23+ language models, fast processing Stanza: Stanford NLP, 70+ languages Both integrate with Presidio In anonymize ecosystem NLP augments regex detection for context-aware entity recognition. Catches entities regex patterns might miss. Source: Microsoft Presidio | spaCy"
+        },
+        {
+          "trigger": "multilingual",
+          "title": "XLM-RoBERTa",
+          "body": "XLM-RoBERTa - Cross-lingual transformer model from Meta. Pre-trained on 100 languages Fine-tuned for 10-20 priority languages State-of-the-art multilingual NER Use case Powers multilingual entity detection in anonym.legal and cloak.business for government and banking documents. Source: XLM-RoBERTa (HuggingFace)"
+        },
+        {
+          "trigger": "tesseract",
+          "title": "Tesseract OCR",
+          "body": "Tesseract OCR - Open-source optical character recognition engine. Supports 100+ languages 48 languages used in blurgate.legal Combined with Presidio NLP for detection blurgate.legal OCR extracts text from images/PDFs, then Presidio detects PII. Pixel-perfect redaction with 6 color options. Source: Marketing Analysis - Brand Portals (lines 45-52)"
+        },
+        {
+          "trigger": "bip39",
+          "title": "BIP39",
+          "body": "BIP39 - Bitcoin Improvement Proposal 39 for mnemonic recovery. 24-word seed phrase Deterministic key derivation No server-side password reset Used by all crypto wallets In anonym.legal/plus Users can recover their encryption key using 24 words. Even if the server is compromised, data remains encrypted. Source: Marketing Analysis - Anonym Legal (lines 59-72)"
+        },
+        {
+          "trigger": "auditTrail",
+          "title": "Audit Trail: Perfect vs Varies",
+          "body": "Audit Trail: Perfect vs Varies Deterministic regex produces identical output for identical input - essential for compliance audits. Same document processed today = same result in 5 years Third parties can independently verify results No \"confidence score\" ambiguity AI limitation AI/ML models produce confidence scores (0.0-1.0) that vary between runs. Results may differ across model versions. Source: Nature Scientific Reports"
+        },
+        {
+          "trigger": "gdprArt35",
+          "title": "GDPR Article 35: Data Protection Impact Assessment (DPIA)",
+          "body": "GDPR Article 35: Data Protection Impact Assessment (DPIA) Required for high-risk processing involving personal data. Deterministic: Native compliance - results are predictable and documented AI/ML: Requires additional documentation explaining how the model works Regulatory advantage DPOs prefer deterministic systems because they can explain exactly why data was classified as PII. Source: GDPR Article 35"
+        },
+        {
+          "trigger": "modelDrift",
+          "title": "Model Drift",
+          "body": "Model Drift - AI accuracy degrades over time without retraining. Language patterns evolve New PII formats emerge Training data becomes stale Model updates change behavior anonymize advantage Deterministic regex has zero drift . Patterns are explicit and static - no retraining cycles, no unexpected behavior changes. Source: Nature Scientific Reports"
+        },
+        {
+          "trigger": "costCompare",
+          "title": "Cost: Lower vs GPU",
+          "body": "Cost: Lower vs GPU Regex: Minimal CPU, runs on any server AI/ML: GPU acceleration required, higher compute costs TCO impact AI inference costs $0.01-0.10+ per 1K tokens. Regex pattern matching is essentially free after initial development. Source: Nature Scientific Reports"
+        },
+        {
+          "trigger": "speedCompare",
+          "title": "Speed: Fast vs Slower",
+          "body": "Speed: Fast vs Slower Regex: Milliseconds for pattern matching AI/ML: Model loading + inference latency Real-world impact Regex processes 10,000+ documents/minute. AI models may require batching and async processing for similar throughput. Source: Nature Scientific Reports"
+        },
+        {
+          "trigger": "explainability",
+          "title": "Explainability: 100% vs Black Box",
+          "body": "Explainability: 100% vs Black Box Regex: You can inspect exactly why a match occurred AI/ML: Neural network decisions are opaque Compliance requirement Regulators and auditors want to understand HOW decisions are made. \"The AI said so\" is not an acceptable audit response. Source: Nature Scientific Reports"
+        },
+        {
+          "trigger": "legalEvidence",
+          "title": "Legal Evidence: Court-OK vs Risk",
+          "body": "Legal Evidence: Court-OK vs Risk Deterministic: Results are court-admissible as reproducible evidence Probabilistic: Confidence scores may be challenged in legal proceedings Use case Legal e-discovery, FOIA requests, and compliance investigations require reproducible, verifiable redaction."
+        }
+      ],
+      "links": {
+        "internal": [
+          {
+            "href": "/content/financial/",
+            "text": "Anonymize.infoFINANCIAL"
+          },
+          {
+            "href": "/content/financial/",
+            "text": "Hub"
+          },
+          {
+            "href": "/content/financial/f02.html",
+            "text": "Next"
+          }
+        ],
+        "external": [
+          {
+            "href": "https://www.fortunebusinessinsights.com/data-privacy-software-market-105420",
+            "text": "Fortune Business Insights"
+          },
+          {
+            "href": "https://growthmarketreports.com/report/data-anonymization-tools-market",
+            "text": "Growth Market Reports"
+          },
+          {
+            "href": "https://github.com/microsoft/presidio",
+            "text": "Microsoft Presidio GitHub"
+          },
+          {
+            "href": "https://spacy.io/",
+            "text": "spaCy"
+          },
+          {
+            "href": "https://huggingface.co/xlm-roberta-base",
+            "text": "XLM-RoBERTa (HuggingFace)"
+          },
+          {
+            "href": "https://www.nature.com/articles/s41598-025-04971-9",
+            "text": "Nature Scientific Reports"
+          },
+          {
+            "href": "https://gdpr-info.eu/art-35-gdpr/",
+            "text": "GDPR Article 35"
+          }
+        ]
+      },
+      "key_statistics": [
+        "100%",
+        "$60.4B",
+        "5%",
+        "$5.37B",
+        "$3.2B",
+        "$13.4B",
+        "4%",
+        "$1.28B",
+        "$7.59B",
+        "1%",
+        "$3.37B",
+        "$28.4B",
+        "8%",
+        "$10.1B",
+        "$26.2B",
+        "6%",
+        "40%",
+        "41%",
+        "$4.45M",
+        "$100M",
+        "$550M",
+        "$1.72B",
+        "$28.43B",
+        "78%",
+        "$26.21B",
+        "27 languages",
+        "23+ language",
+        "70+ languages",
+        "100 languages",
+        "100+ languages",
+        "48 languages",
+        "$0.01"
+      ],
+      "navigation": {
+        "indicator": "F01 / 18",
+        "current": 1,
+        "total": 18
+      }
+    },
+    {
+      "page_id": "f02",
+      "title": "Product Portfolio",
+      "subtitle": "",
+      "sections": [],
+      "tables": [],
+      "tooltips": [
+        {
+          "trigger": "anonymize-today",
+          "title": "Primary SaaS platform for SMBs and freelancers.",
+          "body": "Primary SaaS platform for SMBs and freelancers. Core features: 27 regex-based languages for pattern matching 256 entity types with deterministic detection Microsoft Presidio engine integration Instant web-based processing Target Markets Freelancers, translators, HR teams, small-to-medium businesses needing quick, affordable PII protection. Visit: anonymize.today Source: Microsoft Presidio"
+        },
+        {
+          "trigger": "anonym-legal",
+          "title": "Zero-Knowledge architecture for regulated industries.",
+          "body": "Zero-Knowledge architecture for regulated industries. Security specifications: Argon2id: PHC (Password Hashing Competition) winner XChaCha20-Poly1305: WireGuard cipher suite 48 languages with spaCy + Stanza NLP BIP39 24-word recovery phrase Key Differentiator Server NEVER sees plaintext data. Only platform combining zero-knowledge encryption with full PII detection for HIPAA/GDPR compliance. Visit: anonym.legal Source: anonym.legal"
+        },
+        {
+          "trigger": "cloak-business",
+          "title": "Enterprise GDPR compliance with full audit trails.",
+          "body": "Enterprise GDPR compliance with full audit trails. Enterprise features: 290+ entity types across 75+ countries 48 languages including regional dialects Batch processing for large document sets Team management and compliance reporting Market Opportunity GDPR compliance market: $3.37B (2025) to $28.43B (2035). Enterprise customers need deterministic, audit-proof detection. Visit: cloak.business Source: Growth Market Reports"
+        },
+        {
+          "trigger": "anonymize-solutions",
+          "title": "Multi-vertical platform with 16 solutions across 6 verticals.",
+          "body": "Multi-vertical platform with 16 solutions across 6 verticals. Verticals covered: Healthcare: HIPAA compliance, PHI protection Finance: KYC/AML, PCI-DSS Education: FERPA student data Legal: e-Discovery, privilege review Insurance: Claims processing Government: Public sector compliance Combined TAM $158.4B (2025) across all verticals. White-label and custom deployment options available. Visit: anonymize.solutions Source: anonymize.today"
+        },
+        {
+          "trigger": "anonym-plus",
+          "title": "100% offline desktop app for air-gapped environments.",
+          "body": "100% offline desktop app for air-gapped environments. Bundled components: Microsoft Presidio engine included spaCy NLP models (20 languages) Tesseract OCR (48 languages) 200+ entity types with offline detection Use Cases Air-gapped government systems, defense installations, high-security financial institutions. Perpetual license with BIP39 recovery. Visit: anonym.plus Source: Multilingual Government Financial Advantage"
+        },
+        {
+          "trigger": "anonymize-dev",
+          "title": "MCP Server for developers and DevSecOps teams.",
+          "body": "MCP Server for developers and DevSecOps teams. Detection capabilities: 256+ PII entities with deterministic matching Secrets detection: API keys (AWS, Azure, GCP), SSH keys, JWT tokens, OAuth credentials CI/CD pipeline integration Zero-knowledge option available MCP Ecosystem 97M+ monthly SDK downloads, 5,800+ servers. Integrates with Claude Desktop, Cursor IDE, VS Code. First-mover advantage in AI coding protection. Visit: anonymize.dev Source: anonymize.today"
+        },
+        {
+          "trigger": "blurgate-legal",
+          "title": "OCR and image anonymization platform.",
+          "body": "OCR and image anonymization platform. Processing capabilities: 48 OCR languages via Tesseract engine 25+ image entity types for visual PII Pixel-perfect redaction Scanned document processing Market Growth OCR/IDP market: $10.57B (2025) to $66.68B (2032) at 30.1% CAGR. Critical for ID verification and document digitization. Visit: blurgate.legal Source: Fortune Business Insights"
+        },
+        {
+          "trigger": "anonymize-education",
+          "title": "FERPA-compliant solution for educational institutions.",
+          "body": "FERPA-compliant solution for educational institutions. Education-specific features: 50+ education entities: Student IDs, grades, enrollment data 48 languages for international schools Parent/guardian information handling Transcript and record protection Target Customers K-12 schools, universities, EdTech platforms. FERPA compliance is mandatory for any institution receiving federal funding. Source: anonymize.today"
+        }
+      ],
+      "links": {
+        "internal": [
+          {
+            "href": "/content/financial/",
+            "text": "Anonymize.infoFINANCIAL"
+          },
+          {
+            "href": "/content/financial/f01.html",
+            "text": "Back"
+          },
+          {
+            "href": "/content/financial/f03.html",
+            "text": "Next"
+          }
+        ],
+        "external": [
+          {
+            "href": "https://anonymize.today",
+            "text": "anonymize.today"
+          },
+          {
+            "href": "https://github.com/microsoft/presidio",
+            "text": "Microsoft Presidio"
+          },
+          {
+            "href": "https://anonym.legal",
+            "text": "anonym.legal"
+          },
+          {
+            "href": "https://cloak.business",
+            "text": "cloak.business"
+          },
+          {
+            "href": "https://growthmarketreports.com/report/data-anonymization-tools-market",
+            "text": "Growth Market Reports"
+          },
+          {
+            "href": "https://anonymize.solutions",
+            "text": "anonymize.solutions"
+          },
+          {
+            "href": "https://anonym.plus",
+            "text": "anonym.plus"
+          },
+          {
+            "href": "https://anonymize.dev",
+            "text": "anonymize.dev"
+          },
+          {
+            "href": "https://blurgate.legal",
+            "text": "blurgate.legal"
+          },
+          {
+            "href": "https://fortunebusinessinsights.com/data-privacy-software-market-105420",
+            "text": "Fortune Business Insights"
+          }
+        ]
+      },
+      "key_statistics": [
+        "100%",
+        "48 languages",
+        "75+ countries",
+        "$3.37B",
+        "$28.43B",
+        "$158.4B",
+        "20 languages",
+        "$10.57B",
+        "$66.68B",
+        "1%"
+      ],
+      "navigation": {
+        "indicator": "F02 / 18",
+        "current": 2,
+        "total": 18
+      }
+    },
+    {
+      "page_id": "f03",
+      "title": "Global Coverage",
+      "subtitle": "",
+      "sections": [],
+      "tables": [
+        {
+          "headers": [
+            "Category",
+            "Coverage",
+            "Examples"
+          ],
+          "rows": [
+            [
+              "National IDs",
+              "75+ countries",
+              "Personalausweis (DE), CNI (FR), NIN (UK)"
+            ],
+            [
+              "Tax Numbers",
+              "40+ countries",
+              "Steuer-ID (DE), TIN (US), NIF (ES)"
+            ],
+            [
+              "Banking",
+              "34+ countries",
+              "IBAN, SWIFT, Account Numbers"
+            ],
+            [
+              "Social Security",
+              "25+ countries",
+              "SSN (US), NINO (UK), SIN (CA)"
+            ],
+            [
+              "Healthcare IDs",
+              "20+ countries",
+              "NHS (UK), Medicare (AU), KVNR (DE)"
+            ]
+          ]
+        },
+        {
+          "headers": [
+            "Region",
+            "Regulations",
+            "Recommended Product"
+          ],
+          "rows": [
+            [
+              "EU/EEA (27 countries)",
+              "GDPR, ePrivacy",
+              "cloak.business"
+            ],
+            [
+              "Germany",
+              "BDSG, stricter rules",
+              "anonym.legal"
+            ],
+            [
+              "USA",
+              "HIPAA, FERPA, CCPA",
+              "anonymize.solutions"
+            ],
+            [
+              "UK",
+              "UK GDPR, DPA 2018",
+              "cloak.business"
+            ],
+            [
+              "Switzerland",
+              "nDSG, banking secrecy",
+              "anonym.legal"
+            ],
+            [
+              "Brazil",
+              "LGPD",
+              "anonymize.solutions"
+            ],
+            [
+              "China",
+              "PIPL, offline required",
+              "anonym.plus"
+            ],
+            [
+              "Government/Defense",
+              "Air-gapped mandates",
+              "anonym.plus"
+            ]
+          ]
+        }
+      ],
+      "tooltips": [
+        {
+          "trigger": "languages",
+          "title": "48 languages supported with dual detection methods.",
+          "body": "48 languages supported with dual detection methods. 27 regex-based: Pattern matching for IDs, numbers, structured data 21 NLP-based: Named entity recognition for names, locations All EU official languages included Regional dialects supported (Swiss German, Flemish, Catalan) Competitor Gap Azure has 96-97 languages but lacks regional variant patterns. AWS Comprehend supports only English + Spanish for PII. Source: Microsoft Presidio"
+        },
+        {
+          "trigger": "countries",
+          "title": "75+ countries with national ID patterns.",
+          "body": "75+ countries with national ID patterns. Coverage includes: EU27: All member states with national formats Americas: USA, Canada, Brazil, Mexico APAC: Japan, China, India, Australia Each country: 3-8 specific ID formats Example Formats German Personalausweis, French CNI, UK National Insurance, Spanish DNI, Italian Codice Fiscale, and 65+ more. Source: Fortune Business Insights"
+        },
+        {
+          "trigger": "entities",
+          "title": "290+ entity types across multiple categories.",
+          "body": "290+ entity types across multiple categories. Universal: Email, phone, IP, credit card Regional: National IDs, tax numbers Industry: Medical IDs, legal case numbers Custom: User-defined patterns vs Competitors Microsoft Presidio offers ~50 built-in recognizers. We provide 290+ with deterministic matching. Source: Microsoft Presidio"
+        },
+        {
+          "trigger": "nlp",
+          "title": "20 NLP models for named entity recognition.",
+          "body": "20 NLP models for named entity recognition. spaCy models (12): en, de, fr, es, it, pt, nl, pl, ru, zh, ja, ko Stanza models (8): Additional language coverage Trained on CoNLL datasets High accuracy for names and locations Detection Method NLP complements regex patterns - regex for structured IDs, NLP for unstructured names and addresses. Source: Microsoft Presidio"
+        },
+        {
+          "trigger": "national-ids",
+          "title": "National ID patterns for 75+ countries.",
+          "body": "National ID patterns for 75+ countries. Personalausweis (DE): 9-digit with checksum CNI/Carte d'identite (FR): 12-digit format NIN/National Insurance (UK): 9-char alphanumeric DNI (ES): 8 digits + letter Codice Fiscale (IT): 16-char tax code Validation All patterns include checksum validation where applicable to reduce false positives. Source: Fortune Business Insights"
+        },
+        {
+          "trigger": "tax-numbers",
+          "title": "Tax identification for 40+ countries.",
+          "body": "Tax identification for 40+ countries. Steuer-ID/Steuernummer (DE): 11-digit federal ID TIN/SSN (US): 9-digit with format validation NIF/NIE (ES): Spanish tax IDs UTR (UK): Unique Taxpayer Reference CPF/CNPJ (BR): Brazilian individual/company Checksum Validation Includes Luhn algorithm and country-specific checksum validation for accuracy. Source: Growth Market Reports"
+        },
+        {
+          "trigger": "banking",
+          "title": "Banking identifiers for 34+ countries.",
+          "body": "Banking identifiers for 34+ countries. IBAN: 34 countries, checksum validated SWIFT/BIC: Bank identification codes National formats: Kontonummer (DE), Sort Code (UK), Routing Number (US) Credit/debit cards: Luhn validation Security Critical for PCI-DSS compliance. All card patterns validated to prevent false positives. Source: Fortune Business Insights"
+        },
+        {
+          "trigger": "social-security",
+          "title": "Social security numbers for 25+ countries.",
+          "body": "Social security numbers for 25+ countries. SSN (US): 9-digit with area validation NINO (UK): National Insurance Number SIN (CA): Canadian Social Insurance Sozialversicherungsnummer (DE/AT): German/Austrian AHVN13 (CH): Swiss social security Format Validation All patterns include format and checksum validation specific to each country's requirements. Source: Growth Market Reports"
+        },
+        {
+          "trigger": "healthcare",
+          "title": "Healthcare identifiers for 20+ countries.",
+          "body": "Healthcare identifiers for 20+ countries. NHS Number (UK): 10-digit with checksum Medicare (AU): Australian healthcare KVNR (DE): German health insurance number Health Card (CA): Provincial formats NPI (US): National Provider Identifier HIPAA Compliance Critical for HIPAA and medical data compliance. All 18 HIPAA identifiers supported. Source: Fortune Business Insights"
+        },
+        {
+          "trigger": "eu-gdpr",
+          "title": "EU/EEA GDPR compliance requirements.",
+          "body": "EU/EEA GDPR compliance requirements. Lawful basis required for all processing Data minimization principle Right to erasure (right to be forgotten) ePrivacy Directive for electronic communications Penalties Fines up to 4% of global revenue or EUR 20M. cloak.business provides enterprise-grade audit trails. Visit: cloak.business Source: GDPR Info"
+        },
+        {
+          "trigger": "germany",
+          "title": "Germany BDSG adds stricter requirements beyond GDPR.",
+          "body": "Germany BDSG adds stricter requirements beyond GDPR. DPO mandatory for 20+ employees processing personal data Works councils have co-determination rights Video surveillance strictly regulated Employee data special protections Recommendation anonym.legal with zero-knowledge architecture ensures maximum data protection for German compliance. Visit: anonym.legal Source: anonym.legal"
+        },
+        {
+          "trigger": "usa",
+          "title": "USA has sector-specific privacy laws.",
+          "body": "USA has sector-specific privacy laws. HIPAA: Healthcare data protection FERPA: Student education records CCPA/CPRA: California consumer privacy GLBA: Financial services Challenge No federal comprehensive privacy law. State laws vary widely. anonymize.solutions covers all major regulations. Visit: anonymize.solutions Source: Fortune Business Insights"
+        },
+        {
+          "trigger": "uk",
+          "title": "UK GDPR post-Brexit framework.",
+          "body": "UK GDPR post-Brexit framework. UK GDPR: Mirrors EU GDPR DPA 2018: Implements GDPR into UK law ICO enforcement: Information Commissioner's Office Adequacy decision: Allows EU-UK data transfers Product Fit cloak.business handles both EU and UK GDPR requirements with single deployment. Visit: cloak.business Source: GDPR Info"
+        },
+        {
+          "trigger": "switzerland",
+          "title": "Switzerland nDSG aligned with GDPR.",
+          "body": "Switzerland nDSG aligned with GDPR. nDSG (new DSG): Effective September 2023 Banking secrecy: Special handling requirements Cross-border: Swiss-US Privacy Shield successor Data localization: Often preferred Zero-Knowledge anonym.legal ideal for Swiss banking and legal sectors requiring maximum confidentiality. Visit: anonym.legal Source: anonym.legal"
+        },
+        {
+          "trigger": "brazil",
+          "title": "Brazil LGPD modeled after GDPR.",
+          "body": "Brazil LGPD modeled after GDPR. LGPD: Lei Geral de Protecao de Dados ANPD: National enforcement authority Extraterritorial: Applies to Brazilian residents globally Portuguese: Full language support required Coverage anonymize.solutions includes CPF/CNPJ patterns and Portuguese NLP for complete Brazil compliance. Visit: anonymize.solutions Source: Growth Market Reports"
+        },
+        {
+          "trigger": "china",
+          "title": "China PIPL requires special handling.",
+          "body": "China PIPL requires special handling. Data localization: Often mandatory Cross-border restrictions: Security assessments required Government access: Provisions for authorities Sensitive data: Strict consent requirements Offline Solution anonym.plus (100% offline) is the only compliant option for China's data localization requirements. Visit: anonym.plus Source: Multilingual Government Financial Advantage"
+        },
+        {
+          "trigger": "government",
+          "title": "Air-gapped environments for classified data.",
+          "body": "Air-gapped environments for classified data. NIST 800-53: US federal security FedRAMP: US cloud authorization BSI IT-Grundschutz (DE): German security baseline NATO standards: Allied security requirements Solution anonym.plus operates 100% offline with bundled engines. No internet connectivity required. Visit: anonym.plus Source: Multilingual Government Financial Advantage"
+        }
+      ],
+      "links": {
+        "internal": [
+          {
+            "href": "/content/financial/",
+            "text": "Anonymize.infoFINANCIAL"
+          },
+          {
+            "href": "/content/financial/f02.html",
+            "text": "Back"
+          },
+          {
+            "href": "/content/financial/f04.html",
+            "text": "Next"
+          }
+        ],
+        "external": [
+          {
+            "href": "https://github.com/microsoft/presidio",
+            "text": "Microsoft Presidio"
+          },
+          {
+            "href": "https://fortunebusinessinsights.com/data-privacy-software-market-105420",
+            "text": "Fortune Business Insights"
+          },
+          {
+            "href": "https://growthmarketreports.com/report/data-anonymization-tools-market",
+            "text": "Growth Market Reports"
+          },
+          {
+            "href": "https://cloak.business",
+            "text": "cloak.business"
+          },
+          {
+            "href": "https://gdpr-info.eu/",
+            "text": "GDPR Info"
+          },
+          {
+            "href": "https://anonym.legal",
+            "text": "anonym.legal"
+          },
+          {
+            "href": "https://anonymize.solutions",
+            "text": "anonymize.solutions"
+          },
+          {
+            "href": "https://anonym.plus",
+            "text": "anonym.plus"
+          }
+        ]
+      },
+      "key_statistics": [
+        "100%",
+        "48 languages",
+        "75+ countries",
+        "48 Languages",
+        "75+ Countries",
+        "40+ countries",
+        "34+ countries",
+        "25+ countries",
+        "20+ countries",
+        "27 countries",
+        "97 languages",
+        "34 countries",
+        "4%"
+      ],
+      "navigation": {
+        "indicator": "F03 / 18",
+        "current": 3,
+        "total": 18
+      }
+    },
+    {
+      "page_id": "f04",
+      "title": "Two Product Lines: Online + Offline",
+      "subtitle": "",
+      "sections": [],
+      "tables": [
+        {
+          "headers": [
+            "Frontend",
+            "Entities",
+            "Languages",
+            "Storage"
+          ],
+          "rows": [
+            [
+              "Web App",
+              "256+",
+              "27-48",
+              "Cloud"
+            ],
+            [
+              "Desktop (Online)",
+              "256+",
+              "27-48",
+              "Local files"
+            ],
+            [
+              "Office Add-in",
+              "256+",
+              "27-48",
+              "Document"
+            ],
+            [
+              "Chrome Extension",
+              "256+",
+              "27",
+              "Browser"
+            ],
+            [
+              "MCP Server",
+              "256+",
+              "48",
+              "N/A"
+            ],
+            [
+              "REST API",
+              "256+",
+              "27-48",
+              "N/A"
+            ]
+          ]
+        },
+        {
+          "headers": [
+            "Feature",
+            "Specification"
+          ],
+          "rows": [
+            [
+              "Entity Types",
+              "200+"
+            ],
+            [
+              "UI Languages",
+              "48"
+            ],
+            [
+              "NLP Languages",
+              "20 bundled"
+            ],
+            [
+              "License",
+              "Perpetual (one-time)"
+            ],
+            [
+              "Recovery",
+              "BIP39 24-word seed"
+            ]
+          ]
+        }
+      ],
+      "tooltips": [
+        {
+          "trigger": "webapp",
+          "title": "Browser-based SaaS at anonymize.today and anonym.legal.",
+          "body": "Browser-based SaaS at anonymize.today and anonym.legal. 256+ entity types with deterministic detection 27-48 languages depending on service tier Real-time processing via cloud API No installation required Best For Quick processing, occasional users, teams needing immediate access from any device. Visit: anonymize.today | anonym.legal Source: anonymize.today"
+        },
+        {
+          "trigger": "desktop-online",
+          "title": "Electron-based app with local file handling.",
+          "body": "Electron-based app with local file handling. Local file storage and management Cloud API for processing Batch processing for large document sets Drag-and-drop interface Best For Power users processing many documents, teams needing local file organization with cloud detection. Source: anonymize.today"
+        },
+        {
+          "trigger": "office-addin",
+          "title": "Microsoft Office integration via AppSource.",
+          "body": "Microsoft Office integration via AppSource. Word: Real-time document scanning Excel: Spreadsheet PII detection PowerPoint: Presentation anonymization Outlook: Email content protection Deployment IT-managed installation via Microsoft 365 Admin Center or user self-service from AppSource. Source: anonymize.today"
+        },
+        {
+          "trigger": "chrome-ext",
+          "title": "Client-side protection for AI assistants.",
+          "body": "Client-side protection for AI assistants. ChatGPT: 800-900M weekly active users Claude: 19-30M monthly active users Gemini: 750M+ users 100% local processing in browser Key Feature Auto-restore: Extension automatically restores original PII in AI responses using browser-side mapping table. Source: Fortune Business Insights"
+        },
+        {
+          "trigger": "mcp-server",
+          "title": "Model Context Protocol for AI coding tools.",
+          "body": "Model Context Protocol for AI coding tools. 97M+ monthly SDK downloads 5,800+ registered MCP servers 300+ MCP client applications Zero-knowledge option available Integrations Claude Desktop, Cursor IDE (fastest-growing), VS Code (via Cline), Windsurf. First-mover in AI coding protection. Visit: anonymize.dev Source: anonymize.today"
+        },
+        {
+          "trigger": "rest-api",
+          "title": "JWT-authenticated endpoints for custom integrations.",
+          "body": "JWT-authenticated endpoints for custom integrations. RESTful API design Batch processing endpoints Webhook notifications n8n/Zapier compatible Use Cases Custom application integration, workflow automation, enterprise system connections. Source: anonymize.today"
+        },
+        {
+          "trigger": "offline-entities",
+          "title": "200+ entity types bundled for offline detection.",
+          "body": "200+ entity types bundled for offline detection. All regex patterns included No internet required Regional ID formats Banking and tax numbers Air-Gapped Critical for government, defense, and high-security environments where internet connectivity is prohibited. Visit: anonym.plus Source: Multilingual Government Financial Advantage"
+        },
+        {
+          "trigger": "offline-ui",
+          "title": "48 UI languages for global enterprise deployment.",
+          "body": "48 UI languages for global enterprise deployment. All translations bundled Right-to-left language support CJK character support Regional formatting Enterprise Ready Deploy globally with localized interfaces. No network calls for UI translations. Source: Multilingual Government Financial Advantage"
+        },
+        {
+          "trigger": "offline-nlp",
+          "title": "20 NLP models bundled for named entity recognition.",
+          "body": "20 NLP models bundled for named entity recognition. spaCy (12): en, de, fr, es, it, pt, nl, pl, ru, zh, ja, ko Stanza (8): Additional language coverage Trained on CoNLL datasets No download required Detection NLP handles names and locations while regex handles structured IDs - both work offline. Source: Microsoft Presidio"
+        },
+        {
+          "trigger": "offline-license",
+          "title": "One-time purchase, no subscription.",
+          "body": "One-time purchase, no subscription. Perpetual license model No recurring fees Enterprise deployment support Intune, SCCM, Jamf compatible TCO Advantage No per-seat subscriptions. Deploy to unlimited users within licensed organization. Source: anonymize.today"
+        },
+        {
+          "trigger": "offline-recovery",
+          "title": "BIP39 24-word mnemonic for account recovery.",
+          "body": "BIP39 24-word mnemonic for account recovery. Bitcoin standard recovery phrase Works completely offline No email or phone required User-controlled security Security Industry-standard cryptographic recovery. Users maintain full control over their credentials. Source: anonym.legal"
+        }
+      ],
+      "links": {
+        "internal": [
+          {
+            "href": "/content/financial/",
+            "text": "Anonymize.infoFINANCIAL"
+          },
+          {
+            "href": "/content/financial/f03.html",
+            "text": "Back"
+          },
+          {
+            "href": "/content/financial/f05.html",
+            "text": "Next"
+          }
+        ],
+        "external": [
+          {
+            "href": "https://anonymize.today",
+            "text": "anonymize.today"
+          },
+          {
+            "href": "https://anonym.legal",
+            "text": "anonym.legal"
+          },
+          {
+            "href": "https://fortunebusinessinsights.com/data-privacy-software-market-105420",
+            "text": "Fortune Business Insights"
+          },
+          {
+            "href": "https://anonymize.dev",
+            "text": "anonymize.dev"
+          },
+          {
+            "href": "https://anonym.plus",
+            "text": "anonym.plus"
+          },
+          {
+            "href": "https://github.com/microsoft/presidio",
+            "text": "Microsoft Presidio"
+          }
+        ]
+      },
+      "key_statistics": [
+        "100%",
+        "48 languages"
+      ],
+      "navigation": {
+        "indicator": "F04 / 18",
+        "current": 4,
+        "total": 18
+      }
+    },
+    {
+      "page_id": "f05",
+      "title": "Tool Injection Technologies",
+      "subtitle": "",
+      "sections": [],
+      "tables": [
+        {
+          "headers": [
+            "Feature",
+            "anonymize",
+            "Competitors"
+          ],
+          "rows": [
+            [
+              "Entity Types",
+              "256",
+              "13-100"
+            ],
+            [
+              "Languages",
+              "27",
+              "English only"
+            ],
+            [
+              "Processing",
+              "Local",
+              "Mixed"
+            ],
+            [
+              "Platforms",
+              "ChatGPT, Claude, Gemini",
+              "ChatGPT only"
+            ],
+            [
+              "Restore",
+              "Yes",
+              "Some"
+            ],
+            [
+              "Pricing",
+              "EUR 0-29/mo",
+              "$10-90/yr"
+            ]
+          ]
+        },
+        {
+          "headers": [
+            "Feature",
+            "anonymize",
+            "Purview DLP"
+          ],
+          "rows": [
+            [
+              "Applications",
+              "Word, Excel, PPT, Outlook",
+              "M365 Suite"
+            ],
+            [
+              "Entity Types",
+              "256 (deterministic)",
+              "SITs (prob.)"
+            ],
+            [
+              "Languages",
+              "27",
+              "Limited"
+            ],
+            [
+              "Deployment",
+              "AppSource",
+              "M365 Admin"
+            ],
+            [
+              "Anonymize",
+              "5 methods",
+              "Block/warn"
+            ],
+            [
+              "Pricing",
+              "EUR 29/mo",
+              "$57/user/mo"
+            ]
+          ]
+        },
+        {
+          "headers": [
+            "Feature",
+            "anonymize.dev",
+            "Others"
+          ],
+          "rows": [
+            [
+              "Entity Types",
+              "256+ + secrets",
+              "Regex only"
+            ],
+            [
+              "Detection",
+              "Deterministic",
+              "Regex/LLM"
+            ],
+            [
+              "Maturity",
+              "Production",
+              "GitHub proj"
+            ],
+            [
+              "Support",
+              "Included",
+              "Community"
+            ],
+            [
+              "ZK Option",
+              "Yes",
+              "No"
+            ],
+            [
+              "Clients",
+              "Claude, Cursor, VS Code",
+              "Limited"
+            ]
+          ]
+        }
+      ],
+      "tooltips": [
+        {
+          "trigger": "chrome-entities",
+          "title": "256 entity types with full deterministic detection.",
+          "body": "256 entity types with full deterministic detection. Regional IDs for 75+ countries Tax numbers, banking identifiers Healthcare and social security Credit cards with Luhn validation vs Competitors Incogni and PrivacyGuard offer 13-100 entity types. Our coverage is 2.5-20x greater. Source: Fortune Business Insights"
+        },
+        {
+          "trigger": "chrome-languages",
+          "title": "27 regex-based languages for pattern matching.",
+          "body": "27 regex-based languages for pattern matching. All major European languages Regional variants supported CJK character handling Right-to-left language support Competitor Gap Most competitors support English only. Our multilingual coverage is essential for global users. Source: Growth Market Reports"
+        },
+        {
+          "trigger": "chrome-processing",
+          "title": "100% client-side processing in browser.",
+          "body": "100% client-side processing in browser. PII never leaves your browser No server round-trips Works offline after load Zero data exposure risk Privacy Competitors may send data to their servers for analysis. We process everything locally. Source: anonymize.today"
+        },
+        {
+          "trigger": "chrome-platforms",
+          "title": "Multi-platform AI assistant coverage.",
+          "body": "Multi-platform AI assistant coverage. ChatGPT: 800-900M weekly active users Claude: 19-30M monthly active users Gemini: 750M+ users Market Reach Competitors typically only support ChatGPT. We cover the entire AI assistant market. Source: Fortune Business Insights"
+        },
+        {
+          "trigger": "chrome-restore",
+          "title": "Automatic PII restoration in AI responses.",
+          "body": "Automatic PII restoration in AI responses. Mapping table maintained in browser Original values restored automatically Seamless user experience No manual re-entry required User Experience Send anonymized prompt, receive response with original data restored. Completely transparent workflow. Source: anonymize.today"
+        },
+        {
+          "trigger": "chrome-pricing",
+          "title": "Competitive pricing with free tier.",
+          "body": "Competitive pricing with free tier. Free tier: Basic functionality Premium: EUR 29/month No per-seat licensing Full feature access vs Competition Competitors charge $10-90/year with limited features. Our premium tier provides full enterprise capability. Source: Growth Market Reports"
+        },
+        {
+          "trigger": "office-apps",
+          "title": "Native integration with Microsoft Office suite.",
+          "body": "Native integration with Microsoft Office suite. Word: Document scanning and redaction Excel: Spreadsheet PII detection PowerPoint: Presentation anonymization Outlook: Email content protection Integration Deploy via Microsoft AppSource for easy IT management and user self-service. Source: anonymize.today"
+        },
+        {
+          "trigger": "office-entities",
+          "title": "256 deterministic entity types vs probabilistic SITs.",
+          "body": "256 deterministic entity types vs probabilistic SITs. Microsoft uses Sensitive Information Types (SITs) SITs are AI/ML based with confidence scores Our detection is 100% deterministic Same input always produces same output Audit Advantage Deterministic detection is audit-proof and court-admissible. AI-based detection varies between runs. Source: Nature Scientific Reports"
+        },
+        {
+          "trigger": "office-languages",
+          "title": "27 languages vs limited Purview support.",
+          "body": "27 languages vs limited Purview support. All major European languages Regional ID patterns Full entity coverage per language Consistent detection quality Global Coverage Microsoft Purview has limited language support outside English. We support global enterprises. Source: Microsoft Presidio"
+        },
+        {
+          "trigger": "office-deployment",
+          "title": "Microsoft AppSource deployment.",
+          "body": "Microsoft AppSource deployment. Easy IT-managed installation User self-service option Automatic updates Compliance certifications vs Purview Purview requires M365 Admin Center configuration and E5 licensing. Our add-in is simpler to deploy. Source: Fortune Business Insights"
+        },
+        {
+          "trigger": "office-methods",
+          "title": "5 anonymization methods vs block/warn only.",
+          "body": "5 anonymization methods vs block/warn only. Redact: Replace with [REDACTED] Mask: Partial masking (***-**-1234) Pseudonymize: Replace with fake data Hash: One-way transformation Encrypt: Reversible encryption Flexibility Purview only blocks or warns. We provide full anonymization capabilities for data utility preservation. Source: anonymize.today"
+        },
+        {
+          "trigger": "office-pricing",
+          "title": "EUR 29/mo flat rate vs E5 licensing.",
+          "body": "EUR 29/mo flat rate vs E5 licensing. Our pricing: EUR 29/month flat Purview DLP: Requires E5 license E5 cost: $57/user/month Significant cost savings TCO Impact For a 100-user team: EUR 29/mo vs $5,700/mo with Purview. 99% cost reduction. Source: Growth Market Reports"
+        },
+        {
+          "trigger": "mcp-entities",
+          "title": "256+ PII entities plus secrets detection.",
+          "body": "256+ PII entities plus secrets detection. PII detection: Names, emails, phones, addresses Regional IDs, tax numbers Banking and healthcare data Secrets detection: AWS, Azure, GCP API keys SSH keys, JWT tokens OAuth credentials Unique Combination Other MCP servers offer basic regex only. We combine comprehensive PII + secrets in one solution. Visit: anonymize.dev Source: anonymize.today"
+        },
+        {
+          "trigger": "mcp-detection",
+          "title": "Deterministic detection for audit compliance.",
+          "body": "Deterministic detection for audit compliance. Same input = same output, every time No confidence scores or variability 100% reproducible results Court-admissible evidence vs LLM-based LLM-based detection produces different results on each run. Deterministic regex is audit-proof. Source: Nature Scientific Reports"
+        },
+        {
+          "trigger": "mcp-maturity",
+          "title": "Production-ready enterprise solution.",
+          "body": "Production-ready enterprise solution. Enterprise support included SLA options available Comprehensive documentation Professional maintenance vs Alternatives Most MCP servers are GitHub hobby projects without support. We offer production-grade reliability. Source: anonymize.today"
+        },
+        {
+          "trigger": "mcp-support",
+          "title": "Professional support included.",
+          "body": "Professional support included. Email support for all tiers Documentation and guides Enterprise SLA options Integration assistance Community vs Pro Competitors rely on GitHub issues and community forums. We provide professional support channels. Source: anonymize.today"
+        },
+        {
+          "trigger": "mcp-zk",
+          "title": "Zero-Knowledge architecture option.",
+          "body": "Zero-Knowledge architecture option. Argon2id: PHC winner for key derivation XChaCha20-Poly1305: WireGuard cipher Server never sees plaintext Client-side encryption Unique Feature Only MCP server offering zero-knowledge architecture for maximum security in AI coding workflows. Source: anonym.legal"
+        },
+        {
+          "trigger": "mcp-clients",
+          "title": "Integration with major AI coding tools.",
+          "body": "Integration with major AI coding tools. Claude Desktop: Native Anthropic client Cursor: Fastest-growing AI IDE VS Code: Via Cline extension Windsurf: Codeium's IDE Ecosystem 97M+ monthly MCP SDK downloads. 5,800+ registered servers. 300+ client applications. Source: anonymize.today"
+        }
+      ],
+      "links": {
+        "internal": [
+          {
+            "href": "/content/financial/",
+            "text": "Anonymize.infoFINANCIAL"
+          },
+          {
+            "href": "/content/financial/f04.html",
+            "text": "Back"
+          },
+          {
+            "href": "/content/financial/f06.html",
+            "text": "Next"
+          }
+        ],
+        "external": [
+          {
+            "href": "https://fortunebusinessinsights.com/data-privacy-software-market-105420",
+            "text": "Fortune Business Insights"
+          },
+          {
+            "href": "https://growthmarketreports.com/report/data-anonymization-tools-market",
+            "text": "Growth Market Reports"
+          },
+          {
+            "href": "https://anonymize.today",
+            "text": "anonymize.today"
+          },
+          {
+            "href": "https://nature.com/articles/s41598-025-04971-9",
+            "text": "Nature Scientific Reports"
+          },
+          {
+            "href": "https://github.com/microsoft/presidio",
+            "text": "Microsoft Presidio"
+          },
+          {
+            "href": "https://anonymize.dev",
+            "text": "anonymize.dev"
+          },
+          {
+            "href": "https://anonym.legal",
+            "text": "anonym.legal"
+          }
+        ]
+      },
+      "key_statistics": [
+        "100%",
+        "$10",
+        "$57",
+        "75+ countries",
+        "27 languages",
+        "$5,700",
+        "99%"
+      ],
+      "navigation": {
+        "indicator": "F05 / 18",
+        "current": 5,
+        "total": 18
+      }
+    },
+    {
+      "page_id": "f06",
+      "title": "AI Chat Protection",
+      "subtitle": "",
+      "sections": [],
+      "tables": [
+        {
+          "headers": [
+            "Platform",
+            "Users",
+            "Integration",
+            "Status"
+          ],
+          "rows": [
+            [
+              "ChatGPT",
+              "800-900M",
+              "Chrome Extension",
+              "&#9989; Production"
+            ],
+            [
+              "Claude",
+              "19-30M",
+              "Chrome + MCP",
+              "&#9989; Production"
+            ],
+            [
+              "Gemini",
+              "750M",
+              "Chrome Extension",
+              "&#9989; Production"
+            ],
+            [
+              "Cursor",
+              "Fastest IDE",
+              "MCP Server",
+              "&#9989; Production"
+            ],
+            [
+              "VS Code",
+              "Top IDE",
+              "MCP (Cline)",
+              "&#9989; Production"
+            ],
+            [
+              "Windsurf",
+              "Growing",
+              "MCP Server",
+              "&#9989; Production"
+            ]
+          ]
+        }
+      ],
+      "tooltips": [
+        {
+          "trigger": "chatgpt",
+          "title": "800-900M Weekly Active Users (OpenAI, Dec 2024).",
+          "body": "800-900M Weekly Active Users (OpenAI, Dec 2024). World's most popular AI chatbot and the primary target for PII protection: Users paste sensitive data into prompts daily Corporate policies often prohibit ChatGPT due to data exposure Chrome extension intercepts before data leaves browser Zero data sent to OpenAI servers unprotected Market opportunity Enterprise customers need ChatGPT productivity without compliance risk. Our extension enables safe adoption. Source: Fortune Business Insights"
+        },
+        {
+          "trigger": "claude",
+          "title": "19-30M Monthly Active Users - Fastest-growing AI assistant.",
+          "body": "19-30M Monthly Active Users - Fastest-growing AI assistant. Anthropic's Claude is preferred for sensitive enterprise use cases: Constitutional AI approach appeals to compliance teams Chrome extension for web interface protection Native MCP server for Claude Desktop integration Dual integration strategy covers all Claude users Unique advantage Only PII protection solution with native MCP server support for Claude Desktop. Visit: anonymize.dev Source: anonymize.today"
+        },
+        {
+          "trigger": "gemini",
+          "title": "750M Monthly Users via Google Workspace integration.",
+          "body": "750M Monthly Users via Google Workspace integration. Gemini is embedded across Google's product ecosystem: Integrated into Gmail, Docs, Sheets, and Meet Chrome extension protects web interface usage Enterprise Workspace deployments require PII controls GDPR compliance critical for EU Google users Enterprise reach Google Workspace has 3B+ users. Gemini integration exposes massive PII protection opportunity. Source: Growth Market Reports"
+        },
+        {
+          "trigger": "cursor",
+          "title": "Fastest-growing AI code editor with 65,000+ GitHub stars.",
+          "body": "Fastest-growing AI code editor with 65,000+ GitHub stars. Developers share sensitive code with Cursor's AI daily: API keys, connection strings, credentials in code Customer data in test files and logs Native MCP server integration Detects both PII and secrets simultaneously Developer security Cursor users are high-value targets. Our MCP server prevents accidental credential exposure in AI-assisted coding. Visit: anonymize.dev Source: anonymize.today"
+        },
+        {
+          "trigger": "vscode",
+          "title": "Most popular IDE globally with massive developer reach.",
+          "body": "Most popular IDE globally with massive developer reach. VS Code + Cline extension enables AI coding assistance: Cline is the leading MCP client for VS Code Developers paste code snippets with embedded secrets Our MCP server integrates via Cline configuration Same protection as Cursor and Claude Desktop Market coverage VS Code + Cursor + Windsurf covers 90%+ of AI-assisted developers. One MCP server protects all three. Visit: anonymize.dev Source: anonymize.today"
+        },
+        {
+          "trigger": "windsurf",
+          "title": "AI-native IDE by Codeium with rapid adoption.",
+          "body": "AI-native IDE by Codeium with rapid adoption. Windsurf represents the next generation of coding tools: Built from ground up for AI-first workflows Native MCP server support out of the box Growing adoption in developer community Same anonymize.dev MCP server works seamlessly Future-proof As AI IDEs evolve, MCP becomes the standard. Our server already supports emerging platforms. Visit: anonymize.dev Source: anonymize.today"
+        }
+      ],
+      "links": {
+        "internal": [
+          {
+            "href": "/content/financial/",
+            "text": "Anonymize.infoFINANCIAL"
+          },
+          {
+            "href": "/content/financial/f05.html",
+            "text": "Back"
+          },
+          {
+            "href": "/content/financial/f07.html",
+            "text": "Next"
+          }
+        ],
+        "external": [
+          {
+            "href": "https://fortunebusinessinsights.com/data-privacy-software-market-105420",
+            "text": "Fortune Business Insights"
+          },
+          {
+            "href": "https://anonymize.dev",
+            "text": "anonymize.dev"
+          },
+          {
+            "href": "https://anonymize.today",
+            "text": "anonymize.today"
+          },
+          {
+            "href": "https://growthmarketreports.com/report/data-anonymization-tools-market",
+            "text": "Growth Market Reports"
+          }
+        ]
+      },
+      "key_statistics": [
+        "100%",
+        "256 entities",
+        "90%"
+      ],
+      "navigation": {
+        "indicator": "F06 / 18",
+        "current": 6,
+        "total": 18
+      }
+    },
+    {
+      "page_id": "f07",
+      "title": "Office Add-in",
+      "subtitle": "",
+      "sections": [],
+      "tables": [
+        {
+          "headers": [
+            "Feature",
+            "anonymize Add-in",
+            "Purview DLP"
+          ],
+          "rows": [
+            [
+              "Pricing",
+              "EUR 29/mo flat",
+              "$57/user/mo"
+            ],
+            [
+              "Entity Types",
+              "256 deterministic",
+              "SITs (probabilistic)"
+            ],
+            [
+              "Customization",
+              "Easy patterns",
+              "Complex policy"
+            ],
+            [
+              "Anonymization",
+              "5 methods",
+              "Block/warn only"
+            ],
+            [
+              "Restore",
+              "Yes",
+              "No"
+            ],
+            [
+              "Non-M365",
+              "OpenOffice",
+              "No"
+            ]
+          ]
+        }
+      ],
+      "tooltips": [
+        {
+          "trigger": "pricing",
+          "title": "EUR 29/mo flat rate vs $57/user/mo for Microsoft E5.",
+          "body": "EUR 29/mo flat rate vs $57/user/mo for Microsoft E5. Microsoft Purview DLP requires an E5 license, which costs $57/user/month: anonymize: EUR 29/mo flat rate, unlimited users Purview: $57/user/mo (E5 required) 100-user company: EUR 29 vs $5,700/mo 51% cost savings even for single users ROI advantage Enterprise customers save 95%+ compared to Purview licensing for PII-specific protection. Visit: anonymize.today Source: Fortune Business Insights"
+        },
+        {
+          "trigger": "entities",
+          "title": "256 deterministic entity types vs probabilistic SITs.",
+          "body": "256 deterministic entity types vs probabilistic SITs. Microsoft uses Sensitive Information Types (SITs) with machine learning: anonymize: Regex-based, 100% reproducible Purview SITs: ML confidence scores (0.0-1.0) Deterministic = audit-proof for compliance Same input always produces same output Compliance impact Regulated industries require reproducible results. Our deterministic patterns are court-admissible evidence. Source: Microsoft Presidio"
+        },
+        {
+          "trigger": "customization",
+          "title": "Easy regex patterns vs complex policy configuration.",
+          "body": "Easy regex patterns vs complex policy configuration. Adding new entity types in each solution: anonymize: Add regex pattern in UI Purview: Create custom SIT, test, deploy policy No ML training required for new patterns Instant deployment of custom entities Time to value New entity types deployed in minutes, not weeks. IT teams love the simplicity. Source: Microsoft Presidio"
+        },
+        {
+          "trigger": "anonymization",
+          "title": "5 anonymization methods vs block/warn only.",
+          "body": "5 anonymization methods vs block/warn only. Purview DLP can only block or warn. We transform data: Redact: Remove entirely Mask: Replace with *** Pseudonymize: [PERSON_1], [EMAIL_2] Hash: SHA-256 one-way Encrypt: AES-256-GCM reversible Data utility Purview blocks sharing entirely. We enable secure sharing while preserving document utility. Source: Microsoft Presidio"
+        },
+        {
+          "trigger": "restore",
+          "title": "Mapping table allows original PII restoration.",
+          "body": "Mapping table allows original PII restoration. Critical for workflows where data must be recovered: Pseudonymized placeholders map to originals Encrypted fields can be decrypted Secure key management for restore operations Audit trail of who restored what Purview limitation When Purview blocks a document, the PII is gone. No recovery option exists. Source: Microsoft Presidio"
+        },
+        {
+          "trigger": "nonm365",
+          "title": "Works with OpenOffice, LibreOffice, and Google Docs.",
+          "body": "Works with OpenOffice, LibreOffice, and Google Docs. Not everyone uses Microsoft 365: OpenOffice: Desktop application support LibreOffice: Popular open-source alternative Google Docs: Chrome extension integration Web app works with any document format Vendor lock-in Purview is Microsoft-only. Our solution protects documents regardless of the office suite used. Source: Microsoft Presidio"
+        }
+      ],
+      "links": {
+        "internal": [
+          {
+            "href": "/content/financial/",
+            "text": "Anonymize.infoFINANCIAL"
+          },
+          {
+            "href": "/content/financial/f06.html",
+            "text": "Back"
+          },
+          {
+            "href": "/content/financial/f08.html",
+            "text": "Next"
+          }
+        ],
+        "external": [
+          {
+            "href": "https://anonymize.today",
+            "text": "anonymize.today"
+          },
+          {
+            "href": "https://www.fortunebusinessinsights.com/data-privacy-software-market-105420",
+            "text": "Fortune Business Insights"
+          },
+          {
+            "href": "https://github.com/microsoft/presidio",
+            "text": "Microsoft Presidio"
+          }
+        ]
+      },
+      "key_statistics": [
+        "100%",
+        "27 languages",
+        "$57",
+        "$5,700",
+        "51%",
+        "95%"
+      ],
+      "navigation": {
+        "indicator": "F07 / 18",
+        "current": 7,
+        "total": 18
+      }
+    },
+    {
+      "page_id": "f08",
+      "title": "MCP Server Technology",
+      "subtitle": "",
+      "sections": [],
+      "tables": [],
+      "tooltips": [
+        {
+          "trigger": "sdk",
+          "title": "97M+ monthly SDK downloads - MCP is exploding.",
+          "body": "97M+ monthly SDK downloads - MCP is exploding. The Model Context Protocol SDK adoption is unprecedented: Anthropic's protocol becoming the industry standard TypeScript, Python, and Rust SDKs available npm, PyPI, and crates.io distribution Active open-source community contributions Market timing First-mover advantage in MCP PII protection. As MCP becomes standard, our server becomes essential infrastructure. Visit: anonymize.dev Source: anonymize.today"
+        },
+        {
+          "trigger": "servers",
+          "title": "5,800+ MCP servers available in the ecosystem.",
+          "body": "5,800+ MCP servers available in the ecosystem. Rapid ecosystem growth across categories: Databases: PostgreSQL, MySQL, MongoDB connectors Cloud: AWS, GCP, Azure integrations APIs: GitHub, Slack, Notion, and more Files: Local filesystem, S3, GCS access Unique position anonymize.dev is one of very few security-focused MCP servers. PII protection is a gap in the ecosystem. Visit: anonymize.dev Source: anonymize.today"
+        },
+        {
+          "trigger": "clients",
+          "title": "300+ MCP clients across AI platforms and IDEs.",
+          "body": "300+ MCP clients across AI platforms and IDEs. Major clients supporting MCP: Claude Desktop: Anthropic's official client Cursor: Leading AI code editor VS Code: Via Cline extension Windsurf: Codeium's AI-native IDE JetBrains: IntelliJ IDEA, PyCharm Market reach One MCP server instantly reaches all 300+ clients. Maximum distribution with minimal effort. Visit: anonymize.dev Source: anonymize.today"
+        },
+        {
+          "trigger": "growth",
+          "title": "80x growth in 6 months: 100K to 8M downloads.",
+          "body": "80x growth in 6 months: 100K to 8M downloads. MCP adoption is accelerating exponentially: Nov 2024: 100K weekly downloads May 2025: 8M weekly downloads Dec 2025: Linux Foundation governance Industry backing from all major AI companies Strategic timing We're positioning at the inflection point. MCP will be to AI tools what REST is to APIs. Visit: anonymize.dev Source: anonymize.today"
+        }
+      ],
+      "links": {
+        "internal": [
+          {
+            "href": "/content/financial/",
+            "text": "Anonymize.infoFINANCIAL"
+          },
+          {
+            "href": "/content/financial/f07.html",
+            "text": "Back"
+          },
+          {
+            "href": "/content/financial/f09.html",
+            "text": "Next"
+          }
+        ],
+        "external": [
+          {
+            "href": "https://anonymize.dev",
+            "text": "anonymize.dev"
+          },
+          {
+            "href": "https://anonymize.today",
+            "text": "anonymize.today"
+          }
+        ]
+      },
+      "key_statistics": [
+        "100%"
+      ],
+      "navigation": {
+        "indicator": "F08 / 18",
+        "current": 8,
+        "total": 18
+      }
+    },
+    {
+      "page_id": "f09",
+      "title": "Desktop Offline",
+      "subtitle": "",
+      "sections": [],
+      "tables": [
+        {
+          "headers": [
+            "Component",
+            "Specification",
+            "vs. Competitors"
+          ],
+          "rows": [
+            [
+              "Processing",
+              "Bundled Presidio + spaCy",
+              "Cloud-dependent"
+            ],
+            [
+              "Entity Types",
+              "200+",
+              "Limited"
+            ],
+            [
+              "NLP Models",
+              "20+ bundled",
+              "None"
+            ],
+            [
+              "Languages (UI)",
+              "48",
+              "Limited"
+            ],
+            [
+              "OCR Languages",
+              "38 (Tesseract)",
+              "Cloud-dependent"
+            ],
+            [
+              "Storage",
+              "100% local",
+              "Sync to cloud"
+            ],
+            [
+              "License",
+              "Perpetual",
+              "Subscription"
+            ],
+            [
+              "Recovery",
+              "BIP39 24-word",
+              "Email reset"
+            ],
+            [
+              "Vault",
+              "AES-256-GCM",
+              "Varies"
+            ]
+          ]
+        },
+        {
+          "headers": [
+            "Format",
+            "Max Size",
+            "Features"
+          ],
+          "rows": [
+            [
+              "PDF",
+              "50 MB",
+              "OCR + text extraction"
+            ],
+            [
+              "DOCX",
+              "30 MB",
+              "Preserve formatting"
+            ],
+            [
+              "XLSX",
+              "100k rows",
+              "Cell-level detection"
+            ],
+            [
+              "Images",
+              "Various",
+              "38-language OCR"
+            ]
+          ]
+        },
+        {
+          "headers": [],
+          "rows": [
+            [
+              "Microsoft Intune",
+              "Windows MDM"
+            ],
+            [
+              "SCCM",
+              "Windows enterprise"
+            ],
+            [
+              "Jamf",
+              "macOS enterprise"
+            ],
+            [
+              "Group Policy",
+              "Configuration"
+            ]
+          ]
+        }
+      ],
+      "tooltips": [
+        {
+          "trigger": "presidio",
+          "title": "Full Microsoft Presidio engine bundled for offline use.",
+          "body": "Full Microsoft Presidio engine bundled for offline use. Complete NLP stack included in the download: Presidio Analyzer: Microsoft's open-source PII detection spaCy NLP: Industrial-strength NLP models No internet connection required after install Same detection quality as cloud version Competitor gap Competitors require cloud API calls for NLP. We bundle everything locally for air-gapped environments. Visit: anonym.plus Source: anonym.legal"
+        },
+        {
+          "trigger": "entities",
+          "title": "200+ entity types bundled for offline detection.",
+          "body": "200+ entity types bundled for offline detection. Comprehensive pattern library included: Government IDs for 75+ countries Tax identification numbers Banking patterns (IBAN, SWIFT, routing) Healthcare identifiers Custom regex patterns No internet needed All patterns are local. No cloud lookups, no API calls, no data leaving the device. Visit: anonym.plus Source: anonym.legal"
+        },
+        {
+          "trigger": "nlp",
+          "title": "20+ spaCy NLP models bundled for offline NLP.",
+          "body": "20+ spaCy NLP models bundled for offline NLP. Language models included: spaCy: 12 language models Stanza: 8 additional languages Named Entity Recognition (NER) Part-of-speech tagging Dependency parsing Total independence Full NLP capabilities without internet. Perfect for classified environments and air-gapped networks. Visit: anonym.plus Source: anonym.legal"
+        },
+        {
+          "trigger": "languages",
+          "title": "48 UI languages for global enterprise deployment.",
+          "body": "48 UI languages for global enterprise deployment. Full localization for: EU: All 24 official languages Asia: Chinese, Japanese, Korean Middle East: Arabic, Hebrew Others: Russian, Turkish, Hindi, and more Enterprise ready Deploy globally with native language support. No English-only limitations. Visit: anonym.plus Source: anonym.legal"
+        },
+        {
+          "trigger": "ocr",
+          "title": "Tesseract OCR engine bundled for 48 languages.",
+          "body": "Tesseract OCR engine bundled for 48 languages. Offline OCR capabilities: Scanned PDF processing Image text extraction Handwriting recognition (limited) No cloud OCR API needed Competitor comparison Google Vision/AWS Textract require internet. Our bundled Tesseract works 100% offline. Visit: anonym.plus Source: anonym.legal"
+        },
+        {
+          "trigger": "storage",
+          "title": "100% local storage - no cloud sync, no telemetry.",
+          "body": "100% local storage - no cloud sync, no telemetry. Data sovereignty guaranteed: All files stay on the device No cloud backup or sync No usage telemetry No analytics or tracking Air-gapped ready Perfect for defense, government, and high-security financial institutions. Visit: anonym.plus Source: anonym.legal"
+        },
+        {
+          "trigger": "license",
+          "title": "Perpetual license - one-time purchase, no subscription.",
+          "body": "Perpetual license - one-time purchase, no subscription. License terms: One-time purchase price Major version updates included No recurring fees Transfer to new hardware allowed Cost advantage Subscription competitors cost 3-5x more over 3 years. Perpetual license = predictable costs. Visit: anonym.plus Source: anonym.legal"
+        },
+        {
+          "trigger": "recovery",
+          "title": "BIP39 24-word mnemonic for account recovery.",
+          "body": "BIP39 24-word mnemonic for account recovery. Bitcoin-standard recovery mechanism: 24 random English words 2048-word standard dictionary Works completely offline No email/phone required Zero-knowledge recovery We never store your recovery phrase. Only you can restore your account. Visit: anonym.plus Source: anonym.legal"
+        },
+        {
+          "trigger": "vault",
+          "title": "AES-256-GCM encryption for local data storage.",
+          "body": "AES-256-GCM encryption for local data storage. Military-grade encryption: Algorithm: AES-256-GCM (NIST approved) Key derivation: Argon2id Authenticated encryption (integrity + confidentiality) Same encryption used by governments Security standard AES-256 is approved for TOP SECRET classification. Your local vault is maximally protected. Visit: anonym.plus Source: anonym.legal"
+        }
+      ],
+      "links": {
+        "internal": [
+          {
+            "href": "/content/financial/",
+            "text": "Anonymize.infoFINANCIAL"
+          },
+          {
+            "href": "/content/financial/f08.html",
+            "text": "Back"
+          },
+          {
+            "href": "/content/financial/f10.html",
+            "text": "Next"
+          }
+        ],
+        "external": [
+          {
+            "href": "https://anonym.plus",
+            "text": "anonym.plus"
+          },
+          {
+            "href": "https://anonym.legal",
+            "text": "anonym.legal"
+          }
+        ]
+      },
+      "key_statistics": [
+        "100%",
+        "75+ countries",
+        "12 language",
+        "48 languages"
+      ],
+      "navigation": {
+        "indicator": "F09 / 18",
+        "current": 9,
+        "total": 18
+      }
+    },
+    {
+      "page_id": "f10",
+      "title": "OCR & Image Anonymization",
+      "subtitle": "",
+      "sections": [],
+      "tables": [
+        {
+          "headers": [
+            "Solution",
+            "OCR",
+            "EU Residency",
+            "Pricing"
+          ],
+          "rows": [
+            [
+              "blurgate.legal",
+              "85-92% + NLP",
+              "Germany",
+              "EUR 29/mo"
+            ],
+            [
+              "Google Vision",
+              "97.8%",
+              "US",
+              "Pay-per-use"
+            ],
+            [
+              "AWS Textract",
+              "98%",
+              "US",
+              "Pay-per-use"
+            ],
+            [
+              "Adobe Acrobat",
+              "Manual",
+              "US",
+              "Subscription"
+            ]
+          ]
+        }
+      ],
+      "tooltips": [
+        {
+          "trigger": "blurgate",
+          "title": "85-92% OCR accuracy + NLP entity detection.",
+          "body": "85-92% OCR accuracy + NLP entity detection. blurgate.legal combines OCR with intelligent detection: Tesseract OCR: 48 language support Presidio NLP: Context-aware entity detection Hosting: Germany (Hetzner ISO 27001) Full GDPR compliance guaranteed Unique value Only solution combining OCR + NLP + EU data sovereignty. Competitors force you to choose between accuracy and compliance. Visit: blurgate.legal Source: Nature Scientific Reports"
+        },
+        {
+          "trigger": "google",
+          "title": "97.8% OCR accuracy - best in class, but US-based.",
+          "body": "97.8% OCR accuracy - best in class, but US-based. Google Vision API limitations: Excellent OCR accuracy Subject to US Cloud Act Pay-per-use can be expensive at scale No built-in PII detection - OCR only Compliance risk EU customers using Google Vision may violate GDPR. US government can compel data disclosure. Source: Nature Scientific Reports"
+        },
+        {
+          "trigger": "aws",
+          "title": "98% OCR accuracy with form understanding.",
+          "body": "98% OCR accuracy with form understanding. AWS Textract capabilities and limitations: Best-in-class form field extraction US-based (Cloud Act exposure) Complex pricing model Requires AWS Comprehend for PII (separate service) Integration complexity OCR + PII requires two services. blurgate.legal is one integrated solution. Source: Nature Scientific Reports"
+        },
+        {
+          "trigger": "adobe",
+          "title": "Manual redaction only - no automatic PII detection.",
+          "body": "Manual redaction only - no automatic PII detection. Adobe Acrobat limitations: User must manually identify PII No OCR + detection pipeline US-based company Subscription pricing adds up Productivity impact Manual redaction is slow and error-prone. Automatic detection saves 95% of processing time. Source: Nature Scientific Reports"
+        }
+      ],
+      "links": {
+        "internal": [
+          {
+            "href": "/content/financial/",
+            "text": "Anonymize.infoFINANCIAL"
+          },
+          {
+            "href": "/content/financial/f09.html",
+            "text": "Back"
+          },
+          {
+            "href": "/content/financial/f11.html",
+            "text": "Next"
+          }
+        ],
+        "external": [
+          {
+            "href": "https://blurgate.legal",
+            "text": "blurgate.legal"
+          },
+          {
+            "href": "https://www.nature.com/articles/s41598-025-04971-9",
+            "text": "Nature Scientific Reports"
+          }
+        ]
+      },
+      "key_statistics": [
+        "100%",
+        "48 languages",
+        "92%",
+        "8%",
+        "98%",
+        "48 language",
+        "95%"
+      ],
+      "navigation": {
+        "indicator": "F10 / 18",
+        "current": 10,
+        "total": 18
+      }
+    },
+    {
+      "page_id": "f11",
+      "title": "Zero-Knowledge Architecture",
+      "subtitle": "",
+      "sections": [],
+      "tables": [
+        {
+          "headers": [
+            "Component",
+            "Algorithm",
+            "Specification"
+          ],
+          "rows": [
+            [
+              "Password Hashing",
+              "Argon2id",
+              "RFC 9106, PHC winner"
+            ],
+            [
+              "Memory",
+              "19 MiB min",
+              "OWASP recommended"
+            ],
+            [
+              "Iterations",
+              "2 minimum",
+              "OWASP recommended"
+            ],
+            [
+              "Encryption",
+              "XChaCha20-Poly1305",
+              "256-bit, 192-bit nonce"
+            ],
+            [
+              "Key Size",
+              "256-bit",
+              "Modern standard"
+            ],
+            [
+              "Recovery",
+              "BIP39 24-word",
+              "Bitcoin standard"
+            ]
+          ]
+        }
+      ],
+      "tooltips": [
+        {
+          "trigger": "argon2id",
+          "title": "Winner of the Password Hashing Competition (PHC).",
+          "body": "Winner of the Password Hashing Competition (PHC). Argon2id is the hybrid version combining Argon2i (side-channel resistance) and Argon2d (GPU resistance): RFC 9106 standardized Resistant to GPU/ASIC attacks Memory-hard function prevents parallel cracking Used by 1Password, Bitwarden, Signal vs PBKDF2/bcrypt Unlike older algorithms, Argon2id requires significant memory, making brute-force attacks economically infeasible. Visit: anonym.legal Source: anonym.legal"
+        },
+        {
+          "trigger": "memory",
+          "title": "19 MiB minimum memory per hash operation.",
+          "body": "19 MiB minimum memory per hash operation. Memory-hard design makes GPU/ASIC attacks expensive: OWASP 2024 recommended minimum Prevents dictionary attacks at scale Each attempt requires dedicated RAM Attacker cost: ~$50K+ for 1M/sec throughput Why it matters Password cracking farms rely on parallel GPU processing. Memory requirements force sequential, expensive attacks. Source: anonym.legal"
+        },
+        {
+          "trigger": "iterations",
+          "title": "2 iterations minimum per OWASP guidelines.",
+          "body": "2 iterations minimum per OWASP guidelines. Balances security with user experience: OWASP 2024 recommendation for interactive logins Sub-second derivation on modern devices Configurable up to 10+ for high-security use cases Combined with memory makes attacks impractical Customization Enterprise deployments can increase iterations for vault/admin access while keeping user-facing auth responsive. Source: anonym.legal"
+        },
+        {
+          "trigger": "xchacha",
+          "title": "Same cipher used by WireGuard VPN.",
+          "body": "Same cipher used by WireGuard VPN. XChaCha20-Poly1305 provides authenticated encryption: 256-bit key: Modern symmetric encryption standard 192-bit nonce: Extended nonce prevents reuse issues Poly1305 MAC: Tamper detection built-in AEAD (Authenticated Encryption with Associated Data) vs AES-GCM XChaCha20 is simpler, constant-time by design, and doesn't require hardware acceleration for performance. Source: anonym.legal"
+        },
+        {
+          "trigger": "keysize",
+          "title": "256-bit symmetric key - the modern security standard.",
+          "body": "256-bit symmetric key - the modern security standard. 2^256 possible keys (more than atoms in universe) NIST approved for TOP SECRET classification Quantum-resistant at current understanding Industry standard for financial, healthcare, government Brute force estimate At 1 trillion keys/second, cracking would take ~10^60 years - longer than the universe has existed. Source: anonym.legal"
+        },
+        {
+          "trigger": "bip39",
+          "title": "Bitcoin-standard 24-word recovery phrase.",
+          "body": "Bitcoin-standard 24-word recovery phrase. BIP39 mnemonic provides secure key recovery: 128-bit entropy: Cryptographically secure randomness 24 words: Human-readable backup format Offline recovery: No email, no SMS, no password reset User-controlled: Only the user holds recovery capability Zero-knowledge benefit Service provider cannot recover accounts. User maintains complete sovereignty over their data. Visit: anonym.legal Source: anonym.legal"
+        }
+      ],
+      "links": {
+        "internal": [
+          {
+            "href": "/content/financial/",
+            "text": "Anonymize.infoFINANCIAL"
+          },
+          {
+            "href": "/content/financial/f10.html",
+            "text": "Back"
+          },
+          {
+            "href": "/content/financial/f12.html",
+            "text": "Next"
+          }
+        ],
+        "external": [
+          {
+            "href": "https://anonym.legal",
+            "text": "anonym.legal"
+          }
+        ]
+      },
+      "key_statistics": [
+        "100%",
+        "$50K"
+      ],
+      "navigation": {
+        "indicator": "F11 / 18",
+        "current": 11,
+        "total": 18
+      }
+    },
+    {
+      "page_id": "f12",
+      "title": "Secrets Detection",
+      "subtitle": "",
+      "sections": [],
+      "tables": [
+        {
+          "headers": [
+            "Secret Type",
+            "Pattern",
+            "Use Case"
+          ],
+          "rows": [
+            [
+              "AWS Access Keys",
+              "AKIA[0-9A-Z]{16}",
+              "Cloud credentials"
+            ],
+            [
+              "AWS Secret Keys",
+              "40-char base64",
+              "Cloud credentials"
+            ],
+            [
+              "GCP Service Acct",
+              "JSON key pattern",
+              "Cloud credentials"
+            ],
+            [
+              "Azure Connection",
+              "DefaultEndpoints...",
+              "Cloud storage"
+            ],
+            [
+              "SSH Private Keys",
+              "-----BEGIN RSA...",
+              "Server access"
+            ],
+            [
+              "JWT Tokens",
+              "eyJ[A-Za-z0-9]...",
+              "Authentication"
+            ],
+            [
+              "GitHub Tokens",
+              "ghp_/gho_/github_pat_",
+              "Repository access"
+            ],
+            [
+              "Stripe Keys",
+              "sk_live_/pk_live_",
+              "Payment"
+            ]
+          ]
+        },
+        {
+          "headers": [
+            "Metric",
+            "Value"
+          ],
+          "rows": [
+            [
+              "Orgs with DevSecOps",
+              "36% (up from 27%)"
+            ],
+            [
+              "API scanning in pipelines",
+              "70% of enterprises"
+            ]
+          ]
+        }
+      ],
+      "tooltips": [
+        {
+          "trigger": "aws_access",
+          "title": "AWS Access Key IDs - primary cloud credential.",
+          "body": "AWS Access Key IDs - primary cloud credential. Deterministic regex detection for AWS credentials: Pattern: AKIA followed by 16 alphanumeric characters Risk: Full AWS account access if paired with secret Common leaks: Git commits, logs, error messages Cost: $10K-$100K+ in cryptomining charges Detection advantage Regex detection is instant and deterministic - no confidence scores, no false negatives. Visit: anonymize.dev Source: Microsoft Presidio"
+        },
+        {
+          "trigger": "aws_secret",
+          "title": "AWS Secret Access Keys - paired with Access Key ID.",
+          "body": "AWS Secret Access Keys - paired with Access Key ID. Format: 40-character base64 string Context: Often near \"aws_secret\" or in config files Impact: Complete S3, EC2, Lambda access Real case: Uber 2016 - 57M records exposed via GitHub leak Common exposure points Environment variables in Docker images, .env files committed to repos, CI/CD logs. Visit: anonymize.dev Source: Microsoft Presidio"
+        },
+        {
+          "trigger": "gcp",
+          "title": "GCP Service Account JSON keys.",
+          "body": "GCP Service Account JSON keys. Contains: project_id, private_key, client_email Structure: JSON with 2000+ character private key Risk: Full GCP project access, data exfiltration Best practice: Workload Identity Federation instead Detection method Pattern matches JSON structure with \"type\": \"service_account\" and private_key field. Visit: anonymize.dev Source: Microsoft Presidio"
+        },
+        {
+          "trigger": "azure",
+          "title": "Azure Storage connection strings.",
+          "body": "Azure Storage connection strings. Pattern: DefaultEndpointsProtocol=https;AccountName=... Contains: Account name, key, and endpoints Access: Full blob storage read/write/delete Exposure: Often in web.config, appsettings.json Common locations Azure Functions settings, App Service configs, committed .NET configuration files. Visit: anonymize.dev Source: Microsoft Presidio"
+        },
+        {
+          "trigger": "ssh",
+          "title": "SSH private keys - server authentication.",
+          "body": "SSH private keys - server authentication. Types: RSA, DSA, ECDSA, Ed25519 Pattern: -----BEGIN [type] PRIVATE KEY----- Risk: Direct server access, lateral movement Impact: Full root access if key has sudo privileges Detection scope All OpenSSH and PuTTY key formats including encrypted keys (passphrase-protected). Visit: anonymize.dev Source: Microsoft Presidio"
+        },
+        {
+          "trigger": "jwt",
+          "title": "JSON Web Tokens - authentication credentials.",
+          "body": "JSON Web Tokens - authentication credentials. Structure: header.payload.signature (base64) Pattern: eyJ prefix (base64 of {\") Contains: User ID, roles, permissions, expiry Risk: Session hijacking, privilege escalation Common issues Long-lived tokens, tokens in URLs, tokens logged in error messages or analytics. Visit: anonymize.dev Source: Microsoft Presidio"
+        },
+        {
+          "trigger": "github",
+          "title": "GitHub Personal Access Tokens.",
+          "body": "GitHub Personal Access Tokens. Formats: ghp_ (classic), gho_ (OAuth), github_pat_ (fine-grained) Access: Repo read/write, org management, actions Real case: Mercedes 2024 - internal source code exposed GitHub scans: Auto-revokes some leaked tokens Detection advantage Deterministic prefix matching catches all token types including fine-grained access tokens. Visit: anonymize.dev Source: Microsoft Presidio"
+        },
+        {
+          "trigger": "stripe",
+          "title": "Stripe API keys - payment processing credentials.",
+          "body": "Stripe API keys - payment processing credentials. Types: sk_live_ (secret), pk_live_ (publishable) Risk: Charge cards, refunds, customer data access PCI DSS: Leaked keys trigger compliance violations Impact: Financial fraud, regulatory fines Business impact Stripe keys in production enable unauthorized transactions and access to cardholder data. Visit: anonymize.dev Source: Microsoft Presidio"
+        },
+        {
+          "trigger": "market2025",
+          "title": "$10.1B DevSecOps market in 2025.",
+          "body": "$10.1B DevSecOps market in 2025. Shift-left security becoming enterprise standard CI/CD pipeline security now mandatory Cloud-native development driving demand Regulatory requirements (SOC2, PCI, GDPR) Market drivers High-profile breaches and supply chain attacks accelerating DevSecOps adoption across industries. Source: Fortune Business Insights"
+        },
+        {
+          "trigger": "market2032",
+          "title": "$26.2B projected market by 2032.",
+          "body": "$26.2B projected market by 2032. 160% growth from 2025 baseline API security and secrets detection major segments AI/ML tools commoditizing, deterministic gaining value Enterprise consolidation driving larger deals anonymize.dev position Deterministic detection offers audit-proof compliance that AI-based tools cannot guarantee. Visit: anonymize.dev Source: Fortune Business Insights"
+        },
+        {
+          "trigger": "cagr",
+          "title": "14.6% CAGR through 2032.",
+          "body": "14.6% CAGR through 2032. Strong sustained growth vs other security segments Cloud adoption acceleration post-pandemic Average breach cost now $4.45M (IBM 2024) Regulatory pressure increasing globally Investment thesis DevSecOps is one of the fastest-growing security segments with predictable enterprise demand. Source: Fortune Business Insights"
+        },
+        {
+          "trigger": "aiml",
+          "title": "75% of DevSecOps tools now use AI/ML.",
+          "body": "75% of DevSecOps tools now use AI/ML. AI dominance creates differentiation opportunity: AI weakness: Probabilistic, non-reproducible results Audit gap: Cannot explain \"why\" for compliance Model drift: Results change with updates anonymize advantage: Deterministic, audit-proof detection Market gap Regulated industries need reproducible results. anonymize.dev fills the deterministic gap in a 75% AI market. Visit: anonymize.dev Source: Fortune Business Insights"
+        }
+      ],
+      "links": {
+        "internal": [
+          {
+            "href": "/content/financial/",
+            "text": "Anonymize.infoFINANCIAL"
+          },
+          {
+            "href": "/content/financial/f11.html",
+            "text": "Back"
+          },
+          {
+            "href": "/content/financial/f13.html",
+            "text": "Next"
+          }
+        ],
+        "external": [
+          {
+            "href": "https://anonymize.dev",
+            "text": "anonymize.dev"
+          },
+          {
+            "href": "https://github.com/microsoft/presidio",
+            "text": "Microsoft Presidio"
+          },
+          {
+            "href": "https://www.fortunebusinessinsights.com/data-privacy-software-market-105420",
+            "text": "Fortune Business Insights"
+          }
+        ]
+      },
+      "key_statistics": [
+        "100%",
+        "$10.1B",
+        "$26.2B",
+        "6%",
+        "75%",
+        "36%",
+        "27%",
+        "70%",
+        "$10K",
+        "$100K",
+        "160%",
+        "$4.45M"
+      ],
+      "navigation": {
+        "indicator": "F12 / 18",
+        "current": 12,
+        "total": 18
+      }
+    },
+    {
+      "page_id": "f13",
+      "title": "Entity Type Comparison",
+      "subtitle": "",
+      "sections": [],
+      "tables": [
+        {
+          "headers": [
+            "Entity Category",
+            "anonymize.today",
+            "Presidio DIY",
+            "Azure AI",
+            "AWS Comprehend"
+          ],
+          "rows": [
+            [
+              "Person Names",
+              "27 languages",
+              "6 languages",
+              "96-97 (AI)",
+              "en + es only"
+            ],
+            [
+              "Emails",
+              "Regex (deterministic)",
+              "Regex",
+              "AI (probabilistic)",
+              "AI"
+            ],
+            [
+              "Phone Numbers",
+              "50+ formats",
+              "5-10 formats",
+              "AI",
+              "AI"
+            ],
+            [
+              "Credit Cards",
+              "Luhn + patterns",
+              "Luhn",
+              "AI",
+              "AI"
+            ],
+            [
+              "National IDs",
+              "75+ countries",
+              "~10 countries",
+              "Limited",
+              "US only"
+            ],
+            [
+              "Tax Numbers",
+              "Multiple countries",
+              "Limited",
+              "Limited",
+              "US only"
+            ],
+            [
+              "IBAN",
+              "34 countries",
+              "Limited",
+              "Limited",
+              "No"
+            ],
+            [
+              "Healthcare",
+              "HIPAA entities",
+              "Limited",
+              "Limited",
+              "Limited"
+            ],
+            [
+              "Custom",
+              "Unlimited",
+              "Manual code",
+              "Via portal",
+              "Via portal"
+            ],
+            [
+              "TOTAL",
+              "256-290+",
+              "~50",
+              "~90",
+              "~36"
+            ]
+          ]
+        }
+      ],
+      "tooltips": [
+        {
+          "trigger": "names",
+          "title": "27 languages with regex + NLP hybrid detection.",
+          "body": "27 languages with regex + NLP hybrid detection. anonymize.today combines deterministic patterns with NLP models: Regex: 27 languages for cultural name patterns NLP: spaCy models for context-aware detection Presidio DIY: Only 6 spaCy models out-of-box Azure: 96-97 languages but probabilistic (0.0-1.0 scores) vs AWS Comprehend AWS only supports English + Spanish for NER. No multilingual capability for non-English documents. Source: anonymize.today"
+        },
+        {
+          "trigger": "emails",
+          "title": "Deterministic regex - 100% accuracy for standard formats.",
+          "body": "Deterministic regex - 100% accuracy for standard formats. Pattern: RFC 5322 compliant email regex Validation: Domain format + TLD verification Edge cases: Handles subdomains, plus addressing Same as Presidio: Both use regex for emails AI limitation Azure/AWS AI can miss obfuscated emails (john[at]example.com) or return false positives for email-like strings. Source: anonymize.today"
+        },
+        {
+          "trigger": "phones",
+          "title": "50+ international phone formats with country validation.",
+          "body": "50+ international phone formats with country validation. Formats: +49 30 12345, (212) 555-1234, 07911 123456 Validation: Country code + length verification Regional: Mobile vs landline patterns per country Presidio: Only 5-10 common formats Enterprise need Global companies process documents with dozens of phone formats. 50+ patterns ensures complete coverage. Source: anonymize.today"
+        },
+        {
+          "trigger": "creditcards",
+          "title": "Luhn checksum + issuer pattern validation.",
+          "body": "Luhn checksum + issuer pattern validation. Issuers: Visa (4xxx), Mastercard (5xxx), Amex (34/37) Validation: Luhn algorithm for checksum Spacing: Handles various separators (spaces, dashes) PCI DSS: Audit-proof detection for compliance AI false positives AI systems may flag random 16-digit numbers. Luhn validation eliminates false positives mathematically. Source: anonymize.today"
+        },
+        {
+          "trigger": "nationalids",
+          "title": "75+ countries with format and checksum validation.",
+          "body": "75+ countries with format and checksum validation. Comprehensive national ID coverage: Germany: Personalausweis, Steuer-ID France: CNI, INSEE number UK: National Insurance Number Spain: DNI, NIE + 70 more countries Competitor gap Presidio: ~10 countries. AWS: US SSN only. Azure: Limited European coverage. Source: anonymize.today"
+        },
+        {
+          "trigger": "taxnumbers",
+          "title": "Tax identification across multiple jurisdictions.",
+          "body": "Tax identification across multiple jurisdictions. EU: VAT numbers with country validation Germany: Steuer-Identifikationsnummer UK: UTR, National Insurance contributions US: EIN, ITIN, SSN Compliance requirement Financial services and payroll processing require multi-country tax ID detection for GDPR and tax compliance. Source: anonymize.today"
+        },
+        {
+          "trigger": "iban",
+          "title": "34 SEPA countries with checksum validation.",
+          "body": "34 SEPA countries with checksum validation. Format: Country code + check digits + BBAN Validation: MOD-97 checksum per ISO 13616 Coverage: All 34 SEPA zone countries Related: BIC/SWIFT code detection included Banking use case European financial institutions require IBAN detection for transaction processing and audit trails. Source: anonymize.today"
+        },
+        {
+          "trigger": "healthcare",
+          "title": "Complete HIPAA entity coverage.",
+          "body": "Complete HIPAA entity coverage. Healthcare-specific identifiers: MRN: Medical Record Numbers NPI: National Provider Identifier DEA: Drug Enforcement Administration numbers Medicare/Medicaid: Beneficiary IDs Compliance HIPAA requires protection of 18 identifier types. anonymize.today covers all PHI categories with deterministic detection. Source: anonymize.today"
+        },
+        {
+          "trigger": "custom",
+          "title": "Unlimited custom entity definitions via regex.",
+          "body": "Unlimited custom entity definitions via regex. No coding: Define patterns in UI or API Validation: Optional checksum functions Context: Keyword anchors for accuracy Examples: Employee IDs, account numbers, SKUs vs competitors Presidio: Requires Python coding. Azure/AWS: Limited portal configuration. anonymize: Self-service regex builder. Source: anonymize.today"
+        },
+        {
+          "trigger": "total",
+          "title": "256-290+ entity types - 3-9x more than competitors.",
+          "body": "256-290+ entity types - 3-9x more than competitors. Comprehensive coverage breakdown: anonymize.today: 256-290+ entity types Presidio DIY: ~50 (requires custom development) Azure AI: ~90 (probabilistic, black-box) AWS Comprehend: ~36 (English/Spanish focus) Investment implication Most comprehensive entity coverage combined with deterministic detection creates significant competitive moat. Source: anonymize.today"
+        }
+      ],
+      "links": {
+        "internal": [
+          {
+            "href": "/content/financial/",
+            "text": "Anonymize.infoFINANCIAL"
+          },
+          {
+            "href": "/content/financial/f12.html",
+            "text": "Back"
+          },
+          {
+            "href": "/content/financial/f14.html",
+            "text": "Next"
+          }
+        ],
+        "external": [
+          {
+            "href": "https://anonymize.today",
+            "text": "anonymize.today"
+          }
+        ]
+      },
+      "key_statistics": [
+        "100%",
+        "27 languages",
+        "6 languages",
+        "75+ countries",
+        "10 countries",
+        "34 countries",
+        "97 languages"
+      ],
+      "navigation": {
+        "indicator": "34/37",
+        "current": 34,
+        "total": 37
+      }
+    },
+    {
+      "page_id": "f14",
+      "title": "Integration Ecosystem",
+      "subtitle": "",
+      "sections": [],
+      "tables": [
+        {
+          "headers": [
+            "Platform",
+            "Type",
+            "Use Case"
+          ],
+          "rows": [
+            [
+              "n8n",
+              "Native node",
+              "Workflow automation"
+            ],
+            [
+              "Zapier",
+              "Webhooks",
+              "No-code automation"
+            ],
+            [
+              "Make.com",
+              "HTTP modules",
+              "Visual automation"
+            ],
+            [
+              "Power Automate",
+              "Custom connector",
+              "M365 workflows"
+            ]
+          ]
+        },
+        {
+          "headers": [
+            "System",
+            "API",
+            "Protection"
+          ],
+          "rows": [
+            [
+              "Zendesk",
+              "REST API",
+              "Ticket anonymize"
+            ],
+            [
+              "Freshdesk",
+              "REST API",
+              "Customer data"
+            ],
+            [
+              "Jira",
+              "REST API",
+              "Issue anonymize"
+            ],
+            [
+              "ServiceNow",
+              "REST API",
+              "ITSM data"
+            ]
+          ]
+        }
+      ],
+      "tooltips": [
+        {
+          "trigger": "n8n",
+          "title": "Native anonymize node for n8n workflow automation.",
+          "body": "Native anonymize node for n8n workflow automation. Integration: First-class node in n8n marketplace Self-hosted: EU data sovereignty option Triggers: Webhook, schedule, or event-based Use cases: Email processing, form submissions, API data Enterprise benefit n8n's self-hosted option keeps all data on-premises while integrating anonymization into existing workflows. Source: anonymize.today"
+        },
+        {
+          "trigger": "zapier",
+          "title": "Webhook integration for 5000+ app ecosystem.",
+          "body": "Webhook integration for 5000+ app ecosystem. Method: Webhooks by Zapier Apps: 5000+ connected applications No-code: Non-technical users can build Examples: Gmail, Slack, Google Sheets, HubSpot Use case Automatically anonymize customer data from CRM before exporting to analytics platforms. Source: anonymize.today"
+        },
+        {
+          "trigger": "make",
+          "title": "HTTP module integration for visual workflow building.",
+          "body": "HTTP module integration for visual workflow building. Formerly: Integromat (rebranded 2022) Visual: Drag-and-drop workflow builder Complex flows: Better for multi-step logic Pricing: More generous free tier than Zapier Technical advantage Make.com's HTTP module allows full API customization including custom headers and authentication. Source: anonymize.today"
+        },
+        {
+          "trigger": "powerautomate",
+          "title": "Custom connector for Microsoft 365 workflows.",
+          "body": "Custom connector for Microsoft 365 workflows. Integration: Native M365 ecosystem SharePoint: Document anonymization triggers Teams: Sensitive data protection in messages Dynamics: CRM data protection workflows Enterprise market Power Automate is standard in enterprise M365 deployments - native integration reduces friction. Source: anonymize.today"
+        },
+        {
+          "trigger": "zendesk",
+          "title": "Ticket anonymization for support workflows.",
+          "body": "Ticket anonymization for support workflows. Trigger: New ticket or ticket update Fields: Subject, description, custom fields Attachments: Document content scanning Compliance: GDPR right to erasure support Support use case Customers often include PII in tickets. Auto-anonymization protects data before agent access. Source: anonymize.today"
+        },
+        {
+          "trigger": "freshdesk",
+          "title": "Customer data protection in Freshdesk tickets.",
+          "body": "Customer data protection in Freshdesk tickets. API: Full REST API integration Real-time: Webhook triggers on ticket events Fields: All text fields + attachments Reporting: Anonymized data for analytics Compliance benefit Protect customer PII in support tickets while maintaining searchable, analyzable data. Source: anonymize.today"
+        },
+        {
+          "trigger": "jira",
+          "title": "Issue anonymization for development workflows.",
+          "body": "Issue anonymization for development workflows. Triggers: Issue create, update, comment Fields: Summary, description, comments Bug reports: Auto-redact customer data in logs Exports: Anonymized data for external sharing Developer workflow Bug reports often contain customer data. Automatic anonymization prevents PII in development systems. Source: anonymize.today"
+        },
+        {
+          "trigger": "servicenow",
+          "title": "ITSM data protection for enterprise workflows.",
+          "body": "ITSM data protection for enterprise workflows. Incidents: Auto-anonymize customer details Changes: Protect sensitive system info CMDB: Secure configuration data Audit: Compliance-ready data handling Enterprise ITSM ServiceNow is the enterprise ITSM standard. Integration enables organization-wide PII protection. Source: anonymize.today"
+        },
+        {
+          "trigger": "cicd_commit",
+          "title": "Code commit triggers security scan.",
+          "body": "Code commit triggers security scan. Git hooks: Pre-commit and pre-push validation Platforms: GitHub, GitLab, Bitbucket, Azure DevOps Scan scope: Changed files only for speed Fail fast: Block commits with exposed secrets Shift-left security Catch secrets before they enter version control. Prevention is cheaper than remediation. Source: anonymize.today"
+        },
+        {
+          "trigger": "cicd_build",
+          "title": "Build stage security validation.",
+          "body": "Build stage security validation. Artifacts: Scan compiled outputs Dependencies: Check for embedded secrets Environment: Validate build-time variables Containers: Scan Docker images Build security Secrets can leak through build artifacts, logs, and container layers. Build-time scanning catches these. Source: anonymize.today"
+        },
+        {
+          "trigger": "cicd_scan",
+          "title": "anonymize.dev security scan - PII + Secrets.",
+          "body": "anonymize.dev security scan - PII + Secrets. Unique combined detection: Secrets: API keys, tokens, passwords PII: Names, emails, SSNs in code/docs Speed: Sub-second scan for typical commits Output: SARIF format for GitHub Advanced Security Competitive advantage Only solution combining PII + secrets detection in CI/CD. Competitors require separate tools. Source: anonymize.today"
+        },
+        {
+          "trigger": "cicd_deploy",
+          "title": "Deploy decision based on scan results.",
+          "body": "Deploy decision based on scan results. Clean: Automatic deployment proceeds Findings: Block deployment, create issue Severity: Configurable thresholds Notifications: Slack, Teams, email alerts Automated response Policy-driven automation ensures consistent security enforcement without manual review bottlenecks. Source: anonymize.today"
+        }
+      ],
+      "links": {
+        "internal": [
+          {
+            "href": "/content/financial/",
+            "text": "Anonymize.infoFINANCIAL"
+          },
+          {
+            "href": "/content/financial/f13.html",
+            "text": "Back"
+          },
+          {
+            "href": "/content/financial/f15.html",
+            "text": "Next"
+          }
+        ],
+        "external": [
+          {
+            "href": "https://anonymize.today",
+            "text": "anonymize.today"
+          }
+        ]
+      },
+      "key_statistics": [
+        "100%"
+      ],
+      "navigation": {
+        "indicator": "F14 / 18",
+        "current": 14,
+        "total": 18
+      }
+    },
+    {
+      "page_id": "f15",
+      "title": "Technology Moat - 9 Pillars",
+      "subtitle": "",
+      "sections": [],
+      "tables": [],
+      "tooltips": [
+        {
+          "trigger": "deterministic",
+          "title": "Same input = Same output, every time.",
+          "body": "Same input = Same output, every time. Azure AI and other ML-based solutions produce confidence scores (0.0-1.0) that vary between runs. The same document processed twice may yield different results. Reproducibility: 100% identical results for audit trails Legal admissibility: Court-ready evidence Zero model drift: No degradation over time No retraining: Patterns are static and explicit Competitor gap Azure AI uses probabilistic confidence scores. Results change with model updates, making compliance audits impossible. Source: Fortune Business Insights | Visit: anonymize.today"
+        },
+        {
+          "trigger": "languages",
+          "title": "48 languages with full regional dialect support.",
+          "body": "48 languages with full regional dialect support. Not just major languages - includes critical regional variants: Spanish: Castilian, Catalan, Valencian, Basque, Galician German: Standard, Swiss German, Austrian French: Standard, Belgian, Swiss, Canadian Dutch: Standard, Flemish (Belgian) Competitor gap Azure has 96-97 languages but lacks regional variant patterns for PII. AWS Comprehend supports only English + Spanish for PII detection. Source: Fortune Business Insights | Visit: anonymize.today"
+        },
+        {
+          "trigger": "government",
+          "title": "Built for government multilingual requirements.",
+          "body": "Built for government multilingual requirements. Regulatory mandates for official language support: EU: 24 official languages mandatory for institutions Spain: Castilian + 5 co-official languages (constitutional) Switzerland: 4 national languages (DE, FR, IT, RM) Belgium: 3 official languages (NL, FR, DE) Why it matters Government contracts require full regional language compliance. No AI competitor can match deterministic multilingual detection. Source: Multilingual Government Analysis | Visit: anonymize.today"
+        },
+        {
+          "trigger": "countries",
+          "title": "290+ entity types across 75+ countries.",
+          "body": "290+ entity types across 75+ countries. Comprehensive regional PII pattern coverage: National IDs: SSN, DNI, NIE, BSN, PESEL, etc. Tax numbers: NIF, TIN, Steuer-ID, etc. Banking: IBAN, SWIFT, routing numbers Healthcare: NHS, EHIC, insurance IDs Competitor gap Most competitors offer 50-100 entity types focused on US/UK. No AI solution provides regional regex patterns for 75+ countries. Source: Fortune Business Insights | Visit: anonymize.today"
+        },
+        {
+          "trigger": "platforms",
+          "title": "7 delivery platforms - maximum flexibility.",
+          "body": "7 delivery platforms - maximum flexibility. Online (6): Web application (anonymize.today) Desktop app (Electron) Office Add-in (Word, Excel, Outlook) Chrome Extension MCP Server (AI assistant integration) REST API Offline (1): anonym.plus (perpetual license) Competitor gap Competitors typically offer single-platform solutions. Our multi-platform approach covers every enterprise use case. Source: Fortune Business Insights | Visit: anonymize.today | anonym.plus"
+        },
+        {
+          "trigger": "zeroknowledge",
+          "title": "Zero-Knowledge + PII: Unique combination.",
+          "body": "Zero-Knowledge + PII: Unique combination. anonym.legal cryptographic architecture: Argon2id: PHC (Password Hashing Competition) winner XChaCha20-Poly1305: WireGuard cipher suite Client-side encryption: Data encrypted before upload Server-blind: Server never sees plaintext Market position No other PII detection platform offers zero-knowledge architecture. Critical for legal, healthcare, and high-security industries. Source: Fortune Business Insights | Visit: anonym.legal"
+        },
+        {
+          "trigger": "offline",
+          "title": "100% offline processing for air-gapped environments.",
+          "body": "100% offline processing for air-gapped environments. anonym.plus includes bundled components: Microsoft Presidio: NER engine spaCy NLP: 20+ language models Tesseract OCR: 48 languages 200+ entity types Perpetual license: No subscription Use cases Air-gapped government systems, defense installations, high-security financial institutions. Zero internet dependency. Source: Fortune Business Insights | Visit: anonym.plus"
+        },
+        {
+          "trigger": "secrets",
+          "title": "PII + Secrets detection in one solution.",
+          "body": "PII + Secrets detection in one solution. anonymize.dev detects both categories: PII (256+ types): Names, emails, phones, SSNs, credit cards, addresses Secrets: AWS keys, Azure tokens, GCP credentials, SSH keys, JWT tokens, OAuth secrets Competitor gap Competitors separate PII and secrets detection into different products (e.g., Nightfall vs GitGuardian). We combine both in a single MCP server. Source: Fortune Business Insights | Visit: anonymize.today"
+        },
+        {
+          "trigger": "sovereignty",
+          "title": "EU data stays in the EU.",
+          "body": "EU data stays in the EU. US Cloud Act implications for competitors: Azure/AWS: Subject to US government data requests BigID: US-headquartered, Cloud Act exposed anonymize: German hosting (Hetzner, ISO 27001) GDPR compliance EU institutions and regulated industries require data sovereignty. German hosting eliminates US Cloud Act exposure entirely. Source: Fortune Business Insights | Visit: anonymize.today"
+        }
+      ],
+      "links": {
+        "internal": [
+          {
+            "href": "/content/financial/",
+            "text": "Anonymize.infoFINANCIAL"
+          },
+          {
+            "href": "/content/financial/f14.html",
+            "text": "Back"
+          },
+          {
+            "href": "/content/financial/f16.html",
+            "text": "Next"
+          }
+        ],
+        "external": [
+          {
+            "href": "https://www.fortunebusinessinsights.com/data-privacy-software-market-105420",
+            "text": "Fortune Business Insights"
+          },
+          {
+            "href": "https://anonymize.today",
+            "text": "anonymize.today"
+          },
+          {
+            "href": "https://anonym.plus",
+            "text": "anonym.plus"
+          },
+          {
+            "href": "https://anonym.legal",
+            "text": "anonym.legal"
+          }
+        ]
+      },
+      "key_statistics": [
+        "100%",
+        "50%",
+        "48 Languages",
+        "290+ entities",
+        "48 languages",
+        "97 languages",
+        "75+ countries",
+        "20+ language",
+        "256+ types"
+      ],
+      "navigation": {
+        "indicator": "F15 / 18",
+        "current": 15,
+        "total": 18
+      }
+    },
+    {
+      "page_id": "f16",
+      "title": "Government & Multilingual Advantage",
+      "subtitle": "",
+      "sections": [],
+      "tables": [
+        {
+          "headers": [
+            "Region",
+            "Languages",
+            "Variants",
+            "Volume"
+          ],
+          "rows": [
+            [
+              "European Union",
+              "24 official",
+              "Multiple per country",
+              "2.5M pages/yr"
+            ],
+            [
+              "Spain",
+              "Castilian + 5",
+              "Catalan, Valencian, Basque, Galician, Aranese",
+              "All govt services"
+            ],
+            [
+              "Switzerland",
+              "4 national",
+              "German, French, Italian, Romansh",
+              "Federal + cantonal"
+            ],
+            [
+              "Belgium",
+              "3 official",
+              "Dutch, French, German",
+              "Federal trilingual"
+            ],
+            [
+              "Luxembourg",
+              "3 + English",
+              "French, German, Luxembourgish",
+              "Banking, govt"
+            ]
+          ]
+        },
+        {
+          "headers": [
+            "Requirement",
+            "AI/ML",
+            "anonymize"
+          ],
+          "rows": [
+            [
+              "Same input = Same output",
+              "Varies",
+              "100% reproducible"
+            ],
+            [
+              "Legal evidence",
+              "Model drift risk",
+              "Court-admissible"
+            ],
+            [
+              "GDPR Article 35",
+              "Justification",
+              "Native compliance"
+            ],
+            [
+              "Cross-language",
+              "Model varies",
+              "Same patterns"
+            ],
+            [
+              "Audit trail",
+              "Probabilistic",
+              "Exact match"
+            ]
+          ]
+        }
+      ],
+      "tooltips": [
+        {
+          "trigger": "eu",
+          "title": "24 official languages mandatory for all EU institutions.",
+          "body": "24 official languages mandatory for all EU institutions. The European Union operates in 24 official languages across 27 member states: DG Translation: Largest translation service worldwide Volume: 2.5 million pages translated annually Requirement: All legal documents in all official languages Citizens: Right to communicate in native language PII detection challenge Each language has unique PII patterns (national IDs, tax numbers, addresses). AI models struggle with less common EU languages. Source: Multilingual Government Analysis | Visit: anonymize.today"
+        },
+        {
+          "trigger": "spain",
+          "title": "Castilian + 5 co-official regional languages.",
+          "body": "Castilian + 5 co-official regional languages. Spain's constitution guarantees regional language rights: Catalan: Catalonia, Balearic Islands (7.5M speakers) Valencian: Valencia region (legally distinct from Catalan) Basque: Basque Country (700K speakers, language isolate) Galician: Galicia (2.4M speakers) Aranese: Val d'Aran (5K speakers, Occitan variant) Government mandate All 17 autonomous communities provide services in regional languages. PII patterns differ per region (DNI vs NIE formats). Source: Multilingual Government Analysis | Visit: anonymize.today"
+        },
+        {
+          "trigger": "switzerland",
+          "title": "4 national languages with equal legal status.",
+          "body": "4 national languages with equal legal status. Swiss federal system requires multilingual support: German: 63% of population (various dialects) French: 23% of population Italian: 8% of population (Ticino) Romansh: 0.5% (Graubunden, 5 dialects) PII complexity Swiss AHV numbers, cantonal formats, and multilingual addresses require specialized patterns. 26 cantons with varying requirements. Source: Multilingual Government Analysis | Visit: anonymize.today"
+        },
+        {
+          "trigger": "belgium",
+          "title": "3 official languages across 3 regions.",
+          "body": "3 official languages across 3 regions. Belgium's complex linguistic landscape: Dutch (Flemish): Flanders (60% of population) French: Wallonia + Brussels (40%) German: East Belgium (1%, ~77K speakers) Brussels: Officially bilingual (Dutch/French) Federal requirements Federal government is trilingual. All official documents available in 3 languages. National ID (eID) patterns uniform but names/addresses vary. Source: Multilingual Government Analysis | Visit: anonymize.today"
+        },
+        {
+          "trigger": "luxembourg",
+          "title": "3 official languages + widespread English usage.",
+          "body": "3 official languages + widespread English usage. Luxembourg as EU financial center: Luxembourgish: National language (daily use) French: Administrative/legal language German: Secondary administrative language English: Financial sector standard Banking sector impact Major EU banking hub with 130+ banks. Financial documents in multiple languages. Tax (fiche) and ID patterns unique to Luxembourg. Source: Multilingual Government Analysis | Visit: anonymize.today"
+        }
+      ],
+      "links": {
+        "internal": [
+          {
+            "href": "/content/financial/",
+            "text": "Anonymize.infoFINANCIAL"
+          },
+          {
+            "href": "/content/financial/f15.html",
+            "text": "Back"
+          },
+          {
+            "href": "/content/financial/f17.html",
+            "text": "Next"
+          }
+        ],
+        "external": [
+          {
+            "href": "https://anonymize.today",
+            "text": "anonymize.today"
+          }
+        ]
+      },
+      "key_statistics": [
+        "100%",
+        "63%",
+        "23%",
+        "8%",
+        "5%",
+        "60%",
+        "40%",
+        "1%",
+        "3 languages"
+      ],
+      "navigation": {
+        "indicator": "F16 / 18",
+        "current": 16,
+        "total": 18
+      }
+    },
+    {
+      "page_id": "f17",
+      "title": "Financial Sector - KYC/AML",
+      "subtitle": "",
+      "sections": [],
+      "tables": [
+        {
+          "headers": [
+            "Region",
+            "Languages",
+            "Documents"
+          ],
+          "rows": [
+            [
+              "Luxembourg",
+              "FR, DE, LU, EN",
+              "Bank statements, tax, contracts"
+            ],
+            [
+              "Swiss Banking",
+              "DE, FR, IT, RM",
+              "AHV, passports, IBANs"
+            ],
+            [
+              "EU Banking",
+              "24 official",
+              "SEPA, national IDs, tax"
+            ],
+            [
+              "Belgian Banks",
+              "NL, FR, DE",
+              "Trilingual ID processing"
+            ]
+          ]
+        },
+        {
+          "headers": [
+            "Feature",
+            "Azure",
+            "AWS",
+            "anonymize"
+          ],
+          "rows": [
+            [
+              "Languages",
+              "96-97",
+              "2",
+              "48"
+            ],
+            [
+              "Dialects",
+              "Limited",
+              "No",
+              "Full"
+            ],
+            [
+              "Audit-Proof",
+              "No",
+              "No",
+              "Yes"
+            ],
+            [
+              "EU Sovereignty",
+              "No (US)",
+              "No (US)",
+              "Germany"
+            ]
+          ]
+        }
+      ],
+      "tooltips": [
+        {
+          "trigger": "kyc",
+          "title": "$5.9 billion KYC software market in 2025.",
+          "body": "$5.9 billion KYC software market in 2025. Know Your Customer (KYC) verification for financial institutions: Identity verification: Document scanning, biometrics Customer due diligence: Risk assessment, screening Ongoing monitoring: Transaction patterns, alerts Regulatory reporting: SAR, CTR filings Market drivers Increasing regulatory pressure (AMLD6, FinCEN), digital banking growth, and crypto regulations driving demand for automated KYC solutions. Source: anonymize.today"
+        },
+        {
+          "trigger": "cagr",
+          "title": "24.8% CAGR - fastest growing compliance segment.",
+          "body": "24.8% CAGR - fastest growing compliance segment. Key growth factors: Digital banking: Neobanks require automated KYC Crypto regulations: MiCA, Travel Rule compliance Remote onboarding: Post-COVID digital identity AI/ML adoption: Automated document processing anonymize opportunity Deterministic PII detection fills critical gap in KYC workflows. Audit-proof results required for regulatory examinations. Source: anonymize.today"
+        },
+        {
+          "trigger": "aml",
+          "title": "$4.1 billion Anti-Money Laundering software market.",
+          "body": "$4.1 billion Anti-Money Laundering software market. AML compliance components: Transaction monitoring: Pattern detection, alerts Sanctions screening: OFAC, EU, UN lists PEP screening: Politically exposed persons SAR filing: Suspicious activity reports PII role in AML Name matching, address verification, and ID validation are core AML functions. Multilingual support critical for international banks. Source: anonymize.today"
+        },
+        {
+          "trigger": "luxembourg",
+          "title": "Major EU financial center with multilingual requirements.",
+          "body": "Major EU financial center with multilingual requirements. Luxembourg banking sector: 130+ banks: Major international presence Languages: French, German, Luxembourgish, English Documents: Bank statements, tax fiches, contracts Fund industry: Largest in EU, $5.7T AUM PII patterns Unique Luxembourgish national ID (matricule), multilingual address formats, French/German legal documents require specialized patterns. Source: anonymize.today"
+        },
+        {
+          "trigger": "swiss",
+          "title": "World's largest offshore wealth management center.",
+          "body": "World's largest offshore wealth management center. Swiss banking requirements: $2.4T AUM: Private banking assets 4 languages: German, French, Italian, Romansh AHV number: Swiss social security (unique format) Banking secrecy: Special handling requirements Regional complexity Swiss German differs from Standard German. Canton-specific formats for addresses. IBAN validation with CH-specific rules. Source: anonymize.today"
+        },
+        {
+          "trigger": "eubanking",
+          "title": "SEPA zone covering 36 countries.",
+          "body": "SEPA zone covering 36 countries. EU banking compliance: SEPA: Single Euro Payments Area PSD2: Payment Services Directive 2 GDPR: Data protection requirements AMLD6: Anti-Money Laundering Directive Multilingual challenge 24 official EU languages. National ID formats per country. Tax identification varies by jurisdiction. Cross-border transactions require multi-pattern detection. Source: anonymize.today"
+        },
+        {
+          "trigger": "belgian",
+          "title": "Trilingual document processing requirements.",
+          "body": "Trilingual document processing requirements. Belgian banking sector: BNB regulations: National Bank of Belgium oversight 3 languages: Dutch (Flemish), French, German eID cards: Electronic ID with chip Complex regions: Flanders, Wallonia, Brussels Regional patterns Same customer may have documents in multiple languages. Address formats differ by region. National number (rijksregisternummer) unique format. Source: anonymize.today"
+        }
+      ],
+      "links": {
+        "internal": [
+          {
+            "href": "/content/financial/",
+            "text": "Anonymize.infoFINANCIAL"
+          },
+          {
+            "href": "/content/financial/f16.html",
+            "text": "Back"
+          },
+          {
+            "href": "/content/financial/f18.html",
+            "text": "Next"
+          }
+        ],
+        "external": [
+          {
+            "href": "https://anonymize.today",
+            "text": "anonymize.today"
+          }
+        ]
+      },
+      "key_statistics": [
+        "100%",
+        "$5.9B",
+        "8%",
+        "$4.1B",
+        "48 languages",
+        "$5.9",
+        "$4.1",
+        "$5.7",
+        "$2.4",
+        "4 languages",
+        "36 countries",
+        "3 languages"
+      ],
+      "navigation": {
+        "indicator": "F17 / 18",
+        "current": 17,
+        "total": 18
+      }
+    },
+    {
+      "page_id": "f18",
+      "title": "Why anonymize Wins",
+      "subtitle": "",
+      "sections": [],
+      "tables": [
+        {
+          "headers": [
+            "Capability",
+            "Azure/AWS",
+            "BigID",
+            "anonymize"
+          ],
+          "rows": [
+            [
+              "Detection",
+              "AI/ML",
+              "AI/ML",
+              "Regex"
+            ],
+            [
+              "Audit Trail",
+              "Black-box",
+              "Black-box",
+              "Transparent"
+            ],
+            [
+              "Model Drift",
+              "Yes",
+              "Yes",
+              "None"
+            ],
+            [
+              "EU Sovereign",
+              "No (US)",
+              "No (US)",
+              "Germany"
+            ],
+            [
+              "Dialects",
+              "Limited",
+              "No",
+              "Full"
+            ]
+          ]
+        },
+        {
+          "headers": [
+            "Advantage",
+            "Details",
+            "Gap"
+          ],
+          "rows": [
+            [
+              "Zero-Knowledge + PII",
+              "Only platform combining ZK architecture with PII anonymization",
+              "Unique"
+            ],
+            [
+              "100% Offline + NLP",
+              "anonym.plus: 200+ entities, 20+ NLP, perpetual license",
+              "Unique"
+            ],
+            [
+              "MCP First-Mover",
+              "97M+ SDK downloads, 5,800+ servers ecosystem",
+              "First"
+            ],
+            [
+              "Secrets + PII",
+              "Combined detection in single solution",
+              "Unique"
+            ],
+            [
+              "Multi-Platform",
+              "6 online + 1 offline delivery options",
+              "Unique"
+            ],
+            [
+              "Gov Multilingual",
+              "24 EU + regional dialects with audit-proof detection",
+              "Leader"
+            ]
+          ]
+        }
+      ],
+      "tooltips": [
+        {
+          "trigger": "deterministic",
+          "title": "Same input = Same output, every time.",
+          "body": "Same input = Same output, every time. AI/ML systems produce confidence scores (0.0-1.0) that vary between runs. The same document processed twice may yield different results. Deterministic regex patterns are static and explicit: 100% reproducible for audit trails Court-admissible as legal evidence Zero model drift over time No retraining required Why it matters Regulated industries (banking, government, healthcare) require reproducible results for compliance audits. Source: Fortune Business Insights"
+        },
+        {
+          "trigger": "languages",
+          "title": "48 languages with full regional dialect support.",
+          "body": "48 languages with full regional dialect support. Not just major languages - includes regional variants that competitors miss: Spanish: Castilian, Catalan, Valencian, Basque, Galician German: Standard, Swiss German, Austrian French: Standard, Belgian, Swiss, Canadian Dutch: Standard, Flemish (Belgian) Competitor gap Azure has 96-97 languages but lacks regional variant patterns. AWS Comprehend supports only English + Spanish. Source: Multilingual Government Analysis"
+        },
+        {
+          "trigger": "entities",
+          "title": "290+ entity types across 75+ countries.",
+          "body": "290+ entity types across 75+ countries. cloak.business offers the most comprehensive entity coverage: Regional ID formats for 75+ countries Tax identification numbers Banking formats (IBAN, SWIFT, routing) National insurance numbers Healthcare identifiers Competitor gap Most competitors offer 50-100 entity types. BigID focuses on data discovery, not PII patterns. Visit: cloak.business Source: Fortune Business Insights"
+        },
+        {
+          "trigger": "detection",
+          "title": "Regex vs AI/ML: Fundamental difference.",
+          "body": "Regex vs AI/ML: Fundamental difference. Azure AI: ML-based NER with confidence scores (0.0-1.0) BigID: AI-powered data intelligence platform anonymize: Deterministic regex pattern matching Key advantage Regex patterns produce identical results every time. AI models are probabilistic - results vary between runs and model versions. Source: Fortune Business Insights"
+        },
+        {
+          "trigger": "audit",
+          "title": "Transparent vs Black-box processing.",
+          "body": "Transparent vs Black-box processing. For regulated industries, audit trails must be: Reproducible: Same input = same output Verifiable: Third parties can validate Time-stable: Results don't change AI limitation AI systems are black boxes - you can't explain why a specific confidence score was produced. Regex patterns are explicit and auditable. Source: Fortune Business Insights"
+        },
+        {
+          "trigger": "drift",
+          "title": "AI models degrade without retraining.",
+          "body": "AI models degrade without retraining. Language patterns evolve over time New PII formats emerge Training data becomes stale Model updates change behavior anonymize advantage Deterministic regex has zero drift - patterns are explicit and static. No retraining cycles, no unexpected behavior changes. Source: Fortune Business Insights"
+        },
+        {
+          "trigger": "sovereignty",
+          "title": "EU data stays in the EU.",
+          "body": "EU data stays in the EU. US Cloud Act implications: US-based providers (Azure, AWS, BigID) subject to US law US government can compel data disclosure EU data protection may be compromised anonymize solution German hosting (Hetzner, ISO 27001 certified). No US Cloud Act exposure. Full GDPR compliance with EU-only processing. Source: anonymize.today"
+        },
+        {
+          "trigger": "dialects",
+          "title": "Regional variants matter for compliance.",
+          "body": "Regional variants matter for compliance. Government documents come in regional languages: Swiss German (CH-DE) - different from Standard German Flemish (BE-NL) - Belgian Dutch Catalan (ES-CA) - Spanish regional Belgian French (BE-FR) Competitor gap Azure/AWS focus only on major language variants. They miss regional patterns that government agencies require. Source: Multilingual Government Analysis"
+        },
+        {
+          "trigger": "zk",
+          "title": "Zero-Knowledge + PII: Unique combination.",
+          "body": "Zero-Knowledge + PII: Unique combination. anonym.legal architecture: Argon2id: PHC (Password Hashing Competition) winner XChaCha20-Poly1305: WireGuard cipher suite Server NEVER sees plaintext data Client-side encryption before processing Market position No other PII detection platform offers zero-knowledge architecture combined with full PII detection capabilities. Visit: anonym.legal Source: anonym.legal"
+        },
+        {
+          "trigger": "offline",
+          "title": "100% offline processing for air-gapped environments.",
+          "body": "100% offline processing for air-gapped environments. anonym.plus includes: Bundled Microsoft Presidio engine spaCy NLP models (20+ languages) Tesseract OCR (48 languages) 200+ entity types Perpetual license model Use cases Air-gapped government systems, defense installations, high-security financial institutions. No internet dependency. Visit: anonym.plus Source: anonymize.today"
+        },
+        {
+          "trigger": "mcp",
+          "title": "First MCP Server for PII protection.",
+          "body": "First MCP Server for PII protection. Model Context Protocol ecosystem: 97M+ monthly SDK downloads 5,800+ registered servers 300+ MCP clients Integration anonymize.dev MCP Server integrates with Claude Desktop, Cursor IDE, VS Code. First-mover advantage in AI coding assistant protection. Visit: anonymize.dev Source: Fortune Business Insights"
+        },
+        {
+          "trigger": "secrets",
+          "title": "PII + Secrets in one solution.",
+          "body": "PII + Secrets in one solution. anonymize.dev detects both: PII (50+ types): Names, emails, phones, SSNs, credit cards Secrets: API keys (AWS, Azure, GCP), SSH keys, JWT tokens, OAuth credentials Competitor gap Competitors separate PII and secrets detection into different products. We combine both in a single solution. Visit: anonymize.dev Source: anonymize.today"
+        },
+        {
+          "trigger": "platform",
+          "title": "7 delivery platforms - maximum flexibility.",
+          "body": "7 delivery platforms - maximum flexibility. Online: Web app, Desktop, Office Add-in, Chrome Extension, MCP Server, REST API Offline: anonym.plus (perpetual license) Competitor gap Most competitors offer single-platform solutions. We cover every use case. Platforms: anonymize.today | anonym.plus | anonymize.dev Source: anonymize.today"
+        },
+        {
+          "trigger": "gov",
+          "title": "Built for government multilingual requirements.",
+          "body": "Built for government multilingual requirements. EU: 24 official languages mandatory Spain: Castilian + 5 co-official languages Switzerland: 4 national languages (DE, FR, IT, RM) Belgium: 3 official languages (NL, FR, DE) Key differentiator Audit-proof detection across all regional languages. No AI competitor can match deterministic multilingual compliance. Visit: anonymize.solutions Source: Multilingual Government Analysis"
+        }
+      ],
+      "links": {
+        "internal": [
+          {
+            "href": "/content/financial/",
+            "text": "Anonymize.infoFINANCIAL"
+          },
+          {
+            "href": "/content/financial/f17.html",
+            "text": "Back"
+          },
+          {
+            "href": "/content/financial/",
+            "text": "Finish"
+          }
+        ],
+        "external": [
+          {
+            "href": "https://www.fortunebusinessinsights.com/data-privacy-software-market-105420",
+            "text": "Fortune Business Insights"
+          },
+          {
+            "href": "https://cloak.business",
+            "text": "cloak.business"
+          },
+          {
+            "href": "https://anonymize.today",
+            "text": "anonymize.today"
+          },
+          {
+            "href": "https://anonym.legal",
+            "text": "anonym.legal"
+          },
+          {
+            "href": "https://anonym.plus",
+            "text": "anonym.plus"
+          },
+          {
+            "href": "https://anonymize.dev",
+            "text": "anonymize.dev"
+          },
+          {
+            "href": "https://anonymize.solutions",
+            "text": "anonymize.solutions"
+          }
+        ]
+      },
+      "key_statistics": [
+        "100%",
+        "48 Languages",
+        "200+ entities",
+        "48 languages",
+        "97 languages",
+        "75+ countries",
+        "20+ languages",
+        "50+ types"
+      ],
+      "navigation": {
+        "indicator": "F18 / 18",
+        "current": 18,
+        "total": 18
+      }
+    }
+  ]
+}
