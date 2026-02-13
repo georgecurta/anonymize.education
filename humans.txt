@@ -1,0 +1,44 @@
+/* TEAM */
+Owner: George Curta
+Company: curta.solutions
+Location: Saarbruecken, Germany
+Founded: 1998
+Contact: https://anonymize.education/contact.html
+
+/* SITE */
+Last update: 2026-02-13
+Language: English
+Standards: HTML5, CSS3, JavaScript ES6+
+Software: nginx, Ubuntu 24.04 LTS
+Frameworks: Vanilla JS
+
+/* PURPOSE */
+Mission: Data anonymization for education
+Target: Schools, universities, research institutions
+Focus: GDPR and FERPA compliance
+
+/* PRODUCTS */
+- Desktop App (FREE for Windows)
+- Office Add-in (Word, Excel, PowerPoint)
+- MCP Server (AI assistant integration)
+
+/* FEATURES */
+- 50+ Entity Types detected
+- 48 Languages supported
+- ISO 27001:2022 Certified
+- Zero-Knowledge Architecture
+
+/* PARENT PLATFORM */
+Platform: anonym.legal
+
+/* COMPLIANCE */
+Standards: GDPR, FERPA, ISO 27001
+
+/* AI-FRIENDLY */
+LLMs.txt: https://anonymize.education/llms.txt
+AI.txt: https://anonymize.education/ai.txt
+Robots.txt: https://anonymize.education/robots.txt
+Sitemap: https://anonymize.education/sitemap.xml
+
+/* THANKS */
+Fonts: Google Fonts (Work Sans, IBM Plex Mono)
