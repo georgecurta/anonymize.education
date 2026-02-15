@@ -1309,3 +1309,10 @@ h1, h2, h3, h4, h5, h6 {
   max-width: 100%;
   overflow-x: hidden;
 }
+
+/* Off-screen content optimization */
+.footer,
+main > section:nth-child(n+3) {
+  content-visibility: auto;
+  contain-intrinsic-size: auto 600px;
+}
