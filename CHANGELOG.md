@@ -4,6 +4,14 @@ All notable changes to the Anonymize.Education website will be documented in thi
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
+## [1.1.2] - 2026-02-15
+
+### Search Engine Registration
+
+- Registered in Bing Webmaster Tools (imported from Google Search Console)
+- Covers Bing, Yahoo, DuckDuckGo, and Ecosia search indexing
+- Sitemaps submitted to Bing for crawling
+
 ## [1.1.1] - 2026-02-15
 
 ### Security Scanner Compliance — 0 Findings
