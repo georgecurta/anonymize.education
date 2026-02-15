@@ -4,6 +4,48 @@ All notable changes to the Anonymize.Education website will be documented in thi
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
+## [1.1.0] - 2026-02-15
+
+### Deep SEO & Security Hardening (Tiers 1–6)
+
+Comprehensive multi-tier SEO optimization and security header hardening across all 8 pages.
+
+#### Tier 1 — AI & Crawler Infrastructure
+- **llms-full.txt** — Full-text content export for LLM crawlers (27,908 bytes, 8 page sections)
+- **ai.txt** — AI usage permissions (training, inference, search-index all allowed)
+- **security.txt** — RFC 9116 vulnerability disclosure policy (expires 2027-02-08)
+- **IndexNow key** — Instant search engine notification on deploy
+- **robots.txt** — 34 AI crawler directives, llms.txt reference, no duplicates
+
+#### Tier 2 — Meta Tag Consistency
+- Added full OG meta tags (`og:type`, `og:url`, `og:title`, `og:description`, `og:image`, `og:site_name`) to 7 pages (only index.html had them)
+- Added Twitter Card tags (`twitter:card`, `twitter:title`, `twitter:description`, `twitter:image`) to 7 pages
+- Updated `sitemap.xml` lastmod dates
+
+#### Tier 3 — JSON-LD Structured Data
+- All 8/8 pages have JSON-LD (17 total blocks)
+- **index.html**: Organization + SoftwareApplication (4 pricing tiers) + WebPage
+- **features.html, products.html, use-cases.html, pricing.html**: WebPage + BreadcrumbList
+- **contact.html**: ContactPage + BreadcrumbList + FAQPage (3 FAQs)
+- **pricing.html**: WebPage + BreadcrumbList + FAQPage (6 FAQs)
+- **datenschutz.html, impressum.html**: WebPage
+
+#### Tier 4 — Language & FAQPage
+- **FAQPage JSON-LD** — Added to `pricing.html` (6 FAQs) and `contact.html` (3 FAQs)
+- **Lang attribute fix** — Reverted incorrect `lang="de"` back to `lang="en"` on datenschutz.html and impressum.html (page names are German but content is English)
+- **hreflang fix** — Corrected from `de` to `en` on datenschutz.html and impressum.html
+- **Content-Language fix** — Corrected from `de` to `en`
+
+#### Tier 6 — Security & Identity
+- **Permissions-Policy** — Expanded from 8 to 16 API restrictions (added bluetooth, serial, hid, midi, display-capture, xr-spatial-tracking, idle-detection, screen-wake-lock)
+- **`<link rel="me">`** — Added GitHub identity verification to all 8 pages
+
+#### Audit Results
+- Deep SEO audit: **ALL CHECKS PASSED** (1 expected warning: Organization on homepage only)
+- Live header audit: **17/17 PERFECT** — all security headers, redirects, and assets verified
+
+---
+
 ## [1.0.3] - 2026-02-08
 
 ### Added
