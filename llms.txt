@@ -1,5 +1,6 @@
-# anonymize.education - LLM Information File
-# Last updated: 2026-02-08
+# anonymize.education
+
+> Data anonymization tools for schools, universities, and educational institutions. GDPR and FERPA compliance. 50+ entity types, 48 languages.
 
 - Full content: https://anonymize.education/llms-full.txt
 
