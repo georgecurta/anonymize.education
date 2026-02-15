@@ -1,6 +1,8 @@
 # anonymize.education - LLM Information File
 # Last updated: 2026-02-08
 
+- Full content: https://anonymize.education/llms-full.txt
+
 ## About This Site
 
 anonymize.education is the education-focused portal for data anonymization tools. We help schools, universities, and educational institutions protect student data, research data, and administrative records while maintaining GDPR and FERPA compliance.

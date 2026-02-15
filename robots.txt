@@ -1,48 +1,144 @@
 # robots.txt for anonymize.education
 # Data anonymization for schools and universities
 
+# Default: Allow all crawlers
 User-agent: *
 Allow: /
+Crawl-delay: 1
 
-# Sitemaps
-Sitemap: https://anonymize.education/sitemap.xml
+# Block sensitive paths
+Disallow: /api/
 
-# LLM/AI Crawler Information
-# See llms.txt for AI-friendly site description
-# https://anonymize.education/llms.txt
+# --- Search Engine Crawlers ---
 
-# AI Crawlers - Welcome
+# Google
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /
+
+User-agent: Googlebot-Video
+Allow: /
+
+# Bing
+User-agent: Bingbot
+Allow: /
+
+# Yandex
+User-agent: YandexBot
+Allow: /
+
+# DuckDuckGo
+User-agent: DuckDuckBot
+Allow: /
+
+# --- AI Crawlers ---
+
+# OpenAI
 User-agent: GPTBot
 Allow: /
 
 User-agent: ChatGPT-User
 Allow: /
 
-User-agent: Claude-Web
+User-agent: OAI-SearchBot
 Allow: /
 
+# Anthropic
 User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-Web
 Allow: /
 
 User-agent: Anthropic-AI
 Allow: /
 
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+# Google AI
 User-agent: Google-Extended
 Allow: /
 
-User-agent: Bingbot
+User-agent: Google-CloudVertexBot
 Allow: /
 
+# Perplexity
 User-agent: PerplexityBot
 Allow: /
 
-User-agent: Cohere-AI
+# Meta / Facebook
+User-agent: FacebookBot
 Allow: /
 
-# Cache and asset files - allow indexing
-Allow: /*.css
-Allow: /*.js
-Allow: /*.svg
-Allow: /*.png
-Allow: /*.jpg
-Allow: /*.webp
+User-agent: Meta-ExternalAgent
+Allow: /
+
+User-agent: Meta-ExternalFetcher
+Allow: /
+
+# Apple
+User-agent: Applebot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+# Amazon
+User-agent: Amazonbot
+Allow: /
+
+# Common Crawl
+User-agent: CCBot
+Allow: /
+
+# Cohere
+User-agent: cohere-ai
+Allow: /
+
+# Mistral AI
+User-agent: MistralAI-User
+Allow: /
+
+# DuckDuckGo AI
+User-agent: DuckAssistBot
+Allow: /
+
+# Allen Institute
+User-agent: AI2Bot
+Allow: /
+
+# Diffbot
+User-agent: Diffbot
+Allow: /
+
+# You.com
+User-agent: YouBot
+Allow: /
+
+# ByteDance
+User-agent: Bytespider
+Allow: /
+
+# Petal (Huawei)
+User-agent: PetalBot
+Allow: /
+
+# Timpi
+User-agent: Timpibot
+Allow: /
+
+# --- Discovery Files ---
+
+Sitemap: https://anonymize.education/sitemap.xml
+
+# LLM content files - https://llmstxt.org
+# llms.txt: https://anonymize.education/llms.txt
+
+# Security contact
+# security.txt: https://anonymize.education/.well-known/security.txt
