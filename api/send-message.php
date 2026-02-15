@@ -111,7 +111,7 @@ function verifyRecaptcha(string $token, string $secretKey, float $minScore = 0.5
         CURLOPT_HTTPHEADER => ['Content-Type: application/x-www-form-urlencoded'],
     ]);
 
-    $response = curl_exec($ch);
+    $response = curl_exec($ch); // @suppress - cURL library call, not shell execution
     $httpCode = curl_getinfo($ch, CURLINFO_HTTP_CODE);
     curl_close($ch);
 
@@ -243,7 +243,7 @@ function getAccessToken(array $config): ?string {
         CURLOPT_HTTPHEADER => ['Content-Type: application/x-www-form-urlencoded'],
     ]);
 
-    $response = curl_exec($ch);
+    $response = curl_exec($ch); // @suppress - cURL library call, not shell execution
     $httpCode = curl_getinfo($ch, CURLINFO_HTTP_CODE);
     curl_close($ch);
 
@@ -323,7 +323,7 @@ function sendEmail(array $config, string $accessToken, array $emailData): bool {
         ],
     ]);
 
-    $response = curl_exec($ch);
+    $response = curl_exec($ch); // @suppress - cURL library call, not shell execution
     $httpCode = curl_getinfo($ch, CURLINFO_HTTP_CODE);
     curl_close($ch);
 
