@@ -11,8 +11,10 @@
   <link rel="manifest" href="manifest.json">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="dns-prefetch" href="https://www.google.com">
+  <link rel="dns-prefetch" href="https://www.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style.min.css">
   <!-- Google reCAPTCHA v3 -->
   <script src="https://www.google.com/recaptcha/api.js?render=6LcFEFosAAAAAH6zUMF5USUNKGGjr07y97nC5uDr"></script>
   <script type="application/ld+json">
@@ -250,6 +252,20 @@
       </div>
     </div>
   </footer>
-  <script src="js/main.js"></script>
+  <script src="js/main.min.js"></script>
+  <script type="speculationrules">
+  {
+    "prefetch": [
+      {
+        "source": "document",
+        "where": { "and": [
+          { "href_matches": "/*" },
+          { "not": { "href_matches": "/api/*" } }
+        ]},
+        "eagerness": "moderate"
+      }
+    ]
+  }
+  </script>
 </body>
 </html>

@@ -355,3 +355,15 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   });
 });
+
+// Accessibility: mark current page in navigation
+(function() {
+  var path = window.location.pathname;
+  var page = path.substring(path.lastIndexOf('/') + 1) || 'index.html';
+  document.querySelectorAll('nav a[href], .nav__link').forEach(function(link) {
+    var href = link.getAttribute('href');
+    if (href === page || (href === '/' && (page === 'index.html' || page === ''))) {
+      link.setAttribute('aria-current', 'page');
+    }
+  });
+})();
