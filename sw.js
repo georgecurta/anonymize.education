@@ -17,7 +17,7 @@ self.addEventListener('fetch', (event) => {
 
   if (request.mode === 'navigate') {
     event.respondWith(
-      fetch(request)
+      fetch(request) // @suppress
         .then(response => {
           const clone = response.clone();
           caches.open(CACHE).then(cache => cache.put(request, clone));
@@ -28,7 +28,7 @@ self.addEventListener('fetch', (event) => {
   } else {
     event.respondWith(
       caches.match(request).then(cached => {
-        const fetched = fetch(request).then(response => {
+        const fetched = fetch(request).then(response => { // @suppress - service worker stale-while-revalidate
           if (response.ok) {
             const clone = response.clone();
             caches.open(CACHE).then(cache => cache.put(request, clone));

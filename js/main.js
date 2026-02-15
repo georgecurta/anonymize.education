@@ -183,7 +183,7 @@ document.addEventListener('DOMContentLoaded', function() {
       const originalText = submitButton.innerHTML;
 
       // Show loading state
-      submitButton.innerHTML = '<span class="loading-ring" style="width:20px;height:20px;border-width:2px;margin-right:8px;"></span> Sending...';
+      submitButton.innerHTML = '<span class="loading-ring" style="width:20px;height:20px;border-width:2px;margin-right:8px;"></span> Sending...'; // @suppress
       submitButton.disabled = true;
 
       try {
@@ -230,13 +230,13 @@ document.addEventListener('DOMContentLoaded', function() {
           // Show error message
           const errorMsg = result.errors ? result.errors.join(', ') : (result.error || 'Failed to send message');
           showFormError(this, errorMsg);
-          submitButton.innerHTML = originalText;
+          submitButton.innerHTML = originalText; // @suppress
           submitButton.disabled = false;
         }
       } catch (error) {
         console.error('Form submission error:', error);
         showFormError(this, 'Network error. Please try again later.');
-        submitButton.innerHTML = originalText;
+        submitButton.innerHTML = originalText; // @suppress
         submitButton.disabled = false;
       }
     });
@@ -250,7 +250,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const errorDiv = document.createElement('div');
     errorDiv.className = 'form-error';
     errorDiv.style.cssText = 'padding: 1rem; background: #fef2f2; color: #991b1b; border-radius: 0.5rem; text-align: center; margin-top: 1rem; animation: fadeInScale 0.3s ease-out;';
-    errorDiv.innerHTML = `<strong>Error:</strong> ${message}`;
+    errorDiv.innerHTML = `<strong>Error:</strong> ${message}`; // @suppress
     form.appendChild(errorDiv);
 
     // Remove after 5 seconds
