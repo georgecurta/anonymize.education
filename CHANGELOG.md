@@ -4,6 +4,18 @@ All notable changes to the Anonymize.Education website will be documented in thi
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
+## [1.1.3] - 2026-02-16
+
+### SEO Audit Fix — Meta Tag Alignment
+
+Resolved 4 SEO audit warnings using the seo-auditor skill.
+
+- Aligned og:title and twitter:title with title on index.html
+- Aligned og:description and twitter:description with meta description on index.html
+- Added llms-full.txt and ai.txt references to robots.txt discovery section
+- Added llms.txt back-reference to llms-full.txt header
+- Audit result: 0 failures, 0 warnings
+
 ## [1.1.2] - 2026-02-15
 
 ### Search Engine Registration

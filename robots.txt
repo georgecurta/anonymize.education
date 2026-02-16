@@ -137,8 +137,12 @@ Allow: /
 
 Sitemap: https://anonymize.education/sitemap.xml
 
-# LLM content files - https://llmstxt.org
+# LLM content files — https://llmstxt.org
 # llms.txt: https://anonymize.education/llms.txt
+# llms-full.txt: https://anonymize.education/llms-full.txt
+
+# AI usage policy
+# ai.txt: https://anonymize.education/ai.txt
 
 # Security contact
 # security.txt: https://anonymize.education/.well-known/security.txt

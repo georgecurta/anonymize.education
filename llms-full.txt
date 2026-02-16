@@ -1,8 +1,8 @@
-# anonymize.education
+# anonymize.education -- Full Content
 
 > Data anonymization tools for schools, universities, and educational institutions. GDPR and FERPA compliance. 50+ entity types, 48 languages, 5 anonymization methods. Free to start.
-
-- Full content: https://anonymize.education/llms-full.txt
+> This file contains the full text content of all pages on anonymize.education.
+> For a structured index, see: https://anonymize.education/llms.txt
 
 ---
 
