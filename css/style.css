@@ -1097,14 +1097,14 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.05em;
-  color: var(--gray-200);
+  color: #f3f4f6;
   margin-bottom: var(--space-md);
 }
 
 .footer__link {
   display: block;
   font-size: 0.938rem;
-  color: var(--gray-300);
+  color: #e5e7eb;
   margin-bottom: var(--space-sm);
   transition: color 0.2s;
 }
