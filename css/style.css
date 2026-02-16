@@ -1082,8 +1082,12 @@ h1, h2, h3, h4, h5, h6 {
   gap: var(--space-sm);
   font-size: 1.25rem;
   font-weight: 700;
-  color: var(--bg-primary);
+  color: #ffffff;
   margin-bottom: var(--space-md);
+}
+
+.footer a {
+  color: #e5e7eb;
 }
 
 .footer__tagline {
@@ -1133,7 +1137,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .footer__copyright {
   font-size: 0.875rem;
-  color: var(--gray-300);
+  color: #9ca3af;
 }
 
 .footer__legal {
