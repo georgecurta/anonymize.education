@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="Content-Language" content="en">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="view-transition" content="same-origin">
+  <meta name="description" content="Real Privacy Challenges Solved - Case studies of data breaches, AI leaks, and compliance failures in education, and how Anonymize.Education prevents them.">
+  <meta name="theme-color" content="#0d5c63">
+  <title>Case Studies | Anonymize.Education</title>
+  <link rel="canonical" href="https://anonymize.education/case-studies.html">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32.png">
+  <link rel="manifest" href="manifest.json">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.min.css">
+  <style>
+    .resource-page { padding: calc(var(--nav-height, 64px) + 2rem) 1.5rem 4rem; max-width: 900px; margin: 0 auto; }
+    .resource-page h1 { font-size: 2.5rem; margin-bottom: 0.5rem; color: #0d5c63; }
+    .resource-page .subtitle { font-size: 1.25rem; color: #64748b; margin-bottom: 2rem; }
+    .resource-page h2 { font-size: 1.5rem; margin: 2.5rem 0 1rem; padding-bottom: 0.5rem; border-bottom: 2px solid #e2e8f0; color: #1e293b; }
+    .resource-page h3 { font-size: 1.125rem; margin: 1.5rem 0 0.5rem; color: #334155; }
+    .resource-page p { margin-bottom: 1rem; line-height: 1.7; color: #475569; }
+    .resource-page ul, .resource-page ol { margin: 1rem 0 1rem 1.5rem; }
+    .resource-page li { margin-bottom: 0.5rem; line-height: 1.6; color: #475569; }
+    .resource-page ul li { list-style: disc; }
+    .resource-page ol li { list-style: decimal; }
+    .resource-page strong { color: #1e293b; }
+    .resource-page code { background: #f1f5f9; padding: 0.125rem 0.375rem; border-radius: 0.25rem; font-size: 0.875rem; }
+    hr { border: none; border-top: 1px solid #e2e8f0; margin: 2rem 0; }
+
+    .toc { background: #f8fafc; padding: 1.5rem; border-radius: 0.75rem; margin-bottom: 2rem; }
+    .toc h2 { margin-top: 0; font-size: 1.125rem; border: none; padding: 0; }
+    .toc ul { margin: 0.75rem 0 0 1rem; }
+    .toc a { color: #0d5c63; text-decoration: none; }
+    .toc a:hover { text-decoration: underline; }
+
+    .download-box { background: linear-gradient(135deg, #0d5c63 0%, #065f46 100%); padding: 1.5rem; border-radius: 0.75rem; margin-bottom: 2rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem; flex-wrap: wrap; }
+    .download-box p { color: white; margin: 0; font-weight: 500; }
+    .download-box .btn { background: white; color: #0d5c63; padding: 0.75rem 1.5rem; border-radius: 0.5rem; text-decoration: none; font-weight: 600; display: inline-flex; align-items: center; gap: 0.5rem; }
+    .download-box .btn:hover { background: #f0fdfa; }
+    .download-box .btn svg { width: 20px; height: 20px; }
+
+    .case-study { background: #ffffff; border: 1px solid #e2e8f0; border-radius: 0.75rem; padding: 2rem; margin: 2rem 0; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+    .case-study h2 { margin-top: 0; border: none; padding: 0; }
+    .case-study-meta { display: flex; gap: 1.5rem; flex-wrap: wrap; margin: 1rem 0 1.5rem; }
+    .case-study-meta span { display: flex; align-items: center; gap: 0.375rem; font-size: 0.875rem; color: #64748b; }
+    .case-study-meta svg { width: 16px; height: 16px; }
+
+    .incident-box { background: #fef2f2; border-left: 4px solid #dc2626; padding: 1rem 1.25rem; margin: 1rem 0; border-radius: 0 0.5rem 0.5rem 0; }
+    .incident-box h3 { margin-top: 0; color: #991b1b; }
+
+    .solution-box { background: #ecfdf5; border-left: 4px solid #059669; padding: 1rem 1.25rem; margin: 1rem 0; border-radius: 0 0.5rem 0.5rem 0; }
+    .solution-box h3 { margin-top: 0; color: #065f46; }
+
+    .stat-box { background: #eff6ff; border: 1px solid #bfdbfe; padding: 1rem; border-radius: 0.5rem; margin: 1rem 0; }
+    .stat-box strong { color: #1e40af; }
+
+    .lesson-box { background: #fefce8; border-left: 4px solid #ca8a04; padding: 1rem 1.25rem; margin: 1rem 0; border-radius: 0 0.5rem 0.5rem 0; }
+    .lesson-box strong { color: #854d0e; }
+
+    .quote-box { background: #f8fafc; border-left: 4px solid #64748b; padding: 1rem 1.25rem; margin: 1rem 0; border-radius: 0 0.5rem 0.5rem 0; font-style: italic; }
+    .quote-box cite { display: block; margin-top: 0.5rem; font-style: normal; font-size: 0.875rem; color: #64748b; }
+
+    .takeaway-table { width: 100%; border-collapse: collapse; margin: 1.5rem 0; }
+    .takeaway-table th, .takeaway-table td { padding: 0.75rem 1rem; text-align: left; border: 1px solid #e2e8f0; }
+    .takeaway-table th { background: #f8fafc; color: #1e293b; font-weight: 600; }
+    .takeaway-table td { color: #475569; }
+
+    .source-list { font-size: 0.875rem; color: #64748b; margin-top: 2rem; }
+    .source-list a { color: #0d5c63; }
+
+    @media (max-width: 640px) {
+      .download-box { text-align: center; }
+      .download-box p { width: 100%; }
+    }
+  </style>
+</head>
+<body>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <nav class="nav" role="navigation" aria-label="Main navigation">
+    <div class="nav__inner">
+      <a href="/" class="nav__logo">
+        <span class="nav__logo-icon">A</span>
+        Anonymize.Education
+      </a>
+      <div class="nav__links">
+        <a href="index.html#solutions" class="nav__link">Solutions</a>
+        <a href="index.html#integrations" class="nav__link">Integrations</a>
+        <a href="index.html#pricing" class="nav__link">Pricing</a>
+        <a href="index.html#trust" class="nav__link">Trust</a>
+        <a href="contact.html" class="nav__link">Contact</a>
+      </div>
+      <div class="nav__cta">
+        <a href="https://anonym.legal" class="btn btn--primary" target="_blank">Start Free</a>
+      </div>
+      <button class="nav__toggle" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+    </div>
+  </nav>
+
+  <main id="main-content" class="resource-page">
+    <h1>Case Studies: Real Privacy Challenges Solved</h1>
+    <p class="subtitle">Based on documented incidents, research, and industry pain points.</p>
+
+    <div class="download-box">
+      <p>Download this guide as a PDF for offline reference</p>
+      <a href="resources/case-studies.pdf" class="btn" download>
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/></svg>
+        Download PDF
+      </a>
+    </div>
+
+    <div class="toc">
+      <h2>Case Studies</h2>
+      <ul>
+        <li><a href="#case1">1. The PowerSchool Breach Crisis (62M records)</a></li>
+        <li><a href="#case2">2. Teacher Uses ChatGPT, Exposes Student Data</a></li>
+        <li><a href="#case3">3. The Malicious Chrome Extension Attack</a></li>
+        <li><a href="#case4">4. FOIA Request Overwhelms Staff</a></li>
+        <li><a href="#case5">5. Research University IRB Compliance Failure</a></li>
+        <li><a href="#case6">6. International School Multi-Jurisdiction Nightmare</a></li>
+        <li><a href="#case7">7. Legal Discovery Production Disaster</a></li>
+        <li><a href="#takeaways">Key Takeaways</a></li>
+      </ul>
+    </div>
+
+    <!-- Case Study 1 -->
+    <article class="case-study" id="case1">
+      <h2>Case Study 1: The PowerSchool Breach Crisis</h2>
+      <div class="case-study-meta">
+        <span><svg viewBox="0 0 24 24" fill="currentColor"><path d="M19 4h-1V2h-2v2H8V2H6v2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 16H5V9h14v11z"/></svg> December 2024</span>
+        <span><svg viewBox="0 0 24 24" fill="currentColor"><path d="M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5s-3 1.34-3 3 1.34 3 3 3zm-8 0c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5 5 6.34 5 8s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5c0-2.33-4.67-3.5-7-3.5zm8 0c-.29 0-.62.02-.97.05 1.16.84 1.97 1.97 1.97 3.45V19h6v-2.5c0-2.33-4.67-3.5-7-3.5z"/></svg> 62M students affected</span>
+        <span><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"/></svg> K-12 schools across North America</span>
+      </div>
+
+      <div class="incident-box">
+        <h3>What Happened</h3>
+        <p>PowerSchool, one of the largest K-12 SIS vendors, suffered a massive data breach. Attackers accessed:</p>
+        <ul>
+          <li>Student names and contact information</li>
+          <li>Parent/guardian details</li>
+          <li>Social Security Numbers</li>
+          <li>Medical information</li>
+          <li>Academic records</li>
+        </ul>
+        <p><strong>Schools had no control over the breach</strong> - their data was compromised through a vendor they trusted.</p>
+      </div>
+
+      <div class="lesson-box">
+        <strong>The Lesson:</strong> 55% of K-12 data breaches are caused by third-party vendors, not the schools themselves. Schools cannot control vendor security practices. They can only control what data they share.
+      </div>
+
+      <div class="solution-box">
+        <h3>How Anonymize.Education Would Help</h3>
+        <ul>
+          <li><strong>Pre-export anonymization:</strong> Remove unnecessary PII before sending to vendors</li>
+          <li><strong>Pseudonymize identifiers:</strong> Vendors get functional data without real SSNs</li>
+          <li><strong>Reversible encryption:</strong> Restore original data internally when needed</li>
+          <li><strong>Reduced blast radius:</strong> If vendor is breached, exposed data is already anonymized</li>
+        </ul>
+      </div>
+
+      <div class="stat-box">
+        <strong>Key Statistics:</strong>
+        <ul style="margin-bottom:0">
+          <li>62M records exposed in single incident</li>
+          <li>1,449 EdTech tools used by average school</li>
+          <li>96% of EdTech apps share data with third parties</li>
+        </ul>
+      </div>
+
+      <p class="source-list"><strong>Source:</strong> PowerSchool breach reporting, K-12 cybersecurity consortium data</p>
+    </article>
+
+    <!-- Case Study 2 -->
+    <article class="case-study" id="case2">
+      <h2>Case Study 2: Teacher Uses ChatGPT, Exposes Student Data</h2>
+
+      <h3>The Scenario</h3>
+      <p>A high school English teacher wants to get AI help grading essays. She copies a student essay into ChatGPT:</p>
+
+      <div class="quote-box">
+        "Please grade this essay by Marcus Johnson about his experience immigrating from Honduras. He discusses his family's journey and his father's deportation hearing..."
+      </div>
+
+      <div class="incident-box">
+        <h3>The Problem</h3>
+        <p>In seconds, she has shared:</p>
+        <ul>
+          <li>Student's full name</li>
+          <li>National origin</li>
+          <li>Immigration status</li>
+          <li>Family legal situation</li>
+        </ul>
+        <p>This data now exists on OpenAI's servers. If the student's family is undocumented, she may have created a permanent record accessible to unknown parties.</p>
+      </div>
+
+      <div class="stat-box">
+        <strong>Industry Data:</strong>
+        <ul style="margin-bottom:0">
+          <li><strong>39.7%</strong> of AI interactions involve sensitive data</li>
+          <li><strong>77%</strong> of employees admit leaking sensitive data to AI tools</li>
+          <li><strong>53%</strong> of enterprises cite data privacy as #1 barrier to AI adoption</li>
+        </ul>
+      </div>
+
+      <div class="solution-box">
+        <h3>How Anonymize.Education Solves This</h3>
+        <p><strong>MCP Server Integration:</strong></p>
+        <ol>
+          <li>Teacher selects essay in Claude or compatible AI tool</li>
+          <li>MCP Server automatically detects PII</li>
+          <li>Names, locations, personal details anonymized before AI sees them</li>
+          <li>Teacher gets AI feedback without exposing student</li>
+        </ol>
+        <p><strong>Transformed prompt:</strong></p>
+        <div class="quote-box" style="background:#ecfdf5; border-color:#059669;">
+          "Please grade this essay by [STUDENT] about their experience immigrating from [COUNTRY]. They discuss their family's journey and their [FAMILY_MEMBER]'s legal hearing..."
+        </div>
+        <p>AI provides the same quality feedback. Student data never leaves the school.</p>
+      </div>
+
+      <p class="source-list"><strong>Source:</strong> TechNewsWorld research, Cloudera enterprise survey, Protecto.ai statistics</p>
+    </article>
+
+    <!-- Case Study 3 -->
+    <article class="case-study" id="case3">
+      <h2>Case Study 3: The Malicious Chrome Extension Attack</h2>
+      <div class="case-study-meta">
+        <span><svg viewBox="0 0 24 24" fill="currentColor"><path d="M19 4h-1V2h-2v2H8V2H6v2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 16H5V9h14v11z"/></svg> December 2025 - February 2026</span>
+        <span><svg viewBox="0 0 24 24" fill="currentColor"><path d="M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5s-3 1.34-3 3 1.34 3 3 3zm-8 0c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5 5 6.34 5 8s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5c0-2.33-4.67-3.5-7-3.5z"/></svg> 900,000+ users affected</span>
+        <span><svg viewBox="0 0 24 24" fill="currentColor"><path d="M18 8h-1V6c0-2.76-2.24-5-5-5S7 3.24 7 6v2H6c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V10c0-1.1-.9-2-2-2zm-6 9c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2z"/></svg> Supply chain attack</span>
+      </div>
+
+      <div class="incident-box">
+        <h3>What Happened</h3>
+        <p>Security researchers discovered a seven-year campaign where legitimate Chrome extensions were converted to spyware. In the final phase, extensions specifically targeted AI tool users:</p>
+        <ul>
+          <li>Stole ChatGPT and DeepSeek conversations</li>
+          <li>Exfiltrated source code and development queries</li>
+          <li>Captured internal corporate domains</li>
+          <li>Extracted session tokens for account compromise</li>
+        </ul>
+        <p>One extension had Google's "Featured" badge, indicating supposed trustworthiness.</p>
+      </div>
+
+      <h3>The Education Risk</h3>
+      <p>Teachers using browser-based AI tools with student data:</p>
+      <ul>
+        <li>Essay feedback with student names</li>
+        <li>IEP discussions</li>
+        <li>Grade calculations</li>
+        <li>Parent communication drafts</li>
+      </ul>
+      <p>All potentially captured and exfiltrated.</p>
+
+      <div class="solution-box">
+        <h3>How Anonymize.Education Protects</h3>
+        <p><strong>Controlled Chrome Extension:</strong></p>
+        <ul>
+          <li>Known, audited code (not third-party)</li>
+          <li>Intercepts PII BEFORE it reaches any external service</li>
+          <li>Even if AI conversation is stolen, it contains no real student data</li>
+          <li>Visibility into what data leaves the browser</li>
+        </ul>
+        <p><strong>Key difference:</strong> Instead of trusting unknown extensions, schools deploy a controlled tool that makes stolen data worthless.</p>
+      </div>
+
+      <p class="source-list"><strong>Source:</strong> SecurityWeek, The Hacker News, February 2026 reporting</p>
+    </article>
+
+    <!-- Case Study 4 -->
+    <article class="case-study" id="case4">
+      <h2>Case Study 4: FOIA Request Overwhelms Staff</h2>
+
+      <h3>The Scenario</h3>
+      <p>A public school district receives a FOIA request for:</p>
+      <ul>
+        <li>All emails between administrators about a controversial policy</li>
+        <li>Two years of communications</li>
+        <li>Response deadline: 30 days</li>
+      </ul>
+      <p>Staff identifies 2,500 responsive emails. Each must be reviewed for:</p>
+      <ul>
+        <li>Student names (must be redacted)</li>
+        <li>Staff home addresses (must be redacted)</li>
+        <li>Medical information (must be redacted)</li>
+        <li>Legally privileged content (must be withheld)</li>
+      </ul>
+
+      <div class="incident-box">
+        <h3>The Traditional Approach</h3>
+        <ul>
+          <li>Manual review: 10 minutes per email average</li>
+          <li>Total time: 416 hours of staff time</li>
+          <li>Cost: $15,000+ in staff hours</li>
+          <li>Risk: Human error, inconsistent redaction</li>
+        </ul>
+      </div>
+
+      <div class="lesson-box">
+        <strong>The Reality:</strong> Federal agencies have backlogs of 200,000+ overdue FOIA requests. Schools face similar pressures with smaller staff.
+      </div>
+
+      <div class="solution-box">
+        <h3>How Anonymize.Education Solves This</h3>
+        <p><strong>Batch Processing Workflow:</strong></p>
+        <ol>
+          <li>Upload folder of 2,500 emails</li>
+          <li>Automated PII detection across all documents</li>
+          <li>Consistent redaction rules applied uniformly</li>
+          <li>Quality review of flagged items only</li>
+          <li>Download redacted set</li>
+        </ol>
+        <ul>
+          <li><strong>Time:</strong> Overnight processing vs. 416 staff hours</li>
+          <li><strong>Consistency:</strong> Same rules applied to every document</li>
+          <li><strong>Audit trail:</strong> Complete log of what was redacted</li>
+        </ul>
+      </div>
+
+      <p class="source-list"><strong>Source:</strong> SecureRedact industry analysis, federal FOIA statistics</p>
+    </article>
+
+    <!-- Case Study 5 -->
+    <article class="case-study" id="case5">
+      <h2>Case Study 5: Research University IRB Compliance Failure</h2>
+
+      <h3>The Scenario</h3>
+      <p>A psychology professor conducts a study on student stress and academic performance. The IRB approved the study with the condition that all data be de-identified before analysis.</p>
+      <p>Six months later, a graduate student notices the dataset still contains:</p>
+      <ul>
+        <li>Student email addresses</li>
+        <li>IP addresses from survey submissions</li>
+        <li>Free-text responses mentioning names</li>
+      </ul>
+      <p>The IRB is notified. The study must be paused for investigation.</p>
+
+      <div class="incident-box">
+        <h3>The Consequences</h3>
+        <ul>
+          <li>Research timeline delayed 3+ months</li>
+          <li>Potential invalidation of results</li>
+          <li>Faculty reputation damage</li>
+          <li>IRB places additional restrictions on future research</li>
+        </ul>
+      </div>
+
+      <h3>The Root Cause</h3>
+      <p>Manual de-identification missed:</p>
+      <ul>
+        <li>Email addresses embedded in text responses</li>
+        <li>Technical metadata (IP addresses)</li>
+        <li>Indirect identifiers (class year + major + gender = potentially identifying)</li>
+      </ul>
+
+      <div class="solution-box">
+        <h3>How Anonymize.Education Prevents This</h3>
+        <p><strong>Comprehensive Detection:</strong></p>
+        <ul>
+          <li>320+ entity types including technical identifiers</li>
+          <li>IP addresses, email addresses auto-detected</li>
+          <li>Custom patterns for institution-specific data</li>
+          <li>Batch processing of survey responses</li>
+        </ul>
+        <p><strong>Hybrid Detection Advantage:</strong></p>
+        <ul>
+          <li>Regex catches structured data (emails, IPs)</li>
+          <li>NLP catches names in free text</li>
+          <li>Transformer models handle context-dependent PII</li>
+        </ul>
+        <p><strong>Output:</strong> IRB-compliant dataset from the start</p>
+      </div>
+
+      <p class="source-list"><strong>Source:</strong> IRB compliance literature, research ethics case studies</p>
+    </article>
+
+    <!-- Case Study 6 -->
+    <article class="case-study" id="case6">
+      <h2>Case Study 6: International School Multi-Jurisdiction Nightmare</h2>
+
+      <h3>The Scenario</h3>
+      <p>An American international school in Dubai serves students from 50+ countries:</p>
+      <ul>
+        <li>American expats (FERPA applies)</li>
+        <li>EU citizens (GDPR applies)</li>
+        <li>UAE nationals (local data protection)</li>
+        <li>British students (UK GDPR)</li>
+        <li>Students from 45+ other countries</li>
+      </ul>
+      <p>A parent requests all records for their German child (GDPR Article 15 access request). The school must:</p>
+      <ul>
+        <li>Identify all records containing the student</li>
+        <li>Include records in German, English, and Arabic</li>
+        <li>Provide within 30 days (GDPR timeline)</li>
+        <li>Not include other students' PII</li>
+      </ul>
+
+      <div class="incident-box">
+        <h3>The Challenge</h3>
+        <p>Documents are in multiple languages:</p>
+        <ul>
+          <li>Administrative records (English)</li>
+          <li>Medical records (English/Arabic)</li>
+          <li>Parent communications (German)</li>
+          <li>Report cards (English)</li>
+          <li>Counselor notes (potentially any language)</li>
+        </ul>
+        <p><strong>English-optimized tools miss PII in German and Arabic text.</strong></p>
+      </div>
+
+      <div class="solution-box">
+        <h3>How Anonymize.Education Handles This</h3>
+        <p><strong>48-Language Detection:</strong></p>
+        <ul>
+          <li>German names/addresses detected with German NLP models</li>
+          <li>Arabic script handled with specialized recognizers</li>
+          <li>English processing for administrative documents</li>
+          <li>Consistent detection quality across languages</li>
+        </ul>
+        <p><strong>Multilingual Workflow:</strong></p>
+        <ol>
+          <li>Collect all student records</li>
+          <li>Process with language-aware detection</li>
+          <li>Identify and verify student's own data</li>
+          <li>Redact other students' PII</li>
+          <li>Produce compliant response</li>
+        </ol>
+      </div>
+
+      <p class="source-list"><strong>Source:</strong> Taylor & Francis multilingual NER research, international school compliance literature</p>
+    </article>
+
+    <!-- Case Study 7 -->
+    <article class="case-study" id="case7">
+      <h2>Case Study 7: Legal Discovery Production Disaster</h2>
+
+      <h3>The Scenario</h3>
+      <p>A university is sued by a former student for discrimination. The plaintiff's attorney requests:</p>
+      <ul>
+        <li>All communications mentioning the plaintiff</li>
+        <li>Academic records</li>
+        <li>Conduct investigation files</li>
+        <li>Administrative meeting notes</li>
+      </ul>
+      <p>The university's privacy office irreversibly anonymized historical records as part of a data minimization initiative. Now they cannot:</p>
+      <ul>
+        <li>Produce original communications</li>
+        <li>Verify which records relate to plaintiff</li>
+        <li>Demonstrate investigation documentation</li>
+      </ul>
+
+      <div class="incident-box">
+        <h3>The Legal Consequences</h3>
+        <ul>
+          <li>Court imposes adverse inference instruction</li>
+          <li>Sanctions for discovery failures</li>
+          <li>Settlement costs increase dramatically</li>
+          <li>Perception of evidence destruction</li>
+        </ul>
+      </div>
+
+      <div class="quote-box">
+        "If you need to come back to your data for legal purposes, then reversible methods such as encryption are your only choice."
+        <cite>- PII Tools industry guidance</cite>
+      </div>
+
+      <div class="solution-box" style="border-color: #0d5c63; background: #f0fdfa;">
+        <h3>How Anonymize.Education's Reversible Encryption Solves This</h3>
+        <p><strong>Encrypt, Don't Destroy:</strong></p>
+        <ul>
+          <li>AES-256-GCM encryption protects data in normal operations</li>
+          <li>Organization maintains encryption keys</li>
+          <li>When legal discovery required: decrypt relevant records</li>
+          <li>Audit trail shows proper handling throughout</li>
+        </ul>
+        <p><strong style="color:#0d5c63;">UNIQUE Capability:</strong> No other education privacy tool offers reversible encryption. Competitors provide only irreversible anonymization.</p>
+      </div>
+
+      <p class="source-list"><strong>Source:</strong> Legal industry guidance, e-discovery best practices, PII Tools documentation</p>
+    </article>
+
+    <hr>
+
+    <!-- Key Takeaways -->
+    <section id="takeaways">
+      <h2>Key Takeaways</h2>
+
+      <h3>Prevention vs. Response</h3>
+      <p>Every case study shows: <strong>prevention is dramatically cheaper than response.</strong></p>
+
+      <table class="takeaway-table">
+        <thead>
+          <tr>
+            <th>Scenario</th>
+            <th>Response Cost</th>
+            <th>Prevention Cost</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Vendor breach</td>
+            <td>Notification + monitoring + legal</td>
+            <td>$49/month anonymization</td>
+          </tr>
+          <tr>
+            <td>AI data leak</td>
+            <td>Investigation + potential fine</td>
+            <td>MCP Server included in School plan</td>
+          </tr>
+          <tr>
+            <td>FOIA backlog</td>
+            <td>$15K+ in staff time per request</td>
+            <td>Overnight batch processing</td>
+          </tr>
+          <tr>
+            <td>IRB failure</td>
+            <td>3+ month delay + reputation</td>
+            <td>Automated de-identification</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3>The Common Thread</h3>
+      <p>In every case, the organization:</p>
+      <ol>
+        <li>Had sensitive data</li>
+        <li>Needed to share or process it</li>
+        <li>Lacked automated protection</li>
+        <li>Suffered preventable consequences</li>
+      </ol>
+
+      <h3>The Solution Pattern</h3>
+      <p>Anonymize.Education provides:</p>
+      <ul>
+        <li><strong>Automated detection</strong> - No manual review required</li>
+        <li><strong>Consistent application</strong> - Same rules, every time</li>
+        <li><strong>Appropriate methods</strong> - Reversible when needed, irreversible when not</li>
+        <li><strong>Audit trails</strong> - Document compliance</li>
+        <li><strong>Affordable pricing</strong> - $0 for teachers, $49/month for schools</li>
+      </ul>
+    </section>
+
+    <hr>
+
+    <p style="text-align: center; color: #64748b; font-style: italic;">These case studies are based on documented incidents, industry research, and compliance literature. Specific details may be generalized to protect involved parties.</p>
+
+    <div class="source-list">
+      <strong>Sources:</strong>
+      <ul>
+        <li>DLA Piper GDPR Survey January 2026</li>
+        <li>SecurityWeek, The Hacker News security reporting</li>
+        <li>Cloudera AI adoption survey</li>
+        <li>Taylor & Francis multilingual NER research</li>
+        <li>Legal industry e-discovery guidance</li>
+        <li>K-12 cybersecurity consortium data</li>
+      </ul>
+    </div>
+
+    <p style="text-align: center; color: #64748b; margin-top: 3rem;"><em>Last updated: February 2026</em></p>
+
+  </main>
+
+  <footer class="footer">
+    <div class="footer__grid">
+      <div class="footer__brand">
+        <a href="/" class="footer__logo">Anonymize.Education</a>
+        <p class="footer__tagline">Zero-knowledge student data privacy. Used by 1,200+ schools worldwide.</p>
+      </div>
+      <div>
+        <h2 class="footer__title">Solutions</h2>
+        <a href="index.html#solutions" class="footer__link">FERPA Compliance</a>
+        <a href="index.html#solutions" class="footer__link">COPPA Protection</a>
+        <a href="index.html#solutions" class="footer__link">AI Safety</a>
+        <a href="index.html#solutions" class="footer__link">FOIA Requests</a>
+      </div>
+      <div>
+        <h2 class="footer__title">Resources</h2>
+        <a href="glossary.html" class="footer__link">Glossary</a>
+        <a href="use-cases.html" class="footer__link">Use Cases</a>
+        <a href="case-studies.html" class="footer__link">Case Studies</a>
+        <a href="competitors.html" class="footer__link">Compare</a>
+      </div>
+      <div>
+        <h2 class="footer__title">Trust</h2>
+        <a href="index.html#trust" class="footer__link">Security</a>
+        <a href="contact.html" class="footer__link">Contact Us</a>
+        <a href="https://anonymize.solutions" class="footer__link" target="_blank">Enterprise</a>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p class="footer__copyright">&copy; 2026 Anonymize.Education. All rights reserved.</p>
+      <div class="footer__legal">
+        <a href="datenschutz.html">Privacy Policy</a>
+        <a href="impressum.html">Imprint</a>
+      </div>
+    </div>
+  </footer>
+  <script src="js/main.min.js" defer></script>
+</body>
+</html>

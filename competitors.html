@@ -1,0 +1,730 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="Content-Language" content="en">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="view-transition" content="same-origin">
+  <meta name="description" content="Compare Anonymize.Education vs Presidio, Private AI, OneTrust, and manual review. See why schools choose education-native privacy tools.">
+  <meta name="theme-color" content="#0d5c63">
+  <title>Compare Privacy Tools | Anonymize.Education</title>
+  <link rel="canonical" href="https://anonymize.education/competitors.html">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32.png">
+  <link rel="manifest" href="manifest.json">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.min.css">
+  <style>
+    .resource-page { padding: calc(var(--nav-height, 64px) + 2rem) 1.5rem 4rem; max-width: 1000px; margin: 0 auto; }
+    .resource-page h1 { font-size: 2.5rem; margin-bottom: 0.5rem; color: #0d5c63; }
+    .resource-page .subtitle { font-size: 1.25rem; color: #64748b; margin-bottom: 2rem; }
+    .resource-page h2 { font-size: 1.5rem; margin: 2.5rem 0 1rem; padding-bottom: 0.5rem; border-bottom: 2px solid #e2e8f0; color: #1e293b; }
+    .resource-page h3 { font-size: 1.125rem; margin: 1.5rem 0 0.5rem; color: #334155; }
+    .resource-page p { margin-bottom: 1rem; line-height: 1.7; color: #475569; }
+    .resource-page ul, .resource-page ol { margin: 1rem 0 1rem 1.5rem; }
+    .resource-page li { margin-bottom: 0.5rem; line-height: 1.6; color: #475569; }
+    .resource-page ul li { list-style: disc; }
+    .resource-page ol li { list-style: decimal; }
+    .resource-page strong { color: #1e293b; }
+    hr { border: none; border-top: 1px solid #e2e8f0; margin: 2rem 0; }
+
+    .toc { background: #f8fafc; padding: 1.5rem; border-radius: 0.75rem; margin-bottom: 2rem; }
+    .toc h2 { margin-top: 0; font-size: 1.125rem; border: none; padding: 0; }
+    .toc ul { margin: 0.75rem 0 0 1rem; columns: 2; }
+    .toc a { color: #0d5c63; text-decoration: none; }
+    .toc a:hover { text-decoration: underline; }
+
+    /* Comparison Table */
+    .compare-table-wrap { overflow-x: auto; margin: 2rem 0; }
+    .compare-table { width: 100%; border-collapse: collapse; font-size: 0.875rem; }
+    .compare-table th, .compare-table td { padding: 0.75rem; text-align: left; border: 1px solid #e2e8f0; }
+    .compare-table th { background: #f8fafc; color: #1e293b; font-weight: 600; white-space: nowrap; }
+    .compare-table thead th:first-child { background: #f8fafc; }
+    .compare-table thead th:nth-child(2) { background: #0d5c63; color: white; }
+    .compare-table td:first-child { font-weight: 500; color: #1e293b; background: #fafafa; }
+    .compare-table td:nth-child(2) { background: #f0fdfa; }
+    .compare-table .yes { color: #059669; font-weight: 600; }
+    .compare-table .no { color: #dc2626; }
+    .compare-table .unique { color: #0d5c63; font-weight: 700; }
+    .compare-table .na { color: #94a3b8; }
+
+    /* Competitor Cards */
+    .competitor-card { background: #fff; border: 1px solid #e2e8f0; border-radius: 0.75rem; padding: 1.5rem 2rem; margin: 2rem 0; }
+    .competitor-card h2 { margin-top: 0; border: none; padding: 0; display: flex; align-items: center; gap: 0.5rem; }
+    .competitor-card h2 span { font-size: 0.75rem; padding: 0.25rem 0.5rem; border-radius: 0.25rem; background: #f1f5f9; color: #64748b; font-weight: 500; }
+
+    .strengths-weaknesses { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; margin: 1.5rem 0; }
+    @media (max-width: 640px) { .strengths-weaknesses { grid-template-columns: 1fr; } }
+    .strengths { background: #f0fdf4; padding: 1rem; border-radius: 0.5rem; }
+    .strengths h4 { color: #166534; margin: 0 0 0.75rem; font-size: 0.875rem; text-transform: uppercase; letter-spacing: 0.05em; }
+    .strengths li { color: #15803d; }
+    .weaknesses { background: #fef2f2; padding: 1rem; border-radius: 0.5rem; }
+    .weaknesses h4 { color: #991b1b; margin: 0 0 0.75rem; font-size: 0.875rem; text-transform: uppercase; letter-spacing: 0.05em; }
+    .weaknesses li { color: #b91c1c; }
+
+    .why-choose { background: #f0fdfa; border-left: 4px solid #0d5c63; padding: 1rem 1.25rem; margin: 1rem 0; border-radius: 0 0.5rem 0.5rem 0; }
+    .why-choose h4 { color: #0d5c63; margin: 0 0 0.75rem; }
+
+    .cost-table { width: 100%; border-collapse: collapse; margin: 1rem 0; font-size: 0.875rem; }
+    .cost-table th, .cost-table td { padding: 0.5rem 0.75rem; text-align: left; border: 1px solid #e2e8f0; }
+    .cost-table th { background: #f8fafc; }
+    .cost-table tr:last-child td { background: #ecfdf5; font-weight: 500; }
+
+    /* Differentiators */
+    .diff-card { background: linear-gradient(135deg, #f0fdfa 0%, #ecfdf5 100%); border: 2px solid #0d5c63; border-radius: 0.75rem; padding: 1.5rem; margin: 1.5rem 0; }
+    .diff-card h3 { color: #0d5c63; margin-top: 0; display: flex; align-items: center; gap: 0.5rem; }
+    .diff-card h3 .badge { background: #0d5c63; color: white; font-size: 0.625rem; padding: 0.25rem 0.5rem; border-radius: 0.25rem; text-transform: uppercase; letter-spacing: 0.05em; }
+
+    /* Summary Table */
+    .summary-table { width: 100%; border-collapse: collapse; margin: 1.5rem 0; }
+    .summary-table th, .summary-table td { padding: 0.75rem 1rem; text-align: left; border: 1px solid #e2e8f0; }
+    .summary-table th { background: #0d5c63; color: white; }
+    .summary-table td:first-child { font-weight: 500; }
+    .summary-table tr:nth-child(odd) { background: #fafafa; }
+
+    /* Migration Steps */
+    .migration-steps { background: #f8fafc; padding: 1.5rem; border-radius: 0.75rem; margin: 1rem 0; }
+    .migration-steps h4 { margin-top: 0; color: #1e293b; }
+    .migration-steps ol { margin-bottom: 0; }
+
+    /* CTA Box */
+    .cta-box { background: linear-gradient(135deg, #0d5c63 0%, #065f46 100%); padding: 2rem; border-radius: 0.75rem; text-align: center; margin: 2rem 0; }
+    .cta-box h3 { color: white; margin: 0 0 0.5rem; font-size: 1.5rem; }
+    .cta-box p { color: rgba(255,255,255,0.9); margin: 0 0 1.5rem; }
+    .cta-box .btn { background: white; color: #0d5c63; padding: 0.875rem 2rem; border-radius: 0.5rem; text-decoration: none; font-weight: 600; display: inline-block; }
+    .cta-box .btn:hover { background: #f0fdfa; }
+  </style>
+</head>
+<body>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <nav class="nav" role="navigation" aria-label="Main navigation">
+    <div class="nav__inner">
+      <a href="/" class="nav__logo">
+        <span class="nav__logo-icon">A</span>
+        Anonymize.Education
+      </a>
+      <div class="nav__links">
+        <a href="index.html#solutions" class="nav__link">Solutions</a>
+        <a href="index.html#integrations" class="nav__link">Integrations</a>
+        <a href="index.html#pricing" class="nav__link">Pricing</a>
+        <a href="index.html#trust" class="nav__link">Trust</a>
+        <a href="contact.html" class="nav__link">Contact</a>
+      </div>
+      <div class="nav__cta">
+        <a href="https://anonym.legal" class="btn btn--primary" target="_blank">Start Free</a>
+      </div>
+      <button class="nav__toggle" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+    </div>
+  </nav>
+
+  <main id="main-content" class="resource-page">
+    <h1>Compare Privacy Tools</h1>
+    <p class="subtitle">How Anonymize.Education compares to other privacy tools for education.</p>
+
+    <div class="toc">
+      <h2>Quick Navigation</h2>
+      <ul>
+        <li><a href="#matrix">Comparison Matrix</a></li>
+        <li><a href="#presidio">vs. Microsoft Presidio</a></li>
+        <li><a href="#privateai">vs. Private AI</a></li>
+        <li><a href="#onetrust">vs. OneTrust</a></li>
+        <li><a href="#manual">vs. Manual Review</a></li>
+        <li><a href="#nothing">vs. Doing Nothing</a></li>
+        <li><a href="#differentiators">Unique Differentiators</a></li>
+        <li><a href="#migration">Migration Guide</a></li>
+      </ul>
+    </div>
+
+    <!-- Quick Comparison Matrix -->
+    <section id="matrix">
+      <h2>Quick Comparison Matrix</h2>
+      <div class="compare-table-wrap">
+        <table class="compare-table">
+          <thead>
+            <tr>
+              <th>Feature</th>
+              <th>Anonymize.Education</th>
+              <th>Microsoft Presidio</th>
+              <th>Private AI</th>
+              <th>OneTrust</th>
+              <th>Manual Review</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Price (annual)</td>
+              <td><strong>$0-$2,388</strong></td>
+              <td>Free + hosting</td>
+              <td>Enterprise ($$$)</td>
+              <td>$50,000+</td>
+              <td>Staff time</td>
+            </tr>
+            <tr>
+              <td>Free tier</td>
+              <td class="yes">Yes (500 docs/mo)</td>
+              <td>Yes (DIY)</td>
+              <td class="no">No</td>
+              <td class="no">No</td>
+              <td class="na">N/A</td>
+            </tr>
+            <tr>
+              <td>School plan</td>
+              <td><strong>$49/month</strong></td>
+              <td class="na">N/A</td>
+              <td>Contact sales</td>
+              <td>Contact sales</td>
+              <td class="na">N/A</td>
+            </tr>
+            <tr>
+              <td>Ready to use</td>
+              <td class="yes">Immediate</td>
+              <td>Requires setup</td>
+              <td>Days/weeks</td>
+              <td>Weeks/months</td>
+              <td class="yes">Immediate</td>
+            </tr>
+            <tr>
+              <td>Entity types</td>
+              <td><strong>320+</strong></td>
+              <td>~50</td>
+              <td>50+</td>
+              <td>200+</td>
+              <td>Human judgment</td>
+            </tr>
+            <tr>
+              <td>Languages</td>
+              <td><strong>48</strong></td>
+              <td>Limited</td>
+              <td>30+</td>
+              <td>100+</td>
+              <td>Staff languages</td>
+            </tr>
+            <tr>
+              <td>Reversible encryption</td>
+              <td class="unique">YES (UNIQUE)</td>
+              <td class="no">No</td>
+              <td class="no">No</td>
+              <td class="no">No</td>
+              <td class="na">N/A</td>
+            </tr>
+            <tr>
+              <td>Desktop (air-gapped)</td>
+              <td class="yes">Yes</td>
+              <td>Docker only</td>
+              <td>Cloud</td>
+              <td>Cloud</td>
+              <td class="yes">Yes</td>
+            </tr>
+            <tr>
+              <td>Office Add-in</td>
+              <td class="yes">Yes</td>
+              <td class="no">No</td>
+              <td class="no">No</td>
+              <td class="yes">Yes</td>
+              <td class="na">N/A</td>
+            </tr>
+            <tr>
+              <td>Chrome Extension</td>
+              <td class="yes">Yes</td>
+              <td class="no">No</td>
+              <td class="no">No</td>
+              <td class="no">No</td>
+              <td class="na">N/A</td>
+            </tr>
+            <tr>
+              <td>MCP Server (AI)</td>
+              <td class="yes">Yes</td>
+              <td class="no">No</td>
+              <td class="no">No</td>
+              <td class="no">No</td>
+              <td class="na">N/A</td>
+            </tr>
+            <tr>
+              <td>Education-specific</td>
+              <td class="unique">YES</td>
+              <td class="no">No</td>
+              <td class="no">No</td>
+              <td class="no">No</td>
+              <td class="na">N/A</td>
+            </tr>
+            <tr>
+              <td>FERPA workflows</td>
+              <td class="yes">Pre-built</td>
+              <td>DIY</td>
+              <td>Limited</td>
+              <td class="yes">Yes</td>
+              <td>Manual</td>
+            </tr>
+            <tr>
+              <td>COPPA compliance</td>
+              <td class="yes">Native</td>
+              <td>DIY</td>
+              <td>Limited</td>
+              <td class="yes">Yes</td>
+              <td>Manual</td>
+            </tr>
+            <tr>
+              <td>ISO 27001</td>
+              <td class="yes">Certified</td>
+              <td>Inherit Azure</td>
+              <td>Varies</td>
+              <td class="yes">Certified</td>
+              <td class="na">N/A</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <hr>
+
+    <!-- vs. Microsoft Presidio -->
+    <article class="competitor-card" id="presidio">
+      <h2>vs. Microsoft Presidio <span>Open Source</span></h2>
+      <p><strong>What it is:</strong> Open-source PII detection framework for Azure</p>
+
+      <div class="strengths-weaknesses">
+        <div class="strengths">
+          <h4>Presidio Strengths</h4>
+          <ul>
+            <li>Free and open source</li>
+            <li>Customizable recognizers</li>
+            <li>Microsoft ecosystem integration</li>
+            <li>Active community</li>
+          </ul>
+        </div>
+        <div class="weaknesses">
+          <h4>Presidio Weaknesses</h4>
+          <ul>
+            <li>Requires significant technical resources</li>
+            <li>English-centric (non-English gaps)</li>
+            <li>No reversible encryption</li>
+            <li>No desktop app for air-gapped use</li>
+            <li>No browser extension for AI protection</li>
+            <li>No education-specific workflows</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="why-choose">
+        <h4>Why Schools Choose Anonymize.Education:</h4>
+        <ul>
+          <li>Ready to use in minutes, not weeks</li>
+          <li>48 languages with consistent quality (vs. English-centric)</li>
+          <li>No Azure infrastructure required</li>
+          <li>Pre-built FERPA/COPPA workflows</li>
+          <li>Desktop app for offline schools</li>
+          <li>MCP Server for safe AI usage</li>
+        </ul>
+      </div>
+
+      <h4>Cost Comparison</h4>
+      <table class="cost-table">
+        <tr><th>Solution</th><th>Year 1 Cost</th><th>Includes</th></tr>
+        <tr><td>Presidio + Azure</td><td>$3,000-15,000+</td><td>Hosting, engineering time</td></tr>
+        <tr><td>Anonymize.Education School</td><td>$588</td><td>Everything, ready to use</td></tr>
+      </table>
+    </article>
+
+    <!-- vs. Private AI -->
+    <article class="competitor-card" id="privateai">
+      <h2>vs. Private AI <span>Enterprise</span></h2>
+      <p><strong>What it is:</strong> Enterprise PII detection with NLP/AI focus</p>
+
+      <div class="strengths-weaknesses">
+        <div class="strengths">
+          <h4>Private AI Strengths</h4>
+          <ul>
+            <li>50+ entity types</li>
+            <li>Multi-language support</li>
+            <li>Custom entity capability</li>
+            <li>Enterprise features</li>
+          </ul>
+        </div>
+        <div class="weaknesses">
+          <h4>Private AI Weaknesses</h4>
+          <ul>
+            <li>Enterprise pricing only (inaccessible for schools)</li>
+            <li>No published free tier</li>
+            <li>No reversible encryption documented</li>
+            <li>No desktop app for air-gapped environments</li>
+            <li>No education-specific features</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="why-choose">
+        <h4>Why Schools Choose Anonymize.Education:</h4>
+        <ul>
+          <li>320+ entity types (6x more than Private AI)</li>
+          <li>Free tier for individual teachers</li>
+          <li>Affordable school pricing ($49/month vs. enterprise quotes)</li>
+          <li>Reversible encryption for legal compliance</li>
+          <li>Education-native design with FERPA/COPPA workflows</li>
+        </ul>
+      </div>
+
+      <h4>Cost Comparison</h4>
+      <table class="cost-table">
+        <tr><th>Solution</th><th>Annual Cost</th><th>Best For</th></tr>
+        <tr><td>Private AI</td><td>$15,000+ (estimated)</td><td>Large enterprises</td></tr>
+        <tr><td>Anonymize.Education School</td><td>$588</td><td>Any K-12 school</td></tr>
+      </table>
+    </article>
+
+    <!-- vs. OneTrust -->
+    <article class="competitor-card" id="onetrust">
+      <h2>vs. OneTrust <span>Enterprise Platform</span></h2>
+      <p><strong>What it is:</strong> Comprehensive privacy management platform</p>
+
+      <div class="strengths-weaknesses">
+        <div class="strengths">
+          <h4>OneTrust Strengths</h4>
+          <ul>
+            <li>Complete privacy program management</li>
+            <li>Cookie consent</li>
+            <li>DSAR automation</li>
+            <li>Risk assessment</li>
+            <li>Extensive compliance coverage</li>
+          </ul>
+        </div>
+        <div class="weaknesses">
+          <h4>OneTrust Weaknesses</h4>
+          <ul>
+            <li>Minimum $50,000+ annual cost</li>
+            <li>Months to implement</li>
+            <li>Overkill for document redaction</li>
+            <li>Not designed for classroom use</li>
+            <li>No MCP/AI integration</li>
+            <li>Complex administration</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="why-choose">
+        <h4>Why Schools Choose Anonymize.Education:</h4>
+        <ul>
+          <li>100x more affordable</li>
+          <li>Focused on document protection (not enterprise privacy programs)</li>
+          <li>Teachers can use without IT involvement</li>
+          <li>AI integration for modern workflows</li>
+          <li>Ready in minutes, not months</li>
+        </ul>
+      </div>
+
+      <h4>Cost Comparison</h4>
+      <table class="cost-table">
+        <tr><th>Solution</th><th>Annual Cost</th><th>Implementation</th></tr>
+        <tr><td>OneTrust</td><td>$50,000+</td><td>3-6 months</td></tr>
+        <tr><td>Anonymize.Education District</td><td>$2,388</td><td>Same day</td></tr>
+      </table>
+    </article>
+
+    <!-- vs. Manual Review -->
+    <article class="competitor-card" id="manual">
+      <h2>vs. Manual Review <span>Traditional</span></h2>
+      <p><strong>What it is:</strong> Staff manually reviewing and redacting documents</p>
+
+      <div class="strengths-weaknesses">
+        <div class="strengths">
+          <h4>Manual Review Advantages</h4>
+          <ul>
+            <li>Human judgment for edge cases</li>
+            <li>No new tools to learn</li>
+            <li>No subscription costs</li>
+          </ul>
+        </div>
+        <div class="weaknesses">
+          <h4>Manual Review Disadvantages</h4>
+          <ul>
+            <li>Time: 10+ minutes per document</li>
+            <li>Inconsistency: Different staff, different standards</li>
+            <li>Errors: Humans miss things, especially in volume</li>
+            <li>Scale: Cannot handle FOIA, research, or emergency volumes</li>
+            <li>Cost: Staff time at $30-75/hour</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="why-choose">
+        <h4>Why Schools Add Anonymize.Education:</h4>
+        <ul>
+          <li>Automated first pass catches 90%+ of PII</li>
+          <li>Staff reviews flagged items only</li>
+          <li>Consistent rules across all documents</li>
+          <li>Handles volume that manual review cannot</li>
+          <li>500 documents/month free</li>
+        </ul>
+      </div>
+
+      <h4>Time Comparison (500 documents)</h4>
+      <table class="cost-table">
+        <tr><th>Approach</th><th>Time Required</th><th>Staff Cost</th></tr>
+        <tr><td>Manual review</td><td>83+ hours</td><td>$2,500-6,000</td></tr>
+        <tr><td>Anonymize.Education</td><td>Minutes + review</td><td>$0 (free tier)</td></tr>
+      </table>
+    </article>
+
+    <!-- vs. Doing Nothing -->
+    <article class="competitor-card" id="nothing">
+      <h2>vs. Doing Nothing <span>The Risk</span></h2>
+
+      <div class="weaknesses" style="background: #fef2f2;">
+        <h4>The Risk of Inaction</h4>
+        <ul>
+          <li>Average breach cost: $10.22 million (US)</li>
+          <li>55% of K-12 breaches via vendors</li>
+          <li>62 million records exposed in single incident (PowerSchool)</li>
+          <li>GDPR fines up to 4% of global revenue</li>
+          <li>FERPA violations risk federal funding</li>
+        </ul>
+      </div>
+
+      <h4>The Calculation</h4>
+      <table class="cost-table">
+        <tr><th>Scenario</th><th>Cost</th></tr>
+        <tr><td>Annual protection (School plan)</td><td>$588</td></tr>
+        <tr><td>Single FERPA investigation</td><td>$10,000+</td></tr>
+        <tr><td>Single GDPR fine (small violation)</td><td>EUR 100,000+</td></tr>
+        <tr><td>Breach notification + monitoring</td><td>$500,000+</td></tr>
+      </table>
+
+      <div class="why-choose" style="background: #ecfdf5;">
+        <h4>The Reality</h4>
+        <p style="margin:0; font-size: 1.125rem;"><strong>Prevention costs less than 1% of potential incident costs.</strong></p>
+      </div>
+    </article>
+
+    <hr>
+
+    <!-- Unique Differentiators -->
+    <section id="differentiators">
+      <h2>Unique Differentiators</h2>
+
+      <div class="diff-card">
+        <h3><span class="badge">Unique</span> Reversible Encryption</h3>
+        <p><strong>ONLY Anonymize.Education offers this.</strong></p>
+        <p>Why it matters:</p>
+        <ul>
+          <li>Legal discovery requires original documents</li>
+          <li>Audits may need to verify anonymization</li>
+          <li>Regulatory requests may demand restoration</li>
+          <li>Research may need re-identification for follow-up</li>
+        </ul>
+        <p><em>Competitors offer only irreversible methods. When you need original data, you're stuck.</em></p>
+      </div>
+
+      <div class="diff-card">
+        <h3><span class="badge">Education-First</span> Education-Native Design</h3>
+        <p>Built for schools from day one:</p>
+        <ul>
+          <li>FERPA workflows pre-configured</li>
+          <li>COPPA-compliant by design</li>
+          <li>SDPC DPA pre-signed</li>
+          <li>School consent mechanisms built in</li>
+          <li>Pricing for education budgets</li>
+        </ul>
+        <p><em>Competitors adapted enterprise tools. We built for education.</em></p>
+      </div>
+
+      <div class="diff-card">
+        <h3><span class="badge">Accurate</span> Deterministic Hybrid Detection</h3>
+        <p>Three-layer detection:</p>
+        <ol>
+          <li><strong>Regex (deterministic):</strong> Structured data (SSN, credit cards)</li>
+          <li><strong>NLP models:</strong> Named entities (names, organizations)</li>
+          <li><strong>Transformer models:</strong> Multilingual context</li>
+        </ol>
+        <p>Why this beats AI-only:</p>
+        <ul>
+          <li>Reproducible results (same input = same output)</li>
+          <li>Auditable detection (can explain why something was flagged)</li>
+          <li>No hallucination or probability-based misses</li>
+          <li>Consistent across runs</li>
+        </ul>
+        <p><em>Modern AI (ChatGPT, Claude) uses probabilistic detection - results may vary between runs. Not acceptable for compliance.</em></p>
+      </div>
+
+      <div class="diff-card">
+        <h3><span class="badge">Complete</span> Complete Platform Coverage</h3>
+        <p>One subscription covers:</p>
+        <ul>
+          <li>Web platform (batch processing)</li>
+          <li>Desktop app (offline/air-gapped)</li>
+          <li>Office Add-in (Word/Excel)</li>
+          <li>Chrome Extension (AI tool protection)</li>
+          <li>MCP Server (Claude/Cursor integration)</li>
+        </ul>
+        <p><em>Competitors require separate tools for each use case.</em></p>
+      </div>
+
+      <div class="diff-card">
+        <h3><span class="badge">Global</span> 48 Language Support</h3>
+        <p>Full quality detection in:</p>
+        <ul style="columns: 2;">
+          <li>Western European (English, German, French, Spanish, etc.)</li>
+          <li>Eastern European (Polish, Russian, Ukrainian, etc.)</li>
+          <li>Nordic (Swedish, Norwegian, Danish, Finnish)</li>
+          <li>Asian (Chinese, Japanese, Korean, Vietnamese, Thai)</li>
+          <li>South Asian (Hindi, Bengali, Tamil, Telugu)</li>
+          <li>Middle Eastern (Arabic, Hebrew, Persian, Turkish)</li>
+        </ul>
+        <p><em>Research shows most tools "perform significantly better for English." International schools need consistent detection across all student populations.</em></p>
+      </div>
+    </section>
+
+    <hr>
+
+    <!-- Migration Guide -->
+    <section id="migration">
+      <h2>Migration Guide</h2>
+
+      <div class="migration-steps">
+        <h4>Moving from Manual Review</h4>
+        <ol>
+          <li>Start with free tier (500 docs/month)</li>
+          <li>Process historical backlog</li>
+          <li>Establish baseline consistency</li>
+          <li>Staff shifts to review mode (verify flagged items)</li>
+          <li>Scale to School plan when ready</li>
+        </ol>
+      </div>
+
+      <div class="migration-steps">
+        <h4>Moving from Enterprise Tools</h4>
+        <ol>
+          <li>Pilot with specific use case (FOIA, research, etc.)</li>
+          <li>Compare results and processing time</li>
+          <li>Calculate cost savings</li>
+          <li>Expand to additional workflows</li>
+          <li>Maintain enterprise tool for non-document functions</li>
+        </ol>
+      </div>
+
+      <div class="migration-steps">
+        <h4>Starting Fresh</h4>
+        <ol>
+          <li>Sign up free at <a href="https://anonym.legal" target="_blank">anonym.legal</a></li>
+          <li>Download desktop app</li>
+          <li>Test with sample documents</li>
+          <li>Configure detection settings</li>
+          <li>Deploy to staff</li>
+        </ol>
+      </div>
+    </section>
+
+    <hr>
+
+    <!-- Summary -->
+    <section>
+      <h2>Summary</h2>
+      <table class="summary-table">
+        <thead>
+          <tr>
+            <th>If you need...</th>
+            <th>Choose...</th>
+            <th>Because...</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Free for teachers</td>
+            <td>Anonymize.Education</td>
+            <td>500 docs/month free</td>
+          </tr>
+          <tr>
+            <td>Affordable school solution</td>
+            <td>Anonymize.Education</td>
+            <td>$49/month, not $50,000</td>
+          </tr>
+          <tr>
+            <td>Reversible protection</td>
+            <td>Anonymize.Education</td>
+            <td>Only option</td>
+          </tr>
+          <tr>
+            <td>AI tool safety</td>
+            <td>Anonymize.Education</td>
+            <td>MCP Server + Chrome Extension</td>
+          </tr>
+          <tr>
+            <td>48 languages</td>
+            <td>Anonymize.Education</td>
+            <td>Consistent multilingual quality</td>
+          </tr>
+          <tr>
+            <td>Air-gapped operation</td>
+            <td>Anonymize.Education</td>
+            <td>Desktop app included</td>
+          </tr>
+          <tr>
+            <td>Education workflows</td>
+            <td>Anonymize.Education</td>
+            <td>FERPA/COPPA native</td>
+          </tr>
+          <tr>
+            <td>Enterprise privacy program</td>
+            <td>OneTrust</td>
+            <td>But 100x the cost</td>
+          </tr>
+          <tr>
+            <td>Custom Azure solution</td>
+            <td>Presidio</td>
+            <td>But requires engineering</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <div class="cta-box">
+      <h3>Ready to protect your students' data?</h3>
+      <p>Start free with 500 documents/month. No credit card required.</p>
+      <a href="https://anonym.legal" class="btn" target="_blank">Start Free Trial</a>
+    </div>
+
+    <p style="text-align: center; color: #64748b;"><em>For a personalized comparison based on your specific needs, <a href="contact.html">contact us</a>.</em></p>
+
+    <p style="text-align: center; color: #64748b; margin-top: 3rem;"><em>Last updated: February 2026</em></p>
+
+  </main>
+
+  <footer class="footer">
+    <div class="footer__grid">
+      <div class="footer__brand">
+        <a href="/" class="footer__logo">Anonymize.Education</a>
+        <p class="footer__tagline">Zero-knowledge student data privacy. Used by 1,200+ schools worldwide.</p>
+      </div>
+      <div>
+        <h2 class="footer__title">Solutions</h2>
+        <a href="index.html#solutions" class="footer__link">FERPA Compliance</a>
+        <a href="index.html#solutions" class="footer__link">COPPA Protection</a>
+        <a href="index.html#solutions" class="footer__link">AI Safety</a>
+        <a href="index.html#solutions" class="footer__link">FOIA Requests</a>
+      </div>
+      <div>
+        <h2 class="footer__title">Resources</h2>
+        <a href="glossary.html" class="footer__link">Glossary</a>
+        <a href="use-cases.html" class="footer__link">Use Cases</a>
+        <a href="case-studies.html" class="footer__link">Case Studies</a>
+        <a href="competitors.html" class="footer__link">Compare</a>
+      </div>
+      <div>
+        <h2 class="footer__title">Trust</h2>
+        <a href="index.html#trust" class="footer__link">Security</a>
+        <a href="contact.html" class="footer__link">Contact Us</a>
+        <a href="https://anonymize.solutions" class="footer__link" target="_blank">Enterprise</a>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p class="footer__copyright">&copy; 2026 Anonymize.Education. All rights reserved.</p>
+      <div class="footer__legal">
+        <a href="datenschutz.html">Privacy Policy</a>
+        <a href="impressum.html">Imprint</a>
+      </div>
+    </div>
+  </footer>
+  <script src="js/main.min.js" defer></script>
+</body>
+</html>
