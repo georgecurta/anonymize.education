@@ -2,8 +2,11 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta http-equiv="Content-Language" content="en">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="view-transition" content="same-origin">
   <meta name="description" content="Protect student data privacy worldwide. Zero-knowledge architecture means we never see your data. FERPA, COPPA, GDPR ready. Start free.">
+  <meta name="theme-color" content="#0d5c63">
   <title>Anonymize.Education | Student Data Privacy Without Complexity</title>
 
   <link rel="canonical" href="https://anonymize.education/">
@@ -17,6 +20,9 @@
 
   <!-- Favicon -->
   <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16.png">
+  <link rel="apple-touch-icon" sizes="256x256" href="images/favicon-256.png">
+  <link rel="manifest" href="manifest.json">
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
@@ -2100,6 +2106,22 @@
         });
       });
     })();
+  </script>
+
+  <!-- Speculation Rules for Prefetch -->
+  <script type="speculationrules">
+  {
+    "prefetch": [
+      {
+        "source": "document",
+        "where": { "and": [
+          { "href_matches": "/*" },
+          { "not": { "href_matches": "/api/*" } }
+        ]},
+        "eagerness": "moderate"
+      }
+    ]
+  }
   </script>
 
 </body>
