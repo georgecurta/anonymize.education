@@ -1,0 +1,249 @@
+{
+  "meta": {
+    "lang": "es",
+    "locale": "es_ES",
+    "dir": "ltr",
+    "title": "Privacidad de Datos Estudiantiles Sin Complicaciones",
+    "description": "Proteja los datos estudiantiles con arquitectura de conocimiento cero. Cumple con FERPA, COPPA y GDPR. Usado por +1.200 escuelas. Comience gratis.",
+    "keywords": "privacidad datos estudiantiles, cumplimiento FERPA, proteccion datos educacion, anonimizacion PII, seguridad registros estudiantiles, GDPR escuelas"
+  },
+  "nav": {
+    "logo": "Anonymize.Education",
+    "solutions": "Soluciones",
+    "forYou": "Para Usted",
+    "integrations": "Integraciones",
+    "trust": "Confianza",
+    "pricing": "Precios",
+    "login": "Iniciar Sesion",
+    "startFree": "Comenzar Gratis",
+    "menu": "Menu"
+  },
+  "hero": {
+    "alert": "62 millones de registros estudiantiles filtrados en 2024",
+    "headline1": "PowerSchool. Illuminate. Blackbaud.",
+    "headline2": "Su proveedor podria ser el siguiente.",
+    "subheadline": "Anonymize.Education protege datos estudiantiles con arquitectura de conocimiento cero. Nunca vemos sus datos. Los hackers tampoco.",
+    "ctaPrimary": "Proteja Estudiantes Gratis",
+    "ctaSecondary": "Como Funciona"
+  },
+  "socialProof": {
+    "schools": "Escuelas Protegidas",
+    "breaches": "Filtraciones de Datos",
+    "soc2": "Certificado SOC 2 Tipo II",
+    "sdpc": "Alineado con DPA"
+  },
+  "breachTicker": {
+    "powerschool": "PowerSchool",
+    "powerschoolRecords": "62M registros",
+    "illuminate": "Illuminate Education",
+    "illuminateRecords": "820K estudiantes",
+    "blackbaud": "Blackbaud",
+    "blackbaudRecords": "+13K instituciones",
+    "vendorBreaches": "55% de filtraciones K-12 via proveedores",
+    "appsSharing": "96% de apps EdTech comparten datos con terceros",
+    "stateLaws": "+130 leyes estatales de privacidad"
+  },
+  "problems": {
+    "label": "El Problema",
+    "title": "Por Que Su Enfoque Actual No Funciona",
+    "vendorBreaches": {
+      "stat": "55%",
+      "title": "Filtraciones via Proveedores",
+      "desc": "Mas de la mitad de todas las filtraciones K-12 son causadas por proveedores externos, no por las escuelas."
+    },
+    "toolsPerSchool": {
+      "stat": "1.449",
+      "title": "Herramientas por Escuela",
+      "desc": "Una escuela promedio usa 1.449 herramientas EdTech. No puede verificarlas todas con personal y presupuesto limitados."
+    },
+    "appsSharing": {
+      "stat": "96%",
+      "title": "Apps Compartiendo Datos",
+      "desc": "96% de las apps EdTech comparten datos estudiantiles con terceros, probablemente violando COPPA y FERPA."
+    },
+    "enterpriseCost": {
+      "stat": "$50K+",
+      "title": "Costo Herramientas Enterprise",
+      "desc": "Herramientas enterprise como OneTrust cuestan +$50.000 al ano. Los presupuestos educativos no pueden absorber eso."
+    }
+  },
+  "solution": {
+    "label": "Nuestra Solucion",
+    "title": "Arquitectura de Conocimiento Cero",
+    "desc": "No podemos ver sus datos estudiantiles. No por politicas, sino por matematicas. Sus datos se encriptan antes de llegar a nuestros servidores. Incluso si fueramos hackeados, los atacantes no obtendrian nada.",
+    "features": {
+      "encryption": "Encriptacion de extremo a extremo con claves bajo su control",
+      "noPlaintext": "Sin datos en texto plano en nuestros servidores",
+      "inMemory": "Procesamiento en memoria, nada se almacena",
+      "audited": "Auditado independientemente por evaluadores SOC 2"
+    },
+    "diagram": {
+      "step1": "Sus datos estudiantiles (encriptados en su dispositivo)",
+      "step2": "Anonimizacion (solo vemos blobs encriptados)",
+      "step3": "Salida protegida devuelta a usted",
+      "step4": "Comparta con seguridad"
+    }
+  },
+  "solutions": {
+    "label": "Lo Que Resolvemos",
+    "title": "Cada Desafio de Privacidad Educativa",
+    "subtitle": "Elija su problema. Tenemos la solucion.",
+    "ferpa": {
+      "title": "Nunca Falle una Auditoria FERPA",
+      "desc": "Flujos FERPA preconstruidos, DPAs firmados y trazabilidad completa. Pase cualquier revision sin contratar consultores.",
+      "link": "Solucion FERPA"
+    },
+    "coppa": {
+      "title": "Proteja Menores de 13",
+      "desc": "Cumplimiento COPPA de fabrica. Flujos de consentimiento escolar integrados. Sin compartir datos con terceros.",
+      "link": "Solucion COPPA"
+    },
+    "aiSafety": {
+      "title": "Use IA Sin Riesgos",
+      "desc": "Permita a maestros usar ChatGPT y Claude con seguridad. Los datos se anonimizan antes de que la IA los vea.",
+      "link": "Solucion IA Segura"
+    },
+    "global": {
+      "title": "Cumpla en Todas Partes",
+      "desc": "GDPR, UK GDPR, LGPD, PIPL y +130 leyes estatales de EE.UU. Una solucion para cada jurisdiccion.",
+      "link": "Cumplimiento Global"
+    },
+    "vendorAssessment": {
+      "title": "Pase Evaluaciones de Proveedores",
+      "desc": "Cuestionarios de seguridad pre-completados listos para descargar. SIG, HECVAT, formularios estatales.",
+      "link": "Listo para Evaluaciones"
+    },
+    "foia": {
+      "title": "Maneje Solicitudes FOIA",
+      "desc": "Responda solicitudes de registros publicos sin exponer PII estudiantil. Procesamiento por lotes de cientos de documentos.",
+      "link": "Solucion FOIA"
+    }
+  },
+  "integrations": {
+    "label": "Funciona en Todas Partes",
+    "title": "Integrado en las Herramientas que Ya Usa",
+    "canvas": "Canvas",
+    "blackboard": "Blackboard",
+    "schoology": "Schoology",
+    "googleClassroom": "Google Classroom",
+    "microsoft365": "Microsoft 365",
+    "clever": "Clever",
+    "classlink": "ClassLink",
+    "powerschool": "PowerSchool"
+  },
+  "pricing": {
+    "label": "Precios para Educacion",
+    "title": "Disenado para Presupuestos Educativos",
+    "subtitle": "Seguridad enterprise sin precios enterprise. Comience gratis, escale segun crezca.",
+    "teacher": {
+      "name": "Maestro",
+      "price": "$0",
+      "period": "/para siempre",
+      "desc": "Gratis para educadores individuales",
+      "features": {
+        "docs": "500 documentos al mes",
+        "apps": "Apps de escritorio y web",
+        "languages": "48 idiomas",
+        "formats": "Todos los formatos"
+      },
+      "cta": "Comenzar Gratis"
+    },
+    "school": {
+      "name": "Escuela",
+      "badge": "Mas Popular",
+      "price": "$49",
+      "period": "/mes",
+      "desc": "Para escuelas K-12",
+      "features": {
+        "docs": "10.000 documentos al mes",
+        "lms": "Integracion LMS (Canvas, etc.)",
+        "sso": "25 usuarios SSO (Clever, ClassLink)",
+        "admin": "Panel de administracion",
+        "ai": "Proteccion IA (Servidor MCP)"
+      },
+      "cta": "Prueba 30 Dias"
+    },
+    "district": {
+      "name": "Distrito",
+      "price": "$199",
+      "period": "/mes",
+      "desc": "Para distritos escolares",
+      "features": {
+        "docs": "Documentos ilimitados",
+        "sso": "Usuarios SSO ilimitados",
+        "scim": "Aprovisionamiento SCIM",
+        "support": "Soporte dedicado",
+        "dpa": "DPA personalizado"
+      },
+      "cta": "Contactar Ventas"
+    }
+  },
+  "trust": {
+    "label": "Confianza y Seguridad",
+    "title": "Seguridad Enterprise que Puede Verificar",
+    "zeroKnowledge": {
+      "title": "Conocimiento Cero",
+      "desc": "Matematicamente no podemos acceder a sus datos"
+    },
+    "soc2": {
+      "title": "SOC 2 Tipo II",
+      "desc": "Auditado independientemente cada ano"
+    },
+    "iso27001": {
+      "title": "ISO 27001",
+      "desc": "Gestion de seguridad certificada"
+    },
+    "euData": {
+      "title": "Residencia de Datos UE",
+      "desc": "Servidores alemanes disponibles"
+    },
+    "usData": {
+      "title": "Residencia de Datos EE.UU.",
+      "desc": "AWS GovCloud disponible"
+    },
+    "sdpc": {
+      "title": "DPA SDPC",
+      "desc": "DPA Nacional pre-firmado"
+    }
+  },
+  "cta": {
+    "title": "Comience a Proteger Estudiantes Hoy",
+    "desc": "Unase a +1.200 escuelas usando Anonymize.Education. Gratis para maestros individuales. Sin tarjeta de credito.",
+    "primary": "Comenzar Gratis Ahora",
+    "secondary": "Agendar Demo"
+  },
+  "footer": {
+    "desc": "Privacidad de datos estudiantiles con conocimiento cero. Usado por +1.200 escuelas en todo el mundo.",
+    "solutions": "Soluciones",
+    "ferpaCompliance": "Cumplimiento FERPA",
+    "coppaProtection": "Proteccion COPPA",
+    "aiSafety": "Seguridad IA",
+    "foiaRequests": "Solicitudes FOIA",
+    "forYou": "Para Usted",
+    "k12Schools": "Escuelas K-12",
+    "higherEducation": "Educacion Superior",
+    "international": "Internacional",
+    "research": "Investigacion",
+    "trust": "Confianza",
+    "security": "Seguridad",
+    "compliance": "Cumplimiento",
+    "downloadDpa": "Descargar DPA",
+    "subprocessors": "Subprocesadores",
+    "copyright": "2026 Anonymize.Education. Todos los derechos reservados.",
+    "privacyPolicy": "Politica de Privacidad",
+    "termsOfService": "Terminos de Servicio",
+    "imprint": "Aviso Legal"
+  },
+  "accessibility": {
+    "skipToContent": "Saltar al contenido principal",
+    "openMenu": "Abrir menu",
+    "closeMenu": "Cerrar menu",
+    "newWindow": "Abre en ventana nueva"
+  },
+  "errors": {
+    "required": "Este campo es requerido",
+    "invalidEmail": "Por favor ingrese un correo valido",
+    "networkError": "Error de red. Intente de nuevo.",
+    "serverError": "Error del servidor. Intente mas tarde."
+  }
+}

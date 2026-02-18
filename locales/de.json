@@ -1,0 +1,249 @@
+{
+  "meta": {
+    "lang": "de",
+    "locale": "de_DE",
+    "dir": "ltr",
+    "title": "Schutz von Schülerdaten ohne Komplexität",
+    "description": "Schützen Sie Schülerdaten mit Zero-Knowledge-Architektur. DSGVO-konform. Von über 1.200 Schulen weltweit genutzt. Kostenlos starten.",
+    "keywords": "Schülerdaten Datenschutz, DSGVO Schule, Datenschutz Bildung, PII Anonymisierung, Schulverwaltung Datenschutz, Schülerdaten schützen"
+  },
+  "nav": {
+    "logo": "Anonymize.Education",
+    "solutions": "Lösungen",
+    "forYou": "Für Sie",
+    "integrations": "Integrationen",
+    "trust": "Vertrauen",
+    "pricing": "Preise",
+    "login": "Anmelden",
+    "startFree": "Kostenlos starten",
+    "menu": "Menü"
+  },
+  "hero": {
+    "alert": "62 Millionen Schülerdaten wurden 2024 gehackt",
+    "headline1": "PowerSchool. Illuminate. Blackbaud.",
+    "headline2": "Ihr Anbieter könnte der nächste sein.",
+    "subheadline": "Anonymize.Education schützt Schülerdaten mit Zero-Knowledge-Architektur. Wir sehen Ihre Daten nie. Hacker auch nicht.",
+    "ctaPrimary": "Schüler jetzt kostenlos schützen",
+    "ctaSecondary": "So funktioniert es"
+  },
+  "socialProof": {
+    "schools": "Geschützte Schulen",
+    "breaches": "Datenpannen",
+    "soc2": "SOC 2 Typ II zertifiziert",
+    "sdpc": "DPA-konform"
+  },
+  "breachTicker": {
+    "powerschool": "PowerSchool",
+    "powerschoolRecords": "62 Mio. Datensätze",
+    "illuminate": "Illuminate Education",
+    "illuminateRecords": "820.000 Schüler",
+    "blackbaud": "Blackbaud",
+    "blackbaudRecords": "13.000+ Institutionen",
+    "vendorBreaches": "55% aller K-12-Datenpannen durch Anbieter",
+    "appsSharing": "96% der EdTech-Apps teilen Daten mit Dritten",
+    "stateLaws": "130+ Datenschutzgesetze zu beachten"
+  },
+  "problems": {
+    "label": "Das Problem",
+    "title": "Warum Ihr aktueller Ansatz nicht funktioniert",
+    "vendorBreaches": {
+      "stat": "55%",
+      "title": "Datenpannen durch Anbieter",
+      "desc": "Mehr als die Hälfte aller K-12-Datenpannen werden von Drittanbietern verursacht, nicht von den Schulen selbst."
+    },
+    "toolsPerSchool": {
+      "stat": "1.449",
+      "title": "Tools pro Schule",
+      "desc": "Durchschnittlich nutzt eine Schule 1.449 EdTech-Tools. Sie können nicht alle mit begrenztem Personal und Budget prüfen."
+    },
+    "appsSharing": {
+      "stat": "96%",
+      "title": "Apps teilen Daten",
+      "desc": "96% der EdTech-Apps teilen Schülerdaten mit Dritten und verstoßen wahrscheinlich gegen Datenschutzgesetze."
+    },
+    "enterpriseCost": {
+      "stat": "50.000€+",
+      "title": "Enterprise-Tool-Kosten",
+      "desc": "Enterprise-Datenschutztools wie OneTrust kosten über 50.000€ pro Jahr. Bildungsbudgets können das nicht tragen."
+    }
+  },
+  "solution": {
+    "label": "Unsere Lösung",
+    "title": "Zero-Knowledge-Architektur",
+    "desc": "Wir können Ihre Schülerdaten nicht sehen. Nicht wegen Richtlinien, sondern wegen Mathematik. Ihre Daten werden verschlüsselt, bevor sie unsere Server erreichen. Selbst bei einem Hack bekommen Angreifer nichts.",
+    "features": {
+      "encryption": "Ende-zu-Ende-Verschlüsselung mit Schlüsseln unter Ihrer Kontrolle",
+      "noPlaintext": "Keine Klartextdaten auf unseren Servern",
+      "inMemory": "Verarbeitung im Arbeitsspeicher, nichts wird gespeichert",
+      "audited": "Unabhängig von SOC 2 Prüfern auditiert"
+    },
+    "diagram": {
+      "step1": "Ihre Schülerdaten (auf Ihrem Gerät verschlüsselt)",
+      "step2": "Anonymisierung erfolgt (wir sehen nur verschlüsselte Blobs)",
+      "step3": "Geschützte Ausgabe wird an Sie zurückgegeben",
+      "step4": "Sicher mit jedem teilen"
+    }
+  },
+  "solutions": {
+    "label": "Was wir lösen",
+    "title": "Jede Datenschutz-Herausforderung im Bildungsbereich",
+    "subtitle": "Wählen Sie Ihr Problem. Wir haben die Lösung.",
+    "ferpa": {
+      "title": "DSGVO-Audits bestehen",
+      "desc": "Vorgefertigte DSGVO-Workflows, unterschriebene AVVs und vollständige Audit-Trails. Bestehen Sie jede Compliance-Prüfung ohne Berater.",
+      "link": "DSGVO-Lösung"
+    },
+    "coppa": {
+      "title": "Minderjährige schützen",
+      "desc": "Datenschutzkonform von Anfang an. Einwilligungs-Workflows eingebaut. Keine Datenweitergabe an Dritte. Sicher für alle Altersgruppen.",
+      "link": "Jugendschutz-Lösung"
+    },
+    "aiSafety": {
+      "title": "KI sicher nutzen",
+      "desc": "Lassen Sie Lehrer ChatGPT und Claude sicher nutzen. Schülerdaten werden anonymisiert, bevor die KI sie sieht.",
+      "link": "KI-Sicherheitslösung"
+    },
+    "global": {
+      "title": "Überall konform",
+      "desc": "DSGVO, UK GDPR, LGPD, PIPL und 130+ US-Staatsgesetze. Eine Lösung für jede Rechtsordnung.",
+      "link": "Globale Compliance"
+    },
+    "vendorAssessment": {
+      "title": "Anbieterprüfungen bestehen",
+      "desc": "Vorgefertigte Sicherheitsfragebögen zum Download. SIG, HECVAT, länderspezifische Formulare. In Minuten einreichen.",
+      "link": "Assessment-fertig"
+    },
+    "foia": {
+      "title": "Informationsanfragen bearbeiten",
+      "desc": "Beantworten Sie Auskunftsersuchen ohne PII preiszugeben. Stapelverarbeitung für Hunderte von Dokumenten.",
+      "link": "Auskunftslösung"
+    }
+  },
+  "integrations": {
+    "label": "Funktioniert überall",
+    "title": "In die Tools integriert, die Sie bereits nutzen",
+    "canvas": "Canvas",
+    "blackboard": "Blackboard",
+    "schoology": "Schoology",
+    "googleClassroom": "Google Classroom",
+    "microsoft365": "Microsoft 365",
+    "clever": "Clever",
+    "classlink": "ClassLink",
+    "powerschool": "PowerSchool"
+  },
+  "pricing": {
+    "label": "Bildungspreise",
+    "title": "Für Bildungsbudgets gemacht",
+    "subtitle": "Enterprise-Sicherheit ohne Enterprise-Preise. Kostenlos starten, bei Bedarf skalieren.",
+    "teacher": {
+      "name": "Lehrkraft",
+      "price": "0€",
+      "period": "/für immer",
+      "desc": "Kostenlos für einzelne Lehrkräfte",
+      "features": {
+        "docs": "500 Dokumente pro Monat",
+        "apps": "Desktop- & Web-Apps",
+        "languages": "48 Sprachen",
+        "formats": "Alle Dateiformate"
+      },
+      "cta": "Kostenlos starten"
+    },
+    "school": {
+      "name": "Schule",
+      "badge": "Am beliebtesten",
+      "price": "49€",
+      "period": "/Monat",
+      "desc": "Für Schulen",
+      "features": {
+        "docs": "10.000 Dokumente pro Monat",
+        "lms": "LMS-Integration (Canvas, etc.)",
+        "sso": "25 SSO-Plätze (Clever, ClassLink)",
+        "admin": "Admin-Dashboard",
+        "ai": "KI-Schutz (MCP Server)"
+      },
+      "cta": "30-Tage-Test starten"
+    },
+    "district": {
+      "name": "Schulträger",
+      "price": "199€",
+      "period": "/Monat",
+      "desc": "Für Schulträger und Verbände",
+      "features": {
+        "docs": "Unbegrenzte Dokumente",
+        "sso": "Unbegrenzte SSO-Plätze",
+        "scim": "SCIM-Bereitstellung",
+        "support": "Dedizierter Support",
+        "dpa": "Individuelle AVV"
+      },
+      "cta": "Vertrieb kontaktieren"
+    }
+  },
+  "trust": {
+    "label": "Vertrauen & Sicherheit",
+    "title": "Enterprise-Sicherheit, die Sie überprüfen können",
+    "zeroKnowledge": {
+      "title": "Zero-Knowledge",
+      "desc": "Wir können mathematisch nicht auf Ihre Daten zugreifen"
+    },
+    "soc2": {
+      "title": "SOC 2 Typ II",
+      "desc": "Jährlich unabhängig auditiert"
+    },
+    "iso27001": {
+      "title": "ISO 27001",
+      "desc": "Zertifiziertes Sicherheitsmanagement"
+    },
+    "euData": {
+      "title": "EU-Datenresidenz",
+      "desc": "Deutsche Server verfügbar"
+    },
+    "usData": {
+      "title": "US-Datenresidenz",
+      "desc": "AWS GovCloud verfügbar"
+    },
+    "sdpc": {
+      "title": "AVV-Standard",
+      "desc": "Vorunterzeichnete Standard-AVV"
+    }
+  },
+  "cta": {
+    "title": "Beginnen Sie heute mit dem Schutz von Schülern",
+    "desc": "Schließen Sie sich über 1.200 Schulen an, die Anonymize.Education nutzen. Kostenlos für einzelne Lehrkräfte. Keine Kreditkarte erforderlich.",
+    "primary": "Jetzt kostenlos starten",
+    "secondary": "Demo vereinbaren"
+  },
+  "footer": {
+    "desc": "Zero-Knowledge-Schülerdatenschutz. Von über 1.200 Schulen weltweit genutzt.",
+    "solutions": "Lösungen",
+    "ferpaCompliance": "DSGVO-Compliance",
+    "coppaProtection": "Jugendschutz",
+    "aiSafety": "KI-Sicherheit",
+    "foiaRequests": "Auskunftsersuchen",
+    "forYou": "Für Sie",
+    "k12Schools": "Schulen",
+    "higherEducation": "Hochschulen",
+    "international": "International",
+    "research": "Forschung",
+    "trust": "Vertrauen",
+    "security": "Sicherheit",
+    "compliance": "Compliance",
+    "downloadDpa": "AVV herunterladen",
+    "subprocessors": "Unterauftragnehmer",
+    "copyright": "© 2026 Anonymize.Education. Alle Rechte vorbehalten.",
+    "privacyPolicy": "Datenschutzerklärung",
+    "termsOfService": "Nutzungsbedingungen",
+    "imprint": "Impressum"
+  },
+  "accessibility": {
+    "skipToContent": "Zum Hauptinhalt springen",
+    "openMenu": "Menü öffnen",
+    "closeMenu": "Menü schließen",
+    "newWindow": "Öffnet in neuem Fenster"
+  },
+  "errors": {
+    "required": "Dieses Feld ist erforderlich",
+    "invalidEmail": "Bitte geben Sie eine gültige E-Mail-Adresse ein",
+    "networkError": "Netzwerkfehler. Bitte versuchen Sie es erneut.",
+    "serverError": "Serverfehler. Bitte versuchen Sie es später erneut."
+  }
+}

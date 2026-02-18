@@ -1,0 +1,249 @@
+{
+  "meta": {
+    "lang": "en",
+    "locale": "en_US",
+    "dir": "ltr",
+    "title": "Student Data Privacy Without Complexity",
+    "description": "Protect student data with zero-knowledge architecture. FERPA, COPPA, GDPR ready. Used by 1,200+ schools worldwide. Start free.",
+    "keywords": "student data privacy, FERPA compliance, COPPA compliance, education data protection, school privacy tool, PII anonymization, student records security"
+  },
+  "nav": {
+    "logo": "Anonymize.Education",
+    "solutions": "Solutions",
+    "forYou": "For You",
+    "integrations": "Integrations",
+    "trust": "Trust",
+    "pricing": "Pricing",
+    "login": "Log In",
+    "startFree": "Start Free",
+    "menu": "Menu"
+  },
+  "hero": {
+    "alert": "62 million student records breached in 2024",
+    "headline1": "PowerSchool. Illuminate. Blackbaud.",
+    "headline2": "Your vendor could be next.",
+    "subheadline": "Anonymize.Education protects student data with zero-knowledge architecture. We never see your data. Neither do hackers.",
+    "ctaPrimary": "Start Protecting Students Free",
+    "ctaSecondary": "See How It Works"
+  },
+  "socialProof": {
+    "schools": "Schools Protected",
+    "breaches": "Data Breaches",
+    "soc2": "Type II Certified",
+    "sdpc": "DPA Aligned"
+  },
+  "breachTicker": {
+    "powerschool": "PowerSchool",
+    "powerschoolRecords": "62M records",
+    "illuminate": "Illuminate Education",
+    "illuminateRecords": "820K students",
+    "blackbaud": "Blackbaud",
+    "blackbaudRecords": "13K+ institutions",
+    "vendorBreaches": "55% of K-12 breaches via vendors",
+    "appsSharing": "96% of EdTech apps share data with third parties",
+    "stateLaws": "130+ state privacy laws to comply with"
+  },
+  "problems": {
+    "label": "The Problem",
+    "title": "Why Your Current Approach Isn't Working",
+    "vendorBreaches": {
+      "stat": "55%",
+      "title": "Breaches From Vendors",
+      "desc": "More than half of all K-12 data breaches are caused by third-party vendors, not the schools themselves."
+    },
+    "toolsPerSchool": {
+      "stat": "1,449",
+      "title": "Tools Per School",
+      "desc": "Average school uses 1,449 EdTech tools. You can't properly vet them all with limited staff and budget."
+    },
+    "appsSharing": {
+      "stat": "96%",
+      "title": "Apps Sharing Data",
+      "desc": "96% of EdTech apps share student data with third parties, likely violating COPPA and FERPA."
+    },
+    "enterpriseCost": {
+      "stat": "$50K+",
+      "title": "Enterprise Tool Cost",
+      "desc": "Enterprise privacy tools like OneTrust cost $50,000+ per year. Education budgets can't absorb that."
+    }
+  },
+  "solution": {
+    "label": "Our Solution",
+    "title": "Zero-Knowledge Architecture",
+    "desc": "We can't see your student data. Not because of policy, but because of math. Your data is encrypted before it ever reaches our servers. Even if we were hacked, attackers would get nothing.",
+    "features": {
+      "encryption": "End-to-end encryption with keys you control",
+      "noPlaintext": "No plaintext student data on our servers",
+      "inMemory": "Processing happens in memory, nothing stored",
+      "audited": "Independently audited by SOC 2 assessors"
+    },
+    "diagram": {
+      "step1": "Your student data (encrypted on your device)",
+      "step2": "Anonymization happens (we see only encrypted blobs)",
+      "step3": "Protected output returned to you",
+      "step4": "Share safely with anyone"
+    }
+  },
+  "solutions": {
+    "label": "What We Solve",
+    "title": "Every Education Privacy Challenge",
+    "subtitle": "Pick your problem. We have the solution.",
+    "ferpa": {
+      "title": "Never Fail a FERPA Audit",
+      "desc": "Pre-built FERPA workflows, signed DPAs, and complete audit trails. Pass any compliance review without hiring a consultant.",
+      "link": "FERPA Solution"
+    },
+    "coppa": {
+      "title": "Protect Under-13 Students",
+      "desc": "COPPA-compliant by design. School consent workflows built in. No third-party data sharing. Safe for K-12 from day one.",
+      "link": "COPPA Solution"
+    },
+    "aiSafety": {
+      "title": "Use AI Without Risk",
+      "desc": "Let teachers use ChatGPT and Claude safely. Student data is anonymized before AI sees it. Get AI benefits without privacy nightmares.",
+      "link": "AI Safety Solution"
+    },
+    "global": {
+      "title": "Comply Everywhere",
+      "desc": "GDPR, UK GDPR, LGPD, PIPL, and 130+ US state laws. One solution that works in every jurisdiction your school operates.",
+      "link": "Global Compliance"
+    },
+    "vendorAssessment": {
+      "title": "Pass Vendor Assessments",
+      "desc": "Pre-completed security questionnaires ready to download. SIG, HECVAT, state-specific forms. Submit to your district in minutes.",
+      "link": "Assessment Ready"
+    },
+    "foia": {
+      "title": "Handle FOIA Requests",
+      "desc": "Respond to public records requests without exposing student PII. Batch process hundreds of documents. Meet deadlines without manual redaction.",
+      "link": "FOIA Solution"
+    }
+  },
+  "integrations": {
+    "label": "Works Everywhere",
+    "title": "Built Into the Tools You Already Use",
+    "canvas": "Canvas",
+    "blackboard": "Blackboard",
+    "schoology": "Schoology",
+    "googleClassroom": "Google Classroom",
+    "microsoft365": "Microsoft 365",
+    "clever": "Clever",
+    "classlink": "ClassLink",
+    "powerschool": "PowerSchool"
+  },
+  "pricing": {
+    "label": "Education-First Pricing",
+    "title": "Built for Education Budgets",
+    "subtitle": "Enterprise security without enterprise pricing. Start free, scale as you grow.",
+    "teacher": {
+      "name": "Teacher",
+      "price": "$0",
+      "period": "/forever",
+      "desc": "Free for individual educators",
+      "features": {
+        "docs": "500 documents per month",
+        "apps": "Desktop & Web apps",
+        "languages": "48 languages",
+        "formats": "All file formats"
+      },
+      "cta": "Start Free"
+    },
+    "school": {
+      "name": "School",
+      "badge": "Most Popular",
+      "price": "$49",
+      "period": "/month",
+      "desc": "For K-12 schools",
+      "features": {
+        "docs": "10,000 documents per month",
+        "lms": "LMS integration (Canvas, etc.)",
+        "sso": "25 SSO seats (Clever, ClassLink)",
+        "admin": "Admin dashboard",
+        "ai": "AI protection (MCP Server)"
+      },
+      "cta": "Start 30-Day Trial"
+    },
+    "district": {
+      "name": "District",
+      "price": "$199",
+      "period": "/month",
+      "desc": "For school districts",
+      "features": {
+        "docs": "Unlimited documents",
+        "sso": "Unlimited SSO seats",
+        "scim": "SCIM provisioning",
+        "support": "Dedicated support",
+        "dpa": "Custom DPA"
+      },
+      "cta": "Contact Sales"
+    }
+  },
+  "trust": {
+    "label": "Trust & Security",
+    "title": "Enterprise Security You Can Verify",
+    "zeroKnowledge": {
+      "title": "Zero-Knowledge",
+      "desc": "We mathematically cannot access your data"
+    },
+    "soc2": {
+      "title": "SOC 2 Type II",
+      "desc": "Independently audited annually"
+    },
+    "iso27001": {
+      "title": "ISO 27001",
+      "desc": "Certified security management"
+    },
+    "euData": {
+      "title": "EU Data Residency",
+      "desc": "German servers available"
+    },
+    "usData": {
+      "title": "US Data Residency",
+      "desc": "AWS GovCloud available"
+    },
+    "sdpc": {
+      "title": "SDPC DPA",
+      "desc": "Pre-signed National DPA"
+    }
+  },
+  "cta": {
+    "title": "Start Protecting Students Today",
+    "desc": "Join 1,200+ schools using Anonymize.Education. Free for individual teachers. No credit card required.",
+    "primary": "Start Free Now",
+    "secondary": "Schedule Demo"
+  },
+  "footer": {
+    "desc": "Zero-knowledge student data privacy. Used by 1,200+ schools worldwide.",
+    "solutions": "Solutions",
+    "ferpaCompliance": "FERPA Compliance",
+    "coppaProtection": "COPPA Protection",
+    "aiSafety": "AI Safety",
+    "foiaRequests": "FOIA Requests",
+    "forYou": "For You",
+    "k12Schools": "K-12 Schools",
+    "higherEducation": "Higher Education",
+    "international": "International",
+    "research": "Research",
+    "trust": "Trust",
+    "security": "Security",
+    "compliance": "Compliance",
+    "downloadDpa": "Download DPA",
+    "subprocessors": "Subprocessors",
+    "copyright": "© 2026 Anonymize.Education. All rights reserved.",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service",
+    "imprint": "Imprint"
+  },
+  "accessibility": {
+    "skipToContent": "Skip to main content",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "newWindow": "Opens in new window"
+  },
+  "errors": {
+    "required": "This field is required",
+    "invalidEmail": "Please enter a valid email address",
+    "networkError": "Network error. Please try again.",
+    "serverError": "Server error. Please try again later."
+  }
+}

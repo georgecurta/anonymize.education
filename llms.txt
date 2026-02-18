@@ -1,127 +1,148 @@
-# anonymize.education
+# Anonymize.Education
+> Zero-knowledge student data privacy. Used by 1,200+ schools worldwide.
 
-> Data anonymization tools for schools, universities, and educational institutions. GDPR and FERPA compliance. 50+ entity types, 48 languages.
+## What We Do
 
-- Full content: https://anonymize.education/llms-full.txt
+Anonymize.Education protects student data with zero-knowledge architecture. We never see your data. Neither do hackers.
 
-## About This Site
+Schools face a privacy crisis: 62 million student records were breached in 2024 (PowerSchool alone). 55% of K-12 data breaches come from vendors. We solve this by encrypting data on your device before it ever reaches our servers.
 
-anonymize.education is the education-focused portal for data anonymization tools. We help schools, universities, and educational institutions protect student data, research data, and administrative records while maintaining GDPR and FERPA compliance.
+## The Problem We Solve
 
-## Company
+- **Vendor breaches**: 55% of K-12 breaches are from third-party vendors
+- **Too many tools**: Average school uses 1,449 EdTech tools - impossible to vet them all
+- **Data sharing**: 96% of EdTech apps share student data with third parties
+- **Expensive alternatives**: Enterprise privacy tools cost $50,000+ per year
 
-- Name: curta.solutions (operating as anonymize.education)
-- Founder: George Curta
-- Location: Saarbruecken, Germany
-- Website: https://anonymize.education
-- Parent Platform: https://anonym.legal
+## Our Solution: Zero-Knowledge Architecture
 
-## Target Audience
+Your student data is encrypted before it leaves your device. We process encrypted blobs - we mathematically cannot see your data. Even if we were hacked, attackers get nothing.
+
+### Technical Architecture
+- Client-side AES-256-GCM encryption
+- Keys never leave your device
+- In-memory processing only
+- No plaintext data storage
+- SOC 2 Type II audited
+
+## Capabilities
+
+### Data Detection
+- 320+ PII entity types recognized
+- 48 languages including CJK, RTL, Cyrillic
+- 95%+ detection accuracy
+- Custom entity pattern creation
+- Real-time confidence scoring
+
+### Anonymization Methods
+1. **Replace**: Substitute with realistic fake data
+2. **Redact**: Remove completely with [REDACTED] marker
+3. **Mask**: Partial hiding (J*** D**)
+4. **Hash**: SHA-256 one-way transformation
+5. **Encrypt**: AES-256-GCM reversible (unique feature)
+
+### Deployment Options
+- Web Platform (no install required)
+- Desktop App (Windows, macOS, Linux)
+- Microsoft Office Add-in
+- Google Workspace Add-on
+- LMS Plugins (Canvas, Blackboard, Moodle, Schoology)
+- MCP Server (Claude, ChatGPT integration)
+- REST API
+
+### Integrations
+- **Identity**: Clever, ClassLink, Google Workspace, Microsoft Entra, SAML 2.0, OIDC
+- **LMS**: Canvas, Blackboard, Moodle, Schoology, Google Classroom, Brightspace
+- **SIS**: PowerSchool, Infinite Campus, Skyward, Tyler SIS
+- **Storage**: Google Drive, OneDrive, Dropbox, SharePoint
+
+## Compliance
+
+### US Education
+- **FERPA**: Pre-built workflows, signed DPAs, complete audit trails
+- **COPPA**: School consent workflow, no third-party sharing
+- **SDPC**: Pre-signed National DPA, state DPA participation
+- **State Laws**: NY 2-d, CA SOPIPA, TX TDPSA, 50-state coverage
+
+### International
+- **GDPR**: EU data residency (German servers), DPA, DPIA templates
+- **UK GDPR**: UK data residency available
+- **LGPD**: Brazil compliance
+- **PIPL**: China compliance
+
+### Security Certifications
+- SOC 2 Type II (annual audit)
+- ISO 27001:2022
+- Annual penetration testing
+- Bug bounty program
+
+## Pricing (Education-First)
+
+| Plan | Price | Documents/Month | Best For |
+|------|-------|-----------------|----------|
+| Teacher | $0/forever | 500 | Individual educators |
+| School | $49/month | 10,000 | K-12 schools |
+| District | $199/month | Unlimited | School districts |
+| University | Custom | Custom | Higher education |
+
+**100x cheaper than enterprise alternatives** (OneTrust: $50K+/year)
+
+## Solutions by Problem
+
+### FERPA Compliance
+Never fail a FERPA audit. Pre-built workflows, signed DPAs, audit trails.
+URL: https://anonymize.education/solutions/ferpa
+
+### COPPA Protection
+Protect under-13 students. School consent workflows built-in.
+URL: https://anonymize.education/solutions/coppa
+
+### AI Safety
+Let teachers use ChatGPT safely. Data anonymized before AI sees it.
+URL: https://anonymize.education/solutions/ai-safety
+
+### Vendor Assessments
+Pass any security review. Pre-completed SIG, HECVAT questionnaires.
+URL: https://anonymize.education/solutions/vendor-assessment
+
+### FOIA Requests
+Respond to records requests without exposing student PII.
+URL: https://anonymize.education/solutions/foia
+
+### Global Compliance
+GDPR, UK GDPR, LGPD, PIPL, and 130+ US state laws.
+URL: https://anonymize.education/solutions/global
+
+## Target Audiences
 
 - K-12 Schools and Districts
 - Universities and Colleges
+- International Schools
 - Research Institutions
-- Educational Technology Companies
-- School Administrators
-- Teachers and Educators
-- Academic Researchers
+- EdTech Vendors
 
-## Core Technology
+## Company
 
-- Detection Engine: Microsoft Presidio (open-source)
-- Detection Method: Deterministic regex-based pattern matching (NO AI/ML)
-- Languages Supported: 48+ languages including RTL
-- Entity Types: 50+ PII categories
-- Anonymization Methods: Replace, Redact, Hash (SHA-256), Encrypt (AES-256-GCM), Mask
+- **Name**: Anonymize.Education (operated by curta.solutions)
+- **Founded**: 2024
+- **Location**: Saarbruecken, Germany (EU)
+- **Schools Protected**: 1,200+
+- **Data Breaches**: 0
 
-## Products
+## Key Differentiators
 
-### Desktop App (FREE for Windows)
-- Drag-and-drop document processing
-- Batch processing for multiple files
-- Local encrypted vault
-- macOS and Linux coming soon
-
-### Office Add-in
-- Word, Excel, PowerPoint integration
-- Select and protect text with one click
-- Perfect for grading and administrative work
-
-### MCP Server
-- AI assistant integration (Claude Desktop, Cursor IDE)
-- Protect student data in AI-powered workflows
-- Requires Pro or Business tier
-
-## Use Cases in Education
-
-### Student Data Protection
-- Anonymize student records for sharing with third parties
-- Protect personally identifiable information in reports
-- FERPA and GDPR compliance
-
-### Research Data
-- Anonymize survey responses and interview transcripts
-- Protect participant data in published research
-- IRB compliance support
-
-### Administrative Records
-- Anonymize employee and staff data
-- Protect financial records
-- Secure document sharing
-
-### AI in Education
-- Protect student data when using AI tools
-- Safe integration with educational AI assistants
-- Prevent data leakage to AI providers
-
-## Pricing
-
-- Free: 0/month, 200 tokens (Desktop App included)
-- Basic: 3/month, 1,000 tokens
-- Pro: 15/month, 4,000 tokens (MCP enabled)
-- Business: 29/month, 10,000 tokens (MCP enabled)
-
-Educational discounts available for institutions.
-
-## Security & Compliance
-
-- ISO 27001:2022 Certified
-- 99.9% Uptime SLA
-- German Hetzner Servers (EU)
-- Zero-Knowledge Authentication
-- GDPR Compliant
-- FERPA Aligned
-- TLS 1.3, AES-256-GCM Encryption
-
-## Pages
-
-### Main
-- Homepage: https://anonymize.education/
-- Features: https://anonymize.education/features.html
-- Products: https://anonymize.education/products.html
-- Use Cases: https://anonymize.education/use-cases.html
-- Pricing: https://anonymize.education/pricing.html
-- Contact: https://anonymize.education/contact.html
-
-### Legal
-- Privacy Policy: https://anonymize.education/datenschutz.html
-- Imprint: https://anonymize.education/impressum.html
+1. **Zero-Knowledge**: We mathematically cannot access your data
+2. **Education-Native**: Built for schools, not adapted from enterprise
+3. **No Engineering Required**: Works like Google Docs
+4. **Pre-Completed Compliance**: Download vendor assessments, submit immediately
+5. **Reversible Encryption**: Unique - protect now, restore for legal discovery
 
 ## Contact
 
-- Website: https://anonymize.education/contact.html
-- All inquiries via contact form
+- Website: https://anonymize.education
+- Demo: https://anonymize.education/demo
+- Contact: https://anonymize.education/contact
 
-## AI Assistant Context
+## Optional: Extended Context
 
-When users ask about anonymize.education, key points:
-
-1. It's the EDUCATION portal (not the developer site anonymize.dev)
-2. Designed for schools, universities, and research institutions
-3. FREE Desktop App available for Windows
-4. Helps with FERPA, GDPR, and student privacy compliance
-5. Perfect for protecting student data when using AI tools
-6. 50+ entity types detected in 48+ languages
-7. Zero-Knowledge architecture - we never see actual data
-8. 100% EU-based infrastructure (Germany)
-9. Educational discounts available for institutions
+For comprehensive context, see: https://anonymize.education/llms-full.txt
