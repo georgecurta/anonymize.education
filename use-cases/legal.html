@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Legal Industry PII Protection - E-discovery redaction, client confidentiality, court filings, and reversible encryption for law firms.">
+  <meta name="theme-color" content="#0d5c63">
+  <title>Legal Use Cases | Anonymize.Education</title>
+  <link rel="canonical" href="https://anonymize.education/use-cases/legal.html">
+  <link rel="icon" type="image/png" sizes="32x32" href="../images/favicon-32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --color-trust: #0d5c63;
+      --color-trust-dark: #094249;
+      --color-trust-light: #e6f3f4;
+      --color-slate: #1e293b;
+      --color-slate-600: #475569;
+      --color-danger: #dc2626;
+      --color-danger-bg: #fef2f2;
+      --color-warning: #f59e0b;
+      --color-warning-bg: #fffbeb;
+      --color-success: #059669;
+      --color-success-bg: #ecfdf5;
+      --font-sans: 'DM Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: var(--font-sans); font-size: 16px; line-height: 1.6; color: var(--color-slate); background: #fafaf9; }
+    a { color: inherit; text-decoration: none; }
+
+    .nav { position: fixed; top: 0; left: 0; right: 0; z-index: 100; background: rgba(255,255,255,0.95); backdrop-filter: blur(10px); border-bottom: 1px solid rgba(0,0,0,0.05); }
+    .nav__inner { display: flex; align-items: center; justify-content: space-between; max-width: 1200px; margin: 0 auto; padding: 1rem 1.5rem; }
+    .nav__logo { display: flex; align-items: center; gap: 0.5rem; font-weight: 700; font-size: 1.125rem; color: var(--color-trust); }
+    .nav__logo-mark { width: 32px; height: 32px; background: var(--color-trust); border-radius: 8px; display: flex; align-items: center; justify-content: center; color: white; font-weight: 700; font-size: 0.875rem; }
+    .nav__links { display: none; gap: 2rem; }
+    @media (min-width: 768px) { .nav__links { display: flex; } }
+    .nav__link { font-size: 0.9375rem; font-weight: 500; color: var(--color-slate-600); transition: color 0.15s; }
+    .nav__link:hover { color: var(--color-trust); }
+
+    .hero { padding: calc(80px + 3rem) 1.5rem 3rem; background: linear-gradient(180deg, #fff 0%, #fafaf9 100%); text-align: center; }
+    .hero__inner { max-width: 800px; margin: 0 auto; }
+    .hero__icon { font-size: 3rem; margin-bottom: 1rem; }
+    .hero__title { font-size: 2.5rem; font-weight: 700; color: var(--color-slate); margin-bottom: 1rem; }
+    .hero__subtitle { font-size: 1.25rem; color: var(--color-slate-600); margin-bottom: 2rem; }
+    .hero__stats { display: flex; flex-wrap: wrap; justify-content: center; gap: 2rem; padding-top: 2rem; border-top: 1px solid rgba(0,0,0,0.05); }
+    .hero__stat { text-align: center; }
+    .hero__stat-value { font-size: 2rem; font-weight: 700; color: var(--color-danger); }
+    .hero__stat-label { font-size: 0.875rem; color: var(--color-slate-600); }
+
+    .content { max-width: 900px; margin: 0 auto; padding: 3rem 1.5rem; }
+
+    .regulation { background: white; border-radius: 12px; padding: 2rem; margin-bottom: 2rem; border: 1px solid rgba(0,0,0,0.08); }
+    .regulation__header { display: flex; align-items: center; gap: 1rem; margin-bottom: 1.5rem; }
+    .regulation__icon { width: 48px; height: 48px; background: var(--color-trust-light); border-radius: 8px; display: flex; align-items: center; justify-content: center; font-size: 1.5rem; }
+    .regulation__title { font-size: 1.5rem; font-weight: 700; color: var(--color-slate); }
+    .regulation__subtitle { font-size: 0.875rem; color: var(--color-slate-600); }
+
+    .use-case { background: #f8fafc; border-radius: 8px; padding: 1.5rem; margin: 1.5rem 0; }
+    .use-case__title { font-size: 1.125rem; font-weight: 600; color: var(--color-trust); margin-bottom: 0.5rem; }
+    .use-case__scenario { font-size: 0.9375rem; color: var(--color-slate-600); margin-bottom: 1rem; }
+
+    .pain-point { background: var(--color-danger-bg); border-left: 3px solid var(--color-danger); padding: 1rem; margin: 1rem 0; border-radius: 0 8px 8px 0; }
+    .pain-point strong { color: #991b1b; }
+
+    .risk { background: var(--color-warning-bg); border-left: 3px solid var(--color-warning); padding: 1rem; margin: 1rem 0; border-radius: 0 8px 8px 0; }
+    .risk strong { color: #92400e; }
+
+    .solution { background: var(--color-success-bg); border-left: 3px solid var(--color-success); padding: 1rem; margin: 1rem 0; border-radius: 0 8px 8px 0; }
+    .solution strong { color: #065f46; }
+
+    .stat-highlight { display: inline-flex; align-items: center; gap: 0.5rem; background: var(--color-trust); color: white; padding: 0.25rem 0.75rem; border-radius: 100px; font-size: 0.875rem; font-weight: 600; margin-top: 0.5rem; }
+
+    .source { font-size: 0.75rem; color: var(--color-slate-600); margin-top: 1rem; padding-top: 1rem; border-top: 1px solid rgba(0,0,0,0.05); }
+    .source a { color: var(--color-trust); text-decoration: underline; }
+
+    .cta { background: linear-gradient(135deg, var(--color-trust) 0%, var(--color-trust-dark) 100%); color: white; padding: 4rem 1.5rem; text-align: center; }
+    .cta__title { font-size: 2rem; font-weight: 700; margin-bottom: 1rem; }
+    .cta__desc { font-size: 1.125rem; opacity: 0.9; max-width: 600px; margin: 0 auto 2rem; }
+    .btn { display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.75rem 1.5rem; font-family: inherit; font-size: 1rem; font-weight: 600; border-radius: 8px; border: none; cursor: pointer; transition: all 0.15s; }
+    .btn--white { background: white; color: var(--color-trust); }
+    .btn--white:hover { background: #f8fafc; transform: translateY(-1px); }
+
+    .footer { background: var(--color-slate); color: white; padding: 3rem 1.5rem 1.5rem; }
+    .footer__inner { max-width: 1200px; margin: 0 auto; }
+    .footer__grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 2rem; margin-bottom: 2rem; }
+    .footer__title { font-size: 0.875rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 1rem; opacity: 0.5; }
+    .footer__link { display: block; font-size: 0.9375rem; opacity: 0.8; margin-bottom: 0.5rem; transition: opacity 0.15s; }
+    .footer__link:hover { opacity: 1; }
+    .footer__bottom { padding-top: 1.5rem; border-top: 1px solid rgba(255,255,255,0.1); display: flex; justify-content: space-between; flex-wrap: wrap; gap: 1rem; font-size: 0.875rem; opacity: 0.5; }
+  </style>
+</head>
+<body>
+  <nav class="nav">
+    <div class="nav__inner">
+      <a href="../" class="nav__logo">
+        <span class="nav__logo-mark">A</span>
+        Anonymize.Education
+      </a>
+      <div class="nav__links">
+        <a href="../index.html#solutions" class="nav__link">Solutions</a>
+        <a href="../index.html#pricing" class="nav__link">Pricing</a>
+        <a href="../use-cases.html" class="nav__link">Use Cases</a>
+        <a href="../contact.html" class="nav__link">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <section class="hero">
+    <div class="hero__inner">
+      <div class="hero__icon">&#9878;</div>
+      <h1 class="hero__title">Legal Industry PII Protection</h1>
+      <p class="hero__subtitle">E-discovery redaction, client confidentiality, court filings, and reversible encryption for law firms and legal departments.</p>
+      <div class="hero__stats">
+        <div class="hero__stat">
+          <div class="hero__stat-value">Reversible</div>
+          <div class="hero__stat-label">Encryption for discovery</div>
+        </div>
+        <div class="hero__stat">
+          <div class="hero__stat-value">Native</div>
+          <div class="hero__stat-label">Excel format preservation</div>
+        </div>
+        <div class="hero__stat">
+          <div class="hero__stat-value">5,000</div>
+          <div class="hero__stat-label">Files per batch</div>
+        </div>
+        <div class="hero__stat">
+          <div class="hero__stat-value">260+</div>
+          <div class="hero__stat-label">PII entity types</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <main class="content">
+
+    <section class="regulation">
+      <div class="regulation__header">
+        <div class="regulation__icon">&#128451;</div>
+        <div>
+          <h2 class="regulation__title">E-Discovery & Document Production</h2>
+          <p class="regulation__subtitle">FRCP Rule 26 and state discovery requirements</p>
+        </div>
+      </div>
+
+      <div class="use-case">
+        <h3 class="use-case__title">Use Case 1: Large-Scale Document Production</h3>
+        <p class="use-case__scenario">Your firm received discovery requests for 50,000 documents. These include emails, contracts, and internal communications that contain client PII, employee information, and privileged content.</p>
+
+        <div class="pain-point">
+          <strong>Pain Point:</strong> "FOIA offices, hospitals, and law firms process hundreds of thousands of documents. Manual review that once took weeks can't scale to this volume." E-discovery volumes have exploded with electronic communication.
+        </div>
+
+        <div class="risk">
+          <strong>Risk:</strong> Inconsistent redaction across documents creates exposure. Missing one Social Security number in a 50,000-document production is malpractice.
+        </div>
+
+        <div class="solution">
+          <strong>Solution:</strong> Batch process up to 5,000 files at once. Consistent detection rules applied uniformly. Process overnight, review in morning. Scale to any production size with multiple batches.
+        </div>
+
+        <span class="stat-highlight">Process 5,000 documents per batch</span>
+
+        <div class="source">
+          Source: <a href="https://www.secureredact.ai/articles/ai-vs-traditional-redaction-software" target="_blank">SecureRedact - AI vs Traditional Redaction</a>
+        </div>
+      </div>
+
+      <div class="use-case">
+        <h3 class="use-case__title">Use Case 2: Native Excel Production</h3>
+        <p class="use-case__scenario">Opposing counsel demands native Excel spreadsheets with formulas and filtering intact. You need to redact PII while preserving spreadsheet functionality.</p>
+
+        <div class="pain-point">
+          <strong>Pain Point:</strong> "The trend for native production of spreadsheets across nearly all jurisdictions is growing." Courts expect functioning spreadsheets, not PDF images. But Excel has hidden layers: comments, revision history, metadata.
+        </div>
+
+        <div class="risk">
+          <strong>Risk:</strong> "Excel's multi-layered data structure, where sensitive information can exist in cell content, embedded objects, comments, revision history" creates hidden exposure even when visible cells are redacted.
+        </div>
+
+        <div class="solution">
+          <strong>Solution:</strong> Office Add-in processes Excel documents with full awareness of hidden layers. Detects PII in formulas, comments, revision history, and hidden cells. Produces native output that satisfies both redaction and format requirements.
+        </div>
+
+        <div class="source">
+          Source: <a href="https://www.relativity.com/blog/5-spreadsheet-redactions-headaches-and-how-to-relieve-them/" target="_blank">Relativity - Excel Redaction Challenges</a>
+        </div>
+      </div>
+
+      <div class="use-case">
+        <h3 class="use-case__title">Use Case 3: Reversible Encryption for Legal Hold</h3>
+        <p class="use-case__scenario">You're preserving documents under litigation hold. You need to protect PII now, but may need to access original documents if case goes to trial or settlement negotiations require it.</p>
+
+        <div class="pain-point">
+          <strong>Pain Point:</strong> "If you need to come back to your data for legal and archival purposes, then reversible methods such as tokenization or encryption are your only choice." Irreversible redaction destroys evidence.
+        </div>
+
+        <div class="risk">
+          <strong>Risk:</strong> Permanent redaction during preservation can result in spoliation findings. You cannot produce what you've destroyed.
+        </div>
+
+        <div class="solution">
+          <strong>Solution:</strong> AES-256-GCM reversible encryption protects documents during hold while maintaining ability to decrypt when needed. Your firm holds the keys. Decrypt selectively for trial exhibits, expert review, or settlement.
+        </div>
+
+        <span class="stat-highlight">Unique: Reversible encryption for legal workflows</span>
+
+        <div class="source">
+          Source: <a href="https://pii-tools.com/pii-de-identification-vs-masking-vs-redaction/" target="_blank">PII Tools - Reversible Methods for Legal</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="regulation">
+      <div class="regulation__header">
+        <div class="regulation__icon">&#129302;</div>
+        <div>
+          <h2 class="regulation__title">AI in Legal Practice</h2>
+          <p class="regulation__subtitle">Using AI tools while protecting client confidentiality</p>
+        </div>
+      </div>
+
+      <div class="use-case">
+        <h3 class="use-case__title">Use Case 4: AI-Assisted Legal Research & Drafting</h3>
+        <p class="use-case__scenario">Associates want to use AI to draft briefs, analyze contracts, or research case law. But typing client facts into ChatGPT violates attorney-client privilege and confidentiality rules.</p>
+
+        <div class="pain-point">
+          <strong>Pain Point:</strong> "77% of employees admit leaking sensitive data to AI." Lawyers face the same productivity pressures as other professionals, but ethical rules impose stricter confidentiality requirements.
+        </div>
+
+        <div class="risk">
+          <strong>Risk:</strong> ABA Model Rule 1.6 requires lawyers to make "reasonable efforts to prevent inadvertent or unauthorized disclosure." Using public AI tools with client information may breach this duty.
+        </div>
+
+        <div class="solution">
+          <strong>Solution:</strong> MCP Server intercepts and anonymizes before AI processing. "Client Smith sued Defendant Jones for breach of contract worth $5M" becomes "Client A sued Defendant B for breach of contract worth [AMOUNT]." AI assists, confidentiality preserved.
+        </div>
+
+        <div class="source">
+          Source: <a href="https://www.protecto.ai/blog/ai-data-privacy-statistics-trends/" target="_blank">Protecto.ai - Employee AI Data Leakage</a>
+        </div>
+      </div>
+
+      <div class="use-case">
+        <h3 class="use-case__title">Use Case 5: Contract Analysis at Scale</h3>
+        <p class="use-case__scenario">Your firm is conducting due diligence on an acquisition. You need to analyze 500 contracts for risk provisions, but contracts contain counterparty names, deal values, and other sensitive terms.</p>
+
+        <div class="pain-point">
+          <strong>Pain Point:</strong> "53% cite data privacy as #1 AI adoption blocker." Law firms want AI efficiency but can't risk client data exposure.
+        </div>
+
+        <div class="solution">
+          <strong>Solution:</strong> Batch anonymize contracts before AI analysis. Feed anonymized versions to contract analysis AI. Get structured extraction of risk terms without exposing party identities or deal values to third-party AI services.
+        </div>
+
+        <span class="stat-highlight">53% cite privacy as top AI blocker</span>
+
+        <div class="source">
+          Source: <a href="https://www.cloudera.com/about/news-and-blogs/press-releases/2025-04-16-96-percent-of-enterprises-are-expanding-use-of-ai-agents-according-to-latest-data-from-cloudera.html" target="_blank">Cloudera - AI Privacy Concerns</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="regulation">
+      <div class="regulation__header">
+        <div class="regulation__icon">&#128220;</div>
+        <div>
+          <h2 class="regulation__title">Court Filings & Public Records</h2>
+          <p class="regulation__subtitle">Redaction for public access and sealed filings</p>
+        </div>
+      </div>
+
+      <div class="use-case">
+        <h3 class="use-case__title">Use Case 6: Public Filing Redaction</h3>
+        <p class="use-case__scenario">Filing a complaint in federal court. The complaint references witness SSNs, minor children, financial account numbers, and home addresses. FRCP 5.2 requires redaction before public filing.</p>
+
+        <div class="pain-point">
+          <strong>Pain Point:</strong> Federal Rule 5.2 requires redaction of SSNs (last 4 only), financial accounts (last 4 only), dates of birth (year only), minor names (initials only). State rules vary further.
+        </div>
+
+        <div class="risk">
+          <strong>Risk:</strong> Unredacted filings become permanent public records. A minor's full name in a public filing follows them for life.
+        </div>
+
+        <div class="solution">
+          <strong>Solution:</strong> Configurable redaction rules match specific court requirements. Detect full identifiers, apply partial redaction per rule. "123-45-6789" becomes "XXX-XX-6789" per FRCP 5.2(a)(1).
+        </div>
+
+        <span class="stat-highlight">FRCP 5.2 compliant partial redaction</span>
+      </div>
+
+      <div class="use-case">
+        <h3 class="use-case__title">Use Case 7: Protective Order Compliance</h3>
+        <p class="use-case__scenario">You're producing documents under a protective order that designates certain information as "Confidential" or "Attorneys Eyes Only." You need to track and manage what's been designated.</p>
+
+        <div class="pain-point">
+          <strong>Pain Point:</strong> Protective orders require systematic tracking of designated information. Manual designation is inconsistent and creates discovery disputes.
+        </div>
+
+        <div class="solution">
+          <strong>Solution:</strong> Use presets to apply consistent designation rules across document sets. Audit logs track which documents were processed with which rules. Demonstrate systematic compliance to opposing counsel or court.
+        </div>
+      </div>
+    </section>
+
+    <section class="regulation">
+      <div class="regulation__header">
+        <div class="regulation__icon">&#128101;</div>
+        <div>
+          <h2 class="regulation__title">Client Data Management</h2>
+          <p class="regulation__subtitle">Protecting client information across firm systems</p>
+        </div>
+      </div>
+
+      <div class="use-case">
+        <h3 class="use-case__title">Use Case 8: Conflicts Checking</h3>
+        <p class="use-case__scenario">Lateral hire brings client list for conflicts checking. The list contains client names, matter descriptions, and adverse parties. You need to check conflicts without exposing the lateral's prior client information to unauthorized personnel.</p>
+
+        <div class="pain-point">
+          <strong>Pain Point:</strong> Conflicts checking requires broad access to client information, but ethical rules limit who can see what. Prior firm client information is particularly sensitive.
+        </div>
+
+        <div class="solution">
+          <strong>Solution:</strong> Hash client names for conflicts matching. "Client Smith" becomes hash "a7b9c3d8..." Same client = same hash. Run conflict search without exposing actual names to unauthorized staff.
+        </div>
+      </div>
+
+      <div class="use-case">
+        <h3 class="use-case__title">Use Case 9: Matter Closing & Archival</h3>
+        <p class="use-case__scenario">Closing a major litigation. You need to archive documents for retention requirements, but also need to limit exposure of client PII in long-term storage.</p>
+
+        <div class="pain-point">
+          <strong>Pain Point:</strong> Retention requirements may mandate 7-10 year storage. During that time, systems change, personnel changes, breach risks accumulate. Original PII exposure grows with time.
+        </div>
+
+        <div class="solution">
+          <strong>Solution:</strong> Encrypt-then-archive. Reversible encryption protects documents in long-term storage. If needed for malpractice defense or client request, decrypt specific documents. Otherwise, PII remains protected even if archives are compromised.
+        </div>
+
+        <span class="stat-highlight">Long-term protection with reversible encryption</span>
+      </div>
+    </section>
+
+    <section class="regulation">
+      <div class="regulation__header">
+        <div class="regulation__icon">&#127760;</div>
+        <div>
+          <h2 class="regulation__title">Cross-Border Legal Work</h2>
+          <p class="regulation__subtitle">International matters and GDPR compliance</p>
+        </div>
+      </div>
+
+      <div class="use-case">
+        <h3 class="use-case__title">Use Case 10: Cross-Border Discovery</h3>
+        <p class="use-case__scenario">US litigation requires discovery from EU subsidiary. GDPR restricts transfer of EU citizen PII to US courts. You're caught between US discovery rules and EU data protection.</p>
+
+        <div class="pain-point">
+          <strong>Pain Point:</strong> GDPR Article 48 prohibits transfers based on foreign court orders without appropriate safeguards. US discovery rules don't recognize GDPR restrictions.
+        </div>
+
+        <div class="risk">
+          <strong>Risk:</strong> Transfer without GDPR compliance: EUR 20M or 4% global revenue fine. Refuse US discovery: sanctions, adverse inference, contempt.
+        </div>
+
+        <div class="solution">
+          <strong>Solution:</strong> Anonymize EU citizen PII before US transfer. Anonymized data is not personal data under GDPR. Satisfy US discovery with anonymized documents; retain encrypted originals in EU for potential court-ordered disclosure with proper safeguards.
+        </div>
+
+        <div class="source">
+          Source: <a href="https://www.dlapiper.com/en/insights/publications/2026/01/dla-piper-gdpr-fines-and-data-breach-survey-january-2026" target="_blank">DLA Piper - GDPR Enforcement</a>
+        </div>
+      </div>
+
+      <div class="use-case">
+        <h3 class="use-case__title">Use Case 11: Multilingual Document Review</h3>
+        <p class="use-case__scenario">International arbitration involves documents in English, German, French, Chinese, and Arabic. You need consistent PII detection across all languages for production.</p>
+
+        <div class="pain-point">
+          <strong>Pain Point:</strong> "NER tools perform significantly better for English...gap for tools that perform well on non-English texts." English-optimized tools miss 30-40% of PII in other languages.
+        </div>
+
+        <div class="solution">
+          <strong>Solution:</strong> 48-language detection with consistent accuracy. Hybrid regex + NLP + XLM-RoBERTa handles Western European, CJK, and RTL scripts. One tool for multilingual document sets.
+        </div>
+
+        <span class="stat-highlight">48 languages for international matters</span>
+
+        <div class="source">
+          Source: <a href="https://www.tandfonline.com/doi/full/10.1080/19312458.2024.2324789" target="_blank">Taylor & Francis - Multilingual NER Gaps</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="regulation">
+      <div class="regulation__header">
+        <div class="regulation__icon">&#128274;</div>
+        <div>
+          <h2 class="regulation__title">Security & Compliance</h2>
+          <p class="regulation__subtitle">Meeting client security requirements and insurance standards</p>
+        </div>
+      </div>
+
+      <div class="use-case">
+        <h3 class="use-case__title">Use Case 12: Client Security Audits</h3>
+        <p class="use-case__scenario">Major corporate client requires annual security assessment of all outside counsel. They want to see ISO 27001 certification and documented data protection practices.</p>
+
+        <div class="pain-point">
+          <strong>Pain Point:</strong> "ISO 27001 has become 'the minimum bar, not the gold standard' for vendor assessment." Corporate clients increasingly require certification from outside counsel.
+        </div>
+
+        <div class="solution">
+          <strong>Solution:</strong> Anonym.legal is ISO 27001:2022 certified. German servers (Hetzner). Zero-knowledge architecture means even vendor compromise doesn't expose client data. Meet client security requirements with documented, certified tooling.
+        </div>
+
+        <div class="source">
+          Source: <a href="https://canadiancyber.ca/iso-27001-vendor-requirements/" target="_blank">Canadian Cyber - ISO 27001 Requirements</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <section class="cta">
+    <h2 class="cta__title">Legal-Grade Document Protection</h2>
+    <p class="cta__desc">Reversible encryption for discovery. Native Excel support. ISO 27001 certified. Built for law firm workflows.</p>
+    <a href="https://anonym.legal" target="_blank" class="btn btn--white">Start Free Trial</a>
+  </section>
+
+  <footer class="footer">
+    <div class="footer__inner">
+      <div class="footer__grid">
+        <div>
+          <h4 class="footer__title">By Industry</h4>
+          <a href="healthcare.html" class="footer__link">Healthcare</a>
+          <a href="legal.html" class="footer__link">Legal</a>
+          <a href="finance.html" class="footer__link">Finance</a>
+          <a href="government.html" class="footer__link">Government</a>
+          <a href="hr.html" class="footer__link">HR</a>
+        </div>
+        <div>
+          <h4 class="footer__title">By Region</h4>
+          <a href="us.html" class="footer__link">United States</a>
+          <a href="eu.html" class="footer__link">European Union</a>
+          <a href="uk.html" class="footer__link">United Kingdom</a>
+          <a href="apac.html" class="footer__link">Asia-Pacific</a>
+        </div>
+        <div>
+          <h4 class="footer__title">Legal</h4>
+          <a href="../datenschutz.html" class="footer__link">Privacy Policy</a>
+          <a href="../impressum.html" class="footer__link">Imprint</a>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <span>&copy; 2026 Anonymize.Education</span>
+        <span>ISO 27001:2022 Certified | Made in Germany</span>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

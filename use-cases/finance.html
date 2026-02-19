@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Finance & Banking PII Protection - GDPR compliance, KYC/AML document processing, cross-border data transfers, and AI-safe analytics for financial institutions.">
+  <meta name="theme-color" content="#0d5c63">
+  <title>Finance & Banking Use Cases | Anonymize.Education</title>
+  <link rel="canonical" href="https://anonymize.education/use-cases/finance.html">
+  <link rel="icon" type="image/png" sizes="32x32" href="../images/favicon-32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --color-trust: #0d5c63;
+      --color-trust-dark: #094249;
+      --color-trust-light: #e6f3f4;
+      --color-slate: #1e293b;
+      --color-slate-600: #475569;
+      --color-danger: #dc2626;
+      --color-danger-bg: #fef2f2;
+      --color-warning: #f59e0b;
+      --color-warning-bg: #fffbeb;
+      --color-success: #059669;
+      --color-success-bg: #ecfdf5;
+      --font-sans: 'DM Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: var(--font-sans); font-size: 16px; line-height: 1.6; color: var(--color-slate); background: #fafaf9; }
+    a { color: inherit; text-decoration: none; }
+
+    .nav { position: fixed; top: 0; left: 0; right: 0; z-index: 100; background: rgba(255,255,255,0.95); backdrop-filter: blur(10px); border-bottom: 1px solid rgba(0,0,0,0.05); }
+    .nav__inner { display: flex; align-items: center; justify-content: space-between; max-width: 1200px; margin: 0 auto; padding: 1rem 1.5rem; }
+    .nav__logo { display: flex; align-items: center; gap: 0.5rem; font-weight: 700; font-size: 1.125rem; color: var(--color-trust); }
+    .nav__logo-mark { width: 32px; height: 32px; background: var(--color-trust); border-radius: 8px; display: flex; align-items: center; justify-content: center; color: white; font-weight: 700; font-size: 0.875rem; }
+    .nav__links { display: none; gap: 2rem; }
+    @media (min-width: 768px) { .nav__links { display: flex; } }
+    .nav__link { font-size: 0.9375rem; font-weight: 500; color: var(--color-slate-600); transition: color 0.15s; }
+    .nav__link:hover { color: var(--color-trust); }
+
+    .hero { padding: calc(80px + 3rem) 1.5rem 3rem; background: linear-gradient(180deg, #fff 0%, #fafaf9 100%); text-align: center; }
+    .hero__inner { max-width: 800px; margin: 0 auto; }
+    .hero__icon { font-size: 3rem; margin-bottom: 1rem; }
+    .hero__title { font-size: 2.5rem; font-weight: 700; color: var(--color-slate); margin-bottom: 1rem; }
+    .hero__subtitle { font-size: 1.25rem; color: var(--color-slate-600); margin-bottom: 2rem; }
+    .hero__stats { display: flex; flex-wrap: wrap; justify-content: center; gap: 2rem; padding-top: 2rem; border-top: 1px solid rgba(0,0,0,0.05); }
+    .hero__stat { text-align: center; }
+    .hero__stat-value { font-size: 2rem; font-weight: 700; color: var(--color-danger); }
+    .hero__stat-label { font-size: 0.875rem; color: var(--color-slate-600); }
+
+    .content { max-width: 900px; margin: 0 auto; padding: 3rem 1.5rem; }
+
+    .regulation { background: white; border-radius: 12px; padding: 2rem; margin-bottom: 2rem; border: 1px solid rgba(0,0,0,0.08); }
+    .regulation__header { display: flex; align-items: center; gap: 1rem; margin-bottom: 1.5rem; }
+    .regulation__icon { width: 48px; height: 48px; background: var(--color-trust-light); border-radius: 8px; display: flex; align-items: center; justify-content: center; font-size: 1.5rem; }
+    .regulation__title { font-size: 1.5rem; font-weight: 700; color: var(--color-slate); }
+    .regulation__subtitle { font-size: 0.875rem; color: var(--color-slate-600); }
+
+    .use-case { background: #f8fafc; border-radius: 8px; padding: 1.5rem; margin: 1.5rem 0; }
+    .use-case__title { font-size: 1.125rem; font-weight: 600; color: var(--color-trust); margin-bottom: 0.5rem; }
+    .use-case__scenario { font-size: 0.9375rem; color: var(--color-slate-600); margin-bottom: 1rem; }
+
+    .pain-point { background: var(--color-danger-bg); border-left: 3px solid var(--color-danger); padding: 1rem; margin: 1rem 0; border-radius: 0 8px 8px 0; }
+    .pain-point strong { color: #991b1b; }
+
+    .risk { background: var(--color-warning-bg); border-left: 3px solid var(--color-warning); padding: 1rem; margin: 1rem 0; border-radius: 0 8px 8px 0; }
+    .risk strong { color: #92400e; }
+
+    .solution { background: var(--color-success-bg); border-left: 3px solid var(--color-success); padding: 1rem; margin: 1rem 0; border-radius: 0 8px 8px 0; }
+    .solution strong { color: #065f46; }
+
+    .stat-highlight { display: inline-flex; align-items: center; gap: 0.5rem; background: var(--color-trust); color: white; padding: 0.25rem 0.75rem; border-radius: 100px; font-size: 0.875rem; font-weight: 600; margin-top: 0.5rem; }
+
+    .source { font-size: 0.75rem; color: var(--color-slate-600); margin-top: 1rem; padding-top: 1rem; border-top: 1px solid rgba(0,0,0,0.05); }
+    .source a { color: var(--color-trust); text-decoration: underline; }
+
+    .cta { background: linear-gradient(135deg, var(--color-trust) 0%, var(--color-trust-dark) 100%); color: white; padding: 4rem 1.5rem; text-align: center; }
+    .cta__title { font-size: 2rem; font-weight: 700; margin-bottom: 1rem; }
+    .cta__desc { font-size: 1.125rem; opacity: 0.9; max-width: 600px; margin: 0 auto 2rem; }
+    .btn { display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.75rem 1.5rem; font-family: inherit; font-size: 1rem; font-weight: 600; border-radius: 8px; border: none; cursor: pointer; transition: all 0.15s; }
+    .btn--white { background: white; color: var(--color-trust); }
+    .btn--white:hover { background: #f8fafc; transform: translateY(-1px); }
+
+    .footer { background: var(--color-slate); color: white; padding: 3rem 1.5rem 1.5rem; }
+    .footer__inner { max-width: 1200px; margin: 0 auto; }
+    .footer__grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 2rem; margin-bottom: 2rem; }
+    .footer__title { font-size: 0.875rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 1rem; opacity: 0.5; }
+    .footer__link { display: block; font-size: 0.9375rem; opacity: 0.8; margin-bottom: 0.5rem; transition: opacity 0.15s; }
+    .footer__link:hover { opacity: 1; }
+    .footer__bottom { padding-top: 1.5rem; border-top: 1px solid rgba(255,255,255,0.1); display: flex; justify-content: space-between; flex-wrap: wrap; gap: 1rem; font-size: 0.875rem; opacity: 0.5; }
+  </style>
+</head>
+<body>
+  <nav class="nav">
+    <div class="nav__inner">
+      <a href="../" class="nav__logo">
+        <span class="nav__logo-mark">A</span>
+        Anonymize.Education
+      </a>
+      <div class="nav__links">
+        <a href="../index.html#solutions" class="nav__link">Solutions</a>
+        <a href="../index.html#pricing" class="nav__link">Pricing</a>
+        <a href="../use-cases.html" class="nav__link">Use Cases</a>
+        <a href="../contact.html" class="nav__link">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <section class="hero">
+    <div class="hero__inner">
+      <div class="hero__icon">&#127974;</div>
+      <h1 class="hero__title">Finance & Banking PII Protection</h1>
+      <p class="hero__subtitle">GDPR compliance, KYC/AML document processing, cross-border data transfers, and AI-safe analytics for banks, insurers, and financial institutions.</p>
+      <div class="hero__stats">
+        <div class="hero__stat">
+          <div class="hero__stat-value">EUR 7.1B</div>
+          <div class="hero__stat-label">Cumulative GDPR fines</div>
+        </div>
+        <div class="hero__stat">
+          <div class="hero__stat-value">443/day</div>
+          <div class="hero__stat-label">Breach notifications EU</div>
+        </div>
+        <div class="hero__stat">
+          <div class="hero__stat-value">77%</div>
+          <div class="hero__stat-label">Employees leak data to AI</div>
+        </div>
+        <div class="hero__stat">
+          <div class="hero__stat-value">260+</div>
+          <div class="hero__stat-label">PII entity types detected</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <main class="content">
+
+    <section class="regulation">
+      <div class="regulation__header">
+        <div class="regulation__icon">&#128196;</div>
+        <div>
+          <h2 class="regulation__title">KYC/AML Document Processing</h2>
+          <p class="regulation__subtitle">Know Your Customer and Anti-Money Laundering compliance</p>
+        </div>
+      </div>
+
+      <div class="use-case">
+        <h3 class="use-case__title">Use Case 1: KYC Document Sharing with Third-Party Verification</h3>
+        <p class="use-case__scenario">Your bank needs to verify customer identity documents with external verification services. Passports, utility bills, and proof of address must be shared with third parties while minimizing PII exposure.</p>
+
+        <div class="pain-point">
+          <strong>Pain Point:</strong> KYC documents contain the most sensitive customer data: passport numbers, addresses, dates of birth. Sharing raw documents with verification vendors creates data minimization violations under GDPR Article 5(1)(c).
+        </div>
+
+        <div class="risk">
+          <strong>Risk:</strong> EUR 7.1 billion in cumulative GDPR fines have been issued since 2018. Financial institutions face heightened scrutiny due to the sensitivity of data they process. GDPR enforcement actions increasingly target data minimization failures.
+        </div>
+
+        <div class="solution">
+          <strong>Solution:</strong> Redact unnecessary PII before sharing with verification services. Keep only the fields required for verification (name matching, document validity) while masking secondary identifiers. Demonstrate data minimization compliance with audit trails.
+        </div>
+
+        <span class="stat-highlight">EUR 7.1B cumulative GDPR fines</span>
+
+        <div class="source">
+          Source: <a href="https://www.enforcementtracker.com/" target="_blank">GDPR Enforcement Tracker</a> - Cumulative fines as of 2024
+        </div>
+      </div>
+
+      <div class="use-case">
+        <h3 class="use-case__title">Use Case 2: AML Suspicious Activity Reports</h3>
+        <p class="use-case__scenario">Your compliance team prepares Suspicious Activity Reports (SARs) for regulators. These reports must contain enough detail for investigation while protecting uninvolved parties mentioned in transaction narratives.</p>
+
+        <div class="pain-point">
+          <strong>Pain Point:</strong> SAR narratives often mention third parties: business partners, family members, or other bank customers who appear in transaction chains. These uninvolved parties have privacy rights that complicate reporting.
+        </div>
+
+        <div class="solution">
+          <strong>Solution:</strong> Automatically detect and redact third-party identifiers in SAR narratives while preserving information about subjects of investigation. Maintain compliance with FinCEN/FCA reporting requirements while protecting uninvolved parties.
+        </div>
+      </div>
+    </section>
+
+    <section class="regulation">
+      <div class="regulation__header">
+        <div class="regulation__icon">&#129302;</div>
+        <div>
+          <h2 class="regulation__title">AI in Financial Services</h2>
+          <p class="regulation__subtitle">Using AI tools safely with customer financial data</p>
+        </div>
+      </div>
+
+      <div class="use-case">
+        <h3 class="use-case__title">Use Case 3: AI-Assisted Fraud Detection Analysis</h3>
+        <p class="use-case__scenario">Your fraud analysts want to use AI to analyze suspicious transaction patterns, summarize case files, or generate investigation reports. But customer account details cannot be exposed to external AI services.</p>
+
+        <div class="pain-point">
+          <strong>Pain Point:</strong> "39.7% of AI interactions involve sensitive data" and "77% of employees have leaked confidential company information to AI tools." Financial data in AI prompts creates regulatory exposure and potential data breach obligations.
+        </div>
+
+        <div class="risk">
+          <strong>Risk:</strong> Customer account numbers, transaction histories, and balances entered into AI services become third-party data. This triggers GDPR Article 28 processor requirements, and most AI services do not meet financial services compliance standards.
+        </div>
+
+        <div class="solution">
+          <strong>Solution:</strong> MCP Server integration anonymizes customer data before it reaches any AI. Analysts describe "Customer with unusual wire transfer pattern" - AI never sees "John Smith, Account 12345678." All analytical context preserved, all identifiers removed.
+        </div>
+
+        <span class="stat-highlight">77% employees leak data to AI</span>
+
+        <div class="source">
+          Sources: <a href="https://www.technewsworld.com/story/data-in-the-wild-40-of-employee-ai-use-involves-sensitive-info-180156.html" target="_blank">TechNewsWorld - 39.7% AI interactions involve sensitive data</a>; <a href="https://www.cyberhaven.com/blog/employees-are-pasting-confidential-data-into-ai-tools" target="_blank">Cyberhaven - 77% employee AI data leaks</a>
+        </div>
+      </div>
+
+      <div class="use-case">
+        <h3 class="use-case__title">Use Case 4: AI-Powered Customer Service Training</h3>
+        <p class="use-case__scenario">Your contact center wants to use AI to analyze call transcripts and chat logs for quality improvement. Real customer interactions provide the best training data, but they contain full account details.</p>
+
+        <div class="pain-point">
+          <strong>Pain Point:</strong> Customer service transcripts contain account numbers, transaction details, and personal circumstances. Using these for AI training without anonymization violates purpose limitation and creates retention issues.
+        </div>
+
+        <div class="solution">
+          <strong>Solution:</strong> Batch process call transcripts and chat logs to remove customer identifiers while preserving conversational patterns. Train AI on realistic interactions without exposing any customer PII. Consistent pseudonyms maintain conversational context.
+        </div>
+      </div>
+    </section>
+
+    <section class="regulation">
+      <div class="regulation__header">
+        <div class="regulation__icon">&#127760;</div>
+        <div>
+          <h2 class="regulation__title">Cross-Border Data Transfers</h2>
+          <p class="regulation__subtitle">International regulatory reporting and data localization</p>
+        </div>
+      </div>
+
+      <div class="use-case">
+        <h3 class="use-case__title">Use Case 5: Cross-Border Regulatory Reporting</h3>
+        <p class="use-case__scenario">Your global bank must file regulatory reports with authorities in multiple jurisdictions. Transaction data involving EU customers must be reported to US regulators, but GDPR restricts international transfers of personal data.</p>
+
+        <div class="pain-point">
+          <strong>Pain Point:</strong> The TikTok EUR 530M fine demonstrated that cross-border data transfers face intense regulatory scrutiny. Financial institutions with global operations face the same transfer mechanism challenges for regulatory reporting.
+        </div>
+
+        <div class="risk">
+          <strong>Risk:</strong> Post-Schrems II, Standard Contractual Clauses require supplementary measures for US transfers. Adequacy decisions can be invalidated. Each regulatory report containing EU personal data creates transfer compliance exposure.
+        </div>
+
+        <div class="solution">
+          <strong>Solution:</strong> Anonymize EU customer identifiers before cross-border regulatory submissions where permitted. When regulators need individual identification, maintain encrypted records domestically with authorized decryption for legitimate requests.
+        </div>
+
+        <span class="stat-highlight">EUR 530M TikTok data transfer fine</span>
+
+        <div class="source">
+          Source: <a href="https://www.dataprotection.ie/en/news-media/press-releases/data-protection-commission-announces-conclusion-inquiry-tiktok" target="_blank">Irish DPC - TikTok Decision May 2023</a>
+        </div>
+      </div>
+
+      <div class="use-case">
+        <h3 class="use-case__title">Use Case 6: Offshore Processing Centers</h3>
+        <p class="use-case__scenario">Your bank operates processing centers in multiple countries for cost efficiency. Back-office operations handle customer documents, but data localization requirements restrict what can be processed where.</p>
+
+        <div class="pain-point">
+          <strong>Pain Point:</strong> Data localization requirements are proliferating globally. Russia, China, India, and others require certain data to remain within borders. Financial institutions must navigate a patchwork of conflicting requirements.
+        </div>
+
+        <div class="solution">
+          <strong>Solution:</strong> Anonymize customer identifiers before routing documents to offshore processing centers. Processing staff work with redacted documents that cannot identify individuals. Original data remains within jurisdictional boundaries.
+        </div>
+      </div>
+    </section>
+
+    <section class="regulation">
+      <div class="regulation__header">
+        <div class="regulation__icon">&#128202;</div>
+        <div>
+          <h2 class="regulation__title">Financial Reporting & Analytics</h2>
+          <p class="regulation__subtitle">Using customer data for business intelligence</p>
+        </div>
+      </div>
+
+      <div class="use-case">
+        <h3 class="use-case__title">Use Case 7: Customer Analytics and Segmentation</h3>
+        <p class="use-case__scenario">Your marketing team wants to analyze customer transaction patterns for product development and segmentation. Data science teams need realistic data, but production customer data cannot be freely shared internally.</p>
+
+        <div class="pain-point">
+          <strong>Pain Point:</strong> Internal data sharing still requires purpose limitation compliance. Marketing analytics is a different purpose than account servicing. 443 daily breach notifications in the EU show how common internal data handling failures are.
+        </div>
+
+        <div class="solution">
+          <strong>Solution:</strong> Create anonymized analytical datasets from production data. Hash customer identifiers for longitudinal analysis without identification. Marketing teams get statistically valid data for segmentation without access to individual customer identities.
+        </div>
+
+        <span class="stat-highlight">443 daily breach notifications EU</span>
+
+        <div class="source">
+          Source: <a href="https://www.dlapiper.com/en/insights/publications/2024/01/dla-piper-gdpr-fines-and-data-breach-survey-january-2024" target="_blank">DLA Piper GDPR Survey 2024</a>
+        </div>
+      </div>
+
+      <div class="use-case">
+        <h3 class="use-case__title">Use Case 8: Financial Reporting Redaction</h3>
+        <p class="use-case__scenario">Your bank prepares investor reports, board presentations, and regulatory filings that include customer examples or case studies. These must illustrate business performance without exposing individual customers.</p>
+
+        <div class="pain-point">
+          <strong>Pain Point:</strong> Real customer examples are compelling for stakeholder communications. But even "anonymized" examples with unique transaction patterns or circumstances can enable re-identification.
+        </div>
+
+        <div class="solution">
+          <strong>Solution:</strong> Replace customer identifiers with consistent pseudonyms across related documents. Adjust identifying details (exact amounts, dates, locations) while preserving analytical validity. Create case studies that illustrate patterns without exposing individuals.
+        </div>
+      </div>
+    </section>
+
+    <section class="regulation">
+      <div class="regulation__header">
+        <div class="regulation__icon">&#128451;</div>
+        <div>
+          <h2 class="regulation__title">Legal & Compliance Operations</h2>
+          <p class="regulation__subtitle">M&A due diligence, audits, and legal discovery</p>
+        </div>
+      </div>
+
+      <div class="use-case">
+        <h3 class="use-case__title">Use Case 9: M&A Due Diligence Data Rooms</h3>
+        <p class="use-case__scenario">Your bank is being acquired or is acquiring another institution. Due diligence requires sharing customer portfolios, loan books, and transaction histories with potential acquirers and their advisors.</p>
+
+        <div class="pain-point">
+          <strong>Pain Point:</strong> M&A data rooms expose customer data to competing institutions, private equity firms, and external advisors. Even with NDAs, this creates GDPR compliance challenges around purpose limitation and data subject notification.
+        </div>
+
+        <div class="risk">
+          <strong>Risk:</strong> Failed acquisitions leave customer data exposed to competitors. Data room access logs become evidence of data sharing. Post-deal integration requires reconciling different anonymization approaches.
+        </div>
+
+        <div class="solution">
+          <strong>Solution:</strong> Provide anonymized datasets in data rooms. Acquirers see portfolio composition, risk metrics, and performance data without individual customer identification. Full customer data transfers only after deal completion and proper legal basis.
+        </div>
+      </div>
+
+      <div class="use-case">
+        <h3 class="use-case__title">Use Case 10: Reversible Encryption for Legal Discovery</h3>
+        <p class="use-case__scenario">Your bank faces litigation requiring production of customer records. Documents must be redacted for non-party customers, but you need to maintain ability to produce originals if court orders require it.</p>
+
+        <div class="pain-point">
+          <strong>Pain Point:</strong> "If you need to come back to your data for legal purposes, irreversible methods destroy your ability to comply." Permanent redaction may be challenged; courts may order production of original documents.
+        </div>
+
+        <div class="solution">
+          <strong>Solution:</strong> Reversible encryption maintains access to original data for authorized purposes. Produce redacted versions for initial discovery while preserving ability to decrypt specific records if court orders require. Document chain of custody for encryption keys.
+        </div>
+
+        <span class="stat-highlight">Reversible encryption for legal compliance</span>
+
+        <div class="source">
+          Source: <a href="https://pii-tools.com/pii-de-identification-vs-masking-vs-redaction/" target="_blank">PII Tools - Reversible Methods for Legal Compliance</a>
+        </div>
+      </div>
+
+      <div class="use-case">
+        <h3 class="use-case__title">Use Case 11: Internal Audit Data Access</h3>
+        <p class="use-case__scenario">Internal audit needs to review customer complaint files, transaction disputes, and service quality metrics. Auditors need enough detail to assess processes but may not need individual customer identification.</p>
+
+        <div class="pain-point">
+          <strong>Pain Point:</strong> Internal audit teams often have broad data access that exceeds what's needed for their function. Principle of least privilege applies to internal functions, not just external access.
+        </div>
+
+        <div class="solution">
+          <strong>Solution:</strong> Provide auditors with pseudonymized complaint files. "Customer A" complained about "Issue X" with "Resolution Y." Auditors assess process compliance without accessing unnecessary customer PII. Full access available for specific escalations with justification.
+        </div>
+      </div>
+    </section>
+
+    <section class="regulation">
+      <div class="regulation__header">
+        <div class="regulation__icon">&#128274;</div>
+        <div>
+          <h2 class="regulation__title">Vendor & Security Operations</h2>
+          <p class="regulation__subtitle">Third-party risk and air-gapped environments</p>
+        </div>
+      </div>
+
+      <div class="use-case">
+        <h3 class="use-case__title">Use Case 12: Vendor and Third-Party Risk Assessment</h3>
+        <p class="use-case__scenario">Your bank must assess third-party vendors for ISO 27001 compliance, SOC 2 attestations, and data handling practices. Vendor questionnaires require examples of how you protect data they might process.</p>
+
+        <div class="pain-point">
+          <strong>Pain Point:</strong> ISO 27001 certification is "the minimum bar, not the gold standard" for B2B vendor relationships. Financial institutions face pressure to demonstrate security practices beyond certification checkboxes.
+        </div>
+
+        <div class="risk">
+          <strong>Risk:</strong> Third-party breaches are increasingly common attack vectors. Vendor access to customer data creates supply chain risk. Due diligence questionnaires require demonstrable controls, not just policy documents.
+        </div>
+
+        <div class="solution">
+          <strong>Solution:</strong> Demonstrate data minimization in practice. Show vendors will receive only anonymized or redacted data where full customer details are unnecessary. ISO 27001 certified anonymization solution provides verifiable security controls.
+        </div>
+
+        <span class="stat-highlight">ISO 27001 is "minimum bar" for B2B</span>
+
+        <div class="source">
+          Source: Reddit r/cybersecurity community discussion on enterprise vendor requirements
+        </div>
+      </div>
+
+      <div class="use-case">
+        <h3 class="use-case__title">Use Case 13: Air-Gapped Trading Systems</h3>
+        <p class="use-case__scenario">Your trading floor operates on air-gapped networks isolated from corporate IT. Proprietary trading strategies and high-value client positions must never leave these secured environments.</p>
+
+        <div class="pain-point">
+          <strong>Pain Point:</strong> Zero-knowledge trust is critical for high-value financial data. ETH Zurich research has exposed password managers making false "zero-knowledge" claims. Cloud-based solutions create unacceptable risk for trading operations.
+        </div>
+
+        <div class="solution">
+          <strong>Solution:</strong> Desktop App with Tauri runs completely offline on air-gapped trading workstations. Process client positions, trading strategies, and sensitive analytics with zero network connectivity. No data ever leaves the secured environment.
+        </div>
+
+        <div class="source">
+          Source: <a href="https://ethz.ch/en/news-and-events/eth-news/news/2024/01/weak-security-despite-strong-encryption.html" target="_blank">ETH Zurich - Password Manager Security Research</a>
+        </div>
+      </div>
+
+      <div class="use-case">
+        <h3 class="use-case__title">Use Case 14: Customer Complaints Handling</h3>
+        <p class="use-case__scenario">Your complaints team logs customer issues that often involve sensitive financial circumstances: debt problems, fraud victimization, or family disputes over accounts. These records require long retention but heightened protection.</p>
+
+        <div class="pain-point">
+          <strong>Pain Point:</strong> Complaint records often contain the most sensitive customer circumstances: financial distress, disputed transactions, relationship breakdowns. These records have long retention requirements and high re-identification risk.
+        </div>
+
+        <div class="solution">
+          <strong>Solution:</strong> Archive complaint records with consistent pseudonymization. "Customer X" record maintained for regulatory retention without identifiable information. Original identity mappings secured separately with access controls for legitimate complaint follow-up.
+        </div>
+
+        <span class="stat-highlight">Zero-knowledge architecture for sensitive records</span>
+      </div>
+    </section>
+
+  </main>
+
+  <section class="cta">
+    <h2 class="cta__title">GDPR-Compliant Financial Data Protection</h2>
+    <p class="cta__desc">ISO 27001 certified. Zero-knowledge architecture. 260+ entity types including financial identifiers, account numbers, and transaction data.</p>
+    <a href="https://anonym.legal" target="_blank" class="btn btn--white">Start Free Trial</a>
+  </section>
+
+  <footer class="footer">
+    <div class="footer__inner">
+      <div class="footer__grid">
+        <div>
+          <h4 class="footer__title">By Industry</h4>
+          <a href="healthcare.html" class="footer__link">Healthcare</a>
+          <a href="legal.html" class="footer__link">Legal</a>
+          <a href="finance.html" class="footer__link">Finance</a>
+          <a href="government.html" class="footer__link">Government</a>
+          <a href="hr.html" class="footer__link">HR</a>
+        </div>
+        <div>
+          <h4 class="footer__title">By Region</h4>
+          <a href="us.html" class="footer__link">United States</a>
+          <a href="eu.html" class="footer__link">European Union</a>
+          <a href="uk.html" class="footer__link">United Kingdom</a>
+          <a href="apac.html" class="footer__link">Asia-Pacific</a>
+        </div>
+        <div>
+          <h4 class="footer__title">Legal</h4>
+          <a href="../datenschutz.html" class="footer__link">Privacy Policy</a>
+          <a href="../impressum.html" class="footer__link">Imprint</a>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <span>&copy; 2026 Anonymize.Education</span>
+        <span>ISO 27001:2022 Certified | Made in Germany</span>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
