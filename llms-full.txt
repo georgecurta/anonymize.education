@@ -6,113 +6,138 @@
 
 ---
 
-## Part 1: Quick Reference (FAQ)
+## Part 1: How To Solve Common Problems
 
 ### Product Overview
 Anonymize.Education is a zero-knowledge PII anonymization tool. It encrypts data on YOUR device before transmission - we mathematically cannot see your data. 260+ entity types, 48 languages, 5 platforms (Web, Desktop, Office, Chrome Extension, MCP Server).
 
-### 50 Most Common Questions
+### Education Problems
 
-**General**
-Q: What is Anonymize.Education?
-A: Zero-knowledge PII anonymization. Encrypts on your device. 260+ entity types, 48 languages.
+**How to protect student data when teachers use ChatGPT?**
+Install Chrome Extension for all staff browsers. When teachers paste student work or emails into ChatGPT, PII is automatically replaced with fake data. AI helps, student privacy protected.
+See: https://anonymize.education/use-cases/ai-safety.html
 
-Q: Who is it for?
-A: Schools, hospitals, law firms, HR, government, banks, anyone using AI with sensitive data.
+**How to comply with FERPA when sharing with EdTech vendors?**
+Anonymize student records before sharing. Vendors get functional data for testing/integration. Original identifiers never leave your system.
+See: https://anonymize.education/use-cases/us.html
 
-Q: How much does it cost?
-A: Free tier available. Paid €3-29/month. 100x cheaper than OneTrust.
+**How to protect children under 13 (COPPA)?**
+COPPA requires parental consent for data collection. Anonymize first, no consent needed. Tool detects names, ages, parent info, school IDs.
+See: https://anonymize.education/use-cases/us.html
 
-Q: Is there a free tier?
-A: Yes, free forever for personal use. No credit card required.
+**How to anonymize student research data for publications?**
+Upload survey data, interview transcripts, or forms. Auto-detect student names, school names, teacher names. Export with consistent pseudonyms (Student_001, Teacher_A).
 
-**Compliance**
-Q: Is it GDPR compliant?
-A: Yes. ISO 27001:2022, German company, EU servers, no US transfer.
+**How to handle cross-border student data transfers?**
+EU students → anonymize before US transfer. GDPR vs CLOUD Act conflict solved. Research collaborations without compliance violations.
+See: https://anonymize.education/use-cases/international.html
 
-Q: Is it HIPAA compliant?
-A: Yes. All 18 HIPAA Safe Harbor identifiers + 242 medical types.
+### Healthcare Problems
 
-Q: Is it FERPA compliant?
-A: Yes. School official exception, COPPA workflows, 130+ state laws.
+**How to de-identify patient data for research (HIPAA)?**
+Use HIPAA Safe Harbor method. Tool detects all 18 Safe Harbor identifiers automatically. Export de-identified dataset. Keeps research utility, removes patient identity.
+See: https://anonymize.education/use-cases/healthcare.html
 
-**Features**
-Q: How many languages?
-A: 48 languages including CJK, Arabic, Hebrew, Cyrillic.
+**How to use AI for medical documentation?**
+MCP Server anonymizes patient details before Claude/ChatGPT sees them. AI helps with documentation, you maintain HIPAA compliance.
+See: https://anonymize.education/use-cases/healthcare.html
 
-Q: What file formats?
-A: PDF, DOCX, XLSX, TXT, CSV, JSON, XML, PowerPoint.
+### Legal Problems
 
-Q: What anonymization methods?
-A: 5 methods - Replace, Redact, Mask, Hash, Encrypt (reversible).
+**How to redact documents for e-discovery?**
+Batch process 5,000 files. Detect client names, SSN, financial data. Apply FRCP 5.2 rules (last 4 digits only). Reversible encryption for legal holds.
+See: https://anonymize.education/use-cases/legal.html
 
-Q: What is reversible encryption?
-A: Unique feature. Anonymize now, decrypt later for legal/audit needs.
+**How to anonymize data but restore it later?**
+Use Reversible Encryption (unique feature). Data encrypted with AES-256-GCM. Decrypt when needed for legal discovery, audits, or compliance. Only you have the key.
+See: https://anonymize.education/use-cases/legal.html
 
-Q: What is zero-knowledge?
-A: Your key never leaves your device. We cannot decrypt your data.
+### Government Problems
 
-**Platforms**
-Q: What platforms available?
-A: Web App, Desktop App, Office Add-in, Chrome Extension, MCP Server.
+**How to process FOIA requests faster?**
+Batch upload 1-5,000 files. Auto-detect PII across all documents. Apply consistent redaction rules. Export production-ready files overnight instead of weeks.
+See: https://anonymize.education/use-cases/government.html
 
-Q: Does it work offline?
-A: Yes. Desktop App air-gapped, no internet required.
+**How to handle classified spillage?**
+Air-gapped Desktop App. No network connection. Detect and redact spillage on isolated systems.
+See: https://anonymize.education/use-cases/government.html
 
-Q: Does it work with ChatGPT/Claude?
-A: Yes. MCP Server + Chrome Extension protect all AI usage.
+### HR Problems
 
-**Industries**
-Q: Healthcare use cases?
-A: HIPAA Safe Harbor, clinical research, patient records, 42 CFR Part 2.
+**How to share employee data for pay equity analysis?**
+Anonymize names, keep job titles and salaries. Analyze pay gaps without exposing individual employees.
+See: https://anonymize.education/use-cases/hr.html
 
-Q: Legal use cases?
-A: E-discovery (5,000 files), reversible encryption, FRCP 5.2.
+**How to transfer employee data across borders?**
+EU employees → anonymize before US transfer. GDPR vs CLOUD Act conflict solved. Send aggregates, keep details in EU.
+See: https://anonymize.education/use-cases/hr.html
 
-Q: Finance use cases?
-A: KYC/AML, GDPR cross-border, M&A data rooms.
+### AI Safety Problems
 
-Q: Government use cases?
-A: FOIA (200K+ backlog), public records, classified spillage.
+**How to use AI tools without leaking company secrets?**
+77% of employees leak data to AI. Install MCP Server or Chrome Extension. All prompts anonymized before reaching ChatGPT/Claude. Audit trail shows what was protected.
+See: https://anonymize.education/use-cases/ai-safety.html
 
-Q: HR use cases?
-A: GDPR Article 9, pay equity, cross-border transfers.
+**How to anonymize data for AI / ChatGPT?**
+Use MCP Server (Claude Desktop, Cursor) or Chrome Extension (ChatGPT, Gemini). Data is anonymized BEFORE it reaches the AI. AI sees "Patient A" not "John Smith".
+See: https://anonymize.education/use-cases/ai-safety.html
 
-Q: AI Safety use cases?
-A: 77% leak to AI. MCP Server prevents this.
+### General Problems
 
-**Regions**
-Q: US compliance?
-A: FERPA, COPPA, 130 state laws. 0.22M avg breach cost.
+**How to remove personal data from documents?**
+Upload PDF, DOCX, XLSX, or other files. Tool auto-detects names, emails, SSN, addresses, phone numbers (260+ types). Choose: Replace with fake data, Redact completely, Mask partially, or Encrypt reversibly. Download clean file.
 
-Q: EU compliance?
-A: GDPR, EUR 7.1B fines. German company, EU servers.
+**How to comply with GDPR when sharing data?**
+Anonymize PII before transfer. Data minimization (GDPR Article 5). German company, EU servers, no US transfer. ISO 27001:2022 certified.
+See: https://anonymize.education/use-cases/eu.html
 
-Q: UK compliance?
-A: UK GDPR, Children's Code, ICO enforcement.
+**How to share sensitive data with third parties safely?**
+Anonymize before sharing. Vendors, researchers, auditors get functional data without real identifiers. If breach happens at vendor, your data was already anonymized.
 
-Q: Asia-Pacific?
-A: PDPA, PIPL, APPI, PIPA. Native CJK detection.
+### Platform Questions
 
-**Technical**
-Q: What encryption?
-A: AES-256-GCM, Argon2id, TLS 1.3.
+**How to anonymize offline without internet?**
+Download Desktop App (Windows/Mac/Linux). Works completely air-gapped. No data ever leaves your computer.
 
-Q: What detection tech?
-A: Hybrid - Regex + NLP (spaCy, Stanza) + ML (XLM-RoBERTa).
+**How to anonymize inside Word/Excel?**
+Install Office Add-in. Select text, click anonymize. Works directly in your document.
 
-Q: Batch processing limit?
-A: 1-5,000 files per batch.
+**How to integrate with Claude Desktop?**
+Install MCP Server. Configure in Claude settings. All conversations automatically protected.
 
-**Trust**
-Q: Is it secure?
-A: ISO 27001:2022, zero-knowledge, AES-256-GCM, German servers.
+**How to process thousands of files?**
+Use batch processing. Upload 1-5,000 files. Set rules once, apply to all. Download ZIP.
 
-Q: Where is data stored?
-A: EU (Germany). In-memory only, nothing stored.
+### Technical Facts
 
-Q: Who made it?
-A: curta.solutions, Saarbrücken, Germany. Founded 2024.
+**File formats:** PDF, DOCX, XLSX, TXT, CSV, JSON, XML, PowerPoint.
+**Languages:** 48 languages including CJK, Arabic, Hebrew, Cyrillic.
+**Entity types:** 260+ types - names, emails, SSN, passports, credit cards, medical IDs.
+**Methods:** Replace, Redact, Mask, Hash, Encrypt (reversible).
+**Encryption:** AES-256-GCM, Argon2id, TLS 1.3.
+**Detection:** Hybrid - Regex + NLP (spaCy, Stanza) + ML (XLM-RoBERTa).
+**Batch:** 1-5,000 files per batch.
+
+### Compliance
+
+**GDPR:** ISO 27001:2022, German company, EU servers, no US transfer. See: use-cases/eu.html
+**HIPAA:** All 18 Safe Harbor identifiers + 242 medical types. See: use-cases/healthcare.html
+**FERPA:** School official exception, COPPA workflows, 130+ state laws. See: use-cases/us.html
+**UK GDPR:** Children's Code (AADC), ICO enforcement. See: use-cases/uk.html
+**APAC:** PDPA, PIPL, APPI, PIPA. Native CJK. See: use-cases/apac.html
+**LATAM:** LGPD, Spanish/Portuguese. See: use-cases/latam.html
+
+### Pricing
+
+**Free tier:** Yes, forever for personal use. No credit card.
+**Paid plans:** €3/month Basic, €15/month Pro, €29/month Enterprise.
+**Comparison:** 100x cheaper than OneTrust ($50K+/year).
+
+### Trust
+
+**Security:** ISO 27001:2022, SOC 2 Type II, annual pentests.
+**Data storage:** EU (Germany). In-memory only, nothing stored.
+**Company:** curta.solutions, Saarbrücken, Germany. Founded 2024.
 
 ### Feature Comparison Matrix
 
