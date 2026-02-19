@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="International Schools Privacy - Multi-jurisdiction compliance, 48 language support, and cross-border data protection for international education.">
+  <meta name="theme-color" content="#0d5c63">
+  <title>International Schools Privacy | Anonymize.Education</title>
+  <link rel="canonical" href="https://anonymize.education/use-cases/international.html">
+  <link rel="icon" type="image/png" sizes="32x32" href="../images/favicon-32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --color-trust: #0d5c63;
+      --color-trust-dark: #094249;
+      --color-trust-light: #e6f3f4;
+      --color-slate: #1e293b;
+      --color-slate-600: #475569;
+      --color-danger: #dc2626;
+      --color-danger-bg: #fef2f2;
+      --color-warning: #f59e0b;
+      --color-warning-bg: #fffbeb;
+      --color-success: #059669;
+      --color-success-bg: #ecfdf5;
+      --font-sans: 'DM Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: var(--font-sans); font-size: 16px; line-height: 1.6; color: var(--color-slate); background: #fafaf9; }
+    a { color: inherit; text-decoration: none; }
+
+    .nav { position: fixed; top: 0; left: 0; right: 0; z-index: 100; background: rgba(255,255,255,0.95); backdrop-filter: blur(10px); border-bottom: 1px solid rgba(0,0,0,0.05); }
+    .nav__inner { display: flex; align-items: center; justify-content: space-between; max-width: 1200px; margin: 0 auto; padding: 1rem 1.5rem; }
+    .nav__logo { display: flex; align-items: center; gap: 0.5rem; font-weight: 700; font-size: 1.125rem; color: var(--color-trust); }
+    .nav__logo-mark { width: 32px; height: 32px; background: var(--color-trust); border-radius: 8px; display: flex; align-items: center; justify-content: center; color: white; font-weight: 700; font-size: 0.875rem; }
+    .nav__links { display: none; gap: 2rem; }
+    @media (min-width: 768px) { .nav__links { display: flex; } }
+    .nav__link { font-size: 0.9375rem; font-weight: 500; color: var(--color-slate-600); transition: color 0.15s; }
+    .nav__link:hover { color: var(--color-trust); }
+
+    .hero { padding: calc(80px + 3rem) 1.5rem 3rem; background: linear-gradient(180deg, #fff 0%, #fafaf9 100%); text-align: center; }
+    .hero__inner { max-width: 800px; margin: 0 auto; }
+    .hero__flag { font-size: 3rem; margin-bottom: 1rem; }
+    .hero__title { font-size: 2.5rem; font-weight: 700; color: var(--color-slate); margin-bottom: 1rem; }
+    .hero__subtitle { font-size: 1.25rem; color: var(--color-slate-600); margin-bottom: 2rem; }
+    .hero__stats { display: flex; flex-wrap: wrap; justify-content: center; gap: 2rem; padding-top: 2rem; border-top: 1px solid rgba(0,0,0,0.05); }
+    .hero__stat { text-align: center; }
+    .hero__stat-value { font-size: 2rem; font-weight: 700; color: var(--color-danger); }
+    .hero__stat-label { font-size: 0.875rem; color: var(--color-slate-600); }
+
+    .content { max-width: 900px; margin: 0 auto; padding: 3rem 1.5rem; }
+
+    .regulation { background: white; border-radius: 12px; padding: 2rem; margin-bottom: 2rem; border: 1px solid rgba(0,0,0,0.08); }
+    .regulation__header { display: flex; align-items: center; gap: 1rem; margin-bottom: 1.5rem; }
+    .regulation__icon { width: 48px; height: 48px; background: var(--color-trust-light); border-radius: 8px; display: flex; align-items: center; justify-content: center; font-size: 1.5rem; }
+    .regulation__title { font-size: 1.5rem; font-weight: 700; color: var(--color-slate); }
+    .regulation__subtitle { font-size: 0.875rem; color: var(--color-slate-600); }
+
+    .use-case { background: #f8fafc; border-radius: 8px; padding: 1.5rem; margin: 1.5rem 0; }
+    .use-case__title { font-size: 1.125rem; font-weight: 600; color: var(--color-trust); margin-bottom: 0.5rem; }
+    .use-case__scenario { font-size: 0.9375rem; color: var(--color-slate-600); margin-bottom: 1rem; }
+
+    .pain-point { background: var(--color-danger-bg); border-left: 3px solid var(--color-danger); padding: 1rem; margin: 1rem 0; border-radius: 0 8px 8px 0; }
+    .pain-point strong { color: #991b1b; }
+
+    .risk { background: var(--color-warning-bg); border-left: 3px solid var(--color-warning); padding: 1rem; margin: 1rem 0; border-radius: 0 8px 8px 0; }
+    .risk strong { color: #92400e; }
+
+    .solution { background: var(--color-success-bg); border-left: 3px solid var(--color-success); padding: 1rem; margin: 1rem 0; border-radius: 0 8px 8px 0; }
+    .solution strong { color: #065f46; }
+
+    .stat-highlight { display: inline-flex; align-items: center; gap: 0.5rem; background: var(--color-trust); color: white; padding: 0.25rem 0.75rem; border-radius: 100px; font-size: 0.875rem; font-weight: 600; margin-top: 0.5rem; }
+
+    .source { font-size: 0.75rem; color: var(--color-slate-600); margin-top: 1rem; padding-top: 1rem; border-top: 1px solid rgba(0,0,0,0.05); }
+    .source a { color: var(--color-trust); text-decoration: underline; }
+
+    .case-study { background: linear-gradient(135deg, var(--color-danger-bg) 0%, #fff 100%); border: 2px solid var(--color-danger); border-radius: 12px; padding: 1.5rem; margin: 1.5rem 0; }
+    .case-study__title { font-size: 1.125rem; font-weight: 700; color: var(--color-danger); margin-bottom: 0.5rem; }
+    .case-study__fine { font-size: 2rem; font-weight: 700; color: var(--color-danger); }
+
+    .cta { background: linear-gradient(135deg, var(--color-trust) 0%, var(--color-trust-dark) 100%); color: white; padding: 4rem 1.5rem; text-align: center; }
+    .cta__title { font-size: 2rem; font-weight: 700; margin-bottom: 1rem; }
+    .cta__desc { font-size: 1.125rem; opacity: 0.9; max-width: 600px; margin: 0 auto 2rem; }
+    .btn { display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.75rem 1.5rem; font-family: inherit; font-size: 1rem; font-weight: 600; border-radius: 8px; border: none; cursor: pointer; transition: all 0.15s; }
+    .btn--white { background: white; color: var(--color-trust); }
+    .btn--white:hover { background: #f8fafc; transform: translateY(-1px); }
+
+    .footer { background: var(--color-slate); color: white; padding: 3rem 1.5rem 1.5rem; }
+    .footer__inner { max-width: 1200px; margin: 0 auto; }
+    .footer__grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 2rem; margin-bottom: 2rem; }
+    .footer__title { font-size: 0.875rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 1rem; opacity: 0.5; }
+    .footer__link { display: block; font-size: 0.9375rem; opacity: 0.8; margin-bottom: 0.5rem; transition: opacity 0.15s; }
+    .footer__link:hover { opacity: 1; }
+    .footer__bottom { padding-top: 1.5rem; border-top: 1px solid rgba(255,255,255,0.1); display: flex; justify-content: space-between; flex-wrap: wrap; gap: 1rem; font-size: 0.875rem; opacity: 0.5; }
+  </style>
+</head>
+<body>
+  <nav class="nav">
+    <div class="nav__inner">
+      <a href="../" class="nav__logo">
+        <span class="nav__logo-mark">A</span>
+        Anonymize.Education
+      </a>
+      <div class="nav__links">
+        <a href="../index.html#solutions" class="nav__link">Solutions</a>
+        <a href="../index.html#pricing" class="nav__link">Pricing</a>
+        <a href="../use-cases.html" class="nav__link">Use Cases</a>
+        <a href="../contact.html" class="nav__link">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <section class="hero">
+    <div class="hero__inner">
+      <div class="hero__flag">&#127760;</div>
+      <h1 class="hero__title">International Schools Privacy</h1>
+      <p class="hero__subtitle">Multi-jurisdiction compliance, 48 language support, and global data protection for international education networks.</p>
+      <div class="hero__stats">
+        <div class="hero__stat">
+          <div class="hero__stat-value">50+</div>
+          <div class="hero__stat-label">Student nationalities per school</div>
+        </div>
+        <div class="hero__stat">
+          <div class="hero__stat-value">48</div>
+          <div class="hero__stat-label">Languages supported</div>
+        </div>
+        <div class="hero__stat">
+          <div class="hero__stat-value">195</div>
+          <div class="hero__stat-label">Different PII definitions</div>
+        </div>
+        <div class="hero__stat">
+          <div class="hero__stat-value">12+</div>
+          <div class="hero__stat-label">Writing systems handled</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <main class="content">
+
+    <section class="regulation">
+      <div class="regulation__header">
+        <div class="regulation__icon">&#127758;</div>
+        <div>
+          <h2 class="regulation__title">Multi-Jurisdiction Compliance</h2>
+          <p class="regulation__subtitle">When one school must comply with US, UK, EU, and local laws simultaneously</p>
+        </div>
+      </div>
+
+      <div class="case-study">
+        <h3 class="case-study__title">The International School Challenge</h3>
+        <div class="case-study__fine">50+ Legal Frameworks</div>
+        <p style="margin-top: 1rem; color: var(--color-slate-600);">A typical international school in Singapore serves students from 50+ countries. Each family's data may be subject to their home country's privacy laws (GDPR for Germans, CCPA for Californians, PIPL for Chinese), Singapore's PDPA, and any data sharing agreements with universities worldwide.</p>
+      </div>
+
+      <div class="use-case">
+        <h3 class="use-case__title">Use Case 1: Multi-Campus International School Networks</h3>
+        <p class="use-case__scenario">Your school network operates campuses in Dubai, Singapore, London, and New York. A student transfers between campuses, and their records must move with them - but each jurisdiction has different data protection laws.</p>
+
+        <div class="pain-point">
+          <strong>Pain Point:</strong> UAE PDPL, Singapore PDPA, UK GDPR, and US state laws all define personal data differently. What's anonymized in one jurisdiction may still be PII in another. Transfer mechanisms vary by country pair.
+        </div>
+
+        <div class="risk">
+          <strong>Risk:</strong> Cross-border transfers without proper safeguards can trigger violations in multiple jurisdictions simultaneously. A single data incident could require notifications to regulators in 4+ countries.
+        </div>
+
+        <div class="solution">
+          <strong>Solution:</strong> Anonymize to the strictest standard (currently GDPR). Data anonymized to EU standards satisfies virtually all other jurisdictions. One process, global compliance.
+        </div>
+
+        <span class="stat-highlight">&#127760; One anonymization standard for 195 countries</span>
+      </div>
+
+      <div class="use-case">
+        <h3 class="use-case__title">Use Case 2: IB Data Sharing Compliance</h3>
+        <p class="use-case__scenario">Your IB World School must share student data with the International Baccalaureate Organization in Geneva for diploma verification, examination results, and programme authorization.</p>
+
+        <div class="pain-point">
+          <strong>Pain Point:</strong> IB requires extensive student data including names, birthdates, and academic records. Schools in non-EU countries must establish legal basis for transfers to Switzerland. Parents from privacy-conscious jurisdictions question why their child's data goes overseas.
+        </div>
+
+        <div class="risk">
+          <strong>Risk:</strong> IB data requirements are non-negotiable for programme participation. Schools cannot simply refuse to share data without losing IB accreditation.
+        </div>
+
+        <div class="solution">
+          <strong>Solution:</strong> Use reversible anonymization for internal records. Share only required IB identifiers externally. Maintain full audit trail with encrypted student mapping that only your school controls.
+        </div>
+
+        <div class="source">
+          Source: <a href="https://www.ibo.org/about-the-ib/data-protection/" target="_blank">IB Organization - Data Protection</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="regulation">
+      <div class="regulation__header">
+        <div class="regulation__icon">&#127463;&#127462;</div>
+        <div>
+          <h2 class="regulation__title">Embassy & Diplomatic Schools</h2>
+          <p class="regulation__subtitle">Unique requirements for schools serving diplomatic communities</p>
+        </div>
+      </div>
+
+      <div class="use-case">
+        <h3 class="use-case__title">Use Case 3: Embassy School Regulations</h3>
+        <p class="use-case__scenario">Your American School in Berlin serves children of US diplomats, German nationals, and third-country expatriates. The US Embassy requires certain data access, German law restricts it, and diplomatic immunity creates gray areas.</p>
+
+        <div class="pain-point">
+          <strong>Pain Point:</strong> Embassy schools face unique pressures. Host country laws apply to local staff and facilities. Sending country may demand data access for security clearances. Diplomatic families expect diplomatic-level privacy.
+        </div>
+
+        <div class="risk">
+          <strong>Risk:</strong> A data breach at an embassy school could compromise diplomatic personnel, create international incidents, or expose intelligence-sensitive family connections.
+        </div>
+
+        <div class="solution">
+          <strong>Solution:</strong> Zero-knowledge architecture means even if compelled by host or sending country authorities, the school cannot provide cleartext student data. Encryption keys remain with authorized personnel only.
+        </div>
+
+        <span class="stat-highlight">&#127760; Diplomatic-grade data protection</span>
+      </div>
+    </section>
+
+    <section class="regulation">
+      <div class="regulation__header">
+        <div class="regulation__icon">&#127760;</div>
+        <div>
+          <h2 class="regulation__title">48 Language Support</h2>
+          <p class="regulation__subtitle">From Arabic to Zulu - PII detection across writing systems</p>
+        </div>
+      </div>
+
+      <div class="use-case">
+        <h3 class="use-case__title">Use Case 4: Multilingual Student Records</h3>
+        <p class="use-case__scenario">Your international school maintains records in multiple scripts: a Japanese student's name in kanji, their Arabic classmate's name in Arabic script, and a Russian student's records in Cyrillic - all needing anonymization.</p>
+
+        <div class="pain-point">
+          <strong>Pain Point:</strong> Most anonymization tools only handle Latin scripts. They miss PII in Chinese characters, fail to recognize Arabic names, and cannot process Cyrillic. Name order varies: family name first (East Asia), patronymics (Russia), multiple family names (Spain).
+        </div>
+
+        <div class="risk">
+          <strong>Risk:</strong> Partial anonymization is worse than none. If you anonymize English records but leave Chinese names intact, you've created a compliance gap that's invisible to English-speaking auditors.
+        </div>
+
+        <div class="solution">
+          <strong>Solution:</strong> Native support for 48 languages across 12+ writing systems. Hybrid regex + NLP + ML detection recognizes names, addresses, and IDs regardless of script. Cultural name format awareness built-in.
+        </div>
+
+        <span class="stat-highlight">&#127760; 48 languages, 12+ scripts, 260+ entity types</span>
+
+        <div class="source">
+          Source: <a href="https://anonym.legal/languages" target="_blank">anonym.legal - Supported Languages</a>
+        </div>
+      </div>
+
+      <div class="use-case">
+        <h3 class="use-case__title">Use Case 5: Parent Data Across Jurisdictions</h3>
+        <p class="use-case__scenario">A student's mother is a German national working in Singapore, father is American, and grandparents (emergency contacts) live in Japan. Each family member's data may be subject to different privacy laws.</p>
+
+        <div class="pain-point">
+          <strong>Pain Point:</strong> Family data in international schools crosses more borders than student data. Emergency contacts, billing information, custody documents, and medical authorizations all contain PII from multiple jurisdictions.
+        </div>
+
+        <div class="risk">
+          <strong>Risk:</strong> Expatriate families are high-value targets. Corporate executives, diplomats, and government officials send children to international schools. A breach exposes not just student data but parent employer information, home addresses in multiple countries.
+        </div>
+
+        <div class="solution">
+          <strong>Solution:</strong> Encrypt family data with separate keys per family unit. Parents control their own encryption keys. School maintains access only to anonymized operational data needed for emergencies.
+        </div>
+      </div>
+    </section>
+
+    <section class="regulation">
+      <div class="regulation__header">
+        <div class="regulation__icon">&#127891;</div>
+        <div>
+          <h2 class="regulation__title">College Application Data</h2>
+          <p class="regulation__subtitle">US/UK university applications with global compliance</p>
+        </div>
+      </div>
+
+      <div class="use-case">
+        <h3 class="use-case__title">Use Case 6: College Application Data Sharing</h3>
+        <p class="use-case__scenario">Your international school counselor sends transcripts, recommendations, and student profiles to universities in the US (Common App), UK (UCAS), and Europe (various systems). Each system has different data requirements and privacy frameworks.</p>
+
+        <div class="pain-point">
+          <strong>Pain Point:</strong> College applications require extensive personal data: academic records, extracurriculars, essays revealing personal circumstances, counselor recommendations discussing family situations. This data goes to dozens of universities across multiple countries.
+        </div>
+
+        <div class="risk">
+          <strong>Risk:</strong> GDPR students applying to US universities face unclear data protection. US FERPA doesn't apply to non-US schools. UK universities post-Brexit have different rules. Each application is a cross-border transfer.
+        </div>
+
+        <div class="solution">
+          <strong>Solution:</strong> Anonymize internal working documents (counselor notes, draft recommendations). Reversible encryption allows selective disclosure for official applications while protecting working files from breaches.
+        </div>
+
+        <div class="source">
+          Source: <a href="https://www.commonapp.org/privacy" target="_blank">Common Application - Privacy Policy</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="regulation">
+      <div class="regulation__header">
+        <div class="regulation__icon">&#128274;</div>
+        <div>
+          <h2 class="regulation__title">Data Localization Conflicts</h2>
+          <p class="regulation__subtitle">When legal requirements contradict each other</p>
+        </div>
+      </div>
+
+      <div class="use-case">
+        <h3 class="use-case__title">Use Case 7: Conflicting Localization Requirements</h3>
+        <p class="use-case__scenario">Your school network uses a centralized student information system. China requires data localization within China. Russia requires Russian citizen data stored in Russia. EU requires GDPR compliance. Your SIS vendor is American.</p>
+
+        <div class="pain-point">
+          <strong>Pain Point:</strong> Data localization laws directly conflict. You cannot simultaneously store Chinese student data only in China, Russian data only in Russia, EU data only in EU, while using a unified American SIS platform.
+        </div>
+
+        <div class="risk">
+          <strong>Risk:</strong> Schools either violate localization laws, fragment their systems beyond usability, or exit certain markets entirely. No technical solution exists for conflicting legal requirements.
+        </div>
+
+        <div class="solution">
+          <strong>Solution:</strong> Anonymized data is not personal data under most frameworks. Store encrypted data centrally, localize only the encryption keys. Each jurisdiction's keys stay local, but you maintain unified operations on anonymized data.
+        </div>
+
+        <span class="stat-highlight">&#127760; Unified operations with localized keys</span>
+      </div>
+
+      <div class="use-case">
+        <h3 class="use-case__title">Use Case 8: Different PII Definitions</h3>
+        <p class="use-case__scenario">Student photos are PII under GDPR (biometric data), not PII under US law. National ID numbers are ultra-sensitive in some countries, routine in others. Religion is special category data in EU, commonly collected in Middle Eastern schools.</p>
+
+        <div class="pain-point">
+          <strong>Pain Point:</strong> There's no universal definition of PII. What's anonymous in Japan may be identifying in Germany. What's routine to collect in UAE may be illegal to process in France.
+        </div>
+
+        <div class="solution">
+          <strong>Solution:</strong> 260+ entity type detection includes all data categories that any major jurisdiction considers sensitive. Over-anonymize by default, then selectively de-anonymize based on destination jurisdiction requirements.
+        </div>
+
+        <div class="source">
+          Source: <a href="https://iapp.org/resources/article/global-comprehensive-privacy-law-mapping-chart/" target="_blank">IAPP - Global Privacy Law Mapping</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <section class="cta">
+    <h2 class="cta__title">&#127760; Global Compliance, Local Control</h2>
+    <p class="cta__desc">48 languages. 260+ entity types. Zero-knowledge architecture. One solution for international schools worldwide.</p>
+    <a href="https://anonym.legal" target="_blank" class="btn btn--white">Start Free Trial</a>
+  </section>
+
+  <footer class="footer">
+    <div class="footer__inner">
+      <div class="footer__grid">
+        <div>
+          <h4 class="footer__title">By Region</h4>
+          <a href="us.html" class="footer__link">United States</a>
+          <a href="eu.html" class="footer__link">European Union</a>
+          <a href="uk.html" class="footer__link">United Kingdom</a>
+          <a href="international.html" class="footer__link">International Schools</a>
+          <a href="apac.html" class="footer__link">Asia-Pacific</a>
+          <a href="latam.html" class="footer__link">Latin America</a>
+        </div>
+        <div>
+          <h4 class="footer__title">Resources</h4>
+          <a href="../glossary.html" class="footer__link">Glossary</a>
+          <a href="../use-cases.html" class="footer__link">All Use Cases</a>
+          <a href="../case-studies.html" class="footer__link">Case Studies</a>
+        </div>
+        <div>
+          <h4 class="footer__title">Legal</h4>
+          <a href="../datenschutz.html" class="footer__link">Privacy Policy</a>
+          <a href="../impressum.html" class="footer__link">Imprint</a>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <span>&copy; 2026 Anonymize.Education</span>
+        <span>ISO 27001:2022 Certified | Made in Germany</span>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

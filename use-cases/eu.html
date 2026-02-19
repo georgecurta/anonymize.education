@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="EU Education Privacy - GDPR compliance, digital sovereignty, and data protection for European schools and universities.">
+  <meta name="theme-color" content="#0d5c63">
+  <title>EU Education Privacy | Anonymize.Education</title>
+  <link rel="canonical" href="https://anonymize.education/use-cases/eu.html">
+  <link rel="icon" type="image/png" sizes="32x32" href="../images/favicon-32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --color-trust: #0d5c63;
+      --color-trust-dark: #094249;
+      --color-trust-light: #e6f3f4;
+      --color-slate: #1e293b;
+      --color-slate-600: #475569;
+      --color-danger: #dc2626;
+      --color-danger-bg: #fef2f2;
+      --color-warning: #f59e0b;
+      --color-warning-bg: #fffbeb;
+      --color-success: #059669;
+      --color-success-bg: #ecfdf5;
+      --font-sans: 'DM Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: var(--font-sans); font-size: 16px; line-height: 1.6; color: var(--color-slate); background: #fafaf9; }
+    a { color: inherit; text-decoration: none; }
+
+    .nav { position: fixed; top: 0; left: 0; right: 0; z-index: 100; background: rgba(255,255,255,0.95); backdrop-filter: blur(10px); border-bottom: 1px solid rgba(0,0,0,0.05); }
+    .nav__inner { display: flex; align-items: center; justify-content: space-between; max-width: 1200px; margin: 0 auto; padding: 1rem 1.5rem; }
+    .nav__logo { display: flex; align-items: center; gap: 0.5rem; font-weight: 700; font-size: 1.125rem; color: var(--color-trust); }
+    .nav__logo-mark { width: 32px; height: 32px; background: var(--color-trust); border-radius: 8px; display: flex; align-items: center; justify-content: center; color: white; font-weight: 700; font-size: 0.875rem; }
+    .nav__links { display: none; gap: 2rem; }
+    @media (min-width: 768px) { .nav__links { display: flex; } }
+    .nav__link { font-size: 0.9375rem; font-weight: 500; color: var(--color-slate-600); transition: color 0.15s; }
+    .nav__link:hover { color: var(--color-trust); }
+
+    .hero { padding: calc(80px + 3rem) 1.5rem 3rem; background: linear-gradient(180deg, #fff 0%, #fafaf9 100%); text-align: center; }
+    .hero__inner { max-width: 800px; margin: 0 auto; }
+    .hero__flag { font-size: 3rem; margin-bottom: 1rem; }
+    .hero__title { font-size: 2.5rem; font-weight: 700; color: var(--color-slate); margin-bottom: 1rem; }
+    .hero__subtitle { font-size: 1.25rem; color: var(--color-slate-600); margin-bottom: 2rem; }
+    .hero__stats { display: flex; flex-wrap: wrap; justify-content: center; gap: 2rem; padding-top: 2rem; border-top: 1px solid rgba(0,0,0,0.05); }
+    .hero__stat { text-align: center; }
+    .hero__stat-value { font-size: 2rem; font-weight: 700; color: var(--color-danger); }
+    .hero__stat-label { font-size: 0.875rem; color: var(--color-slate-600); }
+
+    .content { max-width: 900px; margin: 0 auto; padding: 3rem 1.5rem; }
+
+    .regulation { background: white; border-radius: 12px; padding: 2rem; margin-bottom: 2rem; border: 1px solid rgba(0,0,0,0.08); }
+    .regulation__header { display: flex; align-items: center; gap: 1rem; margin-bottom: 1.5rem; }
+    .regulation__icon { width: 48px; height: 48px; background: var(--color-trust-light); border-radius: 8px; display: flex; align-items: center; justify-content: center; font-size: 1.5rem; }
+    .regulation__title { font-size: 1.5rem; font-weight: 700; color: var(--color-slate); }
+    .regulation__subtitle { font-size: 0.875rem; color: var(--color-slate-600); }
+
+    .use-case { background: #f8fafc; border-radius: 8px; padding: 1.5rem; margin: 1.5rem 0; }
+    .use-case__title { font-size: 1.125rem; font-weight: 600; color: var(--color-trust); margin-bottom: 0.5rem; }
+    .use-case__scenario { font-size: 0.9375rem; color: var(--color-slate-600); margin-bottom: 1rem; }
+
+    .pain-point { background: var(--color-danger-bg); border-left: 3px solid var(--color-danger); padding: 1rem; margin: 1rem 0; border-radius: 0 8px 8px 0; }
+    .pain-point strong { color: #991b1b; }
+
+    .risk { background: var(--color-warning-bg); border-left: 3px solid var(--color-warning); padding: 1rem; margin: 1rem 0; border-radius: 0 8px 8px 0; }
+    .risk strong { color: #92400e; }
+
+    .solution { background: var(--color-success-bg); border-left: 3px solid var(--color-success); padding: 1rem; margin: 1rem 0; border-radius: 0 8px 8px 0; }
+    .solution strong { color: #065f46; }
+
+    .stat-highlight { display: inline-flex; align-items: center; gap: 0.5rem; background: var(--color-trust); color: white; padding: 0.25rem 0.75rem; border-radius: 100px; font-size: 0.875rem; font-weight: 600; margin-top: 0.5rem; }
+
+    .source { font-size: 0.75rem; color: var(--color-slate-600); margin-top: 1rem; padding-top: 1rem; border-top: 1px solid rgba(0,0,0,0.05); }
+    .source a { color: var(--color-trust); text-decoration: underline; }
+
+    .case-study { background: linear-gradient(135deg, var(--color-danger-bg) 0%, #fff 100%); border: 2px solid var(--color-danger); border-radius: 12px; padding: 1.5rem; margin: 1.5rem 0; }
+    .case-study__title { font-size: 1.125rem; font-weight: 700; color: var(--color-danger); margin-bottom: 0.5rem; }
+    .case-study__fine { font-size: 2rem; font-weight: 700; color: var(--color-danger); }
+
+    .cta { background: linear-gradient(135deg, var(--color-trust) 0%, var(--color-trust-dark) 100%); color: white; padding: 4rem 1.5rem; text-align: center; }
+    .cta__title { font-size: 2rem; font-weight: 700; margin-bottom: 1rem; }
+    .cta__desc { font-size: 1.125rem; opacity: 0.9; max-width: 600px; margin: 0 auto 2rem; }
+    .btn { display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.75rem 1.5rem; font-family: inherit; font-size: 1rem; font-weight: 600; border-radius: 8px; border: none; cursor: pointer; transition: all 0.15s; }
+    .btn--white { background: white; color: var(--color-trust); }
+    .btn--white:hover { background: #f8fafc; transform: translateY(-1px); }
+
+    .footer { background: var(--color-slate); color: white; padding: 3rem 1.5rem 1.5rem; }
+    .footer__inner { max-width: 1200px; margin: 0 auto; }
+    .footer__grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 2rem; margin-bottom: 2rem; }
+    .footer__title { font-size: 0.875rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 1rem; opacity: 0.5; }
+    .footer__link { display: block; font-size: 0.9375rem; opacity: 0.8; margin-bottom: 0.5rem; transition: opacity 0.15s; }
+    .footer__link:hover { opacity: 1; }
+    .footer__bottom { padding-top: 1.5rem; border-top: 1px solid rgba(255,255,255,0.1); display: flex; justify-content: space-between; flex-wrap: wrap; gap: 1rem; font-size: 0.875rem; opacity: 0.5; }
+  </style>
+</head>
+<body>
+  <nav class="nav">
+    <div class="nav__inner">
+      <a href="../" class="nav__logo">
+        <span class="nav__logo-mark">A</span>
+        Anonymize.Education
+      </a>
+      <div class="nav__links">
+        <a href="../index.html#solutions" class="nav__link">Solutions</a>
+        <a href="../index.html#pricing" class="nav__link">Pricing</a>
+        <a href="../use-cases.html" class="nav__link">Use Cases</a>
+        <a href="../contact.html" class="nav__link">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <section class="hero">
+    <div class="hero__inner">
+      <div class="hero__flag">&#127466;&#127482;</div>
+      <h1 class="hero__title">EU Education Privacy</h1>
+      <p class="hero__subtitle">GDPR compliance, digital sovereignty, and true zero-knowledge architecture for European schools.</p>
+      <div class="hero__stats">
+        <div class="hero__stat">
+          <div class="hero__stat-value">EUR 7.1B</div>
+          <div class="hero__stat-label">Cumulative GDPR fines</div>
+        </div>
+        <div class="hero__stat">
+          <div class="hero__stat-value">443/day</div>
+          <div class="hero__stat-label">Breach notifications</div>
+        </div>
+        <div class="hero__stat">
+          <div class="hero__stat-value">22%</div>
+          <div class="hero__stat-label">YoY increase in breaches</div>
+        </div>
+        <div class="hero__stat">
+          <div class="hero__stat-value">32%</div>
+          <div class="hero__stat-label">Organizations fined last year</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <main class="content">
+
+    <section class="regulation">
+      <div class="regulation__header">
+        <div class="regulation__icon">&#128220;</div>
+        <div>
+          <h2 class="regulation__title">GDPR Compliance</h2>
+          <p class="regulation__subtitle">General Data Protection Regulation - Up to EUR 20M or 4% global revenue</p>
+        </div>
+      </div>
+
+      <div class="case-study">
+        <h3 class="case-study__title">Real Case: TikTok EUR 530M Fine (May 2025)</h3>
+        <div class="case-study__fine">EUR 530,000,000</div>
+        <p style="margin-top: 1rem; color: var(--color-slate-600);">The Irish DPC fined TikTok for transferring EU citizen PII to servers in China where it could be accessed by personnel who might be compelled to share it with Chinese authorities. This is the largest single GDPR penalty of 2025.</p>
+      </div>
+
+      <div class="use-case">
+        <h3 class="use-case__title">Use Case 1: Cross-Border Student Data Transfer</h3>
+        <p class="use-case__scenario">Your university partners with US institutions for exchange programs. Student records need to be shared, but GDPR restricts transfers to countries without adequate data protection.</p>
+
+        <div class="pain-point">
+          <strong>Pain Point:</strong> EU-US data transfers remain legally complex. Standard Contractual Clauses require supplementary measures. Many schools avoid partnerships rather than navigate compliance.
+        </div>
+
+        <div class="risk">
+          <strong>Risk:</strong> EUR 530M fine to TikTok shows regulators are serious about cross-border transfers. Even established transfer mechanisms are being challenged.
+        </div>
+
+        <div class="solution">
+          <strong>Solution:</strong> Anonymize student data before transfer. Anonymized data is no longer "personal data" under GDPR Article 4(1). Share academic records, course completions, and transcripts with US partners safely.
+        </div>
+
+        <span class="stat-highlight">EUR 530M - Largest GDPR fine of 2025</span>
+      </div>
+
+      <div class="use-case">
+        <h3 class="use-case__title">Use Case 2: Article 17 - Right to Erasure</h3>
+        <p class="use-case__scenario">A former student exercises their "right to be forgotten." They want all their personal data erased - but you need to maintain academic records for accreditation.</p>
+
+        <div class="pain-point">
+          <strong>Pain Point:</strong> Schools must balance erasure rights with legitimate record-keeping. Irreversible anonymization destroys audit trails needed for accreditation bodies.
+        </div>
+
+        <div class="solution">
+          <strong>Solution:</strong> Reversible encryption allows compliant erasure workflows. Encrypt identifying data with keys controlled by the data subject. They can "erase" by destroying their key, while you retain anonymized academic records.
+        </div>
+
+        <div class="source">
+          Source: <a href="https://www.dlapiper.com/en/insights/publications/2026/01/dla-piper-gdpr-fines-and-data-breach-survey-january-2026" target="_blank">DLA Piper GDPR Survey January 2026</a>
+        </div>
+      </div>
+
+      <div class="use-case">
+        <h3 class="use-case__title">Use Case 3: Breach Notification (72 Hours)</h3>
+        <p class="use-case__scenario">You discover a data breach affecting student records. GDPR Article 33 requires notification to your supervisory authority within 72 hours.</p>
+
+        <div class="pain-point">
+          <strong>Pain Point:</strong> "For the first time, average breach notifications per day have reached over 400" - a 22% increase from 2024. Detection and response must be instant.
+        </div>
+
+        <div class="risk">
+          <strong>Risk:</strong> Allium UPI OY was fined EUR 3M for a breach affecting 750,000 individuals - largely because they lacked MFA. Inadequate security measures compound breach liability.
+        </div>
+
+        <div class="solution">
+          <strong>Solution:</strong> Zero-knowledge architecture means even if your systems are breached, attackers get encrypted blobs - not student data. Report "no personal data compromised" because mathematically, it wasn't accessible.
+        </div>
+
+        <span class="stat-highlight">443 breach notifications per day in EU</span>
+      </div>
+    </section>
+
+    <section class="regulation">
+      <div class="regulation__header">
+        <div class="regulation__icon">&#127758;</div>
+        <div>
+          <h2 class="regulation__title">Digital Sovereignty</h2>
+          <p class="regulation__subtitle">EU Declaration for European Digital Sovereignty (November 2025)</p>
+        </div>
+      </div>
+
+      <div class="use-case">
+        <h3 class="use-case__title">Use Case 4: US CLOUD Act Risk</h3>
+        <p class="use-case__scenario">Your school uses Microsoft 365 or Google Workspace. A US court issues a subpoena for student data stored on EU servers operated by a US company.</p>
+
+        <div class="pain-point">
+          <strong>Pain Point:</strong> "The CLOUD Act allows U.S. authorities to access data stored in the EU, putting it in direct conflict with GDPR. Even EU-based data centers run by US companies remain subject to US law."
+        </div>
+
+        <div class="risk">
+          <strong>Risk:</strong> Hyperscaler "sovereign cloud" claims were exposed as insufficient in Summer 2025. The International Criminal Court replaced Microsoft with EU alternatives (OpenDesk/ZenDiS).
+        </div>
+
+        <div class="solution">
+          <strong>Solution:</strong> Anonymize.Education: German company (curta.solutions), German servers (Hetzner), zero-knowledge architecture. Even if compelled, we cannot provide data we cannot decrypt.
+        </div>
+
+        <div class="source">
+          Source: <a href="https://wire.com/en/blog/cloud-act-eu-data-sovereignty" target="_blank">Wire - CLOUD Act vs EU Data Sovereignty</a>
+        </div>
+      </div>
+
+      <div class="use-case">
+        <h3 class="use-case__title">Use Case 5: European Digital Infrastructure</h3>
+        <p class="use-case__scenario">Germany, France, Italy, and Netherlands have established the European Digital Infrastructure Consortium. Your ministry is evaluating EU-only tools.</p>
+
+        <div class="pain-point">
+          <strong>Pain Point:</strong> EU Member States adopted the 'Declaration for European Digital Sovereignty' in November 2025. US cloud dependency is now a strategic risk, not just a compliance issue.
+        </div>
+
+        <div class="solution">
+          <strong>Solution:</strong> 100% EU stack: German company, German hosting, ISO 27001:2022 certified, no dependencies on US infrastructure or law. Meets all digital sovereignty requirements.
+        </div>
+
+        <span class="stat-highlight">ICC replaced Microsoft with EU alternatives</span>
+      </div>
+    </section>
+
+    <section class="regulation">
+      <div class="regulation__header">
+        <div class="regulation__icon">&#128272;</div>
+        <div>
+          <h2 class="regulation__title">Zero-Knowledge Architecture</h2>
+          <p class="regulation__subtitle">True data protection, not just marketing claims</p>
+        </div>
+      </div>
+
+      <div class="use-case">
+        <h3 class="use-case__title">Use Case 6: Password Manager Failures</h3>
+        <p class="use-case__scenario">Your IT department selected a "zero-knowledge" cloud solution for storing sensitive credentials. You learn that ETH Zurich researchers compromised major password managers.</p>
+
+        <div class="pain-point">
+          <strong>Pain Point:</strong> "ETH Zurich researchers demonstrated that major password managers (Bitwarden, LastPass, Dashlane - 60M+ users, 23% market share) fail their 'zero-knowledge' claims. A compromised server could expose and modify users' stored credentials."
+        </div>
+
+        <div class="risk">
+          <strong>Risk:</strong> "Zero-knowledge" marketing doesn't equal zero-knowledge architecture. Most providers can technically access your data - they just promise not to.
+        </div>
+
+        <div class="solution">
+          <strong>Solution:</strong> Client-side Argon2id password hashing ensures passwords never transmit in recoverable form. AES-256-GCM encryption in browser before any data leaves your device. Server cannot decrypt - mathematically impossible.
+        </div>
+
+        <div class="source">
+          Source: <a href="https://cyberinsider.com/popular-password-managers-fall-short-of-zero-knowledge-claims/" target="_blank">CyberInsider - Password Managers Fall Short of ZK Claims</a>
+        </div>
+      </div>
+
+      <div class="use-case">
+        <h3 class="use-case__title">Use Case 7: Data Processor Agreements (DPA)</h3>
+        <p class="use-case__scenario">Your DPO requires all vendors to sign Article 28 compliant DPAs. They're concerned about sub-processors and data access.</p>
+
+        <div class="pain-point">
+          <strong>Pain Point:</strong> Vodafone GmbH was fined EUR 15M specifically for "third-party contract oversight failures." Sub-processor chains create liability.
+        </div>
+
+        <div class="solution">
+          <strong>Solution:</strong> With zero-knowledge architecture, the DPA becomes simpler: we process encrypted data we cannot read. No sub-processors see cleartext. Audit rights are moot when there's nothing to audit.
+        </div>
+      </div>
+    </section>
+
+    <section class="regulation">
+      <div class="regulation__header">
+        <div class="regulation__icon">&#127465;&#127466;</div>
+        <div>
+          <h2 class="regulation__title">DACH Region</h2>
+          <p class="regulation__subtitle">Germany, Austria, Switzerland - Strictest interpretations</p>
+        </div>
+      </div>
+
+      <div class="use-case">
+        <h3 class="use-case__title">Use Case 8: German Landesdatenschutz</h3>
+        <p class="use-case__scenario">Your German school district faces audits from both federal BfDI and state-level Landesdatenschutzbeauftragte. Each has different interpretations.</p>
+
+        <div class="pain-point">
+          <strong>Pain Point:</strong> Germany has 17 different data protection authorities (16 state + 1 federal) with occasionally conflicting guidance. Schools must satisfy all applicable authorities.
+        </div>
+
+        <div class="solution">
+          <strong>Solution:</strong> German company meeting the strictest interpretation. ISO 27001:2022 certification satisfies all authorities. Processing in Germany on German servers.
+        </div>
+      </div>
+
+      <div class="use-case">
+        <h3 class="use-case__title">Use Case 9: AI in German Classrooms</h3>
+        <p class="use-case__scenario">Teachers want to use ChatGPT for lesson planning, but sending student data to US servers violates both GDPR and German school data protection laws.</p>
+
+        <div class="pain-point">
+          <strong>Pain Point:</strong> "53% of enterprises cite data privacy as #1 AI adoption blocker." German schools are even more restricted due to strict student data laws.
+        </div>
+
+        <div class="solution">
+          <strong>Solution:</strong> MCP Server anonymizes student data before it reaches any AI. Teacher asks Claude about "Student A's essay" - Claude never sees real names. AI benefits without compliance violations.
+        </div>
+
+        <span class="stat-highlight">53% cite privacy as #1 AI blocker</span>
+      </div>
+    </section>
+
+    <section class="regulation">
+      <div class="regulation__header">
+        <div class="regulation__icon">&#128203;</div>
+        <div>
+          <h2 class="regulation__title">ISO 27001 Requirements</h2>
+          <p class="regulation__subtitle">"The minimum bar, not the gold standard" for enterprise procurement</p>
+        </div>
+      </div>
+
+      <div class="use-case">
+        <h3 class="use-case__title">Use Case 10: Vendor Security Assessment</h3>
+        <p class="use-case__scenario">Your university procurement requires ISO 27001 certification for any vendor handling student data. Your current tools lack certification.</p>
+
+        <div class="pain-point">
+          <strong>Pain Point:</strong> "ISO 27001 has become 'the minimum bar, not the gold standard' for enterprise procurement." Supply chain attacks projected to cost USD 60 billion in 2025.
+        </div>
+
+        <div class="solution">
+          <strong>Solution:</strong> Anonymize.Education is ISO 27001:2022 certified. Pre-filled security questionnaires available. Vendor assessment completed in hours, not weeks.
+        </div>
+
+        <div class="source">
+          Source: <a href="https://canadiancyber.ca/iso-27001-vendor-requirements/" target="_blank">Canadian Cyber - ISO 27001 Vendor Requirements</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <section class="cta">
+    <h2 class="cta__title">EU-Compliant Student Data Protection</h2>
+    <p class="cta__desc">German company. German servers. ISO 27001 certified. Zero-knowledge architecture. True GDPR compliance.</p>
+    <a href="https://anonym.legal" target="_blank" class="btn btn--white">Start Free Trial</a>
+  </section>
+
+  <footer class="footer">
+    <div class="footer__inner">
+      <div class="footer__grid">
+        <div>
+          <h4 class="footer__title">By Region</h4>
+          <a href="us.html" class="footer__link">United States</a>
+          <a href="eu.html" class="footer__link">European Union</a>
+          <a href="uk.html" class="footer__link">United Kingdom</a>
+          <a href="apac.html" class="footer__link">Asia-Pacific</a>
+          <a href="latam.html" class="footer__link">Latin America</a>
+        </div>
+        <div>
+          <h4 class="footer__title">Resources</h4>
+          <a href="../glossary.html" class="footer__link">Glossary</a>
+          <a href="../use-cases.html" class="footer__link">All Use Cases</a>
+          <a href="../case-studies.html" class="footer__link">Case Studies</a>
+        </div>
+        <div>
+          <h4 class="footer__title">Legal</h4>
+          <a href="../datenschutz.html" class="footer__link">Privacy Policy</a>
+          <a href="../impressum.html" class="footer__link">Imprint</a>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <span>&copy; 2026 Anonymize.Education</span>
+        <span>ISO 27001:2022 Certified | Made in Germany</span>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
