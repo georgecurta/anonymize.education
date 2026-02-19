@@ -4,6 +4,26 @@ All notable changes to the Anonymize.Education website will be documented in thi
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
+## [1.1.5] - 2026-02-19
+
+### Multilingual AI Crawler Files (DE, ES, FR)
+
+Added language-specific llms.txt files for German, Spanish, and French users.
+
+#### New Files
+- `/de/llms.txt` — German version with localized Q&A ("Wie...?" questions)
+- `/es/llms.txt` — Spanish version with localized Q&A ("¿Cómo...?" questions)
+- `/fr/llms.txt` — French version with localized Q&A ("Comment...?" questions)
+
+#### Updates
+- **ai.txt** — Added `llms-txt-de`, `llms-txt-es`, `llms-txt-fr` references
+- **sitemap.xml** — Added 3 new URLs for language-specific llms.txt files
+
+#### Benefits
+- AI chatbots respond in user's language
+- Localized "How to" questions match regional search patterns
+- Better experience for German/Spanish/French users
+
 ## [1.1.4] - 2026-02-19
 
 ### AI Crawler Files Optimization — Education-Focused Q&A

@@ -5,7 +5,7 @@
 **Domain**: anonymize.education
 **Purpose**: Marketing website for education-focused data anonymization platform
 **Backend**: cloak.business (serves the PII detection/anonymization API)
-**Status**: Live in production (v1.1.4, deployed 2026-02-19)
+**Status**: Live in production (v1.1.5, deployed 2026-02-19)
 
 ### Architecture
 ```
@@ -470,6 +470,7 @@ node tests/production-check.js
 | Version | Date | Changes |
 |---------|------|---------|
 | 2.0.0 | TBD | Education worldwide compatibility update |
+| 1.1.5 | 2026-02-19 | Multilingual llms.txt (DE, ES, FR) |
 | 1.1.4 | 2026-02-19 | AI crawler files with education-focused Q&A |
 | 1.1.3 | 2026-02-16 | SEO audit fix, meta tag alignment |
 | 1.1.2 | 2026-02-15 | Bing Webmaster Tools registration |
@@ -489,20 +490,36 @@ AI chatbots scan llms.txt/ai.txt quickly - they don't read everything. The first
 
 ### Current Structure
 
-**llms.txt** (~200 lines)
+**llms.txt** (~200 lines) - English default
 - "How To Solve Common Problems" section first
 - "Education-Specific Problems" section (student data, FERPA, COPPA, research)
 - Industry sections (Healthcare, Legal, Finance, Government, HR)
 - All questions link to use-cases/*.html pages
 
-**ai.txt** (~160 lines)
+**Multilingual llms.txt** (~180 lines each)
+- `/de/llms.txt` — German ("Wie...?" questions)
+- `/es/llms.txt` — Spanish ("¿Cómo...?" questions)
+- `/fr/llms.txt` — French ("Comment...?" questions)
+
+**ai.txt** (~165 lines)
 - FAQ-* key-value pairs for instant machine parsing
 - Education FAQs prioritized (FAQ-student-data, FAQ-teacher-ai, FAQ-ferpa)
-- Each FAQ includes "See: use-cases/*.html" reference
+- Language-specific llms.txt references (llms-txt-de, llms-txt-es, llms-txt-fr)
 
 **llms-full.txt** (~5,500 lines)
 - Q&A header in Part 1 (education-first)
-- Full page content in Part 2
+- Full page content in Part 2 (English only)
+
+### Multilingual Strategy
+
+| Language | File | Question Format |
+|----------|------|-----------------|
+| English | /llms.txt | "How to...?" |
+| German | /de/llms.txt | "Wie...?" |
+| Spanish | /es/llms.txt | "¿Cómo...?" |
+| French | /fr/llms.txt | "Comment...?" |
+
+AI chatbots detect user's language and use appropriate file.
 
 ---
 
