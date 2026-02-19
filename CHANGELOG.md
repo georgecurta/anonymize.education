@@ -4,6 +4,38 @@ All notable changes to the Anonymize.Education website will be documented in thi
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
+## [1.1.4] - 2026-02-19
+
+### AI Crawler Files Optimization — Education-Focused Q&A
+
+Restructured llms.txt, ai.txt, and llms-full.txt so AI chatbots can quickly find answers with practical "How to" problem-solving questions.
+
+#### llms.txt
+- Rewrote with "How to..." questions instead of product descriptions
+- Added "Education-Specific Problems" section at top (lines 48-70)
+  - How to protect student data when teachers use ChatGPT?
+  - How to comply with FERPA when sharing with EdTech vendors?
+  - How to protect children under 13 (COPPA)?
+  - How to anonymize student research data for publications?
+  - How to handle cross-border student data transfers?
+- All questions link to actual site pages (use-cases/*.html)
+- 30+ problem-solving questions covering education, healthcare, legal, finance, government, HR
+
+#### ai.txt
+- Added 50+ FAQ-* key-value pairs for machine parsing
+- Education FAQs prioritized at top: FAQ-student-data, FAQ-teacher-ai, FAQ-ferpa, FAQ-coppa
+- Each FAQ includes "See: use-cases/*.html" references for full answers
+
+#### llms-full.txt
+- Rewrote Part 1 header with "How To Solve Common Problems" format
+- Education problems section first, followed by industry-specific
+- All questions link to site pages
+
+#### Testing
+- Verified with AI chatbot simulation
+- All questions found answers in first 50 lines of files
+- FAQ key-value pairs work for instant lookups
+
 ## [1.1.3] - 2026-02-16
 
 ### SEO Audit Fix — Meta Tag Alignment

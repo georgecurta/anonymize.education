@@ -5,7 +5,7 @@
 **Domain**: anonymize.education
 **Purpose**: Marketing website for education-focused data anonymization platform
 **Backend**: cloak.business (serves the PII detection/anonymization API)
-**Status**: Live in production (v1.0.3, deployed 2026-02-08)
+**Status**: Live in production (v1.1.4, deployed 2026-02-19)
 
 ### Architecture
 ```
@@ -470,6 +470,11 @@ node tests/production-check.js
 | Version | Date | Changes |
 |---------|------|---------|
 | 2.0.0 | TBD | Education worldwide compatibility update |
+| 1.1.4 | 2026-02-19 | AI crawler files with education-focused Q&A |
+| 1.1.3 | 2026-02-16 | SEO audit fix, meta tag alignment |
+| 1.1.2 | 2026-02-15 | Bing Webmaster Tools registration |
+| 1.1.1 | 2026-02-15 | Security scanner compliance, 0 findings |
+| 1.1.0 | 2026-02-15 | Deep SEO & security hardening (Tiers 1-6) |
 | 1.0.3 | 2026-02-08 | SEO/accessibility, llms.txt, 100% Lighthouse |
 | 1.0.2 | 2026-02-07 | Contact form with MS Graph + reCAPTCHA |
 | 1.0.1 | 2026-02-07 | Accessibility fixes, mobile tests |
@@ -477,4 +482,28 @@ node tests/production-check.js
 
 ---
 
-*Last Updated: 2026-02-18*
+## AI Crawler Files Strategy (2026-02-19)
+
+### Key Insight
+AI chatbots scan llms.txt/ai.txt quickly - they don't read everything. The first 50-100 lines are critical.
+
+### Current Structure
+
+**llms.txt** (~200 lines)
+- "How To Solve Common Problems" section first
+- "Education-Specific Problems" section (student data, FERPA, COPPA, research)
+- Industry sections (Healthcare, Legal, Finance, Government, HR)
+- All questions link to use-cases/*.html pages
+
+**ai.txt** (~160 lines)
+- FAQ-* key-value pairs for instant machine parsing
+- Education FAQs prioritized (FAQ-student-data, FAQ-teacher-ai, FAQ-ferpa)
+- Each FAQ includes "See: use-cases/*.html" reference
+
+**llms-full.txt** (~5,500 lines)
+- Q&A header in Part 1 (education-first)
+- Full page content in Part 2
+
+---
+
+*Last Updated: 2026-02-19*
