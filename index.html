@@ -453,26 +453,81 @@
 
     .nav__lang {
       display: none;
-      align-items: center;
-      gap: var(--space-xs);
-      margin-right: var(--space-md);
-      padding-right: var(--space-md);
-      border-right: 1px solid rgba(0, 0, 0, 0.1);
+      position: relative;
     }
 
     @media (min-width: 768px) {
       .nav__lang {
-        display: flex;
+        display: block;
       }
     }
 
-    .nav__lang-link {
-      font-size: 0.75rem;
+    .nav__lang-current {
+      display: flex;
+      align-items: center;
+      gap: var(--space-xs);
+      font-size: 0.8125rem;
       font-weight: 600;
-      color: var(--color-slate-400);
+      color: var(--color-slate-600);
       padding: var(--space-xs) var(--space-sm);
       border-radius: var(--radius-sm);
+      cursor: pointer;
       transition: all var(--transition-fast);
+    }
+
+    .nav__lang-current:hover {
+      color: var(--color-trust);
+      background: var(--color-trust-light);
+    }
+
+    .nav__lang-current svg {
+      width: 12px;
+      height: 12px;
+      transition: transform var(--transition-fast);
+    }
+
+    .nav__lang:hover .nav__lang-current svg {
+      transform: rotate(180deg);
+    }
+
+    .nav__lang-dropdown {
+      position: absolute;
+      top: 100%;
+      right: 0;
+      margin-top: var(--space-xs);
+      background: white;
+      border-radius: var(--radius-md);
+      box-shadow: var(--shadow-lg);
+      border: 1px solid rgba(0, 0, 0, 0.08);
+      min-width: 120px;
+      opacity: 0;
+      visibility: hidden;
+      transform: translateY(-8px);
+      transition: all var(--transition-fast);
+      z-index: 200;
+    }
+
+    .nav__lang:hover .nav__lang-dropdown {
+      opacity: 1;
+      visibility: visible;
+      transform: translateY(0);
+    }
+
+    .nav__lang-link {
+      display: block;
+      font-size: 0.8125rem;
+      font-weight: 500;
+      color: var(--color-slate-600);
+      padding: var(--space-sm) var(--space-md);
+      transition: all var(--transition-fast);
+    }
+
+    .nav__lang-link:first-child {
+      border-radius: var(--radius-md) var(--radius-md) 0 0;
+    }
+
+    .nav__lang-link:last-child {
+      border-radius: 0 0 var(--radius-md) var(--radius-md);
     }
 
     .nav__lang-link:hover {
@@ -483,6 +538,7 @@
     .nav__lang-link--active {
       color: var(--color-trust);
       background: var(--color-trust-light);
+      font-weight: 600;
     }
 
     .nav__toggle {
@@ -1558,10 +1614,16 @@
 
       <div class="nav__cta">
         <div class="nav__lang">
-          <a href="/" class="nav__lang-link nav__lang-link--active">EN</a>
-          <a href="/de/" class="nav__lang-link">DE</a>
-          <a href="/es/" class="nav__lang-link">ES</a>
-          <a href="/fr/" class="nav__lang-link">FR</a>
+          <span class="nav__lang-current">
+            EN
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+          </span>
+          <div class="nav__lang-dropdown">
+            <a href="/" class="nav__lang-link nav__lang-link--active">English</a>
+            <a href="/de/" class="nav__lang-link">Deutsch</a>
+            <a href="/es/" class="nav__lang-link">Español</a>
+            <a href="/fr/" class="nav__lang-link">Français</a>
+          </div>
         </div>
         <a href="https://anonym.legal" class="btn btn--ghost" target="_blank">Log In</a>
         <a href="https://anonym.legal" class="btn btn--primary" target="_blank">Start Free</a>
