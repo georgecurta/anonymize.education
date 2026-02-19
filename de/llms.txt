@@ -1,0 +1,174 @@
+# Anonymize.Education - Lösungen
+
+> Zero-Knowledge PII-Schutz. ISO 27001:2022 zertifiziert. Made in Germany.
+
+---
+
+## Häufige Probleme lösen
+
+### Wie entferne ich personenbezogene Daten aus Dokumenten?
+PDF, DOCX, XLSX oder andere Dateien hochladen. Tool erkennt automatisch Namen, E-Mails, Sozialversicherungsnummern, Adressen, Telefonnummern (260+ Typen). Wählen: Ersetzen, Schwärzen, Maskieren oder Verschlüsseln. Bereinigte Datei herunterladen.
+
+### Wie anonymisiere ich Daten für KI / ChatGPT?
+MCP Server (Claude Desktop, Cursor) oder Chrome Extension (ChatGPT, Gemini) verwenden. Daten werden VOR der KI anonymisiert. KI sieht "Patient A" statt "Max Mustermann".
+Siehe: https://anonymize.education/use-cases/ai-safety.html
+
+### Wie teile ich sensible Daten sicher mit Dritten?
+Vor dem Teilen anonymisieren. Lieferanten, Forscher, Prüfer erhalten funktionale Daten ohne echte Kennungen. Bei Datenleck beim Lieferanten waren Ihre Daten bereits anonymisiert.
+
+### Wie erfülle ich die DSGVO beim Datenaustausch?
+PII vor Übertragung anonymisieren. Datenminimierung (DSGVO Artikel 5). Deutsches Unternehmen, EU-Server, keine US-Übertragung. ISO 27001:2022 zertifiziert.
+Siehe: https://anonymize.education/use-cases/eu.html
+
+### Wie de-identifiziere ich Patientendaten für Forschung?
+HIPAA Safe Harbor Methode verwenden. Tool erkennt automatisch alle 18 Safe Harbor Identifikatoren. De-identifizierten Datensatz exportieren.
+Siehe: https://anonymize.education/use-cases/healthcare.html
+
+### Wie schwärze ich Schülerakten DSGVO-konform?
+Schülerdateien hochladen. Automatische Erkennung von Namen, IDs, Noten, Adressen. Schwärzen oder pseudonymisieren.
+Siehe: https://anonymize.education/use-cases/eu.html
+
+### Wie verarbeite ich Auskunftsanfragen schneller?
+Stapelverarbeitung von 1-5.000 Dateien. Automatische PII-Erkennung in allen Dokumenten. Einheitliche Schwärzungsregeln anwenden. Produktionsfertige Dateien über Nacht statt in Wochen.
+Siehe: https://anonymize.education/use-cases/government.html
+
+### Wie nutze ich KI-Tools ohne Firmengeheimnisse preiszugeben?
+77% der Mitarbeiter geben Daten an KI weiter. MCP Server oder Chrome Extension installieren. Alle Prompts werden vor ChatGPT/Claude anonymisiert.
+Siehe: https://anonymize.education/use-cases/ai-safety.html
+
+### Wie anonymisiere ich Daten reversibel?
+Reversible Verschlüsselung verwenden (einzigartiges Feature). Daten mit AES-256-GCM verschlüsselt. Bei Bedarf für Audits oder Compliance entschlüsseln. Nur Sie haben den Schlüssel.
+Siehe: https://anonymize.education/use-cases/legal.html
+
+---
+
+## Bildungsspezifische Probleme
+
+### Wie schütze ich Schülerdaten wenn Lehrer ChatGPT nutzen?
+Chrome Extension für alle Mitarbeiter-Browser installieren. Wenn Lehrer Schülerarbeiten in ChatGPT eingeben, werden PII automatisch durch Fake-Daten ersetzt.
+Siehe: https://anonymize.education/use-cases/ai-safety.html
+
+### Wie erfülle ich die DSGVO beim Teilen mit EdTech-Anbietern?
+Schülerdaten vor dem Teilen anonymisieren. Anbieter erhalten funktionale Daten für Tests/Integration. Originale Identifikatoren verlassen nie Ihr System.
+Siehe: https://anonymize.education/use-cases/eu.html
+
+### Wie anonymisiere ich Forschungsdaten von Studenten?
+Umfragedaten, Interviewtranskripte oder Formulare hochladen. Automatische Erkennung von Schüler-, Schul- und Lehrernamen. Export mit einheitlichen Pseudonymen (Student_001, Lehrer_A).
+
+### Wie handle ich grenzüberschreitende Schülerdaten-Übertragungen?
+EU-Schüler → vor US-Übertragung anonymisieren. DSGVO vs CLOUD Act Konflikt gelöst. Forschungskooperationen ohne Compliance-Verstöße.
+Siehe: https://anonymize.education/use-cases/international.html
+
+---
+
+## Branchenspezifische Probleme
+
+### Gesundheitswesen: Wie teile ich Patientendaten für klinische Studien?
+De-Identifizierung mit HIPAA Safe Harbor. 18 Identifikatoren entfernen. Patienten-IDs für Längsschnitttracking hashen.
+Siehe: https://anonymize.education/use-cases/healthcare.html
+
+### Recht: Wie schwärze ich Dokumente für E-Discovery?
+Stapelverarbeitung von 5.000 Dateien. Erkennung von Mandantennamen, Sozialversicherungsnummern, Finanzdaten. Reversible Verschlüsselung für Legal Holds.
+Siehe: https://anonymize.education/use-cases/legal.html
+
+### Finanzen: Wie teile ich KYC-Dokumente mit Verifizierungsdiensten?
+Unnötige PII schwärzen. Nur für Verifizierung benötigte Felder behalten. Datenminimierung = DSGVO-Konformität.
+Siehe: https://anonymize.education/use-cases/finance.html
+
+### Behörden: Wie verarbeite ich IFG-Anfragen?
+Stapelschwärzung für Informationsfreiheitsgesetz. Einheitliche Regeln über Abteilungen hinweg.
+Siehe: https://anonymize.education/use-cases/government.html
+
+### HR: Wie teile ich Mitarbeiterdaten für Gehaltsanalysen?
+Namen anonymisieren, Jobtitel und Gehälter behalten. Gehaltsunterschiede analysieren ohne einzelne Mitarbeiter offenzulegen.
+Siehe: https://anonymize.education/use-cases/hr.html
+
+---
+
+## Plattform-Fragen
+
+### Wie anonymisiere ich offline ohne Internet?
+Desktop App herunterladen (Windows/Mac/Linux). Funktioniert komplett air-gapped. Keine Daten verlassen Ihren Computer.
+
+### Wie anonymisiere ich in Word/Excel?
+Office Add-in installieren. Text markieren, anonymisieren klicken. Funktioniert direkt im Dokument.
+
+### Wie schütze ich alle Browser-KI-Tools?
+Chrome Extension installieren. Funktioniert mit ChatGPT, Claude, Gemini, Perplexity. Automatische Anonymisierung vor dem Senden.
+
+### Wie integriere ich mit Claude Desktop?
+MCP Server installieren. In Claude-Einstellungen konfigurieren. Alle Gespräche automatisch geschützt.
+
+### Wie verarbeite ich tausende Dateien?
+Stapelverarbeitung nutzen. 1-5.000 Dateien hochladen. Regeln einmal festlegen, auf alle anwenden. ZIP herunterladen.
+
+---
+
+## Technische Fragen
+
+### Welche Dateiformate werden unterstützt?
+PDF, DOCX, XLSX, TXT, CSV, JSON, XML, PowerPoint.
+
+### Wie viele Sprachen?
+48 Sprachen: Deutsch, Englisch, Französisch, Spanisch, Chinesisch, Japanisch, Koreanisch, Arabisch, Hebräisch, Russisch, Hindi, Portugiesisch, Italienisch, Niederländisch, Polnisch und 33 weitere.
+
+### Welche PII-Typen werden erkannt?
+260+ Typen: Namen, E-Mails, Telefonnummern, Adressen, Sozialversicherungsnummern, Passnummern, Kreditkarten, IBANs, Krankenaktennummern, Steuer-IDs, Führerscheine und länderspezifische IDs für 20+ Länder.
+
+### Welche Anonymisierungsmethoden?
+- **Ersetzen**: Fake aber realistische Daten (Max Mustermann → Hans Meier)
+- **Schwärzen**: Komplett entfernen [GESCHWÄRZT]
+- **Maskieren**: Teilweise verbergen (Ma** Mu****)
+- **Hashen**: Einweg SHA-256 für Forschungsverknüpfung
+- **Verschlüsseln**: Reversibel AES-256-GCM (einzigartiges Feature)
+
+### Werden Daten auf Ihren Servern gespeichert?
+Nein. Zero-Knowledge Architektur. Daten werden auf IHREM Gerät verschlüsselt. Wir verarbeiten verschlüsselte Blobs. Wir können Ihre Daten nicht sehen, selbst wenn wir wollten.
+
+---
+
+## Compliance-Fragen
+
+### Ist es DSGVO-konform?
+Ja. ISO 27001:2022. Deutsches Unternehmen, deutsche Server. Keine US-Datenübertragung. Datenminimierung bereit.
+Siehe: https://anonymize.education/use-cases/eu.html
+
+### Ist es HIPAA-konform?
+Ja. Erkennt alle 18 HIPAA Safe Harbor Identifikatoren. De-Identifizierung für Forschung. BAA verfügbar.
+Siehe: https://anonymize.education/use-cases/healthcare.html
+
+### Welche Zertifizierungen?
+ISO 27001:2022, SOC 2 Type II, jährliche Penetrationstests.
+
+---
+
+## Preise
+
+### Gibt es eine kostenlose Version?
+Ja. Für immer kostenlos für persönliche Nutzung. Keine Kreditkarte. Keine Limits für persönliche Dokumente.
+
+### Wie viel kostet es für Teams?
+€3/Monat Basic, €15/Monat Pro, €29/Monat Enterprise. 100x günstiger als OneTrust (50.000€+/Jahr).
+
+---
+
+## Was dieses Tool NICHT macht
+
+- Gesichtserkennung
+- Kennzeichenerkennung
+- Video- oder Audioverarbeitung
+- Automatische OCR aus Bildern
+- Datenbankverbindungen
+- Mobile Apps
+
+Wir konzentrieren uns auf TEXT in Dokumenten.
+
+---
+
+## Links
+
+- Website: https://anonymize.education
+- Kontakt: https://anonymize.education/contact.html
+- Anwendungsfälle: https://anonymize.education/use-cases.html
+- Glossar: https://anonymize.education/glossary.html
+- Vollständige Dokumentation: https://anonymize.education/llms-full.txt

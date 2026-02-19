@@ -1,0 +1,174 @@
+# Anonymize.Education - Solutions
+
+> Protection des données personnelles à connaissance zéro. Certifié ISO 27001:2022. Made in Germany.
+
+---
+
+## Comment Résoudre les Problèmes Courants
+
+### Comment supprimer les données personnelles des documents ?
+Télécharger des fichiers PDF, DOCX, XLSX ou autres. L'outil détecte automatiquement noms, e-mails, numéros de sécurité sociale, adresses, téléphones (260+ types). Choisir : Remplacer, Caviarder, Masquer ou Chiffrer. Télécharger le fichier nettoyé.
+
+### Comment anonymiser les données pour l'IA / ChatGPT ?
+Utiliser le serveur MCP (Claude Desktop, Cursor) ou l'extension Chrome (ChatGPT, Gemini). Les données sont anonymisées AVANT d'atteindre l'IA. L'IA voit "Patient A" pas "Jean Dupont".
+Voir : https://anonymize.education/use-cases/ai-safety.html
+
+### Comment partager des données sensibles avec des tiers en toute sécurité ?
+Anonymiser avant de partager. Fournisseurs, chercheurs, auditeurs reçoivent des données fonctionnelles sans identifiants réels. En cas de violation chez le fournisseur, vos données étaient déjà anonymisées.
+
+### Comment se conformer au RGPD lors du partage de données ?
+Anonymiser les données personnelles avant le transfert. Minimisation des données (RGPD Article 5). Entreprise allemande, serveurs UE, pas de transfert vers les États-Unis. Certifié ISO 27001:2022.
+Voir : https://anonymize.education/use-cases/eu.html
+
+### Comment dé-identifier les données patients pour la recherche (HIPAA) ?
+Utiliser la méthode HIPAA Safe Harbor. L'outil détecte automatiquement les 18 identifiants Safe Harbor. Exporter l'ensemble de données dé-identifié.
+Voir : https://anonymize.education/use-cases/healthcare.html
+
+### Comment caviarder les dossiers étudiants pour la conformité ?
+Télécharger les fichiers étudiants. Détection automatique des noms, IDs, notes, adresses. Caviarder ou pseudonymiser.
+Voir : https://anonymize.education/use-cases/eu.html
+
+### Comment traiter les demandes d'accès plus rapidement ?
+Traitement par lots de 1 à 5 000 fichiers. Détection automatique des données personnelles dans tous les documents. Appliquer des règles de caviardage cohérentes. Fichiers prêts pour production en une nuit.
+Voir : https://anonymize.education/use-cases/government.html
+
+### Comment utiliser les outils d'IA sans divulguer les secrets d'entreprise ?
+77% des employés divulguent des données à l'IA. Installer le serveur MCP ou l'extension Chrome. Tous les prompts sont anonymisés avant d'atteindre ChatGPT/Claude.
+Voir : https://anonymize.education/use-cases/ai-safety.html
+
+### Comment anonymiser les données mais les restaurer plus tard ?
+Utiliser le chiffrement réversible (fonctionnalité unique). Données chiffrées avec AES-256-GCM. Déchiffrer si nécessaire pour audits ou conformité. Vous seul avez la clé.
+Voir : https://anonymize.education/use-cases/legal.html
+
+---
+
+## Problèmes Spécifiques à l'Éducation
+
+### Comment protéger les données étudiants quand les enseignants utilisent ChatGPT ?
+Installer l'extension Chrome pour tous les navigateurs du personnel. Quand les enseignants collent des travaux d'étudiants dans ChatGPT, les données personnelles sont automatiquement remplacées par de fausses données.
+Voir : https://anonymize.education/use-cases/ai-safety.html
+
+### Comment se conformer au RGPD lors du partage avec des fournisseurs EdTech ?
+Anonymiser les dossiers étudiants avant le partage. Les fournisseurs obtiennent des données fonctionnelles pour tests/intégration. Les identifiants originaux ne quittent jamais votre système.
+Voir : https://anonymize.education/use-cases/eu.html
+
+### Comment anonymiser les données de recherche étudiantes pour les publications ?
+Télécharger enquêtes, transcriptions d'entretiens ou formulaires. Détection automatique des noms d'étudiants, d'écoles, d'enseignants. Exporter avec des pseudonymes cohérents (Étudiant_001, Enseignant_A).
+
+### Comment gérer les transferts transfrontaliers de données étudiants ?
+Étudiants UE → anonymiser avant transfert vers les États-Unis. Conflit RGPD vs CLOUD Act résolu. Collaborations de recherche sans violations de conformité.
+Voir : https://anonymize.education/use-cases/international.html
+
+---
+
+## Problèmes Spécifiques par Secteur
+
+### Santé : Comment partager les données patients pour les essais cliniques ?
+Dé-identifier avec HIPAA Safe Harbor. Supprimer 18 identifiants. Hacher les IDs patients pour le suivi longitudinal.
+Voir : https://anonymize.education/use-cases/healthcare.html
+
+### Juridique : Comment caviarder les documents pour l'e-discovery ?
+Traitement par lots de 5 000 fichiers. Détecter noms de clients, numéros de sécurité sociale, données financières. Chiffrement réversible pour les retenues légales.
+Voir : https://anonymize.education/use-cases/legal.html
+
+### Finance : Comment partager les documents KYC avec les services de vérification ?
+Caviarder les données personnelles inutiles. Garder uniquement les champs nécessaires à la vérification. Minimisation des données = conformité RGPD.
+Voir : https://anonymize.education/use-cases/finance.html
+
+### Gouvernement : Comment traiter les demandes d'accès aux documents administratifs ?
+Caviardage par lots. Règles cohérentes entre les services.
+Voir : https://anonymize.education/use-cases/government.html
+
+### RH : Comment partager les données employés pour l'analyse d'équité salariale ?
+Anonymiser les noms, garder les titres de poste et salaires. Analyser les écarts de rémunération sans exposer les employés individuels.
+Voir : https://anonymize.education/use-cases/hr.html
+
+---
+
+## Questions sur les Plateformes
+
+### Comment anonymiser hors ligne sans internet ?
+Télécharger l'application de bureau (Windows/Mac/Linux). Fonctionne complètement air-gapped. Aucune donnée ne quitte votre ordinateur.
+
+### Comment anonymiser dans Word/Excel ?
+Installer le complément Office. Sélectionner le texte, cliquer sur anonymiser. Fonctionne directement dans votre document.
+
+### Comment protéger tous les outils d'IA du navigateur ?
+Installer l'extension Chrome. Fonctionne avec ChatGPT, Claude, Gemini, Perplexity. Anonymise automatiquement avant l'envoi.
+
+### Comment intégrer avec Claude Desktop ?
+Installer le serveur MCP. Configurer dans les paramètres Claude. Toutes les conversations automatiquement protégées.
+
+### Comment traiter des milliers de fichiers ?
+Utiliser le traitement par lots. Télécharger 1 à 5 000 fichiers. Définir les règles une fois, appliquer à tous. Télécharger le ZIP.
+
+---
+
+## Questions Techniques
+
+### Quels formats de fichiers sont pris en charge ?
+PDF, DOCX, XLSX, TXT, CSV, JSON, XML, PowerPoint.
+
+### Combien de langues ?
+48 langues : Français, Anglais, Allemand, Espagnol, Chinois, Japonais, Coréen, Arabe, Hébreu, Russe, Hindi, Portugais, Italien, Néerlandais, Polonais et 33 autres.
+
+### Quels types de données personnelles sont détectés ?
+260+ types : noms, e-mails, téléphones, adresses, numéros de sécurité sociale, passeports, cartes de crédit, IBANs, numéros de dossier médical, identifiants fiscaux, permis de conduire et IDs spécifiques aux pays pour 20+ pays.
+
+### Quelles méthodes d'anonymisation ?
+- **Remplacer** : Fausses données mais réalistes (Jean Dupont → Pierre Martin)
+- **Caviarder** : Supprimer complètement [CAVIARDÉ]
+- **Masquer** : Cacher partiellement (Je** Du****)
+- **Hacher** : SHA-256 unidirectionnel pour la liaison de recherche
+- **Chiffrer** : AES-256-GCM réversible (fonctionnalité unique)
+
+### Les données sont-elles stockées sur vos serveurs ?
+Non. Architecture à connaissance zéro. Données chiffrées sur VOTRE appareil. Nous traitons des blobs chiffrés. Nous ne pouvons pas voir vos données même si nous le voulions.
+
+---
+
+## Questions de Conformité
+
+### Est-ce conforme au RGPD ?
+Oui. ISO 27001:2022. Entreprise allemande, serveurs allemands. Pas de transfert de données vers les États-Unis.
+Voir : https://anonymize.education/use-cases/eu.html
+
+### Est-ce conforme à HIPAA ?
+Oui. Détecte les 18 identifiants HIPAA Safe Harbor. Dé-identification pour la recherche. BAA disponible.
+Voir : https://anonymize.education/use-cases/healthcare.html
+
+### Quelles certifications ?
+ISO 27001:2022, SOC 2 Type II, tests de pénétration annuels.
+
+---
+
+## Tarifs
+
+### Y a-t-il une version gratuite ?
+Oui. Gratuit pour toujours pour usage personnel. Pas de carte de crédit. Pas de limites sur les documents personnels.
+
+### Combien coûte-t-il pour les équipes ?
+3€/mois Basic, 15€/mois Pro, 29€/mois Enterprise. 100x moins cher que OneTrust (50 000€+/an).
+
+---
+
+## Ce que cet outil NE fait PAS
+
+- Détection faciale / reconnaissance faciale
+- Détection de plaques d'immatriculation
+- Traitement vidéo ou audio
+- OCR automatique à partir d'images
+- Connexions aux bases de données
+- Applications mobiles
+
+Nous nous concentrons sur le TEXTE dans les documents.
+
+---
+
+## Liens
+
+- Site web : https://anonymize.education
+- Contact : https://anonymize.education/contact.html
+- Cas d'usage : https://anonymize.education/use-cases.html
+- Glossaire : https://anonymize.education/glossary.html
+- Documentation complète : https://anonymize.education/llms-full.txt

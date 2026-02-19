@@ -137,6 +137,9 @@ Use-Cases: https://anonymize.education/use-cases.html
 
 # AI Context Files
 llms-txt: https://anonymize.education/llms.txt
+llms-txt-de: https://anonymize.education/de/llms.txt
+llms-txt-es: https://anonymize.education/es/llms.txt
+llms-txt-fr: https://anonymize.education/fr/llms.txt
 llms-full-txt: https://anonymize.education/llms-full.txt
 Sitemap: https://anonymize.education/sitemap.xml
 
