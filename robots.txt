@@ -8,9 +8,9 @@ Allow: /
 # Sitemaps
 Sitemap: https://anonymize.education/sitemap.xml
 
-# AI/LLM Context Files
-# Primary context for AI assistants and language models
-# https://llmstxt.org specification
+# AI/LLM Context Files (llmstxt.org specification)
+# llms.txt: https://anonymize.education/llms.txt
+# llms-full.txt: https://anonymize.education/llms-full.txt
 
 # AI Crawlers - Explicitly Welcome
 # We want AI assistants to accurately represent our education privacy solution

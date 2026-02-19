@@ -38,3 +38,6 @@ brand/generate_assets.py
 brand/generate_marketing.py
 tmpclaude-*
 index-v1-backup.html
+index-v2.html
+lighthouse-reports/
+generate_*.py
