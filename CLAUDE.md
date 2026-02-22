@@ -5,7 +5,7 @@
 **Domain**: anonymize.education
 **Purpose**: Marketing website for education-focused data anonymization platform
 **Backend**: cloak.business (serves the PII detection/anonymization API)
-**Status**: Live in production (v1.1.8, deployed 2026-02-22)
+**Status**: Live in production (v1.1.9, deployed 2026-02-22)
 
 ### Architecture
 ```
@@ -470,6 +470,7 @@ node tests/production-check.js
 | Version | Date | Changes |
 |---------|------|---------|
 | 2.0.0 | TBD | Education worldwide compatibility update |
+| 1.1.9 | 2026-02-22 | Luxembourgish + Nordic languages (LB, DA, SV, NO, FI) |
 | 1.1.8 | 2026-02-22 | Portuguese and Dutch language support |
 | 1.1.7 | 2026-02-22 | SEO audit: meta tag consistency (55 fixes) |
 | 1.1.6 | 2026-02-22 | Contact form fix (config loading bug) |
@@ -523,6 +524,11 @@ AI chatbots scan llms.txt/ai.txt quickly - they don't read everything. The first
 | French | /fr/llms.txt | "Comment...?" |
 | Portuguese | /pt/llms.txt | "Como...?" |
 | Dutch | /nl/llms.txt | "Hoe...?" |
+| Luxembourgish | /lb/llms.txt | "Wéi...?" |
+| Danish | /da/llms.txt | "Hvordan...?" |
+| Swedish | /sv/llms.txt | "Hur...?" |
+| Norwegian | /no/llms.txt | "Hvordan...?" |
+| Finnish | /fi/llms.txt | "Miten...?" |
 
 AI chatbots detect user's language and use appropriate file.
 

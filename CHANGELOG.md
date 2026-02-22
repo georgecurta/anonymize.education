@@ -4,6 +4,27 @@ All notable changes to the Anonymize.Education website will be documented in thi
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
+## [1.1.9] - 2026-02-22
+
+### Luxembourgish and Nordic Language Support
+
+Added 5 new languages: Luxembourgish, Danish, Swedish, Norwegian, Finnish.
+
+#### New Files (10)
+- `/lb/index.html`, `/lb/llms.txt` — Luxembourgish (Lëtzebuergesch)
+- `/da/index.html`, `/da/llms.txt` — Danish (Dansk)
+- `/sv/index.html`, `/sv/llms.txt` — Swedish (Svenska)
+- `/no/index.html`, `/no/llms.txt` — Norwegian (Norsk)
+- `/fi/index.html`, `/fi/llms.txt` — Finnish (Suomi)
+
+#### Updates
+- **sitemap.xml** — 11-language hreflang on all homepages, 10 new URLs
+- **ai.txt** — Added 5 new llms.txt references
+- **All 11 homepage files** — Full 11-language hreflang tags and switchers
+
+#### Site Now Supports 11 Languages
+EN, DE, ES, FR, PT, NL, LB, DA, SV, NO, FI
+
 ## [1.1.8] - 2026-02-22
 
 ### Portuguese and Dutch Language Support
