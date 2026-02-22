@@ -1,6 +1,6 @@
 # Anonymize.Education -- Full Content
 
-> Zero-Knowledge Student Data Privacy
+> Zero-knowledge PII protection for education
 > This file contains the full text content of all pages on Anonymize.Education.
 > For a structured index, see: https://anonymize.education/llms.txt
 
@@ -921,6 +921,329 @@ We look forward to hearing from you!*
 
 ---
 
+## Anonymize.Education | Elevdatabeskyttelse
+URL: https://anonymize.education/da/index.html
+> Beskyt elevdata over hele verden. Zero-Knowledge-arkitektur betyder, at vi aldrig ser dine data. FERPA, COPPA, GDPR klar. Start gratis.
+
+62 millioner elevdata kompromitteret i 2024
+
+###
+Beskyt elevdata.
+
+Eliminer risici. Skab tillid.
+
+Anonymize.Education beskytter elevdata med Zero-Knowledge-arkitektur.
+Vi ser aldrig dine data. Det goer hackere heller ikke.
+
+[
+Beskyt elever gratis
+
+](https://anonym.legal)
+[
+Saadan virker det
+](../contact.html)
+
+1.200+
+Beskyttede skoler
+
+0
+Databraek
+
+SOC 2
+Type II Certificeret
+
+ISO 27001
+Certificeret
+
+PowerSchool 62M poster
+Illuminate Education 820K elever
+Blackbaud 13K+ institutioner
+55% af K-12 braek via leverandoerer
+96% af EdTech-apps deler data med tredjeparter
+130+ databeskyttelseslove at overholde
+PowerSchool 62M poster
+Illuminate Education 820K elever
+Blackbaud 13K+ institutioner
+55% af K-12 braek via leverandoerer
+96% af EdTech-apps deler data med tredjeparter
+130+ databeskyttelseslove at overholde
+
+Problemet
+
+#### Hvorfor din nuvaerende tilgang ikke virker
+
+55%
+
+##### Braek via leverandoerer
+
+Mere end halvdelen af alle K-12 databraek skyldes tredjepartsleverandoerer, ikke skolerne selv.
+
+1.449
+
+##### Vaerktoejer pr. skole
+
+Den gennemsnitlige skole bruger 1.449 EdTech-vaerktoejer. Med begraenset personale og budget kan du ikke kontrollere dem alle ordentligt.
+
+96%
+
+##### Apps deler data
+
+96% af EdTech-apps deler elevdata med tredjeparter og overtraeder sandsynligvis COPPA og FERPA.
+
+50.000+
+
+##### Enterprise-vaerktoejer koster
+
+Enterprise-databeskyttelsesvaerktoejer som OneTrust koster over 50.000 euro om aaret. Uddannelsesbudgetter kan ikke absorbere det.
+
+Vores loesning
+
+#### Zero-Knowledge-arkitektur
+
+Vi kan ikke se dine elevdata. Ikke paa grund af politikker, men paa grund af matematik.
+Dine data krypteres foer de naar vores servere. Selv hvis vi
+blev hacket, ville angribere ikke faa noget.
+
+Ende-til-ende-kryptering med noegler, du kontrollerer
+
+Ingen klartekstdata paa vores servere
+
+Deterministisk hybrid-detektion (Regex + NLP + ML) - ingen probabilistisk AI-gaetning
+
+Behandling sker i hukommelsen, intet gemmes
+
+Uafhaengigt revideret af SOC 2-revisorer
+
+1
+Dine elevdata (krypteret paa din enhed)
+
+2
+Anonymisering sker (vi ser kun krypterede blobs)
+
+3
+Beskyttet output returneres til dig
+
+4
+Del sikkert med alle
+
+Hvad vi loeser
+
+#### Enhver databeskyttelsesudfordring i uddannelse
+
+Vaelg dit problem. Vi har loesningen.
+
+📜
+
+##### Bestaa GDPR-revisioner
+
+Faerdige GDPR-arbejdsgange, databehandleraftaler og komplette revisionslogfiler. Bestaa enhver compliance-kontrol uden konsulenter.
+
+[
+GDPR-loesning
+
+](../use-cases.html#ferpa)
+
+👶
+
+##### Beskyt elever under 13
+
+COPPA-kompatibel fra grunden. Skolesamtykke-arbejdsgange indbygget. Ingen datadeling med tredjeparter. Sikkert for K-12 fra dag et.
+
+[
+COPPA-loesning
+
+](../use-cases.html#k12)
+
+🤖
+
+##### Brug AI uden risiko
+
+Lad laerere bruge ChatGPT og Claude sikkert. Elevdata anonymiseres foer AI'en ser dem. AI-fordele uden databeskyttelsesproblemer.
+
+[
+AI-sikkerhedsloesning
+
+](../use-cases.html#ai-safety)
+
+🌎
+
+##### Kompatibel overalt
+
+GDPR, UK GDPR, LGPD, PIPL og 130+ amerikanske delstatslove. En loesning, der virker i enhver jurisdiktion, hvor din skole opererer.
+
+[
+Global compliance
+
+](../use-cases.html#international)
+
+🔍
+
+##### Bestaa leverandoervurderinger
+
+Forudfyldte sikkerhedsspoergeskemaer til download. SIG, HECVAT, landsspecifikke formularer. Indsend til din kommune paa minutter.
+
+[
+Vurderingsklar
+
+](../contact.html)
+
+🗃
+
+##### Haandter aktindsigtsanmodninger
+
+Besvar offentlige aktindsigtsanmodninger uden at afslore personlige elevdata. Behandl hundredvis af dokumenter i batches. Overhold deadlines uden manuel sloering.
+
+[
+Aktindsigtsloesning
+
+](../use-cases.html#foia)
+
+Virker overalt
+
+#### Indbygget i de vaerktoejer, du allerede bruger
+
+🎓
+Canvas
+
+⚫
+Blackboard
+
+📚
+Schoology
+
+💻
+Google Classroom
+
+📄
+Microsoft 365
+
+👤
+Clever
+
+🔗
+ClassLink
+
+📊
+PowerSchool
+
+Uddannelsesorienterede priser
+
+#### Lavet til uddannelsesbudgetter
+
+Enterprise-sikkerhed uden enterprise-priser. Start gratis, skaler som du vokser.
+
+##### Laerer
+
+0 kr
+/for altid
+
+Gratis for individuelle paedagoger
+
+500 dokumenter om maaneden
+
+Desktop- & web-apps
+
+48 sprog
+
+Alle filformater
+
+[Start gratis](https://anonym.legal)
+
+Mest populaer
+
+##### Skole
+
+49 euro
+/maaned
+
+For K-12 skoler
+
+10.000 dokumenter om maaneden
+
+LMS-integration (Canvas, etc.)
+
+25 SSO-pladser (Clever, ClassLink)
+
+Admin-dashboard
+
+AI-beskyttelse (MCP Server)
+
+[Start 30-dages proeve](https://anonym.legal)
+
+##### Kommune
+
+199 euro
+/maaned
+
+For skolekommuner
+
+Ubegraensede dokumenter
+
+Ubegraensede SSO-pladser
+
+SCIM-provisionering
+
+Dedikeret support
+
+Individuel databehandleraftale
+
+[Kontakt salg](../contact.html)
+
+Tillid & Sikkerhed
+
+#### Enterprise-sikkerhed, du kan verificere
+
+🔐
+
+##### Zero-Knowledge
+
+Vi kan matematisk ikke tilgaa dine data
+
+✅
+
+##### SOC 2 Type II
+
+Aarligt uafhaengigt revideret
+
+🎯
+
+##### ISO 27001
+
+Certificeret sikkerhedsstyring
+
+🇪🇺
+
+##### EU-dataopbevaring
+
+Tyske servere tilgaengelige
+
+🇺🇸
+
+##### US-dataopbevaring
+
+AWS GovCloud tilgaengelig
+
+📋
+
+##### GDPR-kompatibel
+
+Forhåndsunderskrevet DPA
+
+#### Begynd at beskytte elever i dag
+
+Slutt dig til over 1.200 skoler, der bruger Anonymize.Education.
+Gratis for individuelle laerere. Intet kreditkort kraeves.
+
+[
+Start gratis nu
+
+](https://anonym.legal)
+[
+Book en demo
+](../contact.html)
+
+---
+
 ## Privacy Policy | Anonymize.Education
 URL: https://anonymize.education/datenschutz.html
 > Privacy Policy - Anonymize.Education. How we protect your data and respect your privacy.
@@ -1345,7 +1668,7 @@ Demo vereinbaren
 
 ---
 
-## Anonymize.Education | Privacidad de Datos Estudiantiles Sin Complejidad
+## Anonymize.Education | Privacidad de Datos Estudiantiles
 URL: https://anonymize.education/es/index.html
 > Proteja los datos de los estudiantes en todo el mundo. La arquitectura de conocimiento cero significa que nunca vemos sus datos. FERPA, COPPA, GDPR listos. Comience gratis.
 
@@ -1668,7 +1991,330 @@ Programar Demo
 
 ---
 
-## Anonymize.Education | Confidentialite des Donnees Etudiantes Sans Complexite
+## Anonymize.Education | Opiskelijatietojen Suojaus
+URL: https://anonymize.education/fi/index.html
+> Suojaa opiskelijatiedot maailmanlaajuisesti. Zero-Knowledge-arkkitehtuuri tarkoittaa, etta emme koskaan nae tietojasi. FERPA, COPPA, GDPR-valmis. Aloita ilmaiseksi.
+
+62 miljoonaa opiskelijatietoa vaarantunut 2024
+
+###
+Suojaa opiskelijatiedot.
+
+Poista riskit. Rakenna luottamusta.
+
+Anonymize.Education suojaa opiskelijatiedot Zero-Knowledge-arkkitehtuurilla.
+Emme koskaan nae tietojasi. Eivat myoskaan hakkerit.
+
+[
+Suojaa opiskelijat ilmaiseksi
+
+](https://anonym.legal)
+[
+Nain se toimii
+](../contact.html)
+
+1 200+
+Suojattua koulua
+
+0
+Tietomurtoa
+
+SOC 2
+Type II -sertifioitu
+
+ISO 27001
+Sertifioitu
+
+PowerSchool 62M tietuetta
+Illuminate Education 820K opiskelijaa
+Blackbaud 13K+ laitosta
+55% K-12-murroista toimittajien kautta
+96% EdTech-sovelluksista jakaa tietoja kolmansille osapuolille
+130+ osavaltion tietosuojalakia noudatettavana
+PowerSchool 62M tietuetta
+Illuminate Education 820K opiskelijaa
+Blackbaud 13K+ laitosta
+55% K-12-murroista toimittajien kautta
+96% EdTech-sovelluksista jakaa tietoja kolmansille osapuolille
+130+ osavaltion tietosuojalakia noudatettavana
+
+Ongelma
+
+#### Miksi nykyinen lahestymistapasi ei toimi
+
+55%
+
+##### Murrot toimittajien kautta
+
+Yli puolet kaikista K-12-tietomurroista aiheutuu kolmansien osapuolien toimittajista, ei kouluista itsestaan.
+
+1 449
+
+##### Tyokalua per koulu
+
+Keskimaarainen koulu kayttaa 1 449 EdTech-tyokalua. Rajallisella henkilostolla ja budjetilla et voi tarkistaa niita kaikkia kunnolla.
+
+96%
+
+##### Sovellukset jakavat tietoja
+
+96% EdTech-sovelluksista jakaa opiskelijatietoja kolmansille osapuolille, todennakoisesti rikkoen COPPA- ja FERPA-saannoksia.
+
+50 000+
+
+##### Yritystyokalujen hinta
+
+Yritystason tietosuojatyokalut kuten OneTrust maksavat yli 50 000 euroa vuodessa. Koulutusbudjetit eivat kesta tata.
+
+Ratkaisumme
+
+#### Zero-Knowledge-arkkitehtuuri
+
+Emme voi nahda opiskelijatietojasi. Ei kaytantojen takia, vaan matematiikan.
+Tietosi salataan ennen kuin ne saapuvat palvelimillemme. Vaikka meidat
+hakkeroitaisiin, hyokkaajaeet eivat saisi mitaan.
+
+Paasta-paahan-salaus avaimilla, joita sina hallitset
+
+Ei selkokielisia tietoja palvelimillamme
+
+Deterministinen hybriditunnistus (Regex + NLP + ML) - ei todennakoisyyspohjaista tekoalyarvausta
+
+Kasittely tapahtuu muistissa, mitaan ei tallenneta
+
+Riippumattomasti auditoitu SOC 2 -tarkastajien toimesta
+
+1
+Opiskelijatietosi (salataan laitteellasi)
+
+2
+Anonymisointi tapahtuu (nakaamme vain salattuja tietomassoja)
+
+3
+Suojattu tuloste palautetaan sinulle
+
+4
+Jaa turvallisesti kenen kanssa tahansa
+
+Mita ratkaisemme
+
+#### Jokainen koulutuksen tietosuojahaaste
+
+Valitse ongelmasi. Meilla on ratkaisu.
+
+📜
+
+##### Lapaaise GDPR-auditoinnit
+
+Valmiit GDPR-tyonkulut, DPA-sopimukset ja taydelliset tarkastuskirjanpidot. Lapaaise kaikki vaatimustenmukaisuustarkastukset ilman konsultteja.
+
+[
+GDPR-ratkaisu
+
+](../use-cases.html#ferpa)
+
+👶
+
+##### Suojaa alle 13-vuotiaat
+
+Alusta alkaen COPPA-yhteensopiva. Koulun suostumustyonkulut sisaanrakennettuna. Ei tietojen jakamista kolmansille osapuolille. Turvallinen K-12:lle alusta alkaen.
+
+[
+COPPA-ratkaisu
+
+](../use-cases.html#k12)
+
+🤖
+
+##### Kayta tekoalya ilman riskia
+
+Anna opettajien kayttaa ChatGPT:ta ja Claudea turvallisesti. Opiskelijatiedot anonymisoidaan ennen kuin tekoaly nakee ne. Tekoalyn edut ilman tietosuojaongelmia.
+
+[
+Tekoalyn turvallisuusratkaisu
+
+](../use-cases.html#ai-safety)
+
+🌎
+
+##### Vaatimustenmukaisuus kaikkialla
+
+GDPR, UK GDPR, LGPD, PIPL ja 130+ Yhdysvaltain osavaltion lakia. Yksi ratkaisu, joka toimii jokaisella lainkayottoalueella, jossa koulusi toimii.
+
+[
+Globaali vaatimustenmukaisuus
+
+](../use-cases.html#international)
+
+🔍
+
+##### Lapaaise toimittaja-arvioinnit
+
+Valmiiksi taytetyt turvallisuuskyselyt ladattavissa. SIG, HECVAT, osavaltiokohtaiset lomakkeet. Laheta koulualueellesi minuuteissa.
+
+[
+Arviointivalmis
+
+](../contact.html)
+
+🗃
+
+##### Kasittele tietopyyntoja
+
+Vastaa julkisuuslain pyyntoihin paljastamatta opiskelijoiden henkilotietoja. Kasittele satoja asiakirjoja erina. Tayta maaraajat ilman manuaalista mustausta.
+
+[
+Tietopyyntoratkaisu
+
+](../use-cases.html#foia)
+
+Toimii kaikkialla
+
+#### Sisaanrakennettu tyokaluihin, joita jo kaytat
+
+🎓
+Canvas
+
+⚫
+Blackboard
+
+📚
+Schoology
+
+💻
+Google Classroom
+
+📄
+Microsoft 365
+
+👤
+Clever
+
+🔗
+ClassLink
+
+📊
+PowerSchool
+
+Koulutushinnoittelu
+
+#### Tehty koulutusbudjeteille
+
+Yritystason turvallisuus ilman yritystason hintoja. Aloita ilmaiseksi, skaalaa kasvaessasi.
+
+##### Opettaja
+
+0 euroa
+/ikuisesti
+
+Ilmainen yksittaisille opettajille
+
+500 asiakirjaa kuukaudessa
+
+Tyopoyta- ja verkkosovellukset
+
+48 kielta
+
+Kaikki tiedostomuodot
+
+[Aloita ilmaiseksi](https://anonym.legal)
+
+Suosituin
+
+##### Koulu
+
+49 euroa
+/kuukausi
+
+K-12-kouluille
+
+10 000 asiakirjaa kuukaudessa
+
+LMS-integraatio (Canvas jne.)
+
+25 SSO-paikkaa (Clever, ClassLink)
+
+Yllapitajan hallintapaneeli
+
+Tekoalyn suojaus (MCP-palvelin)
+
+[Aloita 30 paivan kokeilu](https://anonym.legal)
+
+##### Koulualue
+
+199 euroa
+/kuukausi
+
+Koulualueille
+
+Rajaton maara asiakirjoja
+
+Rajaton maara SSO-paikkoja
+
+SCIM-provisiointi
+
+Omistettu tuki
+
+Raataloity DPA
+
+[Ota yhteytta myyntiin](../contact.html)
+
+Luottamus ja turvallisuus
+
+#### Yritystason turvallisuus, jonka voit varmentaa
+
+🔐
+
+##### Zero-Knowledge
+
+Emme voi matemaattisesti paasta kasiksi tietoihisi
+
+✅
+
+##### SOC 2 Type II
+
+Vuosittain riippumattomasti auditoitu
+
+🎯
+
+##### ISO 27001
+
+Sertifioitu turvallisuuden hallinta
+
+🇪🇺
+
+##### EU-tietojen sailytys
+
+Saksan palvelimet saatavilla
+
+🇺🇸
+
+##### US-tietojen sailytys
+
+AWS GovCloud saatavilla
+
+📋
+
+##### GDPR-yhteensopiva
+
+Valmiiksi allekirjoitettu DPA
+
+#### Aloita opiskelijoiden suojaaminen tanaan
+
+Liity yli 1 200 koulun joukkoon, jotka kayttavat Anonymize.Educationia.
+Ilmainen yksittaisille opettajille. Luottokorttia ei vaadita.
+
+[
+Aloita ilmaiseksi nyt
+
+](https://anonym.legal)
+[
+Varaa esittely
+](../contact.html)
+
+---
+
+## Anonymize.Education | Confidentialite des Donnees Etudiantes
 URL: https://anonymize.education/fr/index.html
 > Protegez les donnees des etudiants dans le monde entier. L'architecture a connaissance zero signifie que nous ne voyons jamais vos donnees. FERPA, COPPA, RGPD prets. Commencez gratuitement.
 
@@ -2902,6 +3548,1621 @@ Start Free Now
 [
 Schedule Demo
 ](contact.html)
+
+---
+
+## Anonymize.Education | Dateschutz fir Schüler
+URL: https://anonymize.education/lb/index.html
+> Schuetzt Schuelerdaten weltweit. Zero-Knowledge-Architektur bedeit, datt mir Är Daten ni gesinn. FERPA, COPPA, DSGVO prett. Gratis ufänken.
+
+62 Milliounen Schuelerdaten 2024 kompromittéiert
+
+###
+Schuetzt Schuelerdaten.
+
+Eliminéiert Risiken. Schafft Vertrauen.
+
+Anonymize.Education schuetzt Schuelerdaten mat Zero-Knowledge-Architektur.
+Mir gesinn Är Daten ni. Hacker och net.
+
+[
+Schüler gratis schützen
+
+](https://anonym.legal)
+[
+Wéi et funktionéiert
+](../contact.html)
+
+1.200+
+Geschützt Schoulen
+
+0
+Datepannen
+
+SOC 2
+Type II Zertifizéiert
+
+ISO 27001
+Zertifizéiert
+
+PowerSchool 62M Daterecords
+Illuminate Education 820K Schüler
+Blackbaud 13K+ Institutiounen
+55% vun K-12 Verletzungen duerch Fournisseuren
+96% vun EdTech-Apps deelen Daten mat Drëtten
+130+ Landesdateschutzgesetzer anzehalen
+PowerSchool 62M Daterecords
+Illuminate Education 820K Schüler
+Blackbaud 13K+ Institutiounen
+55% vun K-12 Verletzungen duerch Fournisseuren
+96% vun EdTech-Apps deelen Daten mat Drëtten
+130+ Landesdateschutzgesetzer anzehalen
+
+D'Problem
+
+#### Firwat Ären aktuelle Usaz net funktionéiert
+
+55%
+
+##### Verletzungen duerch Fournisseuren
+
+Méi wéi d'Halschent vun allen K-12-Dateverletzunge gëtt duerch Drëttubidder verursaacht, net duerch d'Schoulen selwer.
+
+1.449
+
+##### Tools pro Schoul
+
+Déi duerchschnëttlech Schoul benotzt 1.449 EdTech-Tools. Mat limitéiertem Personal a Budget kënnt Dir se net all richteg préiwen.
+
+96%
+
+##### Apps deelen Daten
+
+96% vun EdTech-Apps deelen Schuelerdaten mat Drëtten a verletzen wahrscheinlech COPPA an FERPA.
+
+50.000+
+
+##### Enterprise-Tool Käschten
+
+Enterprise-Dateschutz-Tools wéi OneTrust kaschten iwwer 50.000 Euro pro Joer. Bildungsbudgeten kënnen dat net absorbéieren.
+
+Eis Léisung
+
+#### Zero-Knowledge-Architektur
+
+Mir kënnen Är Schuelerdaten net gesinn. Net wéinst Richtlinnen, mee wéinst Mathematik.
+Är Daten ginn verschlësselt ier se eis Server erreechen. Och wann mir
+gehackt géife ginn, géifen Ugräifer näischt kréien.
+
+End-zu-End-Verschlësselung mat Schlësselen, déi Dir kontrolléiert
+
+Keng Kloertextdaten op eise Serveren
+
+Deterministesch Hybrid-Erkennung (Regex + NLP + ML) - keng probabilistesch KI-Roden
+
+Veraarbechtung geschitt am Späicher, näischt gëtt gespäichert
+
+Onofhängeg gepréift vun SOC 2-Auditoren
+
+1
+Är Schuelerdaten (op Ärem Apparat verschlësselt)
+
+2
+Anonymiséierung geschitt (mir gesinn nëmme verschlësselt Blobs)
+
+3
+Geschützt Ausgab gëtt un Iech zréckginn
+
+4
+Sécher mat jidderengem deelen
+
+Wat mir léisen
+
+#### All Dateschutz-Erausfuerderung am Bildungsberäich
+
+Wielt Äert Problem. Mir hunn d'Léisung.
+
+📜
+
+##### DSGVO-Audits bestoen
+
+Virbereet DSGVO-Workflows, AVV-Verträg a komplett Audit-Trails. Besteet all Compliance-Préifung ouni Beroder.
+
+[
+DSGVO-Léisung
+
+](../use-cases.html#ferpa)
+
+👶
+
+##### Schüler ënner 13 schützen
+
+Vun Ufank un COPPA-konform. Schoulazoustëmmungs-Workflows agebaut. Keng Dateweitergab un Drëtten. Sécher fir K-12 vum éischten Dag un.
+
+[
+COPPA-Léisung
+
+](../use-cases.html#k12)
+
+🤖
+
+##### KI ouni Risiko benotzen
+
+Loosst Enseignanten ChatGPT a Claude sécher benotzen. Schuelerdaten ginn anonymiséiert ier d'KI se gesäit. KI-Virdeeler ouni Dateschutzproblemer.
+
+[
+KI-Sécherheetsléisung
+
+](../use-cases.html#ai-safety)
+
+🌎
+
+##### Iwwerall konform
+
+DSGVO, UK GDPR, LGPD, PIPL an 130+ US-Bundesstaatgesetzer. Eng Léisung, déi an all Jurisdiktioun funktionéiert, wou Är Schoul aktiv ass.
+
+[
+Global Compliance
+
+](../use-cases.html#international)
+
+🔍
+
+##### Fournisseur-Assessmenter bestoen
+
+Virausgefëllte Sécherheetsfroebugen zum Eroflueden. SIG, HECVAT, länderspezifesch Formulairen. A Minutten un Ären Distrikt iwwermëttelen.
+
+[
+Assessment-prett
+
+](../contact.html)
+
+🗃
+
+##### Informatiounsfräiheet-Ufroen beäntwerten
+
+Op ëffentlech Auskunftsufroe reagéieren ouni perséinlech Schuelerdaten preiszeginn. Honnerte Dokumenter am Batch veraarbechten. Frist anhalen ouni manuell Schwaarzung.
+
+[
+Informatiounsfräiheet-Léisung
+
+](../use-cases.html#foia)
+
+Funktionéiert iwwerall
+
+#### Agebaut an d'Tools, déi Dir schonn benotzt
+
+🎓
+Canvas
+
+⚫
+Blackboard
+
+📚
+Schoology
+
+💻
+Google Classroom
+
+📄
+Microsoft 365
+
+👤
+Clever
+
+🔗
+ClassLink
+
+📊
+PowerSchool
+
+Bildungsorientéiert Präisser
+
+#### Gemaach fir Bildungsbudgeten
+
+Enterprise-Sécherheet ouni Enterprise-Präisser. Gratis ufänken, skaléieren wéi Dir wuess.
+
+##### Enseignant
+
+0 Euro
+/fir ëmmer
+
+Gratis fir eenzel Pädagogen
+
+500 Dokumenter pro Mount
+
+Desktop- & Web-Apps
+
+48 Sproochen
+
+All Dateiformater
+
+[Gratis ufänken](https://anonym.legal)
+
+Am beléifsten
+
+##### Schoul
+
+49 Euro
+/Mount
+
+Fir K-12 Schoulen
+
+10.000 Dokumenter pro Mount
+
+LMS-Integratioun (Canvas, etc.)
+
+25 SSO-Plazen (Clever, ClassLink)
+
+Admin-Dashboard
+
+KI-Schutz (MCP Server)
+
+[30-Deeg-Test ufänken](https://anonym.legal)
+
+##### Distrikt
+
+199 Euro
+/Mount
+
+Fir Schouldistrikter
+
+Onbegrenzt Dokumenter
+
+Onbegrenzt SSO-Plazen
+
+SCIM-Bereetstellung
+
+Dedizéierte Support
+
+Individuellen AVV
+
+[Vente kontaktéieren](../contact.html)
+
+Vertrauen & Sécherheet
+
+#### Enterprise-Sécherheet, déi Dir verifizéiere kënnt
+
+🔐
+
+##### Zero-Knowledge
+
+Mir kënne mathematesch net op Är Daten zougräifen
+
+✅
+
+##### SOC 2 Type II
+
+Jäerlech onofhängeg gepréift
+
+🎯
+
+##### ISO 27001
+
+Zertifizéiert Sécherheetsmanagement
+
+🇪🇺
+
+##### EU-Dateresidenz
+
+Däitsch Serveren disponibel
+
+🇺🇸
+
+##### US-Dateresidenz
+
+AWS GovCloud disponibel
+
+📋
+
+##### DSGVO-konform
+
+Viraus ënnerschriwwenen AVV
+
+#### Fänkt haut un Schüler ze schützen
+
+Schléisst Iech iwwer 1.200 Schoulen un, déi Anonymize.Education benotzen.
+Gratis fir eenzel Enseignanten. Keng Kreditkaart erfuerderlech.
+
+[
+Elo gratis ufänken
+
+](https://anonym.legal)
+[
+Demo vereinbaren
+](../contact.html)
+
+---
+
+## Anonymize.Education | Privacy van Leerlinggegevens
+URL: https://anonymize.education/nl/index.html
+> Bescherm leerlinggegevens wereldwijd. Zero-Knowledge-architectuur betekent dat wij uw gegevens nooit zien. FERPA, COPPA, AVG gereed. Gratis starten.
+
+62 miljoen leerlinggegevens in 2024 gecompromitteerd
+
+###
+Bescherm leerlinggegevens.
+
+Elimineer risico's. Creeer vertrouwen.
+
+Anonymize.Education beschermt leerlinggegevens met Zero-Knowledge-architectuur.
+Wij zien uw gegevens nooit. Hackers ook niet.
+
+[
+Bescherm leerlingen gratis
+
+](https://anonym.legal)
+[
+Hoe het werkt
+](../contact.html)
+
+1.200+
+Beschermde scholen
+
+0
+Datalekken
+
+SOC 2
+Type II Gecertificeerd
+
+ISO 27001
+Gecertificeerd
+
+PowerSchool 62M records
+Illuminate Education 820K leerlingen
+Blackbaud 13K+ instellingen
+55% van K-12 inbreuken door leveranciers
+96% van EdTech-apps deelt gegevens met derden
+130+ nationale privacywetten om te volgen
+PowerSchool 62M records
+Illuminate Education 820K leerlingen
+Blackbaud 13K+ instellingen
+55% van K-12 inbreuken door leveranciers
+96% van EdTech-apps deelt gegevens met derden
+130+ nationale privacywetten om te volgen
+
+Het probleem
+
+#### Waarom uw huidige aanpak niet werkt
+
+55%
+
+##### Inbreuken door leveranciers
+
+Meer dan de helft van alle K-12 datalekken wordt veroorzaakt door externe leveranciers, niet door de scholen zelf.
+
+1.449
+
+##### Tools per school
+
+De gemiddelde school gebruikt 1.449 EdTech-tools. Met beperkt personeel en budget kunt u ze niet allemaal goed controleren.
+
+96%
+
+##### Apps delen gegevens
+
+96% van de EdTech-apps deelt leerlinggegevens met derden en overtreedt waarschijnlijk COPPA en FERPA.
+
+50.000+
+
+##### Kosten enterprise-tools
+
+Enterprise privacytools zoals OneTrust kosten meer dan 50.000 euro per jaar. Onderwijsbudgetten kunnen dat niet absorberen.
+
+Onze oplossing
+
+#### Zero-Knowledge-architectuur
+
+Wij kunnen uw leerlinggegevens niet zien. Niet vanwege beleid, maar vanwege wiskunde.
+Uw gegevens worden versleuteld voordat ze onze servers bereiken. Zelfs als wij
+gehackt zouden worden, zouden aanvallers niets krijgen.
+
+End-to-end versleuteling met sleutels die u beheert
+
+Geen leesbare gegevens op onze servers
+
+Deterministische hybride detectie (Regex + NLP + ML) - geen probabilistisch AI-gokken
+
+Verwerking vindt plaats in het geheugen, niets wordt opgeslagen
+
+Onafhankelijk geaudit door SOC 2-auditors
+
+1
+Uw leerlinggegevens (versleuteld op uw apparaat)
+
+2
+Anonimisering gebeurt (wij zien alleen versleutelde blobs)
+
+3
+Beschermde uitvoer wordt naar u teruggestuurd
+
+4
+Veilig delen met iedereen
+
+Wat wij oplossen
+
+#### Elke privacy-uitdaging in het onderwijs
+
+Kies uw probleem. Wij hebben de oplossing.
+
+📜
+
+##### AVG-audits doorstaan
+
+Kant-en-klare AVG-workflows, verwerkersovereenkomsten en volledige audit trails. Doorsta elke compliance-controle zonder consultants.
+
+[
+AVG-oplossing
+
+](../use-cases.html#ferpa)
+
+👶
+
+##### Leerlingen onder 13 beschermen
+
+Vanaf de basis COPPA-conform. Workflows voor schooltoestemming ingebouwd. Geen gegevensdeling met derden. Veilig voor K-12 vanaf dag een.
+
+[
+COPPA-oplossing
+
+](../use-cases.html#k12)
+
+🤖
+
+##### AI gebruiken zonder risico
+
+Laat docenten ChatGPT en Claude veilig gebruiken. Leerlinggegevens worden geanonimiseerd voordat AI ze ziet. AI-voordelen zonder privacyproblemen.
+
+[
+AI-veiligheidsoplossing
+
+](../use-cases.html#ai-safety)
+
+🌎
+
+##### Overal conform
+
+AVG, UK GDPR, LGPD, PIPL en 130+ Amerikaanse staatswetten. Een oplossing die werkt in elke jurisdictie waar uw school actief is.
+
+[
+Wereldwijde compliance
+
+](../use-cases.html#international)
+
+🔍
+
+##### Leveranciersbeoordelingen doorstaan
+
+Vooraf ingevulde beveiligingsvragenlijsten om te downloaden. SIG, HECVAT, staatsspecifieke formulieren. In minuten indienen bij uw district.
+
+[
+Klaar voor beoordeling
+
+](../contact.html)
+
+🗃
+
+##### WOB-verzoeken afhandelen
+
+Reageer op informatieverzoeken zonder persoonsgegevens van leerlingen vrij te geven. Verwerk honderden documenten in batch. Haal deadlines zonder handmatig zwartmaken.
+
+[
+WOB-oplossing
+
+](../use-cases.html#foia)
+
+Werkt overal
+
+#### Ingebouwd in de tools die u al gebruikt
+
+🎓
+Canvas
+
+⚫
+Blackboard
+
+📚
+Schoology
+
+💻
+Google Classroom
+
+📄
+Microsoft 365
+
+👤
+Clever
+
+🔗
+ClassLink
+
+📊
+PowerSchool
+
+Onderwijsvriendelijke prijzen
+
+#### Gemaakt voor onderwijsbudgetten
+
+Enterprise-beveiliging zonder enterprise-prijzen. Gratis starten, schalen zoals u groeit.
+
+##### Docent
+
+0 euro
+/altijd
+
+Gratis voor individuele docenten
+
+500 documenten per maand
+
+Desktop- & web-apps
+
+48 talen
+
+Alle bestandsformaten
+
+[Gratis starten](https://anonym.legal)
+
+Meest populair
+
+##### School
+
+49 euro
+/maand
+
+Voor K-12 scholen
+
+10.000 documenten per maand
+
+LMS-integratie (Canvas, etc.)
+
+25 SSO-plaatsen (Clever, ClassLink)
+
+Admin-dashboard
+
+AI-bescherming (MCP Server)
+
+[30-dagen proefperiode starten](https://anonym.legal)
+
+##### District
+
+199 euro
+/maand
+
+Voor schooldistricten
+
+Onbeperkte documenten
+
+Onbeperkte SSO-plaatsen
+
+SCIM-provisioning
+
+Toegewijde ondersteuning
+
+Aangepaste verwerkersovereenkomst
+
+[Neem contact op met sales](../contact.html)
+
+Vertrouwen & Beveiliging
+
+#### Enterprise-beveiliging die u kunt verifieren
+
+🔐
+
+##### Zero-Knowledge
+
+Wij kunnen wiskundig niet bij uw gegevens
+
+✅
+
+##### SOC 2 Type II
+
+Jaarlijks onafhankelijk geaudit
+
+🎯
+
+##### ISO 27001
+
+Gecertificeerd beveiligingsbeheer
+
+🇪🇺
+
+##### EU-dataresidentie
+
+Duitse servers beschikbaar
+
+🇺🇸
+
+##### US-dataresidentie
+
+AWS GovCloud beschikbaar
+
+📋
+
+##### AVG-conform
+
+Vooraf ondertekende verwerkersovereenkomst
+
+#### Begin vandaag met het beschermen van leerlingen
+
+Sluit u aan bij meer dan 1.200 scholen die Anonymize.Education gebruiken.
+Gratis voor individuele docenten. Geen creditcard vereist.
+
+[
+Nu gratis starten
+
+](https://anonym.legal)
+[
+Demo aanvragen
+](../contact.html)
+
+---
+
+## Anonymize.Education | Elevdatabeskyttelse
+URL: https://anonymize.education/no/index.html
+> Beskytt elevdata over hele verden. Zero-Knowledge-arkitektur betyr at vi aldri ser dataene dine. FERPA, COPPA, GDPR-klar. Kom i gang gratis.
+
+62 millioner elevdata kompromittert i 2024
+
+###
+Beskytt elevdata.
+
+Eliminer risiko. Skap tillit.
+
+Anonymize.Education beskytter elevdata med Zero-Knowledge-arkitektur.
+Vi ser aldri dataene dine. Det gjoer heller ikke hackere.
+
+[
+Beskytt elever gratis
+
+](https://anonym.legal)
+[
+Slik fungerer det
+](../contact.html)
+
+1 200+
+Beskyttede skoler
+
+0
+Databrudd
+
+SOC 2
+Type II-sertifisert
+
+ISO 27001
+Sertifisert
+
+PowerSchool 62M poster
+Illuminate Education 820K elever
+Blackbaud 13K+ institusjoner
+55% av K-12-brudd skyldes leverandoerer
+96% av EdTech-apper deler data med tredjeparter
+130+ statlige personvernlover aa overholde
+PowerSchool 62M poster
+Illuminate Education 820K elever
+Blackbaud 13K+ institusjoner
+55% av K-12-brudd skyldes leverandoerer
+96% av EdTech-apper deler data med tredjeparter
+130+ statlige personvernlover aa overholde
+
+Problemet
+
+#### Hvorfor din naavaerende tilnaerming ikke fungerer
+
+55%
+
+##### Brudd via leverandoerer
+
+Mer enn halvparten av alle K-12-databrudd foraarsakses av tredjepartsleverandoerer, ikke skolene selv.
+
+1 449
+
+##### Verktoy per skole
+
+Gjennomsnittsskolen bruker 1 449 EdTech-verktoy. Med begrenset personale og budsjett kan du ikke vurdere dem alle ordentlig.
+
+96%
+
+##### Apper deler data
+
+96% av EdTech-apper deler elevdata med tredjeparter og bryter sannsynligvis COPPA og FERPA.
+
+50 000+
+
+##### Kostnad for enterprise-verktoy
+
+Enterprise-personvernverktoy som OneTrust koster over 50 000 euro per aar. Utdanningsbudsjetter kan ikke absorbere dette.
+
+Vaar loesning
+
+#### Zero-Knowledge-arkitektur
+
+Vi kan ikke se elevdataene dine. Ikke paa grunn av retningslinjer, men paa grunn av matematikk.
+Dataene dine krypteres foer de naar serverne vaare. Selv om vi
+skulle bli hacket, ville angripere ikke faa noe.
+
+Ende-til-ende-kryptering med noekler du kontrollerer
+
+Ingen klartekstdata paa serverne vaare
+
+Deterministisk hybriddeteksjon (Regex + NLP + ML) - ingen probabilistisk KI-gjetting
+
+Behandling skjer i minnet, ingenting lagres
+
+Uavhengig revidert av SOC 2-revisorer
+
+1
+Dine elevdata (kryptert paa enheten din)
+
+2
+Anonymisering skjer (vi ser bare krypterte blokker)
+
+3
+Beskyttet utdata returneres til deg
+
+4
+Del trygt med hvem som helst
+
+Hva vi loeser
+
+#### Enhver personvernutfordring innen utdanning
+
+Velg problemet ditt. Vi har loesningen.
+
+📜
+
+##### Bestaa GDPR-revisjoner
+
+Ferdige GDPR-arbeidsflyter, DPA-kontrakter og fullstendige revisjonslogger. Bestaa enhver samsvarssjekk uten konsulenter.
+
+[
+GDPR-loesning
+
+](../use-cases.html#ferpa)
+
+👶
+
+##### Beskytt elever under 13
+
+COPPA-kompatibel fra starten. Arbeidsflyter for skolesamtykke innebygd. Ingen datadeling med tredjeparter. Trygt for K-12 fra dag en.
+
+[
+COPPA-loesning
+
+](../use-cases.html#k12)
+
+🤖
+
+##### Bruk KI uten risiko
+
+La laerere bruke ChatGPT og Claude trygt. Elevdata anonymiseres foer KI ser dem. KI-fordeler uten personvernproblemer.
+
+[
+KI-sikkerhetsloesning
+
+](../use-cases.html#ai-safety)
+
+🌎
+
+##### Samsvar overalt
+
+GDPR, UK GDPR, LGPD, PIPL og 130+ amerikanske delstatslover. En loesning som fungerer i enhver jurisdiksjon der skolen din opererer.
+
+[
+Globalt samsvar
+
+](../use-cases.html#international)
+
+🔍
+
+##### Bestaa leverandoervurderinger
+
+Ferdigutfylte sikkerhetssjemaer for nedlasting. SIG, HECVAT, delstatsspesifikke skjemaer. Send til kommunen paa minutter.
+
+[
+Vurderingsklar
+
+](../contact.html)
+
+🗃
+
+##### Haandter innsynskrav
+
+Svar paa offentlige innsynskrav uten aa avsloere elevenes personopplysninger. Batch-behandle hundrevis av dokumenter. Overhold tidsfrister uten manuell sladding.
+
+[
+Innsynsloesning
+
+](../use-cases.html#foia)
+
+Fungerer overalt
+
+#### Innebygd i verktoyene du allerede bruker
+
+🎓
+Canvas
+
+⚫
+Blackboard
+
+📚
+Schoology
+
+💻
+Google Classroom
+
+📄
+Microsoft 365
+
+👤
+Clever
+
+🔗
+ClassLink
+
+📊
+PowerSchool
+
+Utdanningsvennlige priser
+
+#### Laget for utdanningsbudsjetter
+
+Enterprise-sikkerhet uten enterprise-priser. Start gratis, skaler etter behov.
+
+##### Laerer
+
+0 kr
+/for alltid
+
+Gratis for individuelle pedagoger
+
+500 dokumenter per maaned
+
+Desktop- og web-apper
+
+48 spraak
+
+Alle filformater
+
+[Start gratis](https://anonym.legal)
+
+Mest populaer
+
+##### Skole
+
+490 kr
+/maaned
+
+For K-12 skoler
+
+10 000 dokumenter per maaned
+
+LMS-integrasjon (Canvas, etc.)
+
+25 SSO-plasser (Clever, ClassLink)
+
+Admin-dashboard
+
+KI-beskyttelse (MCP-server)
+
+[Start 30-dagers proeve](https://anonym.legal)
+
+##### Kommune
+
+1 990 kr
+/maaned
+
+For kommuner og fylker
+
+Ubegrensede dokumenter
+
+Ubegrensede SSO-plasser
+
+SCIM-provisjonering
+
+Dedikert support
+
+Tilpasset DPA
+
+[Kontakt salg](../contact.html)
+
+Tillit og sikkerhet
+
+#### Enterprise-sikkerhet du kan verifisere
+
+🔐
+
+##### Zero-Knowledge
+
+Vi kan matematisk ikke faa tilgang til dataene dine
+
+✅
+
+##### SOC 2 Type II
+
+Uavhengig revidert aarlig
+
+🎯
+
+##### ISO 27001
+
+Sertifisert sikkerhetsstyring
+
+🇪🇺
+
+##### EU-datalagring
+
+Tyske servere tilgjengelig
+
+🇺🇸
+
+##### US-datalagring
+
+AWS GovCloud tilgjengelig
+
+📋
+
+##### GDPR-kompatibel
+
+Forhaaandssignert DPA
+
+#### Begynn aa beskytte elever i dag
+
+Bli med over 1 200 skoler som bruker Anonymize.Education.
+Gratis for individuelle laerere. Ingen kredittkort noodvendig.
+
+[
+Start gratis naa
+
+](https://anonym.legal)
+[
+Bestill demo
+](../contact.html)
+
+---
+
+## Anonymize.Education | Privacidade de Dados Estudantis
+URL: https://anonymize.education/pt/index.html
+> Proteja os dados dos estudantes em todo o mundo. Arquitetura de Conhecimento Zero significa que nunca vemos seus dados. Pronto para FERPA, COPPA, LGPD. Comece gratis.
+
+62 milhoes de dados de estudantes comprometidos em 2024
+
+###
+Proteja os dados dos estudantes.
+
+Elimine riscos. Construa confianca.
+
+Anonymize.Education protege dados de estudantes com arquitetura de Conhecimento Zero.
+Nunca vemos seus dados. Hackers tambem nao.
+
+[
+Proteja estudantes gratis
+
+](https://anonym.legal)
+[
+Como funciona
+](../contact.html)
+
+1.200+
+Escolas Protegidas
+
+0
+Vazamentos de Dados
+
+SOC 2
+Type II Certificado
+
+ISO 27001
+Certificado
+
+PowerSchool 62M registros
+Illuminate Education 820K estudantes
+Blackbaud 13K+ instituicoes
+55% das violacoes K-12 sao de fornecedores
+96% dos apps EdTech compartilham dados com terceiros
+130+ leis estaduais de privacidade para cumprir
+PowerSchool 62M registros
+Illuminate Education 820K estudantes
+Blackbaud 13K+ instituicoes
+55% das violacoes K-12 sao de fornecedores
+96% dos apps EdTech compartilham dados com terceiros
+130+ leis estaduais de privacidade para cumprir
+
+O Problema
+
+#### Por que sua abordagem atual nao funciona
+
+55%
+
+##### Violacoes por Fornecedores
+
+Mais da metade de todas as violacoes de dados K-12 sao causadas por fornecedores terceirizados, nao pelas proprias escolas.
+
+1.449
+
+##### Ferramentas por Escola
+
+A escola media usa 1.449 ferramentas EdTech. Com equipe e orcamento limitados, voce nao consegue avaliar todas adequadamente.
+
+96%
+
+##### Apps Compartilham Dados
+
+96% dos apps EdTech compartilham dados de estudantes com terceiros, provavelmente violando COPPA e FERPA.
+
+50.000+
+
+##### Custo de Ferramentas Enterprise
+
+Ferramentas de privacidade enterprise como OneTrust custam mais de 50.000 euros por ano. Orcamentos de educacao nao conseguem absorver isso.
+
+Nossa Solucao
+
+#### Arquitetura de Conhecimento Zero
+
+Nao podemos ver os dados dos seus estudantes. Nao por politica, mas por matematica.
+Seus dados sao criptografados antes de chegarem aos nossos servidores. Mesmo se fossemos
+hackeados, os atacantes nao obteriam nada.
+
+Criptografia ponta-a-ponta com chaves que voce controla
+
+Sem dados em texto claro nos nossos servidores
+
+Deteccao hibrida deterministica (Regex + NLP + ML) - sem adivinhacao probabilistica de IA
+
+Processamento acontece na memoria, nada e armazenado
+
+Auditado independentemente por auditores SOC 2
+
+1
+Dados dos seus estudantes (criptografados no seu dispositivo)
+
+2
+Anonimizacao acontece (so vemos blobs criptografados)
+
+3
+Saida protegida retorna para voce
+
+4
+Compartilhe com seguranca com qualquer pessoa
+
+O que resolvemos
+
+#### Cada desafio de privacidade na educacao
+
+Escolha seu problema. Nos temos a solucao.
+
+📜
+
+##### Passar auditorias LGPD
+
+Fluxos de trabalho LGPD pre-construidos, contratos DPA e trilhas de auditoria completas. Passe qualquer verificacao de conformidade sem consultores.
+
+[
+Solucao LGPD
+
+](../use-cases.html#ferpa)
+
+👶
+
+##### Proteger estudantes menores de 13 anos
+
+Construido para conformidade COPPA desde o inicio. Fluxos de consentimento escolar integrados. Sem compartilhamento de dados com terceiros. Seguro para K-12 desde o primeiro dia.
+
+[
+Solucao COPPA
+
+](../use-cases.html#k12)
+
+🤖
+
+##### Usar IA sem riscos
+
+Permita que professores usem ChatGPT e Claude com seguranca. Dados de estudantes sao anonimizados antes da IA ve-los. Beneficios da IA sem dores de cabeca de privacidade.
+
+[
+Solucao de Seguranca IA
+
+](../use-cases.html#ai-safety)
+
+🌎
+
+##### Conformidade em todo lugar
+
+LGPD, GDPR, UK GDPR, PIPL e 130+ leis estaduais dos EUA. Uma solucao que funciona em qualquer jurisdicao onde sua escola opera.
+
+[
+Conformidade Global
+
+](../use-cases.html#international)
+
+🔍
+
+##### Passar avaliacoes de fornecedores
+
+Questionarios de seguranca pre-preenchidos para download. SIG, HECVAT, formularios especificos de estado. Envie para seu distrito em minutos.
+
+[
+Pronto para avaliacao
+
+](../contact.html)
+
+🗃
+
+##### Lidar com solicitacoes LAI
+
+Responda a solicitacoes de Lei de Acesso a Informacao sem expor dados pessoais de estudantes. Processe centenas de documentos em lote. Cumpra prazos sem redacao manual.
+
+[
+Solucao LAI
+
+](../use-cases.html#foia)
+
+Funciona em todo lugar
+
+#### Integrado nas ferramentas que voce ja usa
+
+🎓
+Canvas
+
+⚫
+Blackboard
+
+📚
+Schoology
+
+💻
+Google Classroom
+
+📄
+Microsoft 365
+
+👤
+Clever
+
+🔗
+ClassLink
+
+📊
+PowerSchool
+
+Precos para Educacao
+
+#### Feito para orcamentos de educacao
+
+Seguranca enterprise sem precos enterprise. Comece gratis, escale conforme cresce.
+
+##### Professor
+
+0 Euros
+/para sempre
+
+Gratis para educadores individuais
+
+500 documentos por mes
+
+Apps Desktop e Web
+
+48 idiomas
+
+Todos os formatos de arquivo
+
+[Comecar Gratis](https://anonym.legal)
+
+Mais Popular
+
+##### Escola
+
+49 Euros
+/mes
+
+Para escolas K-12
+
+10.000 documentos por mes
+
+Integracao LMS (Canvas, etc.)
+
+25 vagas SSO (Clever, ClassLink)
+
+Painel administrativo
+
+Protecao IA (Servidor MCP)
+
+[Iniciar teste de 30 dias](https://anonym.legal)
+
+##### Distrito
+
+199 Euros
+/mes
+
+Para distritos escolares
+
+Documentos ilimitados
+
+Vagas SSO ilimitadas
+
+Provisionamento SCIM
+
+Suporte dedicado
+
+DPA personalizado
+
+[Contatar Vendas](../contact.html)
+
+Confianca e Seguranca
+
+#### Seguranca enterprise que voce pode verificar
+
+🔐
+
+##### Conhecimento Zero
+
+Matematicamente nao podemos acessar seus dados
+
+✅
+
+##### SOC 2 Type II
+
+Auditado independentemente anualmente
+
+🎯
+
+##### ISO 27001
+
+Gestao de seguranca certificada
+
+🇪🇺
+
+##### Residencia de Dados UE
+
+Servidores na Alemanha disponiveis
+
+🇺🇸
+
+##### Residencia de Dados EUA
+
+AWS GovCloud disponivel
+
+📋
+
+##### Conformidade LGPD
+
+DPA pre-assinado
+
+#### Comece a proteger estudantes hoje
+
+Junte-se a mais de 1.200 escolas usando Anonymize.Education.
+Gratis para professores individuais. Sem cartao de credito necessario.
+
+[
+Comecar gratis agora
+
+](https://anonym.legal)
+[
+Agendar demo
+](../contact.html)
+
+---
+
+## Anonymize.Education | Elevdataskydd
+URL: https://anonymize.education/sv/index.html
+> Skydda elevdata världen över. Zero-Knowledge-arkitektur innebär att vi aldrig ser dina data. FERPA, COPPA, GDPR-redo. Börja gratis.
+
+62 miljoner elevdata komprometterade 2024
+
+###
+Skydda elevdata.
+
+Eliminera risker. Skapa fortroende.
+
+Anonymize.Education skyddar elevdata med Zero-Knowledge-arkitektur.
+Vi ser aldrig dina data. Hackare gor det inte heller.
+
+[
+Skydda elever gratis
+
+](https://anonym.legal)
+[
+Sa fungerar det
+](../contact.html)
+
+1 200+
+Skyddade skolor
+
+0
+Dataincidenter
+
+SOC 2
+Type II-certifierad
+
+ISO 27001
+Certifierad
+
+PowerSchool 62M poster
+Illuminate Education 820K elever
+Blackbaud 13K+ institutioner
+55% av K-12-intrangen via leverantorer
+96% av EdTech-appar delar data med tredje part
+130+ delstatslagar att folja
+PowerSchool 62M poster
+Illuminate Education 820K elever
+Blackbaud 13K+ institutioner
+55% av K-12-intrangen via leverantorer
+96% av EdTech-appar delar data med tredje part
+130+ delstatslagar att folja
+
+Problemet
+
+#### Darfor fungerar inte din nuvarande metod
+
+55%
+
+##### Intrangen via leverantorer
+
+Mer an halften av alla K-12-dataintrang orsakas av tredjepartsleverantorer, inte av skolorna sjalva.
+
+1 449
+
+##### Verktyg per skola
+
+Den genomsnittliga skolan anvander 1 449 EdTech-verktyg. Med begransad personal och budget kan du inte granska dem alla ordentligt.
+
+96%
+
+##### Appar delar data
+
+96% av EdTech-appar delar elevdata med tredje part och bryter sannolikt mot COPPA och FERPA.
+
+50 000+
+
+##### Foretagsverktygskostnad
+
+Foretagsdataskyddsverktyg som OneTrust kostar over 50 000 euro per ar. Utbildningsbudgetar kan inte absorbera det.
+
+Var losning
+
+#### Zero-Knowledge-arkitektur
+
+Vi kan inte se dina elevdata. Inte pa grund av policyer, utan pa grund av matematik.
+Dina data krypteras innan de nar vara servrar. Aven om vi
+hackades skulle angripare inte fa nagonting.
+
+Anda-till-anda-kryptering med nycklar som du kontrollerar
+
+Ingen klartextdata pa vara servrar
+
+Deterministisk hybriddetektering (Regex + NLP + ML) - ingen probabilistisk AI-gissning
+
+Bearbetning sker i minnet, inget sparas
+
+Oberoende granskad av SOC 2-revisorer
+
+1
+Dina elevdata (krypterade pa din enhet)
+
+2
+Anonymisering sker (vi ser bara krypterade blobbar)
+
+3
+Skyddad utdata returneras till dig
+
+4
+Dela sakert med vem som helst
+
+Vad vi loser
+
+#### Varje dataskyddsutmaning inom utbildning
+
+Valj ditt problem. Vi har losningen.
+
+📜
+
+##### Klara GDPR-granskningar
+
+Forbyggda GDPR-arbetsfloden, personuppgiftsbitradesavtal och fullstandiga granskningsspar. Klara varje efterlevnadskontroll utan konsulter.
+
+[
+GDPR-losning
+
+](../use-cases.html#ferpa)
+
+👶
+
+##### Skydda elever under 13
+
+COPPA-kompatibelt fran grunden. Arbetsfloden for skolmedgivande inbyggda. Ingen datadelning med tredje part. Sakert for grund- och gymnasieskola fran dag ett.
+
+[
+COPPA-losning
+
+](../use-cases.html#k12)
+
+🤖
+
+##### Anvand AI utan risk
+
+Lat larare anvanda ChatGPT och Claude sakert. Elevdata anonymiseras innan AI ser dem. AI-fordelar utan integritetsproblem.
+
+[
+AI-sakerhetslosning
+
+](../use-cases.html#ai-safety)
+
+🌎
+
+##### Kompatibel overallt
+
+GDPR, UK GDPR, LGPD, PIPL och 130+ amerikanska delstatslagar. En losning som fungerar i varje jurisdiktion dar din skola verkar.
+
+[
+Global efterlevnad
+
+](../use-cases.html#international)
+
+🔍
+
+##### Klara leverantorsbedomningar
+
+Forifyllda sakerhetsformular for nedladdning. SIG, HECVAT, delstatsspecifika formular. Skicka till din kommun pa minuter.
+
+[
+Bedomningsredo
+
+](../contact.html)
+
+🗃
+
+##### Hantera offentlighetsforfragan
+
+Svara pa offentliga informationsforfragan utan att avsloja personliga elevuppgifter. Behandla hundratals dokument i batch. Mota tidsfrister utan manuell maskering.
+
+[
+Offentlighetslosning
+
+](../use-cases.html#foia)
+
+Fungerar overallt
+
+#### Inbyggt i verktygen du redan anvander
+
+🎓
+Canvas
+
+⚫
+Blackboard
+
+📚
+Schoology
+
+💻
+Google Classroom
+
+📄
+Microsoft 365
+
+👤
+Clever
+
+🔗
+ClassLink
+
+📊
+PowerSchool
+
+Utbildningsanpassade priser
+
+#### Byggd for utbildningsbudgetar
+
+Foretagssakerhet utan foretagspriser. Borja gratis, skala nar du vaxer.
+
+##### Larare
+
+0 euro
+/for alltid
+
+Gratis for enskilda pedagoger
+
+500 dokument per manad
+
+Desktop- & webbappar
+
+48 sprak
+
+Alla filformat
+
+[Borja gratis](https://anonym.legal)
+
+Mest popular
+
+##### Skola
+
+49 euro
+/manad
+
+For grund- och gymnasieskolor
+
+10 000 dokument per manad
+
+LMS-integration (Canvas, etc.)
+
+25 SSO-platser (Clever, ClassLink)
+
+Administratorspanel
+
+AI-skydd (MCP Server)
+
+[Starta 30-dagars provperiod](https://anonym.legal)
+
+##### Kommun
+
+199 euro
+/manad
+
+For skolkommuner
+
+Obegransade dokument
+
+Obegransade SSO-platser
+
+SCIM-provisionering
+
+Dedikerad support
+
+Anpassat personuppgiftsbitradesavtal
+
+[Kontakta forsaljning](../contact.html)
+
+Fortroende & Sakerhet
+
+#### Foretagssakerhet du kan verifiera
+
+🔐
+
+##### Zero-Knowledge
+
+Vi kan matematiskt sett inte komma at dina data
+
+✅
+
+##### SOC 2 Type II
+
+Arligen oberoende granskad
+
+🎯
+
+##### ISO 27001
+
+Certifierad sakerhetshantering
+
+🇪🇺
+
+##### EU-dataresidens
+
+Tyska servrar tillgangliga
+
+🇺🇸
+
+##### US-dataresidens
+
+AWS GovCloud tillgangligt
+
+📋
+
+##### GDPR-kompatibel
+
+Forskrivet personuppgiftsbitradesavtal
+
+#### Borja skydda elever idag
+
+Ga med over 1 200 skolor som anvander Anonymize.Education.
+Gratis for enskilda larare. Inget kreditkort kravs.
+
+[
+Borja gratis nu
+
+](https://anonym.legal)
+[
+Boka demo
+](../contact.html)
 
 ---
 
