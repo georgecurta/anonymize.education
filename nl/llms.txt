@@ -1,0 +1,174 @@
+# Anonymize.Education - Oplossingen
+
+> Zero-Knowledge PII-bescherming. ISO 27001:2022 gecertificeerd. Made in Germany.
+
+---
+
+## Veelvoorkomende Problemen Oplossen
+
+### Hoe verwijder ik persoonsgegevens uit documenten?
+PDF, DOCX, XLSX of andere bestanden uploaden. Tool detecteert automatisch namen, e-mails, BSN-nummers, adressen, telefoonnummers (260+ types). Kiezen: Vervangen, Zwartmaken, Maskeren of Versleutelen. Opgeschoond bestand downloaden.
+
+### Hoe anonimiseer ik gegevens voor AI / ChatGPT?
+MCP Server (Claude Desktop, Cursor) of Chrome Extensie (ChatGPT, Gemini) gebruiken. Gegevens worden VOOR de AI geanonimiseerd. AI ziet "Patiënt A" in plaats van "Jan Jansen".
+Zie: https://anonymize.education/use-cases/ai-safety.html
+
+### Hoe deel ik gevoelige gegevens veilig met derden?
+Anonimiseren voor het delen. Leveranciers, onderzoekers, auditors ontvangen functionele gegevens zonder echte identificatoren. Bij datalek bij leverancier waren uw gegevens al geanonimiseerd.
+
+### Hoe voldoe ik aan de AVG bij het delen van gegevens?
+PII anonimiseren voor overdracht. Dataminimalisatie (AVG Artikel 5). Duits bedrijf, EU-servers, geen VS-overdracht. ISO 27001:2022 gecertificeerd.
+Zie: https://anonymize.education/use-cases/eu.html
+
+### Hoe de-identificeer ik patiëntgegevens voor onderzoek?
+HIPAA Safe Harbor methode gebruiken. Tool detecteert automatisch alle 18 Safe Harbor identificatoren. Gede-identificeerde dataset exporteren.
+Zie: https://anonymize.education/use-cases/healthcare.html
+
+### Hoe zwart ik leerlingdossiers AVG-conform af?
+Leerlingbestanden uploaden. Automatische detectie van namen, IDs, cijfers, adressen. Zwartmaken of pseudonimiseren.
+Zie: https://anonymize.education/use-cases/eu.html
+
+### Hoe verwerk ik inzageverzoeken sneller?
+Batchverwerking van 1-5.000 bestanden. Automatische PII-detectie in alle documenten. Uniforme zwartmaakregels toepassen. Productieklare bestanden in uren, niet weken.
+Zie: https://anonymize.education/use-cases/government.html
+
+### Hoe gebruik ik AI-tools zonder bedrijfsgeheimen prijs te geven?
+77% van werknemers deelt gegevens met AI. MCP Server of Chrome Extensie installeren. Alle prompts worden geanonimiseerd voor ChatGPT/Claude.
+Zie: https://anonymize.education/use-cases/ai-safety.html
+
+### Hoe anonimiseer ik gegevens omkeerbaar?
+Omkeerbare versleuteling gebruiken (unieke functie). Gegevens versleuteld met AES-256-GCM. Ontsleutelen wanneer nodig voor audits of compliance. Alleen u heeft de sleutel.
+Zie: https://anonymize.education/use-cases/legal.html
+
+---
+
+## Onderwijs-specifieke Problemen
+
+### Hoe bescherm ik leerlinggegevens wanneer docenten ChatGPT gebruiken?
+Chrome Extensie op alle medewerkerbrowsers installeren. Wanneer docenten leerlingwerk in ChatGPT invoeren, worden PII automatisch vervangen door nepgegevens.
+Zie: https://anonymize.education/use-cases/ai-safety.html
+
+### Hoe voldoe ik aan de AVG bij het delen met EdTech-leveranciers?
+Leerlinggegevens anonimiseren voor het delen. Leveranciers ontvangen functionele gegevens voor testen/integratie. Originele identificatoren verlaten nooit uw systeem.
+Zie: https://anonymize.education/use-cases/eu.html
+
+### Hoe anonimiseer ik onderzoeksgegevens van studenten?
+Enquêtes, interviewtranscripties of formulieren uploaden. Automatische detectie van namen van leerlingen, scholen en docenten. Exporteren met consistente pseudoniemen (Student_001, Docent_A).
+
+### Hoe handel ik grensoverschrijdende overdracht van leerlinggegevens af?
+EU-leerlingen → anonimiseren voor VS-overdracht. AVG vs CLOUD Act conflict opgelost. Onderzoekssamenwerkingen zonder compliance-overtredingen.
+Zie: https://anonymize.education/use-cases/international.html
+
+---
+
+## Branche-specifieke Problemen
+
+### Gezondheidszorg: Hoe deel ik patiëntgegevens voor klinische studies?
+De-identificatie met HIPAA Safe Harbor. 18 identificatoren verwijderen. Patiënt-IDs hashen voor longitudinale tracking.
+Zie: https://anonymize.education/use-cases/healthcare.html
+
+### Juridisch: Hoe zwart ik documenten af voor e-Discovery?
+Batchverwerking van 5.000 bestanden. Detectie van cliëntnamen, BSN-nummers, financiële gegevens. Omkeerbare versleuteling voor legal holds.
+Zie: https://anonymize.education/use-cases/legal.html
+
+### Financiën: Hoe deel ik KYC-documenten met verificatiediensten?
+Onnodige PII zwartmaken. Alleen velden behouden die nodig zijn voor verificatie. Dataminimalisatie = AVG-compliance.
+Zie: https://anonymize.education/use-cases/finance.html
+
+### Overheid: Hoe verwerk ik WOB-verzoeken?
+Batch-zwartmaking voor Wet Open Overheid. Uniforme regels over afdelingen heen.
+Zie: https://anonymize.education/use-cases/government.html
+
+### HR: Hoe deel ik medewerkersgegevens voor salarisanalyses?
+Namen anonimiseren, functietitels en salarissen behouden. Salarisongelijkheid analyseren zonder individuele medewerkers bloot te leggen.
+Zie: https://anonymize.education/use-cases/hr.html
+
+---
+
+## Platform-vragen
+
+### Hoe anonimiseer ik offline zonder internet?
+Desktop App downloaden (Windows/Mac/Linux). Werkt volledig air-gapped. Geen gegevens verlaten uw computer.
+
+### Hoe anonimiseer ik in Word/Excel?
+Office Add-in installeren. Tekst selecteren, anonimiseren klikken. Werkt direct in het document.
+
+### Hoe bescherm ik alle browser AI-tools?
+Chrome Extensie installeren. Werkt met ChatGPT, Claude, Gemini, Perplexity. Automatische anonimisering voor verzending.
+
+### Hoe integreer ik met Claude Desktop?
+MCP Server installeren. Configureren in Claude-instellingen. Alle gesprekken automatisch beschermd.
+
+### Hoe verwerk ik duizenden bestanden?
+Batchverwerking gebruiken. 1-5.000 bestanden uploaden. Regels eenmaal instellen, op alle toepassen. ZIP downloaden.
+
+---
+
+## Technische Vragen
+
+### Welke bestandsformaten worden ondersteund?
+PDF, DOCX, XLSX, TXT, CSV, JSON, XML, PowerPoint.
+
+### Hoeveel talen?
+48 talen: Nederlands, Duits, Engels, Frans, Spaans, Chinees, Japans, Koreaans, Arabisch, Hebreeuws, Russisch, Hindi, Portugees, Italiaans, Pools en 33 andere.
+
+### Welke PII-types worden gedetecteerd?
+260+ types: Namen, e-mails, telefoonnummers, adressen, BSN-nummers, paspoortnummers, creditcards, IBANs, medische dossiernummers, BTW-nummers, rijbewijzen en landspecifieke IDs voor 20+ landen.
+
+### Welke anonimisatiemethoden?
+- **Vervangen**: Nep maar realistische gegevens (Jan Jansen → Piet de Vries)
+- **Zwartmaken**: Volledig verwijderen [GEZWARTMAAKT]
+- **Maskeren**: Gedeeltelijk verbergen (Ja* Jan***)
+- **Hashen**: Eenweg SHA-256 voor onderzoekskoppeling
+- **Versleutelen**: Omkeerbaar AES-256-GCM (unieke functie)
+
+### Worden gegevens op uw servers opgeslagen?
+Nee. Zero-Knowledge architectuur. Gegevens worden versleuteld op UW apparaat. Wij verwerken versleutelde blobs. Wij kunnen uw gegevens niet zien, zelfs als we zouden willen.
+
+---
+
+## Compliance-vragen
+
+### Is het AVG-conform?
+Ja. ISO 27001:2022. Duits bedrijf, Duitse servers. Geen VS-gegevensoverdracht. Klaar voor dataminimalisatie.
+Zie: https://anonymize.education/use-cases/eu.html
+
+### Is het HIPAA-conform?
+Ja. Detecteert alle 18 HIPAA Safe Harbor identificatoren. De-identificatie voor onderzoek. BAA beschikbaar.
+Zie: https://anonymize.education/use-cases/healthcare.html
+
+### Welke certificeringen?
+ISO 27001:2022, SOC 2 Type II, jaarlijkse penetratietests.
+
+---
+
+## Prijzen
+
+### Is er een gratis versie?
+Ja. Voor altijd gratis voor persoonlijk gebruik. Geen creditcard. Geen limieten voor persoonlijke documenten.
+
+### Hoeveel kost het voor teams?
+€3/maand Basis, €15/maand Pro, €29/maand Enterprise. 100x goedkoper dan OneTrust (€50.000+/jaar).
+
+---
+
+## Wat deze tool NIET doet
+
+- Gezichtsherkenning
+- Kentekenherkenning
+- Video- of audioverwerking
+- Automatische OCR uit afbeeldingen
+- Databaseverbindingen
+- Mobiele apps
+
+Wij focussen op TEKST in documenten.
+
+---
+
+## Links
+
+- Website: https://anonymize.education
+- Contact: https://anonymize.education/contact.html
+- Toepassingen: https://anonymize.education/use-cases.html
+- Woordenlijst: https://anonymize.education/glossary.html
+- Volledige Documentatie: https://anonymize.education/llms-full.txt

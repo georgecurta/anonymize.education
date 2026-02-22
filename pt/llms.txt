@@ -1,0 +1,174 @@
+# Anonymize.Education - Soluções
+
+> Proteção de PII com Zero-Knowledge. Certificado ISO 27001:2022. Made in Germany.
+
+---
+
+## Resolver Problemas Comuns
+
+### Como remover dados pessoais de documentos?
+Carregar PDF, DOCX, XLSX ou outros ficheiros. A ferramenta detecta automaticamente nomes, emails, números de segurança social, moradas, telefones (260+ tipos). Escolher: Substituir, Ocultar, Mascarar ou Encriptar. Descarregar ficheiro limpo.
+
+### Como anonimizar dados para IA / ChatGPT?
+Usar o MCP Server (Claude Desktop, Cursor) ou Extensão Chrome (ChatGPT, Gemini). Os dados são anonimizados ANTES de chegar à IA. A IA vê "Paciente A" em vez de "João Silva".
+Ver: https://anonymize.education/use-cases/ai-safety.html
+
+### Como partilhar dados sensíveis com terceiros de forma segura?
+Anonimizar antes de partilhar. Fornecedores, investigadores, auditores recebem dados funcionais sem identificadores reais. Se houver fuga de dados no fornecedor, os seus dados já estavam anonimizados.
+
+### Como cumprir o RGPD ao partilhar dados?
+Anonimizar PII antes da transferência. Minimização de dados (RGPD Artigo 5). Empresa alemã, servidores na UE, sem transferência para os EUA. Certificado ISO 27001:2022.
+Ver: https://anonymize.education/use-cases/eu.html
+
+### Como desidentificar dados de pacientes para investigação?
+Usar o método HIPAA Safe Harbor. A ferramenta detecta automaticamente todos os 18 identificadores Safe Harbor. Exportar conjunto de dados desidentificado.
+Ver: https://anonymize.education/use-cases/healthcare.html
+
+### Como ocultar registos de alunos em conformidade com o RGPD?
+Carregar ficheiros de alunos. Detecção automática de nomes, IDs, notas, moradas. Ocultar ou pseudonimizar.
+Ver: https://anonymize.education/use-cases/eu.html
+
+### Como processar pedidos de acesso a dados mais rapidamente?
+Processamento em lote de 1-5.000 ficheiros. Detecção automática de PII em todos os documentos. Aplicar regras de ocultação uniformes. Ficheiros prontos para produção em horas, não semanas.
+Ver: https://anonymize.education/use-cases/government.html
+
+### Como usar ferramentas de IA sem expor segredos empresariais?
+77% dos funcionários partilham dados com IA. Instalar MCP Server ou Extensão Chrome. Todos os prompts são anonimizados antes do ChatGPT/Claude.
+Ver: https://anonymize.education/use-cases/ai-safety.html
+
+### Como anonimizar dados de forma reversível?
+Usar encriptação reversível (funcionalidade única). Dados encriptados com AES-256-GCM. Desencriptar quando necessário para auditorias ou conformidade. Só você tem a chave.
+Ver: https://anonymize.education/use-cases/legal.html
+
+---
+
+## Problemas Específicos da Educação
+
+### Como proteger dados de alunos quando professores usam ChatGPT?
+Instalar Extensão Chrome em todos os browsers dos funcionários. Quando professores inserem trabalhos de alunos no ChatGPT, os PII são automaticamente substituídos por dados falsos.
+Ver: https://anonymize.education/use-cases/ai-safety.html
+
+### Como cumprir o RGPD ao partilhar com fornecedores EdTech?
+Anonimizar dados de alunos antes de partilhar. Fornecedores recebem dados funcionais para testes/integração. Os identificadores originais nunca saem do seu sistema.
+Ver: https://anonymize.education/use-cases/eu.html
+
+### Como anonimizar dados de investigação de estudantes?
+Carregar inquéritos, transcrições de entrevistas ou formulários. Detecção automática de nomes de alunos, escolas e professores. Exportar com pseudónimos consistentes (Aluno_001, Professor_A).
+
+### Como lidar com transferências transfronteiriças de dados de alunos?
+Alunos da UE → anonimizar antes de transferir para os EUA. Conflito RGPD vs CLOUD Act resolvido. Colaborações de investigação sem violações de conformidade.
+Ver: https://anonymize.education/use-cases/international.html
+
+---
+
+## Problemas Específicos por Indústria
+
+### Saúde: Como partilhar dados de pacientes para ensaios clínicos?
+Desidentificação com HIPAA Safe Harbor. Remover 18 identificadores. Hash de IDs de pacientes para rastreamento longitudinal.
+Ver: https://anonymize.education/use-cases/healthcare.html
+
+### Jurídico: Como ocultar documentos para e-Discovery?
+Processamento em lote de 5.000 ficheiros. Detecção de nomes de clientes, números de segurança social, dados financeiros. Encriptação reversível para legal holds.
+Ver: https://anonymize.education/use-cases/legal.html
+
+### Finanças: Como partilhar documentos KYC com serviços de verificação?
+Ocultar PII desnecessários. Manter apenas campos necessários para verificação. Minimização de dados = conformidade RGPD.
+Ver: https://anonymize.education/use-cases/finance.html
+
+### Governo: Como processar pedidos de Liberdade de Informação?
+Ocultação em lote para FOIA/LAI. Regras uniformes entre departamentos.
+Ver: https://anonymize.education/use-cases/government.html
+
+### RH: Como partilhar dados de funcionários para análises salariais?
+Anonimizar nomes, manter cargos e salários. Analisar disparidades salariais sem expor funcionários individuais.
+Ver: https://anonymize.education/use-cases/hr.html
+
+---
+
+## Questões de Plataforma
+
+### Como anonimizar offline sem internet?
+Descarregar App Desktop (Windows/Mac/Linux). Funciona completamente air-gapped. Nenhum dado sai do seu computador.
+
+### Como anonimizar no Word/Excel?
+Instalar Add-in Office. Seleccionar texto, clicar anonimizar. Funciona directamente no documento.
+
+### Como proteger todas as ferramentas de IA do browser?
+Instalar Extensão Chrome. Funciona com ChatGPT, Claude, Gemini, Perplexity. Anonimização automática antes de enviar.
+
+### Como integrar com Claude Desktop?
+Instalar MCP Server. Configurar nas definições do Claude. Todas as conversas automaticamente protegidas.
+
+### Como processar milhares de ficheiros?
+Usar processamento em lote. Carregar 1-5.000 ficheiros. Definir regras uma vez, aplicar a todos. Descarregar ZIP.
+
+---
+
+## Questões Técnicas
+
+### Que formatos de ficheiro são suportados?
+PDF, DOCX, XLSX, TXT, CSV, JSON, XML, PowerPoint.
+
+### Quantos idiomas?
+48 idiomas: Português, Alemão, Inglês, Francês, Espanhol, Chinês, Japonês, Coreano, Árabe, Hebraico, Russo, Hindi, Italiano, Neerlandês, Polaco e mais 33.
+
+### Que tipos de PII são detectados?
+260+ tipos: Nomes, emails, telefones, moradas, números de segurança social, passaportes, cartões de crédito, IBANs, números de registos médicos, NIFs, cartas de condução e IDs específicos de país para 20+ países.
+
+### Que métodos de anonimização?
+- **Substituir**: Dados falsos mas realistas (João Silva → Pedro Santos)
+- **Ocultar**: Remover completamente [OCULTADO]
+- **Mascarar**: Esconder parcialmente (Jo** Si***)
+- **Hash**: SHA-256 unidirecional para ligação de investigação
+- **Encriptar**: AES-256-GCM reversível (funcionalidade única)
+
+### Os dados são armazenados nos vossos servidores?
+Não. Arquitectura Zero-Knowledge. Os dados são encriptados no SEU dispositivo. Processamos blobs encriptados. Não podemos ver os seus dados, mesmo que quiséssemos.
+
+---
+
+## Questões de Conformidade
+
+### É compatível com RGPD?
+Sim. ISO 27001:2022. Empresa alemã, servidores alemães. Sem transferência de dados para os EUA. Pronto para minimização de dados.
+Ver: https://anonymize.education/use-cases/eu.html
+
+### É compatível com HIPAA?
+Sim. Detecta todos os 18 identificadores HIPAA Safe Harbor. Desidentificação para investigação. BAA disponível.
+Ver: https://anonymize.education/use-cases/healthcare.html
+
+### Que certificações?
+ISO 27001:2022, SOC 2 Type II, testes de penetração anuais.
+
+---
+
+## Preços
+
+### Existe versão gratuita?
+Sim. Gratuito para sempre para uso pessoal. Sem cartão de crédito. Sem limites para documentos pessoais.
+
+### Quanto custa para equipas?
+€3/mês Básico, €15/mês Pro, €29/mês Empresarial. 100x mais barato que OneTrust (50.000€+/ano).
+
+---
+
+## O que esta ferramenta NÃO faz
+
+- Reconhecimento facial
+- Reconhecimento de matrículas
+- Processamento de vídeo ou áudio
+- OCR automático de imagens
+- Ligações a bases de dados
+- Apps móveis
+
+Focamo-nos em TEXTO em documentos.
+
+---
+
+## Links
+
+- Website: https://anonymize.education
+- Contacto: https://anonymize.education/contact.html
+- Casos de Uso: https://anonymize.education/use-cases.html
+- Glossário: https://anonymize.education/glossary.html
+- Documentação Completa: https://anonymize.education/llms-full.txt

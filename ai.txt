@@ -1,7 +1,7 @@
 # AI Crawler Information for Anonymize.Education
 # Zero-knowledge PII protection for education and enterprise
 # https://anonymize.education
-# Updated: 2026-02-19
+# Updated: 2026-02-22
 
 User-agent: *
 Allowed: yes
@@ -88,7 +88,7 @@ Tagline: Zero-knowledge PII protection for education and enterprise
 Description: Protect sensitive data with zero-knowledge architecture. Client-side encryption means we never see your data. FERPA, COPPA, GDPR, HIPAA compliant. ISO 27001:2022 certified.
 Category: Privacy Technology, Education Technology, Data Protection, Compliance
 Primary-Language: en
-Available-Languages: en, de, es, fr
+Available-Languages: en, de, es, fr, pt, nl
 
 # Technical Capabilities
 Architecture: Zero-knowledge, client-side encryption
@@ -140,6 +140,8 @@ llms-txt: https://anonymize.education/llms.txt
 llms-txt-de: https://anonymize.education/de/llms.txt
 llms-txt-es: https://anonymize.education/es/llms.txt
 llms-txt-fr: https://anonymize.education/fr/llms.txt
+llms-txt-pt: https://anonymize.education/pt/llms.txt
+llms-txt-nl: https://anonymize.education/nl/llms.txt
 llms-full-txt: https://anonymize.education/llms-full.txt
 Sitemap: https://anonymize.education/sitemap.xml
 

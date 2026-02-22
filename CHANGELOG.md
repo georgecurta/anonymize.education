@@ -4,6 +4,30 @@ All notable changes to the Anonymize.Education website will be documented in thi
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
+## [1.1.8] - 2026-02-22
+
+### Portuguese and Dutch Language Support
+
+Added full Portuguese (pt) and Dutch (nl) language versions of the site.
+
+#### New Files
+- `/pt/index.html` — Portuguese homepage with Brazilian Portuguese translations
+- `/pt/llms.txt` — Portuguese AI crawler Q&A ("Como...?" questions)
+- `/nl/index.html` — Dutch homepage with Netherlands Dutch translations (AVG instead of DSGVO)
+- `/nl/llms.txt` — Dutch AI crawler Q&A ("Hoe...?" questions)
+
+#### Updates
+- **sitemap.xml** — Added 4 new URLs (pt/, nl/, pt/llms.txt, nl/llms.txt)
+- **sitemap.xml** — Updated all homepage entries with 6-language hreflang (en, de, es, fr, pt, nl)
+- **ai.txt** — Added `llms-txt-pt`, `llms-txt-nl` references
+- **ai.txt** — Updated `Available-Languages: en, de, es, fr, pt, nl`
+- **index.html, de/index.html, es/index.html, fr/index.html** — Added pt/nl hreflang tags
+
+#### Benefits
+- AI chatbots respond in Portuguese and Dutch
+- Better experience for Brazilian/Portuguese and Dutch/Belgian users
+- Complete 6-language support across all pages
+
 ## [1.1.7] - 2026-02-22
 
 ### SEO Audit — Meta Tag Consistency
