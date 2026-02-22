@@ -470,6 +470,7 @@ node tests/production-check.js
 | Version | Date | Changes |
 |---------|------|---------|
 | 2.0.0 | TBD | Education worldwide compatibility update |
+| 1.1.7 | 2026-02-22 | SEO audit: meta tag consistency (55 fixes) |
 | 1.1.6 | 2026-02-22 | Contact form fix (config loading bug) |
 | 1.1.5 | 2026-02-19 | Multilingual llms.txt (DE, ES, FR) |
 | 1.1.4 | 2026-02-19 | AI crawler files with education-focused Q&A |

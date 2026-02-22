@@ -4,6 +4,27 @@ All notable changes to the Anonymize.Education website will be documented in thi
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
+## [1.1.7] - 2026-02-22
+
+### SEO Audit — Meta Tag Consistency
+
+Fixed 55 meta tag consistency warnings across all pages.
+
+#### Changes
+- Aligned `og:title` and `twitter:title` with `<title>` on all pages
+- Aligned `og:description` and `twitter:description` with `<meta description>` on all pages
+- Updated sitemap.xml lastmod dates to 2026-02-22
+- Regenerated llms-full.txt with latest content
+
+#### Pages Updated (23)
+- Main pages: index.html, index-v2.html, glossary.html, competitors.html, case-studies.html
+- Language pages: de/index.html, es/index.html, fr/index.html
+- Use case pages: use-cases.html plus 12 industry/regional pages
+
+#### Reindex Triggered
+- IndexNow: Bing, Yandex, Seznam (HTTP 200/202)
+- All 4 language versions submitted
+
 ## [1.1.6] - 2026-02-22
 
 ### Contact Form Fix — Config Loading Bug
