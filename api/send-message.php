@@ -19,7 +19,10 @@ header('X-Content-Type-Options: nosniff');
 header('X-Frame-Options: DENY');
 
 // Load configuration
-$configPath = getenv('ANONYMIZE_EDU_CONFIG_PATH') ?: __DIR__ . '/config.php';
+// Check $_SERVER first (nginx fastcgi_param), then getenv(), then fallback
+$configPath = $_SERVER['ANONYMIZE_EDU_CONFIG_PATH']
+    ?? getenv('ANONYMIZE_EDU_CONFIG_PATH')
+    ?: __DIR__ . '/config.php';
 if (!file_exists($configPath)) {
     http_response_code(500);
     echo json_encode(['success' => false, 'error' => 'Server configuration error']);
