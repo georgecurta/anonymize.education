@@ -1,0 +1,174 @@
+# Anonymize.Education - Leisungen
+
+> Zero-Knowledge PII-Schutz. ISO 27001:2022 zertifizeiert. Made in Germany.
+
+---
+
+## Heefeg Problemer leisen
+
+### Wéi ewechhuelen ech perseinesch Donneeën aus Dokumenter?
+PDF, DOCX, XLSX oder aner Fichieren eroplueden. D'Tool erkennt automatesch Nimm, E-Mailen, Sozialversécherungsnummeren, Adressen, Telefonsnummeren (260+ Typen). Wielen: Ersetzen, Schwärzen, Maskéieren oder Verschlësselen. Propper Fichier eroflueden.
+
+### Wéi anonymiséieren ech Donneeën fir KI / ChatGPT?
+MCP Server (Claude Desktop, Cursor) oder Chrome Extension (ChatGPT, Gemini) benotzen. Donneeën ginn VIR der KI anonymiséiert. D'KI gesäit "Patient A" amplaz "Max Mustermann".
+Kuckt: https://anonymize.education/use-cases/ai-safety.html
+
+### Wéi deelen ech sensibel Donneeën sécher mat Drëtten?
+Virum Deelen anonymiséieren. Liwweranten, Fuerscher, Priffer kréien funktional Donneeën ouni richteg Kennungen. Bei engem Dateleck beim Liwwerant waren Är Donneeë scho anonymiséiert.
+
+### Wéi erfëllen ech d'DSGVO beim Daten-Austausch?
+PII virun der Iwwerdroung anonymiséieren. Datenminimaliséierung (DSGVO Artikel 5). Däitsch Firma, EU-Server, keng US-Iwwerdroung. ISO 27001:2022 zertifizéiert.
+Kuckt: https://anonymize.education/use-cases/eu.html
+
+### Wéi de-identifizéieren ech Patientendonneeën fir Fuerschung?
+HIPAA Safe Harbor Method benotzen. D'Tool erkennt automatesch all 18 Safe Harbor Identifikatoren. De-identifizéierte Datesaz exportéieren.
+Kuckt: https://anonymize.education/use-cases/healthcare.html
+
+### Wéi schwärzen ech Schoulakten DSGVO-konform?
+Schoulakten eroplueden. Automatesch Erkennung vu Nimm, IDen, Notten, Adressen. Schwärzen oder pseudonymiséieren.
+Kuckt: https://anonymize.education/use-cases/eu.html
+
+### Wéi veraarbechten ech Auskonft-Ufroe méi séier?
+Stapelveraarbechtung vu 1-5.000 Fichieren. Automatesch PII-Erkennung an allen Dokumenter. Eenheetlech Schwärzungsreegelen applizéieren. Produktiounsrei Fichieren iwwer Nuecht amplaz a Wochen.
+Kuckt: https://anonymize.education/use-cases/government.html
+
+### Wéi benotzen ech KI-Tools ouni Firmegeheimnisser preiszeginn?
+77% vun de Mataarbechter ginn Donneeën un d'KI weider. MCP Server oder Chrome Extension installéieren. All Prompts gi virum ChatGPT/Claude anonymiséiert.
+Kuckt: https://anonymize.education/use-cases/ai-safety.html
+
+### Wéi anonymiséieren ech Donneeën reversibel?
+Reversibel Verschlësselung benotzen (eenzegaartegt Feature). Donneeë mat AES-256-GCM verschlësselt. Wa gebraucht fir Auditen oder Compliance entschlësselen. Nëmmen Dir hutt de Schlëssel.
+Kuckt: https://anonymize.education/use-cases/legal.html
+
+---
+
+## Bildungsspezifesch Problemer
+
+### Wéi schützen ech Schoulerdonneeën wann Enseignante ChatGPT benotzen?
+Chrome Extension fir all Mataarbechter-Browser installéieren. Wann Enseignanten Schoulerkursaarbechten an ChatGPT aginn, gi PII automatesch duerch Fake-Donneeën ersat.
+Kuckt: https://anonymize.education/use-cases/ai-safety.html
+
+### Wéi erfëllen ech d'DSGVO beim Deele mat EdTech-Ubidder?
+Schoulerdonneeën virum Deelen anonymiséieren. Ubidder kréie funktional Donneeën fir Tester/Integratioun. Original Identifikatoren verloossen ni Äre System.
+Kuckt: https://anonymize.education/use-cases/eu.html
+
+### Wéi anonymiséieren ech Fuerschungsdonneeë vu Studenten?
+Ëmfrodonneeën, Interviewtranskripter oder Formulairen eroplueden. Automatesch Erkennung vu Schouler-, Schoul- an Enseignantennimm. Export mat eenheetleche Pseudonymer (Student_001, Enseignant_A).
+
+### Wéi handelen ech grenziwwerschreidend Schoulerdaten-Iwwerdroungen?
+EU-Schouler - virun US-Iwwerdroung anonymiséieren. DSGVO vs CLOUD Act Konflikt geléist. Fuerschungskooperatioune ouni Compliance-Verstéiss.
+Kuckt: https://anonymize.education/use-cases/international.html
+
+---
+
+## Branchespezifesch Problemer
+
+### Gesondheetswieser: Wéi deelen ech Patientendonneeën fir klinesch Studien?
+De-Identifizéierung mat HIPAA Safe Harbor. 18 Identifikatoren ewechhuelen. Patienten-IDe fir Laangschnëtt-Tracking hashen.
+Kuckt: https://anonymize.education/use-cases/healthcare.html
+
+### Recht: Wéi schwärzen ech Dokumenter fir E-Discovery?
+Stapelveraarbechtung vu 5.000 Fichieren. Erkennung vu Mandantennimm, Sozialversécherungsnummeren, Finanzdonneeën. Reversibel Verschlësselung fir Legal Holds.
+Kuckt: https://anonymize.education/use-cases/legal.html
+
+### Finanzen: Wéi deelen ech KYC-Dokumenter mat Verifizéierungsservicer?
+Onnéideg PII schwärzen. Nëmme Felder behalen déi fir d'Verifizéierung gebraucht ginn. Datenminimaliséierung = DSGVO-Konformitéit.
+Kuckt: https://anonymize.education/use-cases/finance.html
+
+### Autoritéiten: Wéi veraarbechten ech Informatiounsfräiheetsufroe?
+Stapelschwärzung fir Informatiounsfräiheetsgesetz. Eenheetlech Reegelen iwwer Departementer ewech.
+Kuckt: https://anonymize.education/use-cases/government.html
+
+### HR: Wéi deelen ech Mataarbechterdonneeën fir Gehaltanalysen?
+Nimm anonymiséieren, Jobtitelen a Gehalter behalen. Gehaltsënnerscheeder analyséiere ouni eenzel Mataarbechter ze offenbaren.
+Kuckt: https://anonymize.education/use-cases/hr.html
+
+---
+
+## Plattform-Froen
+
+### Wéi anonymiséieren ech offline ouni Internet?
+Desktop App eroflueden (Windows/Mac/Linux). Funktionéiert komplett air-gapped. Keng Donneeë verloossen Ären Computer.
+
+### Wéi anonymiséieren ech a Word/Excel?
+Office Add-in installéieren. Text markéieren, anonymiséiere klicken. Funktionéiert direkt am Dokument.
+
+### Wéi schützen ech all Browser-KI-Tools?
+Chrome Extension installéieren. Funktionéiert mat ChatGPT, Claude, Gemini, Perplexity. Automatesch Anonymiséierung virum Schécken.
+
+### Wéi integréieren ech mat Claude Desktop?
+MCP Server installéieren. An de Claude-Astellunge konfiguréieren. All Gespréicher automatesch geschützt.
+
+### Wéi veraarbechten ech dausende Fichieren?
+Stapelveraarbechtung benotzen. 1-5.000 Fichieren eroplueden. Reegelen eemol festleeën, op all applizéieren. ZIP eroflueden.
+
+---
+
+## Technesch Froen
+
+### Wéi eng Fichierformate gi ënnerstëtzt?
+PDF, DOCX, XLSX, TXT, CSV, JSON, XML, PowerPoint.
+
+### Wéi vill Sproochen?
+48 Sproochen: Däitsch, Englesch, Franséisch, Spuenesch, Chinesesch, Japanesch, Koreanesch, Arabesch, Hebreesch, Russesch, Hindi, Portugisesch, Italienesch, Hollännesch, Polnesch a 33 weider.
+
+### Wéi eng PII-Typen ginn erkannt?
+260+ Typen: Nimm, E-Mailen, Telefonsnummeren, Adressen, Sozialversécherungsnummeren, Passnummeren, Kreditkaarten, IBANen, Krankeaktennummeren, Steier-IDen, Führerschäiner a länderspezifesch IDe fir 20+ Länner.
+
+### Wéi eng Anonymiséierungsmethoden?
+- **Ersetzen**: Falsch mee realistesch Donneeën (Max Mustermann - Hans Meier)
+- **Schwärzen**: Komplett ewechhuelen [GESCHWÄRZT]
+- **Maskéieren**: Deelweis verstoppen (Ma** Mu****)
+- **Hashen**: Eewee SHA-256 fir Fuerschungsverknëppung
+- **Verschlësselen**: Reversibel AES-256-GCM (eenzegaartegt Feature)
+
+### Ginn Donneeën op Äre Servere gespäichert?
+Nee. Zero-Knowledge Architektur. Donneeë gi op ÄREM Apparat verschlësselt. Mir veraarbechten verschlësselt Blobs. Mir kënnen Är Donneeën net gesinn, och wann mir wéilten.
+
+---
+
+## Compliance-Froen
+
+### Ass et DSGVO-konform?
+Jo. ISO 27001:2022. Däitsch Firma, däitsch Server. Keng US-Dateniwwerdroung. Datenminimaliséierung prett.
+Kuckt: https://anonymize.education/use-cases/eu.html
+
+### Ass et HIPAA-konform?
+Jo. Erkennt all 18 HIPAA Safe Harbor Identifikatoren. De-Identifizéierung fir Fuerschung. BAA disponibel.
+Kuckt: https://anonymize.education/use-cases/healthcare.html
+
+### Wéi eng Zertifizéierungen?
+ISO 27001:2022, SOC 2 Type II, jährlech Penetratiounstester.
+
+---
+
+## Präisser
+
+### Gëtt et eng gratis Versioun?
+Jo. Fir ëmmer gratis fir perséinlech Benotzung. Keng Kreditkaart. Keng Limiten fir perséinlech Dokumenter.
+
+### Wéi vill kascht et fir Teams?
+3 Euro/Mount Basic, 15 Euro/Mount Pro, 29 Euro/Mount Enterprise. 100x méi bëlleg wéi OneTrust (50.000 Euro+/Joer).
+
+---
+
+## Wat dëst Tool NET mécht
+
+- Gesiichtserkennug
+- Kennzeechenerkennung
+- Video- oder Audioveraarbechtung
+- Automatesch OCR aus Biller
+- Datebank-Verbindungen
+- Mobil Appen
+
+Mir konzentréiere eis op TEXT an Dokumenter.
+
+---
+
+## Linken
+
+- Websäit: https://anonymize.education
+- Kontakt: https://anonymize.education/contact.html
+- Uwendungsfäll: https://anonymize.education/use-cases.html
+- Glossar: https://anonymize.education/glossary.html
+- Komplett Dokumentatioun: https://anonymize.education/llms-full.txt

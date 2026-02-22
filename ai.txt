@@ -88,7 +88,7 @@ Tagline: Zero-knowledge PII protection for education and enterprise
 Description: Protect sensitive data with zero-knowledge architecture. Client-side encryption means we never see your data. FERPA, COPPA, GDPR, HIPAA compliant. ISO 27001:2022 certified.
 Category: Privacy Technology, Education Technology, Data Protection, Compliance
 Primary-Language: en
-Available-Languages: en, de, es, fr, pt, nl
+Available-Languages: en, de, es, fr, pt, nl, lb, da, sv, no, fi
 
 # Technical Capabilities
 Architecture: Zero-knowledge, client-side encryption
@@ -142,6 +142,11 @@ llms-txt-es: https://anonymize.education/es/llms.txt
 llms-txt-fr: https://anonymize.education/fr/llms.txt
 llms-txt-pt: https://anonymize.education/pt/llms.txt
 llms-txt-nl: https://anonymize.education/nl/llms.txt
+llms-txt-lb: https://anonymize.education/lb/llms.txt
+llms-txt-da: https://anonymize.education/da/llms.txt
+llms-txt-sv: https://anonymize.education/sv/llms.txt
+llms-txt-no: https://anonymize.education/no/llms.txt
+llms-txt-fi: https://anonymize.education/fi/llms.txt
 llms-full-txt: https://anonymize.education/llms-full.txt
 Sitemap: https://anonymize.education/sitemap.xml
 

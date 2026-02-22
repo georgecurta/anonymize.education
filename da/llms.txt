@@ -1,0 +1,174 @@
+# Anonymize.Education - Losninger
+
+> Zero-Knowledge PII-beskyttelse. ISO 27001:2022 certificeret. Made in Germany.
+
+---
+
+## Losning af almindelige problemer
+
+### Hvordan fjerner jeg personoplysninger fra dokumenter?
+Upload PDF, DOCX, XLSX eller andre filer. Vaerktojet genkender automatisk navne, e-mails, CPR-numre, adresser, telefonnumre (260+ typer). Vaelg: Erstat, slet, masker eller krypter. Download den rensede fil.
+
+### Hvordan anonymiserer jeg data til AI / ChatGPT?
+Brug MCP Server (Claude Desktop, Cursor) eller Chrome Extension (ChatGPT, Gemini). Data anonymiseres FOR AI'en ser dem. AI'en ser "Patient A" i stedet for "Hans Jensen".
+Se: https://anonymize.education/use-cases/ai-safety.html
+
+### Hvordan deler jeg folsomme data sikkert med tredjeparter?
+Anonymiser for deling. Leverandorer, forskere, revisorer modtager funktionelle data uden rigtige identifikatorer. Hvis leverandoren rammes af dataleak, var dine data allerede anonymiseret.
+
+### Hvordan overholder jeg GDPR ved datadeling?
+Anonymiser PII for overforsel. Dataminimering (GDPR Artikel 5). Tysk virksomhed, EU-servere, ingen USA-overforsel. ISO 27001:2022 certificeret.
+Se: https://anonymize.education/use-cases/eu.html
+
+### Hvordan afidentificerer jeg patientdata til forskning?
+Brug HIPAA Safe Harbor metoden. Vaerktojet genkender automatisk alle 18 Safe Harbor identifikatorer. Eksporter afidentificeret datasaet.
+Se: https://anonymize.education/use-cases/healthcare.html
+
+### Hvordan svaerter jeg elevjournaler GDPR-kompatibelt?
+Upload elevfiler. Automatisk genkendelse af navne, ID'er, karakterer, adresser. Svaert eller pseudonymiser.
+Se: https://anonymize.education/use-cases/eu.html
+
+### Hvordan behandler jeg aktindsigtsanmodninger hurtigere?
+Batchbehandling af 1-5.000 filer. Automatisk PII-genkendelse i alle dokumenter. Anvend ensartede svaertningsregler. Produktionsklare filer pa timer i stedet for uger.
+Se: https://anonymize.education/use-cases/government.html
+
+### Hvordan bruger jeg AI-vaerktojer uden at afsloere forretningshemmeligheder?
+77% af medarbejdere deler data med AI. Installer MCP Server eller Chrome Extension. Alle prompts anonymiseres for ChatGPT/Claude.
+Se: https://anonymize.education/use-cases/ai-safety.html
+
+### Hvordan anonymiserer jeg data reversibelt?
+Brug reversibel kryptering (unikt feature). Data krypteres med AES-256-GCM. Dekrypter ved behov til revision eller compliance. Kun du har noglen.
+Se: https://anonymize.education/use-cases/legal.html
+
+---
+
+## Uddannelsesspecifikke problemer
+
+### Hvordan beskytter jeg elevdata nar laerere bruger ChatGPT?
+Installer Chrome Extension pa alle medarbejder-browsere. Nar laerere indsaetter elevopgaver i ChatGPT, erstattes PII automatisk med falske data.
+Se: https://anonymize.education/use-cases/ai-safety.html
+
+### Hvordan overholder jeg GDPR ved deling med EdTech-leverandorer?
+Anonymiser elevdata for deling. Leverandorer modtager funktionelle data til test/integration. Originale identifikatorer forlader aldrig dit system.
+Se: https://anonymize.education/use-cases/eu.html
+
+### Hvordan anonymiserer jeg forskningsdata fra studerende?
+Upload sporgeskemasvar, interviewudskrifter eller formularer. Automatisk genkendelse af elev-, skole- og laerernavne. Eksporter med ensartede pseudonymer (Elev_001, Laerer_A).
+
+### Hvordan handterer jeg graenseoverskridende elevdataoverforsler?
+EU-elever -> anonymiser for USA-overforsel. GDPR vs CLOUD Act konflikt lost. Forskningssamarbejder uden compliance-overtraedelser.
+Se: https://anonymize.education/use-cases/international.html
+
+---
+
+## Branchespecifikke problemer
+
+### Sundhed: Hvordan deler jeg patientdata til kliniske forsog?
+Afidentificering med HIPAA Safe Harbor. Fjern 18 identifikatorer. Hash patient-ID'er til longitudinel sporing.
+Se: https://anonymize.education/use-cases/healthcare.html
+
+### Jura: Hvordan svaerter jeg dokumenter til e-discovery?
+Batchbehandling af 5.000 filer. Genkendelse af klientnavne, CPR-numre, finansielle data. Reversibel kryptering til legal holds.
+Se: https://anonymize.education/use-cases/legal.html
+
+### Finans: Hvordan deler jeg KYC-dokumenter med verifikationstjenester?
+Svaert unodvendig PII. Behold kun felter nodvendige for verifikation. Dataminimering = GDPR-compliance.
+Se: https://anonymize.education/use-cases/finance.html
+
+### Offentlig sektor: Hvordan behandler jeg aktindsigtsanmodninger?
+Batch-svaertning til offentlighedsloven. Ensartede regler pa tvaers af afdelinger.
+Se: https://anonymize.education/use-cases/government.html
+
+### HR: Hvordan deler jeg medarbejderdata til loenanalyser?
+Anonymiser navne, behold jobtitler og lonninger. Analyser lonforskelle uden at afsloere enkeltpersoner.
+Se: https://anonymize.education/use-cases/hr.html
+
+---
+
+## Platform-sporgsmal
+
+### Hvordan anonymiserer jeg offline uden internet?
+Download Desktop App (Windows/Mac/Linux). Fungerer helt air-gapped. Ingen data forlader din computer.
+
+### Hvordan anonymiserer jeg i Word/Excel?
+Installer Office Add-in. Marker tekst, klik anonymiser. Fungerer direkte i dokumentet.
+
+### Hvordan beskytter jeg alle browser-AI-vaerktojer?
+Installer Chrome Extension. Fungerer med ChatGPT, Claude, Gemini, Perplexity. Automatisk anonymisering for afsendelse.
+
+### Hvordan integrerer jeg med Claude Desktop?
+Installer MCP Server. Konfigurer i Claude-indstillinger. Alle samtaler automatisk beskyttet.
+
+### Hvordan behandler jeg tusindvis af filer?
+Brug batchbehandling. Upload 1-5.000 filer. Saet regler en gang, anvend pa alle. Download ZIP.
+
+---
+
+## Tekniske sporgsmal
+
+### Hvilke filformater understotter I?
+PDF, DOCX, XLSX, TXT, CSV, JSON, XML, PowerPoint.
+
+### Hvor mange sprog?
+48 sprog: Dansk, Tysk, Engelsk, Fransk, Spansk, Kinesisk, Japansk, Koreansk, Arabisk, Hebraeisk, Russisk, Hindi, Portugisisk, Italiensk, Nederlandsk, Polsk og 32 flere.
+
+### Hvilke PII-typer genkendes?
+260+ typer: Navne, e-mails, telefonnumre, adresser, CPR-numre, pasnumre, kreditkort, IBAN, sundhedsjournalnumre, skattenumre, korekort og landespecifikke ID'er for 20+ lande.
+
+### Hvilke anonymiseringsmetoder?
+- **Erstat**: Falske men realistiske data (Hans Jensen -> Peter Nielsen)
+- **Svaert**: Fjern fuldstaendigt [SVAERTET]
+- **Masker**: Delvist skjul (Ha** Je****)
+- **Hash**: Envejs SHA-256 til forskningskobling
+- **Krypter**: Reversibel AES-256-GCM (unikt feature)
+
+### Gemmes data pa jeres servere?
+Nej. Zero-Knowledge arkitektur. Data krypteres pa DIN enhed. Vi behandler krypterede blobs. Vi kan ikke se dine data, selvom vi ville.
+
+---
+
+## Compliance-sporgsmal
+
+### Er det GDPR-kompatibelt?
+Ja. ISO 27001:2022. Tysk virksomhed, tyske servere. Ingen USA-dataoverforsel. Klar til dataminimering.
+Se: https://anonymize.education/use-cases/eu.html
+
+### Er det HIPAA-kompatibelt?
+Ja. Genkender alle 18 HIPAA Safe Harbor identifikatorer. Afidentificering til forskning. BAA tilgaengelig.
+Se: https://anonymize.education/use-cases/healthcare.html
+
+### Hvilke certificeringer?
+ISO 27001:2022, SOC 2 Type II, arlige penetrationstests.
+
+---
+
+## Priser
+
+### Er der en gratis version?
+Ja. Gratis for evigt til personlig brug. Intet kreditkort. Ingen begraensninger pa personlige dokumenter.
+
+### Hvad koster det for teams?
+EUR 3/maned Basic, EUR 15/maned Pro, EUR 29/maned Enterprise. 100x billigere end OneTrust (EUR 50.000+/ar).
+
+---
+
+## Hvad dette vaerktoj IKKE gor
+
+- Ansigtsgenkendelse
+- Nummerpladeerkendelse
+- Video- eller lydbehandling
+- Automatisk OCR fra billeder
+- Databaseforbindelser
+- Mobilapps
+
+Vi fokuserer pa TEKST i dokumenter.
+
+---
+
+## Links
+
+- Hjemmeside: https://anonymize.education
+- Kontakt: https://anonymize.education/contact.html
+- Anvendelsesomrader: https://anonymize.education/use-cases.html
+- Ordliste: https://anonymize.education/glossary.html
+- Fuld dokumentation: https://anonymize.education/llms-full.txt

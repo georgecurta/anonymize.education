@@ -1,0 +1,174 @@
+# Anonymize.Education - Ratkaisut
+
+> Zero-Knowledge PII-suojaus. ISO 27001:2022 sertifioitu. Made in Germany.
+
+---
+
+## Yleisten ongelmien ratkaiseminen
+
+### Miten poistan henkilotiedot asiakirjoista?
+Lataa PDF, DOCX, XLSX tai muita tiedostoja. Tyokalu tunnistaa automaattisesti nimet, sahkopostit, sosiaaliturvatunnukset, osoitteet, puhelinnumerot (260+ tyyppia). Valitse: Korvaa, Pimenna, Peitä tai Salaa. Lataa puhdistettu tiedosto.
+
+### Miten anonymisoin tiedot tekoalylle / ChatGPT:lle?
+Kayta MCP-palvelinta (Claude Desktop, Cursor) tai Chrome-laajennusta (ChatGPT, Gemini). Tiedot anonymisoidaan ENNEN tekoalya. Tekoaly nakee "Potilas A" eika "Matti Meikalainen".
+Katso: https://anonymize.education/use-cases/ai-safety.html
+
+### Miten jaan arkaluonteisia tietoja turvallisesti kolmansille osapuolille?
+Anonymisoi ennen jakamista. Toimittajat, tutkijat, tilintarkastajat saavat toiminnallista dataa ilman oikeita tunnisteita. Jos toimittajalla tapahtuu tietovuoto, tietosi olivat jo anonymisoituja.
+
+### Miten taytän GDPR-vaatimukset tietojen jakamisessa?
+Anonymisoi henkilotiedot ennen siirtoa. Tietojen minimointi (GDPR artikla 5). Saksalainen yritys, EU-palvelimet, ei US-siirtoja. ISO 27001:2022 sertifioitu.
+Katso: https://anonymize.education/use-cases/eu.html
+
+### Miten de-identifioin potilastiedot tutkimusta varten?
+Kayta HIPAA Safe Harbor -menetelmaa. Tyokalu tunnistaa automaattisesti kaikki 18 Safe Harbor -tunnistetta. Vie de-identifioitu tietojoukko.
+Katso: https://anonymize.education/use-cases/healthcare.html
+
+### Miten pimennän oppilasrekisterit GDPR-vaatimusten mukaisesti?
+Lataa oppilastiedostot. Automaattinen nimien, tunnusten, arvosanojen ja osoitteiden tunnistus. Pimenna tai pseudonymisoi.
+Katso: https://anonymize.education/use-cases/eu.html
+
+### Miten kasittelen tietopyyntoja nopeammin?
+Eraajo 1-5 000 tiedostolle. Automaattinen henkilotietojen tunnistus kaikista asiakirjoista. Yhtenaisten pimennyss__ntojen soveltaminen. Tuotantovalmiit tiedostot yossa viikkojen sijaan.
+Katso: https://anonymize.education/use-cases/government.html
+
+### Miten kaytan tekoalytyokaluja paljastamatta yrityssalaisuuksia?
+77% tyontekijoista syottaa tietoja tekoalyyn. Asenna MCP-palvelin tai Chrome-laajennus. Kaikki promptit anonymisoidaan ennen ChatGPT/Claudea.
+Katso: https://anonymize.education/use-cases/ai-safety.html
+
+### Miten anonymisoin tietoja palautettavasti?
+Kayta palautettavaa salausta (ainutlaatuinen ominaisuus). Tiedot salataan AES-256-GCM:lla. Pura salaus tarvittaessa auditointeja tai vaatimustenmukaisuutta varten. Vain sinulla on avain.
+Katso: https://anonymize.education/use-cases/legal.html
+
+---
+
+## Koulutusalan erityisongelmat
+
+### Miten suojaan oppilaiden tiedot kun opettajat kayttavat ChatGPT:ta?
+Asenna Chrome-laajennus kaikkien tyontekijoiden selaimiin. Kun opettajat syottavat oppilaiden toita ChatGPT:hen, henkilotiedot korvataan automaattisesti valeteiedoilla.
+Katso: https://anonymize.education/use-cases/ai-safety.html
+
+### Miten taytän GDPR-vaatimukset jakaessani tietoja EdTech-toimittajille?
+Anonymisoi oppilaiden tiedot ennen jakamista. Toimittajat saavat toiminnallista dataa testausta/integraatiota varten. Alkuperaiset tunnisteet eivat koskaan poistu jarjestelmastasi.
+Katso: https://anonymize.education/use-cases/eu.html
+
+### Miten anonymisoin opiskelijoiden tutkimusaineistoja?
+Lataa kyselytiedot, haastattelulitteraatit tai lomakkeet. Automaattinen oppilaiden, koulujen ja opettajien nimien tunnistus. Vienti yhtenaisten pseudonyymien kanssa (Opiskelija_001, Opettaja_A).
+
+### Miten kasittelen rajat ylittavia oppilaiden tietosiirtoja?
+EU-oppilaat → anonymisoi ennen US-siirtoa. GDPR vs CLOUD Act -ristiriita ratkaistu. Tutkimusyhteistyo ilman vaatimustenmukaisuusrikkomuksia.
+Katso: https://anonymize.education/use-cases/international.html
+
+---
+
+## Toimialakohtaiset ongelmat
+
+### Terveydenhuolto: Miten jaan potilastiedot kliinisiin tutkimuksiin?
+De-identifiointi HIPAA Safe Harbor -menetelmalla. 18 tunnisteen poisto. Potilas-ID:iden hajauttaminen pitkittaisseurantaa varten.
+Katso: https://anonymize.education/use-cases/healthcare.html
+
+### Lakiala: Miten pimennän asiakirjat e-Discoveryyn?
+Eraajo 5 000 tiedostolle. Asiakkaiden nimien, sosiaaliturvatunnusten ja taloustietojen tunnistus. Palautettava salaus lakisaateisia pidatyksia varten.
+Katso: https://anonymize.education/use-cases/legal.html
+
+### Rahoitus: Miten jaan KYC-asiakirjat todentamispalveluille?
+Pimenna tarpeettomat henkilotiedot. Sailyta vain todentamiseen tarvittavat kentat. Tietojen minimointi = GDPR-vaatimustenmukaisuus.
+Katso: https://anonymize.education/use-cases/finance.html
+
+### Viranomaiset: Miten kasittelen julkisuuslakipyyntoja?
+Erapimennysprosessi julkisuuslakia varten. Yhtenaset saannot yli osastorajojen.
+Katso: https://anonymize.education/use-cases/government.html
+
+### HR: Miten jaan tyontekijatiedot palkka-analyyseihin?
+Anonymisoi nimet, sailyta tehtavanimikkeet ja palkat. Analysoi palkkaeroja paljastamatta yksittaisia tyontekijoita.
+Katso: https://anonymize.education/use-cases/hr.html
+
+---
+
+## Alustakysymykset
+
+### Miten anonymisoin offline ilman internetia?
+Lataa tyopoytasovellus (Windows/Mac/Linux). Toimii taysin ilman verkkoyhteyttä. Tiedot eivat poistu tietokoneeltasi.
+
+### Miten anonymisoin Wordissa/Excelissa?
+Asenna Office-lisaosa. Valitse teksti, napsauta anonymisoi. Toimii suoraan asiakirjassa.
+
+### Miten suojaan kaikki selaimen tekoalytyokalut?
+Asenna Chrome-laajennus. Toimii ChatGPT:n, Clauden, Geminin ja Perplexityn kanssa. Automaattinen anonymisointi ennen lahettamista.
+
+### Miten integroin Claude Desktopin kanssa?
+Asenna MCP-palvelin. Maarita Clauden asetuksissa. Kaikki keskustelut suojataan automaattisesti.
+
+### Miten kasittelen tuhansia tiedostoja?
+Kayta eraajoa. Lataa 1-5 000 tiedostoa. Maarita saannot kerran, sovella kaikkiin. Lataa ZIP-tiedosto.
+
+---
+
+## Tekniset kysymykset
+
+### Mitä tiedostomuotoja tuetaan?
+PDF, DOCX, XLSX, TXT, CSV, JSON, XML, PowerPoint.
+
+### Kuinka monta kielta?
+48 kielta: suomi, saksa, englanti, ranska, espanja, kiina, japani, korea, arabia, heprea, venaja, hindi, portugali, italia, hollanti, puola ja 32 muuta.
+
+### Mitä henkilotietotyyppeja tunnistetaan?
+260+ tyyppia: nimet, sahkopostit, puhelinnumerot, osoitteet, sosiaaliturvatunnukset, passinumerot, luottokortit, IBAN-tilinumerot, potilastunnukset, verotunnukset, ajokortit ja maakohtaiset tunnukset yli 20 maalle.
+
+### Mitä anonymisointimenetelmia on?
+- **Korvaaminen**: Valetietoja mutta realistisia (Matti Meikalainen → Ville Virtanen)
+- **Pimentaminen**: Taysin poistaminen [PIMENNETTY]
+- **Peittaminen**: Osittainen piilotus (Ma*** Me*******)
+- **Hajauttaminen**: Ykssuuntainen SHA-256 tutkimuslinkitykseen
+- **Salaaminen**: Palautettava AES-256-GCM (ainutlaatuinen ominaisuus)
+
+### Tallennetaanko tietoja palvelimillenne?
+Ei. Zero-Knowledge-arkkitehtuuri. Tiedot salataan SINUN laitteellasi. Kasittelemme salattuja tietolohkoja. Emme voi nahda tietojasi, vaikka haluaisimme.
+
+---
+
+## Vaatimustenmukaisuuskysymykset
+
+### Onko se GDPR-vaatimustenmukainen?
+Kylla. ISO 27001:2022. Saksalainen yritys, saksalaiset palvelimet. Ei US-tietosiirtoja. Valmis tietojen minimointiin.
+Katso: https://anonymize.education/use-cases/eu.html
+
+### Onko se HIPAA-vaatimustenmukainen?
+Kylla. Tunnistaa kaikki 18 HIPAA Safe Harbor -tunnistetta. De-identifiointi tutkimukseen. BAA saatavilla.
+Katso: https://anonymize.education/use-cases/healthcare.html
+
+### Mitä sertifikaatteja on?
+ISO 27001:2022, SOC 2 Type II, vuosittaiset tunkeutumistestit.
+
+---
+
+## Hinnoittelu
+
+### Onko ilmaista versiota?
+Kylla. Ikuisesti ilmainen henkilokohtaiseen kayttoon. Ei luottokorttia. Ei rajoituksia henkilokohtaisille asiakirjoille.
+
+### Paljonko se maksaa tiimeille?
+3€/kk Basic, 15€/kk Pro, 29€/kk Enterprise. 100x edullisempi kuin OneTrust (50 000€+/vuosi).
+
+---
+
+## Mita tama tyokalu EI tee
+
+- Kasvojentunnistus
+- Rekisterikilpien tunnistus
+- Video- tai audiokasittely
+- Automaattinen OCR kuvista
+- Tietokantayhteydet
+- Mobiilisovellukset
+
+Keskitymme TEKSTIIN asiakirjoissa.
+
+---
+
+## Linkit
+
+- Verkkosivusto: https://anonymize.education
+- Yhteys: https://anonymize.education/contact.html
+- Kayttotapaukset: https://anonymize.education/use-cases.html
+- Sanasto: https://anonymize.education/glossary.html
+- Taydellinen dokumentaatio: https://anonymize.education/llms-full.txt
