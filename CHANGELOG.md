@@ -4,6 +4,23 @@ All notable changes to the Anonymize.Education website will be documented in thi
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
+## [1.1.6] - 2026-02-22
+
+### Contact Form Fix — Config Loading Bug
+
+Fixed critical bug where contact form showed "success" but emails were not delivered.
+
+#### Root Cause
+- nginx `fastcgi_param` sets `$_SERVER` variables
+- PHP code used `getenv()` which reads environment variables (different from `$_SERVER`)
+- Config path fell back to placeholder `config.php` with empty MS Graph credentials
+- Emails silently failed to send
+
+#### Fix
+- Updated `api/send-message.php` to check `$_SERVER` before `getenv()`
+- Config now correctly loads from `/var/www/config/anonymize-education-mail.php`
+- Contact form emails now delivered to info@macxpress.net
+
 ## [1.1.5] - 2026-02-19
 
 ### Multilingual AI Crawler Files (DE, ES, FR)

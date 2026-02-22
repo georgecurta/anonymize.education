@@ -470,6 +470,7 @@ node tests/production-check.js
 | Version | Date | Changes |
 |---------|------|---------|
 | 2.0.0 | TBD | Education worldwide compatibility update |
+| 1.1.6 | 2026-02-22 | Contact form fix (config loading bug) |
 | 1.1.5 | 2026-02-19 | Multilingual llms.txt (DE, ES, FR) |
 | 1.1.4 | 2026-02-19 | AI crawler files with education-focused Q&A |
 | 1.1.3 | 2026-02-16 | SEO audit fix, meta tag alignment |
@@ -523,4 +524,4 @@ AI chatbots detect user's language and use appropriate file.
 
 ---
 
-*Last Updated: 2026-02-19*
+*Last Updated: 2026-02-22*
