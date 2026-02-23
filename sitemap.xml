@@ -347,6 +347,35 @@
     <priority>0.7</priority>
   </url>
 
+  <!-- Comparison Pages -->
+  <url>
+    <loc>https://anonymize.education/comparisons/vs-onetrust.html</loc>
+    <lastmod>2026-02-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://anonymize.education/comparisons/vs-bigid.html</loc>
+    <lastmod>2026-02-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://anonymize.education/comparisons/vs-private-ai.html</loc>
+    <lastmod>2026-02-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://anonymize.education/comparisons/vs-manual-redaction.html</loc>
+    <lastmod>2026-02-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
   <!-- Legal Pages -->
   <url>
     <loc>https://anonymize.education/datenschutz.html</loc>

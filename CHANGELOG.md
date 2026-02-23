@@ -4,6 +4,36 @@ All notable changes to the Anonymize.Education website will be documented in thi
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
+## [1.2.1] - 2026-02-23
+
+### Comparison Pages — vs OneTrust, BigID, Private AI, Manual Redaction
+
+Created 4 detailed competitor comparison pages for SEO and conversion optimization.
+
+#### New Pages (4)
+- `/comparisons/vs-onetrust.html` — 100x more affordable ($588/year vs $50,000+)
+- `/comparisons/vs-bigid.html` — 48 languages, offline mode
+- `/comparisons/vs-private-ai.html` — Education-native with LMS integrations
+- `/comparisons/vs-manual-redaction.html` — 1000x faster, 99%+ accuracy
+
+#### Features Per Comparison Page
+- Full feature comparison table
+- Price/savings calculator
+- "When competitor makes sense" balanced section
+- FAQPage JSON-LD (4 questions each)
+- BreadcrumbList schema
+- Related comparisons cross-linking
+
+#### Updates
+- `competitors.html` — Added "Detailed Comparisons" section with 4 card links
+- `sitemap.xml` — Added 4 new comparison URLs
+- `llms-full.txt` — Regenerated (35 pages, 34,025 words)
+
+#### SEO Audit Results
+- All 35 pages have JSON-LD
+- 901 internal links validated
+- All checks pass
+
 ## [1.2.0] - 2026-02-23
 
 ### SEO Enhancement — Competitor Analysis & Schema Improvements
