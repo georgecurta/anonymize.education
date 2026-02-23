@@ -102,15 +102,108 @@
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "WebPage",
-    "name": "HR & Employee Data Use Cases",
-    "description": "GDPR compliance, employee file redaction, background checks, performance reviews, and cross-border HR data transfers.",
-    "url": "https://anonymize.education/use-cases/hr.html",
-    "publisher": {
-      "@type": "Organization",
-      "name": "Anonymize.Education",
-      "url": "https://anonymize.education"
-    }
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://anonymize.education/#organization",
+        "name": "Anonymize.Education",
+        "url": "https://anonymize.education",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://anonymize.education/images/logo.png"
+        }
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://anonymize.education/#website",
+        "name": "Anonymize.Education",
+        "url": "https://anonymize.education",
+        "publisher": {
+          "@id": "https://anonymize.education/#organization"
+        }
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://anonymize.education/use-cases/hr.html#webpage",
+        "url": "https://anonymize.education/use-cases/hr.html",
+        "name": "HR & Employee Data Use Cases | Anonymize.Education",
+        "description": "GDPR compliance, employee file redaction, background checks, performance reviews, and cross-border HR data transfers for human resources departments.",
+        "isPartOf": {
+          "@id": "https://anonymize.education/#website"
+        },
+        "publisher": {
+          "@id": "https://anonymize.education/#organization"
+        },
+        "breadcrumb": {
+          "@id": "https://anonymize.education/use-cases/hr.html#breadcrumb"
+        },
+        "mainEntity": {
+          "@id": "https://anonymize.education/use-cases/hr.html#faq"
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://anonymize.education/use-cases/hr.html#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://anonymize.education/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Use Cases",
+            "item": "https://anonymize.education/use-cases.html"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "HR & Employee Data",
+            "item": "https://anonymize.education/use-cases/hr.html"
+          }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://anonymize.education/use-cases/hr.html#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "How can HR departments use AI tools without violating GDPR?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "HR departments can safely use AI tools by anonymizing employee data before it reaches any AI service. Using an MCP Server integration, employee identifiers are automatically removed while preserving context. For example, 'employee with performance concerns in sales' can be processed by AI without revealing 'John Smith in Frankfurt office.' This prevents employee data from becoming AI training data and ensures GDPR compliance. Studies show 77% of employees leak sensitive data to AI tools, making pre-submission anonymization essential for HR operations."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How do you properly redact employee files for litigation discovery?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Proper employee file redaction for litigation requires automated detection of all employee names, employee IDs, and identifying information across thousands of documents. Personnel files contain interconnected data including manager feedback mentioning other employees, incident reports naming witnesses, and HR notes referencing comparable cases. Reversible encryption maintains access to original data for authorized purposes while producing redacted versions for discovery. Under-redaction exposes non-party employees to privacy violations, while over-redaction can appear as evidence concealment."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is the correct way to transfer EU employee data to US headquarters?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Post-Schrems II, EU-to-US employee data transfers require supplementary measures beyond Standard Contractual Clauses. The safest approach is to anonymize employee data before cross-border transfer. US headquarters receives aggregated HR metrics without individual identifiers, while detailed employee records remain in EU systems. This resolves the fundamental tension between GDPR privacy rights and US CLOUD Act surveillance authority, ensuring compliant global HR reporting without individual data exposure."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Why is PDF highlighting not proper redaction for HR documents?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Black highlighting or boxes drawn over text in PDF documents do not remove the underlying data - it can be copy-pasted, extracted with tools, or revealed by changing formatting. Salaries, SSNs, health information, and performance ratings remain fully accessible to anyone who knows how to extract them. True PDF redaction requires removing the underlying text completely, not just covering it visually. Proper redaction produces flattened output ensuring no hidden layers remain, with verification mode confirming the redaction is permanent and irreversible."
+            }
+          }
+        ]
+      }
+    ]
   }
   </script>
 </head>

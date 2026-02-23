@@ -1,6 +1,6 @@
 # Anonymize.Education -- Full Content
 
-> Zero-knowledge PII protection for education
+> Zero-knowledge student data privacy for schools worldwide
 > This file contains the full text content of all pages on Anonymize.Education.
 > For a structured index, see: https://anonymize.education/llms.txt
 
@@ -5854,6 +5854,29 @@ Yes
 Yes
 Yes
 
+#### Related Use Cases
+
+[
+🇺🇸
+US Education
+FERPA-compliant AI in schools
+](us.html)
+[
+🇪🇺
+EU GDPR
+GDPR-compliant AI usage
+](eu.html)
+[
+🏥
+Healthcare
+HIPAA-compliant AI for clinicians
+](healthcare.html)
+[
+⚖
+Legal
+AI for legal research
+](legal.html)
+
 ---
 
 ## APAC Education Privacy | Anonymize.Education
@@ -6135,6 +6158,29 @@ Your university procurement requires ISO 27001 certification for any vendor hand
 **Solution:** Anonymize.Education is ISO 27001:2022 certified. Pre-filled security questionnaires available. Vendor assessment completed in hours, not weeks.
 
 Source: [Canadian Cyber - ISO 27001 Vendor Requirements](https://canadiancyber.ca/iso-27001-vendor-requirements/)
+
+#### Related Use Cases
+
+[
+🇬🇧
+United Kingdom
+UK GDPR & Children's Code
+](uk.html)
+[
+🤖
+AI Safety
+GDPR-compliant AI usage
+](ai-safety.html)
+[
+🏦
+Finance
+Cross-border banking data
+](finance.html)
+[
+👤
+HR
+GDPR Article 9 employee data
+](hr.html)
 
 ---
 
@@ -6689,6 +6735,29 @@ Behavioral health records have heightened protections under 42 CFR Part 2 (subst
 **Solution:** Zero-knowledge architecture means data is encrypted client-side before storage. Even if systems are compromised, behavioral health records remain protected by encryption that even the provider cannot break.
 
 Zero-knowledge architecture for highest sensitivity data
+
+#### Related Use Cases
+
+[
+🇺🇸
+US Education
+FERPA & COPPA compliance
+](us.html)
+[
+🤖
+AI Safety
+HIPAA-compliant AI usage
+](ai-safety.html)
+[
+⚖
+Legal
+Medical malpractice e-discovery
+](legal.html)
+[
+🏛
+Government
+Public health records
+](government.html)
 
 ---
 
@@ -7668,5 +7737,28 @@ Your state requires that student PII never leave state-controlled infrastructure
 **Solution:** Desktop App with Tauri processes everything locally. No network connectivity required. Data never leaves your controlled infrastructure.
 
 Source: [Hoop.dev - Air-Gapped Deployment for PII Security](https://hoop.dev/blog/what-air-gapped-deployment-really-means-for-pii-data-security/)
+
+#### Related Use Cases
+
+[
+🏥
+Healthcare
+HIPAA Safe Harbor compliance
+](healthcare.html)
+[
+🤖
+AI Safety
+Protect data from ChatGPT & Claude
+](ai-safety.html)
+[
+🏛
+Government
+FOIA & public records processing
+](government.html)
+[
+⚖
+Legal
+E-discovery & reversible encryption
+](legal.html)
 
 ---

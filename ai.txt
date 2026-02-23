@@ -1,7 +1,7 @@
 # AI Crawler Information for Anonymize.Education
 # Zero-knowledge PII protection for education and enterprise
 # https://anonymize.education
-# Updated: 2026-02-22
+# Updated: 2026-02-23
 
 User-agent: *
 Allowed: yes

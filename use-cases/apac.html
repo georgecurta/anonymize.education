@@ -106,15 +106,105 @@
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "WebPage",
-    "name": "APAC Education Privacy",
-    "description": "PDPA and regional compliance for Asia-Pacific schools. Protect student data with zero-knowledge architecture.",
-    "url": "https://anonymize.education/use-cases/apac.html",
-    "publisher": {
-      "@type": "Organization",
-      "name": "Anonymize.Education",
-      "url": "https://anonymize.education"
-    }
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://anonymize.education/#organization",
+        "name": "Anonymize.Education",
+        "url": "https://anonymize.education",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://anonymize.education/images/og-image.png"
+        }
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://anonymize.education/#website",
+        "url": "https://anonymize.education",
+        "name": "Anonymize.Education",
+        "publisher": {
+          "@id": "https://anonymize.education/#organization"
+        }
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://anonymize.education/use-cases/apac.html#webpage",
+        "url": "https://anonymize.education/use-cases/apac.html",
+        "name": "APAC Education Privacy",
+        "description": "Singapore PDPA, China PIPL, Japan APPI, Korea PIPA compliance and CJK language PII detection for Asia-Pacific schools.",
+        "isPartOf": {
+          "@id": "https://anonymize.education/#website"
+        },
+        "publisher": {
+          "@id": "https://anonymize.education/#organization"
+        },
+        "breadcrumb": {
+          "@id": "https://anonymize.education/use-cases/apac.html#breadcrumb"
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://anonymize.education/use-cases/apac.html#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://anonymize.education/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Use Cases",
+            "item": "https://anonymize.education/use-cases.html"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "APAC",
+            "item": "https://anonymize.education/use-cases/apac.html"
+          }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://anonymize.education/use-cases/apac.html#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "How does China PIPL affect cross-border student data transfers?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "China's PIPL Article 38 requires security assessments for cross-border data transfers. International schools must navigate both Chinese law and parent countries' privacy expectations. However, anonymized data is not considered 'personal information' under PIPL Article 4, allowing schools to share academic transcripts and recommendations with foreign universities without triggering security assessment requirements. Penalties for non-compliance can reach CNY 50M or 5% of annual revenue."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What are the challenges of detecting PII in CJK languages?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "CJK (Chinese, Japanese, Korean) scripts pose unique challenges for PII detection. A single Korean name can appear in Hangul, Hanja, or multiple romanizations. Japanese names face similar challenges with kanji readings. Standard NER tools built for English fail on non-Latin text. Effective APAC data protection requires ML-based entity recognition trained on CJK corpora that identifies names regardless of script or romanization variant, plus pattern matching for regional ID numbers like Japanese My Number and Korean RRN."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How can schools comply with Singapore PDPA when handling student data?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Singapore's PDPA requires organizations to appoint a Data Protection Officer and implement reasonable security measures. Schools handling minors' data face additional scrutiny and must demonstrate clear consent from parents. The PDPC has issued fines from SGD 10,000 to SGD 1M. Schools should anonymize student records before storage and sharing, replace NRIC with pseudonymized identifiers, and share anonymized academic performance data with the ministry without exposing individual identities."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How can multi-jurisdiction school networks achieve compliance across APAC?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Schools operating across Singapore, Hong Kong, China, Japan, and Korea face different requirements in each jurisdiction. Singapore PDPA, Hong Kong PDPO, China PIPL, Japan APPI, and Korea PIPA each have varying cross-border transfer rules. The solution is to process data locally with offline-capable tools, then share only anonymized aggregates to headquarters. Anonymized data falls outside personal data regulations in all these jurisdictions, enabling central oversight and reporting while complying with each country's data localization requirements."
+            }
+          }
+        ]
+      }
+    ]
   }
   </script>
 </head>

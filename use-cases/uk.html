@@ -106,15 +106,104 @@
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "WebPage",
-    "name": "UK Education Privacy",
-    "description": "UK GDPR compliance for British schools. Protect student data with zero-knowledge architecture.",
-    "url": "https://anonymize.education/use-cases/uk.html",
-    "publisher": {
-      "@type": "Organization",
-      "name": "Anonymize.Education",
-      "url": "https://anonymize.education"
-    }
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://anonymize.education/#organization",
+        "name": "Anonymize.Education",
+        "url": "https://anonymize.education",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://anonymize.education/images/og-image.png"
+        }
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://anonymize.education/#website",
+        "name": "Anonymize.Education",
+        "url": "https://anonymize.education",
+        "publisher": {
+          "@id": "https://anonymize.education/#organization"
+        }
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://anonymize.education/use-cases/uk.html#webpage",
+        "name": "UK Education Privacy",
+        "description": "UK GDPR compliance, ICO enforcement, Children's Code requirements, and data protection for British schools and universities.",
+        "url": "https://anonymize.education/use-cases/uk.html",
+        "isPartOf": {
+          "@id": "https://anonymize.education/#website"
+        },
+        "publisher": {
+          "@id": "https://anonymize.education/#organization"
+        },
+        "inLanguage": "en-GB",
+        "dateModified": "2026-02-23"
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://anonymize.education/use-cases/uk.html#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://anonymize.education/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Use Cases",
+            "item": "https://anonymize.education/use-cases.html"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "UK Education Privacy",
+            "item": "https://anonymize.education/use-cases/uk.html"
+          }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://anonymize.education/use-cases/uk.html#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is the maximum fine for UK GDPR violations in schools?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Under UK GDPR and the Data Protection Act 2018, organisations can face fines of up to GBP 17.5 million or 4% of annual global turnover, whichever is higher. Schools are not exempt from ICO enforcement. The ICO has issued reprimands and enforcement notices to education providers for data breaches involving pupil records."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is the Children's Code (AADC) and how does it affect UK schools?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The Age Appropriate Design Code (Children's Code) has been mandatory since September 2021. It consists of 15 standards that apply to any online service 'likely to be accessed by children.' EdTech platforms used by schools must implement privacy by default, minimise data collection, and provide transparency suitable for children. The ICO actively enforces the Code and has taken action against major platforms like Instagram, TikTok, and YouTube."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How quickly must UK schools report data breaches to the ICO?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Under UK GDPR Article 33, organisations must notify the ICO of personal data breaches within 72 hours of becoming aware of them. Education sector breaches involving children's data attract higher scrutiny. Failure to notify can result in separate fines in addition to penalties for the underlying breach violation."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can UK schools use AI tools like ChatGPT with student data?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The DfE issued guidance in 2023 warning schools about AI tools and data protection. Pupil data entered into generative AI services may be used for model training, retained indefinitely, or processed outside the UK, potentially breaching UK GDPR. Schools should anonymise pupil data before it reaches any AI service to unlock AI benefits whilst maintaining full UK GDPR compliance."
+            }
+          }
+        ]
+      }
+    ]
   }
   </script>
 </head>

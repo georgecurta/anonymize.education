@@ -106,15 +106,109 @@
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "WebPage",
-    "name": "International Schools Privacy",
-    "description": "Multi-jurisdiction compliance for international schools. Protect student data with zero-knowledge architecture.",
-    "url": "https://anonymize.education/use-cases/international.html",
-    "publisher": {
-      "@type": "Organization",
-      "name": "Anonymize.Education",
-      "url": "https://anonymize.education"
-    }
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://anonymize.education/#organization",
+        "name": "Anonymize.Education",
+        "url": "https://anonymize.education",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://anonymize.education/images/logo.png"
+        },
+        "sameAs": []
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://anonymize.education/#website",
+        "url": "https://anonymize.education",
+        "name": "Anonymize.Education",
+        "publisher": {
+          "@id": "https://anonymize.education/#organization"
+        }
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://anonymize.education/use-cases/international.html",
+        "url": "https://anonymize.education/use-cases/international.html",
+        "name": "International Schools Privacy",
+        "description": "Multi-jurisdiction compliance for international schools. 48 language support, 260+ PII entity types, and zero-knowledge architecture for global data protection.",
+        "isPartOf": {
+          "@id": "https://anonymize.education/#website"
+        },
+        "publisher": {
+          "@id": "https://anonymize.education/#organization"
+        },
+        "breadcrumb": {
+          "@id": "https://anonymize.education/use-cases/international.html#breadcrumb"
+        },
+        "mainEntity": {
+          "@id": "https://anonymize.education/use-cases/international.html#faq"
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://anonymize.education/use-cases/international.html#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://anonymize.education/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Use Cases",
+            "item": "https://anonymize.education/use-cases.html"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "International Schools",
+            "item": "https://anonymize.education/use-cases/international.html"
+          }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://anonymize.education/use-cases/international.html#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "How can international schools comply with multiple data protection laws simultaneously?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "International schools can achieve multi-jurisdiction compliance by anonymizing data to the strictest standard (currently GDPR). Data anonymized to EU standards satisfies virtually all other jurisdictions including US state laws, Singapore PDPA, UAE PDPL, and others. This single-standard approach provides global compliance without managing 50+ different legal frameworks."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How do you handle PII detection across different languages and writing systems?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Anonymize.Education supports 48 languages across 12+ writing systems including Latin, Chinese characters (kanji), Arabic script, Cyrillic, and more. Our hybrid regex + NLP + ML detection recognizes names, addresses, and IDs regardless of script, with built-in cultural name format awareness for different naming conventions (family name first in East Asia, patronymics in Russia, multiple family names in Spain)."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How can schools resolve data localization conflicts when using centralized student information systems?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Data localization conflicts can be resolved by understanding that anonymized data is not personal data under most frameworks. Schools can store encrypted data centrally while localizing only the encryption keys. Each jurisdiction's keys stay local (China, Russia, EU), but unified operations continue on the anonymized data. This approach maintains operational efficiency while satisfying conflicting localization requirements."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What special considerations exist for embassy and diplomatic schools handling student data?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Embassy schools face unique challenges: host country laws apply to local staff and facilities, the sending country may demand data access for security clearances, and diplomatic families expect diplomatic-level privacy. Zero-knowledge architecture addresses this by ensuring that even if compelled by host or sending country authorities, the school cannot provide cleartext student data. Encryption keys remain only with authorized personnel, providing diplomatic-grade data protection."
+            }
+          }
+        ]
+      }
+    ]
   }
   </script>
 </head>

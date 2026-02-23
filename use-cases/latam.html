@@ -106,15 +106,105 @@
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "WebPage",
-    "name": "LATAM Education Privacy",
-    "description": "LGPD and regional compliance for Latin American schools. Protect student data with zero-knowledge architecture.",
-    "url": "https://anonymize.education/use-cases/latam.html",
-    "publisher": {
-      "@type": "Organization",
-      "name": "Anonymize.Education",
-      "url": "https://anonymize.education"
-    }
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://anonymize.education/#organization",
+        "name": "Anonymize.Education",
+        "url": "https://anonymize.education",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://anonymize.education/images/logo.png"
+        }
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://anonymize.education/#website",
+        "url": "https://anonymize.education",
+        "name": "Anonymize.Education",
+        "publisher": {
+          "@id": "https://anonymize.education/#organization"
+        }
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://anonymize.education/use-cases/latam.html#webpage",
+        "url": "https://anonymize.education/use-cases/latam.html",
+        "name": "LATAM Education Privacy | Anonymize.Education",
+        "description": "LGPD and regional compliance for Latin American schools. Protect student data with zero-knowledge architecture.",
+        "isPartOf": {
+          "@id": "https://anonymize.education/#website"
+        },
+        "publisher": {
+          "@id": "https://anonymize.education/#organization"
+        },
+        "breadcrumb": {
+          "@id": "https://anonymize.education/use-cases/latam.html#breadcrumb"
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://anonymize.education/use-cases/latam.html#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://anonymize.education/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Use Cases",
+            "item": "https://anonymize.education/use-cases.html"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "LATAM",
+            "item": "https://anonymize.education/use-cases/latam.html"
+          }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://anonymize.education/use-cases/latam.html#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is LGPD and how does it affect Brazilian schools?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "LGPD (Lei Geral de Protecao de Dados) is Brazil's comprehensive data protection law, equivalent to GDPR. It affects all Brazilian schools processing student data including CPF numbers, health records, and family information. ANPD (Brazil's data protection authority) can impose fines up to 2% of annual revenue or BRL 50 million per violation. Schools must obtain explicit parental consent, limit data collection, and ensure purpose limitation for all student personal data."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How can schools safely transfer student data across Latin American countries?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Cross-border data transfers in LATAM face multiple regulatory challenges including Brazil's LGPD Article 33, Mexico's LFPDPPP, Argentina's PDPL, Chile's data protection law, and Colombia's Law 1581. The solution is to anonymize student data before transfer. Anonymized data falls outside personal data definitions in all LATAM frameworks, enabling centralized academic analytics while keeping identifiable data local and compliant with each country's requirements."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Why do standard PII detection tools fail for Spanish and Portuguese student records?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Traditional PII detection tools are primarily trained on English text and miss critical LATAM-specific patterns. They fail to recognize Spanish accented names, Portuguese patronymics (Filho, Neto), and region-specific document numbers like Brazilian CPF, Mexican CURP, Argentine CUIT/CUIL, Colombian NIT, and Chilean RUT. Effective LATAM compliance requires hybrid regex + NLP + ML detection that natively supports 48 languages including Spanish and Portuguese variants with proper accent handling."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How can schools prepare for ANPD audits and demonstrate LGPD compliance?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "ANPD requires schools to maintain records of processing activities (ROPA), demonstrate legal basis for each data use, and prove adequate security measures. Zero-knowledge architecture provides audit-ready documentation with logged anonymization operations and timestamps. This demonstrates that student PII was protected before any external processing, giving ANPD auditors mathematical proof of compliance rather than just policies. Inability to demonstrate compliance is itself a violation under LGPD Article 50."
+            }
+          }
+        ]
+      }
+    ]
   }
   </script>
 </head>

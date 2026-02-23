@@ -98,19 +98,117 @@
     .footer__link { display: block; font-size: 0.9375rem; opacity: 0.8; margin-bottom: 0.5rem; transition: opacity 0.15s; }
     .footer__link:hover { opacity: 1; }
     .footer__bottom { padding-top: 1.5rem; border-top: 1px solid rgba(255,255,255,0.1); display: flex; justify-content: space-between; flex-wrap: wrap; gap: 1rem; font-size: 0.875rem; opacity: 0.5; }
+    .related { background: white; border-radius: 12px; padding: 2rem; margin-top: 2rem; border: 1px solid rgba(0,0,0,0.08); }
+    .related__title { font-size: 1.25rem; font-weight: 700; color: var(--color-slate); margin-bottom: 1.5rem; text-align: center; }
+    .related__grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; }
+    .related__card { display: flex; flex-direction: column; align-items: center; text-align: center; padding: 1.5rem 1rem; background: #f8fafc; border-radius: 8px; transition: all 0.15s; text-decoration: none; }
+    .related__card:hover { background: var(--color-trust-light); transform: translateY(-2px); }
+    .related__icon { font-size: 2rem; margin-bottom: 0.5rem; }
+    .related__name { font-size: 1rem; font-weight: 600; color: var(--color-trust); margin-bottom: 0.25rem; }
+    .related__desc { font-size: 0.8125rem; color: var(--color-slate-600); }
   </style>
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "WebPage",
-    "name": "Healthcare PII Protection",
-    "description": "HIPAA compliance, patient data anonymization, clinical research, and medical record redaction for hospitals and clinics.",
-    "url": "https://anonymize.education/use-cases/healthcare.html",
-    "publisher": {
-      "@type": "Organization",
-      "name": "Anonymize.Education",
-      "url": "https://anonymize.education"
-    }
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://anonymize.education/#organization",
+        "name": "Anonymize.Education",
+        "url": "https://anonymize.education",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://anonymize.education/images/og-image.png"
+        }
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://anonymize.education/#website",
+        "url": "https://anonymize.education",
+        "name": "Anonymize.Education",
+        "publisher": {
+          "@id": "https://anonymize.education/#organization"
+        }
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://anonymize.education/use-cases/healthcare.html#webpage",
+        "url": "https://anonymize.education/use-cases/healthcare.html",
+        "name": "Healthcare PII Protection",
+        "description": "HIPAA compliance, patient data anonymization, clinical research, and medical record redaction for hospitals and clinics.",
+        "isPartOf": {
+          "@id": "https://anonymize.education/#website"
+        },
+        "publisher": {
+          "@id": "https://anonymize.education/#organization"
+        },
+        "breadcrumb": {
+          "@id": "https://anonymize.education/use-cases/healthcare.html#breadcrumb"
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://anonymize.education/use-cases/healthcare.html#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://anonymize.education/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Use Cases",
+            "item": "https://anonymize.education/use-cases.html"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Healthcare",
+            "item": "https://anonymize.education/use-cases/healthcare.html"
+          }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://anonymize.education/use-cases/healthcare.html#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What are the 18 HIPAA Safe Harbor identifiers that must be removed for de-identification?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "HIPAA Safe Harbor requires removal of 18 specific identifier types including names, geographic data smaller than state, dates (except year), phone numbers, fax numbers, email addresses, Social Security numbers, medical record numbers, health plan beneficiary numbers, account numbers, certificate/license numbers, vehicle identifiers, device identifiers, web URLs, IP addresses, biometric identifiers, full-face photographs, and any other unique identifying number or code. Our automated system detects all 18 HIPAA Safe Harbor identifiers plus 240+ additional entity types."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can I use AI tools like ChatGPT with patient data while maintaining HIPAA compliance?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Entering patient data directly into AI services like ChatGPT violates HIPAA's minimum necessary standard and constitutes an unauthorized disclosure. Patient data entered into AI services may become training data, exposing names, diagnoses, and treatments to third-party providers. The solution is to use MCP Server integration that anonymizes patient data before it reaches any AI - physicians can describe clinical scenarios while all identifiers are automatically removed, preserving clinical context while maintaining HIPAA compliance."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How do I handle medical malpractice litigation discovery requests while protecting other patients' PHI?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Medical records and incident reports often contain information about uninvolved patients. Over-redaction can appear as evidence concealment, while under-redaction exposes non-party patients to privacy violations. The recommended approach is reversible encryption that maintains access to original data for authorized purposes. You can produce redacted versions for discovery while preserving the ability to decrypt if the court orders original documents."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What special protections apply to behavioral health and substance abuse records beyond HIPAA?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Behavioral health records have heightened protections under 42 CFR Part 2 for substance abuse treatment and various state mental health laws. 42 CFR Part 2 is stricter than HIPAA - substance abuse treatment records cannot be disclosed without specific patient consent, even to other treating providers. For these high-sensitivity records, zero-knowledge architecture ensures data is encrypted client-side before storage, so even if systems are compromised, behavioral health records remain protected by encryption that even the service provider cannot break."
+            }
+          }
+        ]
+      }
+    ]
   }
   </script>
 </head>
@@ -417,6 +515,32 @@
         </div>
 
         <span class="stat-highlight">Zero-knowledge architecture for highest sensitivity data</span>
+      </div>
+    </section>
+
+    <section class="related">
+      <h2 class="related__title">Related Use Cases</h2>
+      <div class="related__grid">
+        <a href="us.html" class="related__card">
+          <span class="related__icon">&#127482;&#127480;</span>
+          <span class="related__name">US Education</span>
+          <span class="related__desc">FERPA & COPPA compliance</span>
+        </a>
+        <a href="ai-safety.html" class="related__card">
+          <span class="related__icon">&#129302;</span>
+          <span class="related__name">AI Safety</span>
+          <span class="related__desc">HIPAA-compliant AI usage</span>
+        </a>
+        <a href="legal.html" class="related__card">
+          <span class="related__icon">&#9878;</span>
+          <span class="related__name">Legal</span>
+          <span class="related__desc">Medical malpractice e-discovery</span>
+        </a>
+        <a href="government.html" class="related__card">
+          <span class="related__icon">&#127963;</span>
+          <span class="related__name">Government</span>
+          <span class="related__desc">Public health records</span>
+        </a>
       </div>
     </section>
 

@@ -5,7 +5,7 @@
 **Domain**: anonymize.education
 **Purpose**: Marketing website for education-focused data anonymization platform
 **Backend**: cloak.business (serves the PII detection/anonymization API)
-**Status**: Live in production (v1.1.9, deployed 2026-02-22)
+**Status**: Live in production (v1.2.0, deployed 2026-02-23)
 
 ### Architecture
 ```
@@ -470,6 +470,7 @@ node tests/production-check.js
 | Version | Date | Changes |
 |---------|------|---------|
 | 2.0.0 | TBD | Education worldwide compatibility update |
+| 1.2.0 | 2026-02-23 | SEO enhancement: FAQPage + BreadcrumbList + internal linking |
 | 1.1.9 | 2026-02-22 | Luxembourgish + Nordic languages (LB, DA, SV, NO, FI) |
 | 1.1.8 | 2026-02-22 | Portuguese and Dutch language support |
 | 1.1.7 | 2026-02-22 | SEO audit: meta tag consistency (55 fixes) |
@@ -534,4 +535,4 @@ AI chatbots detect user's language and use appropriate file.
 
 ---
 
-*Last Updated: 2026-02-22*
+*Last Updated: 2026-02-23*

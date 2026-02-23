@@ -4,6 +4,40 @@ All notable changes to the Anonymize.Education website will be documented in thi
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
+## [1.2.0] - 2026-02-23
+
+### SEO Enhancement — Competitor Analysis & Schema Improvements
+
+Comprehensive SEO improvements based on competitor analysis (matomo.org, jet-software.com, schiller-wolf.de, private-ai.com, omnitracker.com).
+
+#### JSON-LD Enhancements
+- **BreadcrumbList** — Added to all 11 use-case pages for search result hierarchy
+- **FAQPage** — Added 3-4 relevant FAQs to each use-case page for rich results
+- **@graph format** — All use-case pages now use interconnected schema entities
+
+#### Internal Linking Improvements
+- **Related Use Cases** section — Added to US, EU, healthcare, AI-safety pages
+- 4 contextual cross-links per page boost internal linking (~60+ total internal links)
+- New CSS styles for related cards with hover effects
+
+#### Files Updated (15+)
+- `use-cases/*.html` — All 11 pages with enhanced JSON-LD
+- `sitemap.xml` — Updated all lastmod dates to 2026-02-23
+- `llms-full.txt` — Regenerated (31 pages, 31,739 words)
+- `ai.txt` — Updated date
+- `SEO-IMPROVEMENT-PLAN.md` — Created comprehensive improvement roadmap
+
+#### SEO Audit Results
+- All 10 audit sections passed
+- 825 internal links validated
+- 31/31 pages have JSON-LD
+- No deprecated schema types
+
+#### Competitor Advantages Addressed
+- FAQPage schema (matches schiller-wolf.de)
+- BreadcrumbList (matches matomo.org, jet-software.com)
+- Stronger internal linking (improved from ~40 to ~60+)
+
 ## [1.1.9] - 2026-02-22
 
 ### Luxembourgish and Nordic Language Support

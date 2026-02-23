@@ -102,19 +102,79 @@
     .footer__link { display: block; font-size: 0.9375rem; opacity: 0.8; margin-bottom: 0.5rem; transition: opacity 0.15s; }
     .footer__link:hover { opacity: 1; }
     .footer__bottom { padding-top: 1.5rem; border-top: 1px solid rgba(255,255,255,0.1); display: flex; justify-content: space-between; flex-wrap: wrap; gap: 1rem; font-size: 0.875rem; opacity: 0.5; }
+    .related { background: white; border-radius: 12px; padding: 2rem; margin-top: 2rem; border: 1px solid rgba(0,0,0,0.08); }
+    .related__title { font-size: 1.25rem; font-weight: 700; color: var(--color-slate); margin-bottom: 1.5rem; text-align: center; }
+    .related__grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; }
+    .related__card { display: flex; flex-direction: column; align-items: center; text-align: center; padding: 1.5rem 1rem; background: #f8fafc; border-radius: 8px; transition: all 0.15s; text-decoration: none; }
+    .related__card:hover { background: var(--color-trust-light); transform: translateY(-2px); }
+    .related__icon { font-size: 2rem; margin-bottom: 0.5rem; }
+    .related__name { font-size: 1rem; font-weight: 600; color: var(--color-trust); margin-bottom: 0.25rem; }
+    .related__desc { font-size: 0.8125rem; color: var(--color-slate-600); }
   </style>
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "WebPage",
-    "name": "EU Education Privacy",
-    "description": "GDPR compliance for European schools. Protect student data with zero-knowledge architecture.",
-    "url": "https://anonymize.education/use-cases/eu.html",
-    "publisher": {
-      "@type": "Organization",
-      "name": "Anonymize.Education",
-      "url": "https://anonymize.education"
-    }
+    "@graph": [
+      {
+        "@type": "WebPage",
+        "@id": "https://anonymize.education/use-cases/eu.html#webpage",
+        "name": "EU Education Privacy",
+        "description": "GDPR compliance for European schools. Protect student data with zero-knowledge architecture.",
+        "url": "https://anonymize.education/use-cases/eu.html",
+        "isPartOf": {"@id": "https://anonymize.education/#website"},
+        "publisher": {"@id": "https://anonymize.education/#organization"},
+        "datePublished": "2024-01-01",
+        "dateModified": "2026-02-23",
+        "inLanguage": "en"
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://anonymize.education/use-cases/eu.html#breadcrumb",
+        "itemListElement": [
+          {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://anonymize.education/"},
+          {"@type": "ListItem", "position": 2, "name": "Use Cases", "item": "https://anonymize.education/use-cases.html"},
+          {"@type": "ListItem", "position": 3, "name": "EU GDPR Privacy", "item": "https://anonymize.education/use-cases/eu.html"}
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://anonymize.education/use-cases/eu.html#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "How does Anonymize.Education help with GDPR compliance for schools?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "We support GDPR compliance through zero-knowledge architecture where data is encrypted client-side before transmission. Anonymized data is no longer 'personal data' under GDPR Article 4(1), enabling safe cross-border transfers and research sharing. We're a German company with ISO 27001:2022 certification, processing data on German servers."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How does Anonymize.Education address the Right to Erasure (Article 17)?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Our reversible encryption allows compliant erasure workflows. Student identifying data is encrypted with keys controlled by the data subject. They can exercise their 'right to be forgotten' by destroying their key, while schools retain anonymized academic records needed for accreditation purposes."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Does Anonymize.Education protect against US CLOUD Act data access requests?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. We are a German company (curta.solutions) using German servers (Hetzner) with zero-knowledge architecture. Even if compelled by any authority, we cannot provide data we cannot decrypt. This addresses EU digital sovereignty concerns about US hyperscaler 'sovereign cloud' offerings."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can German schools use AI tools like ChatGPT without violating GDPR?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "With our MCP Server and Chrome Extension, yes. Student data is anonymized before reaching any AI provider. Teachers can ask Claude about 'Student A's essay' while Claude never sees real names. This enables AI benefits in education without the 53% privacy concern that blocks most enterprise AI adoption."
+            }
+          }
+        ]
+      }
+    ]
   }
   </script>
 </head>
@@ -385,6 +445,32 @@
         <div class="source">
           Source: <a href="https://canadiancyber.ca/iso-27001-vendor-requirements/" target="_blank">Canadian Cyber - ISO 27001 Vendor Requirements</a>
         </div>
+      </div>
+    </section>
+
+    <section class="related">
+      <h2 class="related__title">Related Use Cases</h2>
+      <div class="related__grid">
+        <a href="uk.html" class="related__card">
+          <span class="related__icon">&#127468;&#127463;</span>
+          <span class="related__name">United Kingdom</span>
+          <span class="related__desc">UK GDPR & Children's Code</span>
+        </a>
+        <a href="ai-safety.html" class="related__card">
+          <span class="related__icon">&#129302;</span>
+          <span class="related__name">AI Safety</span>
+          <span class="related__desc">GDPR-compliant AI usage</span>
+        </a>
+        <a href="finance.html" class="related__card">
+          <span class="related__icon">&#127974;</span>
+          <span class="related__name">Finance</span>
+          <span class="related__desc">Cross-border banking data</span>
+        </a>
+        <a href="hr.html" class="related__card">
+          <span class="related__icon">&#128100;</span>
+          <span class="related__name">HR</span>
+          <span class="related__desc">GDPR Article 9 employee data</span>
+        </a>
       </div>
     </section>
 

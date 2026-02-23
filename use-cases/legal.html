@@ -102,15 +102,105 @@
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "WebPage",
-    "name": "Legal Industry PII Protection",
-    "description": "E-discovery redaction, client confidentiality, court filings, and reversible encryption for law firms.",
-    "url": "https://anonymize.education/use-cases/legal.html",
-    "publisher": {
-      "@type": "Organization",
-      "name": "Anonymize.Education",
-      "url": "https://anonymize.education"
-    }
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://anonymize.education/#organization",
+        "name": "Anonymize.Education",
+        "url": "https://anonymize.education",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://anonymize.education/images/og-image.png"
+        }
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://anonymize.education/#website",
+        "name": "Anonymize.Education",
+        "url": "https://anonymize.education",
+        "publisher": {
+          "@id": "https://anonymize.education/#organization"
+        }
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://anonymize.education/use-cases/legal.html#webpage",
+        "url": "https://anonymize.education/use-cases/legal.html",
+        "name": "Legal Industry PII Protection",
+        "description": "E-discovery redaction, client confidentiality, court filings, and reversible encryption for law firms.",
+        "isPartOf": {
+          "@id": "https://anonymize.education/#website"
+        },
+        "publisher": {
+          "@id": "https://anonymize.education/#organization"
+        },
+        "breadcrumb": {
+          "@id": "https://anonymize.education/use-cases/legal.html#breadcrumb"
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://anonymize.education/use-cases/legal.html#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://anonymize.education/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Use Cases",
+            "item": "https://anonymize.education/use-cases.html"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Legal",
+            "item": "https://anonymize.education/use-cases/legal.html"
+          }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://anonymize.education/use-cases/legal.html#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "How can law firms handle large-scale e-discovery document production while protecting PII?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Law firms can batch process up to 5,000 documents at once with consistent PII detection rules applied uniformly across all files. This eliminates the risk of inconsistent redaction that can occur with manual review. Documents can be processed overnight and reviewed in the morning, with the ability to scale to any production size through multiple batches. The system detects over 260 PII entity types including Social Security numbers, financial accounts, and personal identifiers."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is reversible encryption and why is it important for legal hold and litigation?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Reversible encryption using AES-256-GCM allows law firms to protect documents during litigation hold while maintaining the ability to decrypt them when needed for trial, expert review, or settlement negotiations. Unlike permanent redaction which can result in spoliation findings, reversible encryption preserves evidence integrity. The law firm holds the encryption keys and can selectively decrypt specific documents as required by the case."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How can attorneys use AI tools for legal research without violating client confidentiality?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "An MCP Server can intercept and anonymize client information before it reaches AI tools. For example, 'Client Smith sued Defendant Jones for breach of contract worth $5M' becomes 'Client A sued Defendant B for breach of contract worth [AMOUNT]'. This allows attorneys to leverage AI for drafting briefs, analyzing contracts, and researching case law while complying with ABA Model Rule 1.6 requirements to prevent inadvertent disclosure of confidential information."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How do you handle cross-border e-discovery when GDPR restricts data transfers to US courts?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "EU citizen PII can be anonymized before transfer to the US, since anonymized data is not considered personal data under GDPR. This satisfies US discovery requirements while avoiding GDPR violations that can result in fines up to EUR 20M or 4% of global revenue. The original encrypted documents can be retained in the EU for potential court-ordered disclosure with proper safeguards. The system supports 48 languages for consistent PII detection across multilingual document sets common in international arbitration."
+            }
+          }
+        ]
+      }
+    ]
   }
   </script>
 </head>

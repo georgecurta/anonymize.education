@@ -98,19 +98,80 @@
     .footer__link { display: block; font-size: 0.9375rem; opacity: 0.8; margin-bottom: 0.5rem; transition: opacity 0.15s; }
     .footer__link:hover { opacity: 1; }
     .footer__bottom { padding-top: 1.5rem; border-top: 1px solid rgba(255,255,255,0.1); display: flex; justify-content: space-between; flex-wrap: wrap; gap: 1rem; font-size: 0.875rem; opacity: 0.5; }
+
+    .related { background: white; border-radius: 12px; padding: 2rem; margin-top: 2rem; border: 1px solid rgba(0,0,0,0.08); }
+    .related__title { font-size: 1.25rem; font-weight: 700; color: var(--color-slate); margin-bottom: 1.5rem; text-align: center; }
+    .related__grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; }
+    .related__card { display: flex; flex-direction: column; align-items: center; text-align: center; padding: 1.5rem 1rem; background: #f8fafc; border-radius: 8px; transition: all 0.15s; text-decoration: none; }
+    .related__card:hover { background: var(--color-trust-light); transform: translateY(-2px); }
+    .related__icon { font-size: 2rem; margin-bottom: 0.5rem; }
+    .related__name { font-size: 1rem; font-weight: 600; color: var(--color-trust); margin-bottom: 0.25rem; }
+    .related__desc { font-size: 0.8125rem; color: var(--color-slate-600); }
   </style>
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "WebPage",
-    "name": "US Education Privacy",
-    "description": "FERPA and COPPA compliance for US schools. Protect student data with zero-knowledge architecture.",
-    "url": "https://anonymize.education/use-cases/us.html",
-    "publisher": {
-      "@type": "Organization",
-      "name": "Anonymize.Education",
-      "url": "https://anonymize.education"
-    }
+    "@graph": [
+      {
+        "@type": "WebPage",
+        "@id": "https://anonymize.education/use-cases/us.html#webpage",
+        "name": "US Education Privacy",
+        "description": "FERPA and COPPA compliance for US schools. Protect student data with zero-knowledge architecture.",
+        "url": "https://anonymize.education/use-cases/us.html",
+        "isPartOf": {"@id": "https://anonymize.education/#website"},
+        "publisher": {"@id": "https://anonymize.education/#organization"},
+        "datePublished": "2024-01-01",
+        "dateModified": "2026-02-23",
+        "inLanguage": "en"
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://anonymize.education/use-cases/us.html#breadcrumb",
+        "itemListElement": [
+          {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://anonymize.education/"},
+          {"@type": "ListItem", "position": 2, "name": "Use Cases", "item": "https://anonymize.education/use-cases.html"},
+          {"@type": "ListItem", "position": 3, "name": "US Education Privacy", "item": "https://anonymize.education/use-cases/us.html"}
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://anonymize.education/use-cases/us.html#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "How does Anonymize.Education help with FERPA compliance?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "We support FERPA compliance by operating as school officials under the legitimate educational interest exception. Our tool batch processes student records, detecting and replacing student names, IDs, parent names, addresses, and SSNs in seconds. We provide pre-signed DPAs, audit trails, and pre-completed FERPA security questionnaires."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can schools use Anonymize.Education for COPPA compliance with under-13 students?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Per FTC guidance, schools can consent on behalf of students for school-authorized educational purposes. We provide school consent workflows, ensure no third-party data sharing, and help create synthetic test datasets for EdTech vendor vetting without using real student PII."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How does Anonymize.Education help with FOIA requests?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "We help process FOIA requests quickly by batch-processing documents to redact non-public student information while preserving public record content. Districts can process 200K+ backlog requests efficiently with our automated anonymization."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is the average cost of a data breach in US education?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The average US data breach costs $10.22 million. With 130+ state privacy laws and increasing FERPA/COPPA enforcement, proactive data protection is essential. Anonymize.Education helps prevent breaches by ensuring sensitive data is never exposed to unauthorized parties."
+            }
+          }
+        ]
+      }
+    ]
   }
   </script>
 </head>
@@ -390,6 +451,32 @@
         <div class="source">
           Source: <a href="https://hoop.dev/blog/what-air-gapped-deployment-really-means-for-pii-data-security/" target="_blank">Hoop.dev - Air-Gapped Deployment for PII Security</a>
         </div>
+      </div>
+    </section>
+
+    <section class="related">
+      <h2 class="related__title">Related Use Cases</h2>
+      <div class="related__grid">
+        <a href="healthcare.html" class="related__card">
+          <span class="related__icon">&#127973;</span>
+          <span class="related__name">Healthcare</span>
+          <span class="related__desc">HIPAA Safe Harbor compliance</span>
+        </a>
+        <a href="ai-safety.html" class="related__card">
+          <span class="related__icon">&#129302;</span>
+          <span class="related__name">AI Safety</span>
+          <span class="related__desc">Protect data from ChatGPT & Claude</span>
+        </a>
+        <a href="government.html" class="related__card">
+          <span class="related__icon">&#127963;</span>
+          <span class="related__name">Government</span>
+          <span class="related__desc">FOIA & public records processing</span>
+        </a>
+        <a href="legal.html" class="related__card">
+          <span class="related__icon">&#9878;</span>
+          <span class="related__name">Legal</span>
+          <span class="related__desc">E-discovery & reversible encryption</span>
+        </a>
       </div>
     </section>
 

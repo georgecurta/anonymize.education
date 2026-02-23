@@ -133,19 +133,117 @@
     .footer__link { display: block; font-size: 0.9375rem; opacity: 0.8; margin-bottom: 0.5rem; transition: opacity 0.15s; }
     .footer__link:hover { opacity: 1; }
     .footer__bottom { padding-top: 1.5rem; border-top: 1px solid rgba(255,255,255,0.1); display: flex; justify-content: space-between; flex-wrap: wrap; gap: 1rem; font-size: 0.875rem; opacity: 0.5; }
+    .related { background: white; border-radius: 12px; padding: 2rem; margin-top: 2rem; border: 1px solid rgba(0,0,0,0.08); }
+    .related__title { font-size: 1.25rem; font-weight: 700; color: var(--color-slate); margin-bottom: 1.5rem; text-align: center; }
+    .related__grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; }
+    .related__card { display: flex; flex-direction: column; align-items: center; text-align: center; padding: 1.5rem 1rem; background: #f8fafc; border-radius: 8px; transition: all 0.15s; text-decoration: none; }
+    .related__card:hover { background: var(--color-trust-light); transform: translateY(-2px); }
+    .related__icon { font-size: 2rem; margin-bottom: 0.5rem; }
+    .related__name { font-size: 1rem; font-weight: 600; color: var(--color-trust); margin-bottom: 0.25rem; }
+    .related__desc { font-size: 0.8125rem; color: var(--color-slate-600); }
   </style>
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "WebPage",
-    "name": "AI Safety & Data Protection",
-    "description": "Prevent sensitive data leaks to ChatGPT, Claude, and AI tools. MCP Server integration, Chrome Extension, enterprise AI policy enforcement.",
-    "url": "https://anonymize.education/use-cases/ai-safety.html",
-    "publisher": {
-      "@type": "Organization",
-      "name": "Anonymize.Education",
-      "url": "https://anonymize.education"
-    }
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://anonymize.education/#organization",
+        "name": "Anonymize.Education",
+        "url": "https://anonymize.education",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://anonymize.education/images/og-image.png"
+        }
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://anonymize.education/#website",
+        "url": "https://anonymize.education",
+        "name": "Anonymize.Education",
+        "publisher": {
+          "@id": "https://anonymize.education/#organization"
+        }
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://anonymize.education/use-cases/ai-safety.html",
+        "url": "https://anonymize.education/use-cases/ai-safety.html",
+        "name": "AI Safety & Data Protection",
+        "description": "Prevent sensitive data leaks to ChatGPT, Claude, and AI tools. MCP Server integration, Chrome Extension, enterprise AI policy enforcement.",
+        "isPartOf": {
+          "@id": "https://anonymize.education/#website"
+        },
+        "publisher": {
+          "@id": "https://anonymize.education/#organization"
+        },
+        "breadcrumb": {
+          "@id": "https://anonymize.education/use-cases/ai-safety.html#breadcrumb"
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://anonymize.education/use-cases/ai-safety.html#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://anonymize.education/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Use Cases",
+            "item": "https://anonymize.education/use-cases.html"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "AI Safety",
+            "item": "https://anonymize.education/use-cases/ai-safety.html"
+          }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://anonymize.education/use-cases/ai-safety.html#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "How can I prevent employees from leaking sensitive data to ChatGPT and Claude?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Use an MCP Server integration that intercepts all AI prompts before they leave your environment. PII, code snippets, customer data, and confidential information are automatically anonymized. The AI receives sanitized prompts while employees maintain full productivity. This approach prevents incidents like Samsung's company-wide ChatGPT ban after engineers accidentally leaked proprietary source code."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is an MCP Server and how does it protect data in Claude and Cursor?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "An MCP (Model Context Protocol) Server acts as a sanitization layer between your development tools (Claude Desktop, Claude Code, Cursor) and AI models. Before any data reaches the AI, PII and credentials are automatically detected and replaced with placeholders. Even if the AI's context is compromised, sensitive data was never exposed. MCP tokens are often cached unencrypted, making this protection layer critical."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Are browser extensions for AI tools safe to use?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Many browser extensions pose security risks - 900,000 users were affected by malicious Chrome extensions stealing AI chats. Attackers create fake AI helper extensions that capture every prompt and response. Use a verified, enterprise-deployed Chrome Extension that provides client-side anonymization before text reaches any AI interface, with centralized policy management and audit logging."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How do I maintain GDPR compliance when using AI tools with customer data?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Implement a complete audit trail of anonymization: log every anonymization action with timestamp, record entity types detected and transformed, maintain proof that PII never reached AI services, and ensure GDPR Article 30 compliant processing records. Use reversible encryption when legal discovery or regulatory investigations may require accessing original data. 53% of organizations cite data privacy as the #1 barrier to AI adoption - proper anonymization removes this blocker."
+            }
+          }
+        ]
+      }
+    ]
   }
   </script>
 </head>
@@ -775,6 +873,32 @@
           </tr>
         </tbody>
       </table>
+    </section>
+
+    <section class="related">
+      <h2 class="related__title">Related Use Cases</h2>
+      <div class="related__grid">
+        <a href="us.html" class="related__card">
+          <span class="related__icon">&#127482;&#127480;</span>
+          <span class="related__name">US Education</span>
+          <span class="related__desc">FERPA-compliant AI in schools</span>
+        </a>
+        <a href="eu.html" class="related__card">
+          <span class="related__icon">&#127466;&#127482;</span>
+          <span class="related__name">EU GDPR</span>
+          <span class="related__desc">GDPR-compliant AI usage</span>
+        </a>
+        <a href="healthcare.html" class="related__card">
+          <span class="related__icon">&#127973;</span>
+          <span class="related__name">Healthcare</span>
+          <span class="related__desc">HIPAA-compliant AI for clinicians</span>
+        </a>
+        <a href="legal.html" class="related__card">
+          <span class="related__icon">&#9878;</span>
+          <span class="related__name">Legal</span>
+          <span class="related__desc">AI for legal research</span>
+        </a>
+      </div>
     </section>
 
   </main>
