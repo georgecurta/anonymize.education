@@ -20,120 +20,52 @@
   <link rel="icon" type="image/png" sizes="32x32" href="../images/favicon-32.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/style.min.css">
   <style>
-    :root {
-      --color-trust: #0d5c63;
-      --color-trust-dark: #094249;
-      --color-trust-light: #e6f3f4;
-      --color-slate: #1e293b;
-      --color-slate-600: #475569;
-      --color-danger: #dc2626;
-      --color-success: #059669;
-      --font-sans: 'DM Sans', -apple-system, BlinkMacSystemFont, sans-serif;
-    }
-    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-    body { font-family: var(--font-sans); font-size: 16px; line-height: 1.6; color: var(--color-slate); background: #fafaf9; }
-    a { color: inherit; text-decoration: none; }
-
-    .nav { position: fixed; top: 0; left: 0; right: 0; z-index: 100; background: rgba(255,255,255,0.95); backdrop-filter: blur(10px); border-bottom: 1px solid rgba(0,0,0,0.05); }
-    .nav__inner { display: flex; align-items: center; justify-content: space-between; max-width: 1200px; margin: 0 auto; padding: 1rem 1.5rem; }
-    .nav__logo { display: flex; align-items: center; gap: 0.5rem; font-weight: 700; font-size: 1.125rem; color: var(--color-trust); }
-    .nav__logo-mark { width: 32px; height: 32px; background: var(--color-trust); border-radius: 8px; display: flex; align-items: center; justify-content: center; color: white; font-weight: 700; font-size: 0.875rem; }
-    .nav__links { display: none; gap: 2rem; }
-    @media (min-width: 768px) { .nav__links { display: flex; } }
-    .nav__link { font-size: 0.9375rem; font-weight: 500; color: var(--color-slate-600); transition: color 0.15s; }
-    .nav__link:hover { color: var(--color-trust); }
-
-    .hero { padding: calc(80px + 3rem) 1.5rem 3rem; background: linear-gradient(180deg, #fff 0%, #fafaf9 100%); }
-    .hero__inner { max-width: 900px; margin: 0 auto; text-align: center; }
-    .hero__badge { display: inline-block; background: var(--color-trust-light); color: var(--color-trust); font-size: 0.875rem; font-weight: 600; padding: 0.5rem 1rem; border-radius: 100px; margin-bottom: 1.5rem; }
-    .hero__title { font-size: 2.5rem; font-weight: 700; color: var(--color-slate); margin-bottom: 1rem; line-height: 1.2; }
-    .hero__title span { color: var(--color-trust); }
-    .hero__subtitle { font-size: 1.25rem; color: var(--color-slate-600); margin-bottom: 2rem; max-width: 700px; margin-left: auto; margin-right: auto; }
-
-    .content { max-width: 900px; margin: 0 auto; padding: 0 1.5rem 4rem; }
-
-    .comparison-table { width: 100%; border-collapse: collapse; margin: 2rem 0; background: white; border-radius: 12px; overflow: hidden; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
-    .comparison-table th, .comparison-table td { padding: 1rem 1.25rem; text-align: left; border-bottom: 1px solid #e2e8f0; }
-    .comparison-table th { background: #f8fafc; font-weight: 600; color: var(--color-slate); }
-    .comparison-table th:nth-child(2) { background: var(--color-trust); color: white; }
-    .comparison-table td:nth-child(2) { background: #f0fdfa; font-weight: 500; }
-    .comparison-table .yes { color: var(--color-success); font-weight: 600; }
-    .comparison-table .no { color: var(--color-danger); }
-    .comparison-table .highlight { color: var(--color-trust); font-weight: 700; }
-
-    .section { margin: 3rem 0; }
-    .section__title { font-size: 1.75rem; font-weight: 700; color: var(--color-slate); margin-bottom: 1rem; }
-    .section__subtitle { font-size: 1rem; color: var(--color-slate-600); margin-bottom: 1.5rem; }
-
-    .card { background: white; border-radius: 12px; padding: 2rem; margin: 1.5rem 0; border: 1px solid rgba(0,0,0,0.08); }
-    .card--highlight { background: linear-gradient(135deg, #f0fdfa 0%, #ecfdf5 100%); border: 2px solid var(--color-trust); }
-    .card__title { font-size: 1.25rem; font-weight: 700; color: var(--color-trust); margin-bottom: 0.75rem; display: flex; align-items: center; gap: 0.5rem; }
-    .card__icon { font-size: 1.5rem; }
-    .card__text { color: var(--color-slate-600); }
-
-    .price-comparison { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; margin: 2rem 0; }
-    @media (max-width: 640px) { .price-comparison { grid-template-columns: 1fr; } }
-    .price-card { background: white; border-radius: 12px; padding: 2rem; text-align: center; border: 1px solid rgba(0,0,0,0.08); }
-    .price-card--us { border-color: var(--color-trust); border-width: 2px; }
-    .price-card__name { font-size: 1.125rem; font-weight: 600; margin-bottom: 0.5rem; }
-    .price-card__price { font-size: 2.5rem; font-weight: 700; color: var(--color-slate); }
-    .price-card__price span { font-size: 1rem; font-weight: 400; color: var(--color-slate-600); }
-    .price-card__note { font-size: 0.875rem; color: var(--color-slate-600); margin-top: 0.5rem; }
-    .price-card--us .price-card__price { color: var(--color-trust); }
-
-    .savings-banner { background: linear-gradient(135deg, var(--color-trust) 0%, var(--color-trust-dark) 100%); color: white; padding: 2rem; border-radius: 12px; text-align: center; margin: 2rem 0; }
+    .compare-hero { padding: calc(var(--nav-height) + 3rem) 1.5rem 3rem; background: linear-gradient(135deg, #ecfdf5 0%, #f0fdf4 50%, #fff 100%); text-align: center; }
+    .compare-hero__badge { display: inline-block; background: rgba(13,92,99,0.1); color: var(--primary); font-size: 0.875rem; font-weight: 600; padding: 0.5rem 1rem; border-radius: 100px; margin-bottom: 1.5rem; }
+    .compare-hero__title { font-size: 2.5rem; font-weight: 700; margin-bottom: 1rem; line-height: 1.2; }
+    .compare-hero__title span { color: var(--primary); }
+    .compare-hero__subtitle { font-size: 1.25rem; color: var(--text-secondary); max-width: 700px; margin: 0 auto; }
+    .compare-content { max-width: 900px; margin: 0 auto; padding: 2rem 1.5rem 4rem; }
+    .compare-table { width: 100%; border-collapse: collapse; margin: 2rem 0; background: var(--bg-primary); border-radius: var(--radius-lg); overflow: hidden; box-shadow: var(--shadow-md); }
+    .compare-table th, .compare-table td { padding: 1rem 1.25rem; text-align: left; border-bottom: 1px solid var(--border-color); }
+    .compare-table th { background: var(--bg-secondary); font-weight: 600; }
+    .compare-table th:nth-child(2) { background: var(--primary); color: white; }
+    .compare-table td:nth-child(2) { background: #f0fdfa; font-weight: 500; }
+    .compare-table .yes { color: #059669; font-weight: 600; }
+    .compare-table .no { color: #dc2626; }
+    .compare-table .highlight { color: var(--primary); font-weight: 700; }
+    .compare-section { margin: 3rem 0; }
+    .compare-section__title { font-size: 1.75rem; font-weight: 700; margin-bottom: 1rem; }
+    .compare-card { background: var(--bg-primary); border-radius: var(--radius-lg); padding: 2rem; margin: 1.5rem 0; border: 1px solid var(--border-color); }
+    .compare-card--highlight { background: linear-gradient(135deg, #f0fdfa 0%, #ecfdf5 100%); border: 2px solid var(--primary); }
+    .compare-card__title { font-size: 1.25rem; font-weight: 700; color: var(--primary); margin-bottom: 0.75rem; }
+    .savings-banner { background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%); color: white; padding: 2rem; border-radius: var(--radius-lg); text-align: center; margin: 2rem 0; }
     .savings-banner__amount { font-size: 3rem; font-weight: 700; }
     .savings-banner__text { font-size: 1.25rem; opacity: 0.9; }
-
-    .features-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem; margin: 2rem 0; }
-    .feature { background: white; border-radius: 12px; padding: 1.5rem; border: 1px solid rgba(0,0,0,0.08); }
-    .feature__icon { font-size: 2rem; margin-bottom: 0.75rem; }
-    .feature__title { font-size: 1.125rem; font-weight: 600; color: var(--color-slate); margin-bottom: 0.5rem; }
-    .feature__desc { font-size: 0.9375rem; color: var(--color-slate-600); }
-    .feature--unique { background: linear-gradient(135deg, #f0fdfa 0%, #ecfdf5 100%); border: 2px solid var(--color-trust); }
-    .feature--unique .feature__title { color: var(--color-trust); }
-
-    .cta { background: linear-gradient(135deg, var(--color-trust) 0%, var(--color-trust-dark) 100%); color: white; padding: 4rem 1.5rem; text-align: center; margin-top: 3rem; }
-    .cta__title { font-size: 2rem; font-weight: 700; margin-bottom: 1rem; }
-    .cta__desc { font-size: 1.125rem; opacity: 0.9; max-width: 600px; margin: 0 auto 2rem; }
-    .btn { display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.875rem 2rem; font-family: inherit; font-size: 1rem; font-weight: 600; border-radius: 8px; border: none; cursor: pointer; transition: all 0.15s; text-decoration: none; }
-    .btn--white { background: white; color: var(--color-trust); }
-    .btn--white:hover { background: #f8fafc; transform: translateY(-2px); }
-
-    .footer { background: var(--color-slate); color: white; padding: 3rem 1.5rem 1.5rem; }
-    .footer__inner { max-width: 1200px; margin: 0 auto; }
-    .footer__grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 2rem; margin-bottom: 2rem; }
-    .footer__title { font-size: 0.875rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 1rem; opacity: 0.5; }
-    .footer__link { display: block; font-size: 0.9375rem; opacity: 0.8; margin-bottom: 0.5rem; transition: opacity 0.15s; }
-    .footer__link:hover { opacity: 1; }
-    .footer__bottom { padding-top: 1.5rem; border-top: 1px solid rgba(255,255,255,0.1); font-size: 0.875rem; opacity: 0.5; }
-
-    .related { background: white; border-radius: 12px; padding: 2rem; margin-top: 2rem; border: 1px solid rgba(0,0,0,0.08); }
-    .related__title { font-size: 1.25rem; font-weight: 700; color: var(--color-slate); margin-bottom: 1.5rem; text-align: center; }
+    .price-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1.5rem; margin: 2rem 0; }
+    .price-card { background: var(--bg-primary); border-radius: var(--radius-lg); padding: 2rem; text-align: center; border: 1px solid var(--border-color); }
+    .price-card--featured { border-color: var(--primary); border-width: 2px; }
+    .price-card__name { font-size: 1.125rem; font-weight: 600; margin-bottom: 0.5rem; }
+    .price-card__price { font-size: 2.5rem; font-weight: 700; }
+    .price-card__price span { font-size: 1rem; font-weight: 400; color: var(--text-secondary); }
+    .price-card--featured .price-card__price { color: var(--primary); }
+    .price-card__note { font-size: 0.875rem; color: var(--text-secondary); margin-top: 0.5rem; }
+    .related { background: var(--bg-primary); border-radius: var(--radius-lg); padding: 2rem; margin-top: 2rem; border: 1px solid var(--border-color); }
+    .related__title { font-size: 1.25rem; font-weight: 700; margin-bottom: 1.5rem; text-align: center; }
     .related__grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; }
-    .related__card { display: flex; flex-direction: column; align-items: center; text-align: center; padding: 1.5rem 1rem; background: #f8fafc; border-radius: 8px; transition: all 0.15s; text-decoration: none; }
-    .related__card:hover { background: var(--color-trust-light); transform: translateY(-2px); }
+    .related__card { display: flex; flex-direction: column; align-items: center; text-align: center; padding: 1.5rem 1rem; background: var(--bg-secondary); border-radius: var(--radius-md); transition: all 0.2s; }
+    .related__card:hover { background: #e6f3f4; transform: translateY(-2px); }
     .related__icon { font-size: 2rem; margin-bottom: 0.5rem; }
-    .related__name { font-size: 1rem; font-weight: 600; color: var(--color-trust); margin-bottom: 0.25rem; }
-    .related__desc { font-size: 0.8125rem; color: var(--color-slate-600); }
-
-    .nav__cta { display: none; }
-    @media (min-width: 768px) { .nav__cta { display: flex; } }
-    .nav__cta .btn { padding: 0.5rem 1rem; font-size: 0.875rem; }
-    .btn--primary { background: var(--color-trust); color: white; border: none; }
-    .btn--primary:hover { background: var(--color-trust-dark); }
-
-    .nav__toggle { display: flex; flex-direction: column; gap: 4px; padding: 8px; background: none; border: none; cursor: pointer; }
-    .nav__toggle span { display: block; width: 20px; height: 2px; background: var(--color-slate); transition: 0.2s; }
-    @media (min-width: 768px) { .nav__toggle { display: none; } }
-
-    .nav__mobile { display: none; position: absolute; top: 100%; left: 0; right: 0; background: white; padding: 1rem; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
-    .nav--open .nav__mobile { display: block; }
-    .nav__mobile-link { display: block; padding: 0.75rem 1rem; color: var(--color-slate-600); font-weight: 500; }
-    .nav__mobile-link:hover { background: #f8fafc; color: var(--color-trust); }
-    .nav__mobile-link--cta { background: var(--color-trust); color: white; border-radius: 8px; text-align: center; margin-top: 0.5rem; }
+    .related__name { font-size: 1rem; font-weight: 600; color: var(--primary); }
+    .related__desc { font-size: 0.8125rem; color: var(--text-secondary); }
+    .compare-cta { background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%); color: white; padding: 4rem 1.5rem; text-align: center; }
+    .compare-cta__title { font-size: 2rem; font-weight: 700; margin-bottom: 1rem; }
+    .compare-cta__desc { font-size: 1.125rem; opacity: 0.9; max-width: 600px; margin: 0 auto 2rem; }
+    .btn--white { background: white; color: var(--primary); }
+    .btn--white:hover { background: #f8fafc; }
   </style>
   <script type="application/ld+json">
   {
@@ -141,61 +73,16 @@
     "@graph": [
       {
         "@type": "WebPage",
-        "@id": "https://anonymize.education/comparisons/vs-bigid.html#webpage",
         "name": "Anonymize.Education vs BigID Comparison",
         "description": "Compare Anonymize.Education vs BigID: 48 languages, air-gapped offline mode, reversible encryption, education-focused pricing vs enterprise data discovery.",
-        "url": "https://anonymize.education/comparisons/vs-bigid.html",
-        "isPartOf": {"@id": "https://anonymize.education/#website"},
-        "publisher": {"@id": "https://anonymize.education/#organization"},
-        "datePublished": "2026-02-23",
-        "dateModified": "2026-02-23",
-        "inLanguage": "en"
+        "url": "https://anonymize.education/comparisons/vs-bigid.html"
       },
       {
         "@type": "BreadcrumbList",
-        "@id": "https://anonymize.education/comparisons/vs-bigid.html#breadcrumb",
         "itemListElement": [
           {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://anonymize.education/"},
           {"@type": "ListItem", "position": 2, "name": "Compare", "item": "https://anonymize.education/competitors.html"},
-          {"@type": "ListItem", "position": 3, "name": "vs BigID", "item": "https://anonymize.education/comparisons/vs-bigid.html"}
-        ]
-      },
-      {
-        "@type": "FAQPage",
-        "@id": "https://anonymize.education/comparisons/vs-bigid.html#faq",
-        "mainEntity": [
-          {
-            "@type": "Question",
-            "name": "What is the difference between BigID and Anonymize.Education?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "BigID is an enterprise data discovery and classification platform costing $100,000+/year, focused on finding where sensitive data lives across your organization. Anonymize.Education is a purpose-built anonymization tool at $49/month for schools, focused on protecting student PII with 48 language support, offline mode, and reversible encryption."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Does Anonymize.Education support more languages than BigID?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Anonymize.Education supports 48 languages including CJK (Chinese, Japanese, Korean), Arabic, Cyrillic, Hindi, and more with built-in NLP models. BigID focuses on data discovery across enterprise systems with language support varying by deployment configuration."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Can Anonymize.Education work offline unlike BigID?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Yes. Anonymize.Education offers a Desktop App that works completely offline in air-gapped environments. BigID is cloud-based and requires internet connectivity. This makes Anonymize.Education ideal for schools with strict data localization requirements or limited internet access."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Why choose Anonymize.Education over BigID for education?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Anonymize.Education is specifically built for education with FERPA/COPPA support, LMS integrations (Canvas, Blackboard, Moodle), education pricing ($588/year vs $100K+), zero-knowledge architecture, and reversible encryption. BigID is designed for enterprise data discovery, not student data anonymization."
-            }
-          }
+          {"@type": "ListItem", "position": 3, "name": "vs BigID"}
         ]
       }
     ]
@@ -203,13 +90,14 @@
   </script>
 </head>
 <body>
+  <a href="#main" class="skip-link">Skip to main content</a>
+
   <nav class="nav" role="navigation" aria-label="Main navigation">
     <div class="nav__inner">
       <a href="../" class="nav__logo">
-        <span class="nav__logo-mark">A</span>
+        <span class="nav__logo-icon">A</span>
         Anonymize.Education
       </a>
-
       <div class="nav__links">
         <a href="../index.html#solutions" class="nav__link">Solutions</a>
         <a href="../index.html#integrations" class="nav__link">Integrations</a>
@@ -218,13 +106,9 @@
         <a href="../competitors.html" class="nav__link nav__link--active">Compare</a>
         <a href="../contact.html" class="nav__link">Contact</a>
       </div>
-
       <div class="nav__cta">
         <div class="nav__lang">
-          <span class="nav__lang-current">
-            EN
-            <svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"/></svg>
-          </span>
+          <span class="nav__lang-current">EN <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg></span>
           <div class="nav__lang-dropdown">
             <a href="/" class="nav__lang-link nav__lang-link--active">English</a>
             <a href="/de/" class="nav__lang-link">Deutsch</a>
@@ -241,21 +125,18 @@
         </div>
         <a href="https://anonym.legal" target="_blank" class="btn btn--primary">Start Free</a>
       </div>
-
-      <button class="nav__toggle" aria-expanded="false" aria-controls="mobile-menu" aria-label="Open menu">
-        <svg class="menu-open" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 6h16M4 12h16M4 18h16"/></svg>
+      <button class="nav__toggle" aria-expanded="false" aria-label="Open menu">
+        <svg class="menu-open" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 12h18M3 6h18M3 18h18"/></svg>
         <svg class="menu-close" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 18L18 6M6 6l12 12"/></svg>
       </button>
     </div>
-
-    <!-- Mobile Menu -->
-    <div id="mobile-menu" class="nav__mobile" role="menu" aria-hidden="true">
-      <a href="../index.html#solutions" class="nav__mobile-link" role="menuitem">Solutions</a>
-      <a href="../index.html#integrations" class="nav__mobile-link" role="menuitem">Integrations</a>
-      <a href="../index.html#pricing" class="nav__mobile-link" role="menuitem">Pricing</a>
-      <a href="../index.html#trust" class="nav__mobile-link" role="menuitem">Trust</a>
-      <a href="../competitors.html" class="nav__mobile-link" role="menuitem">Compare</a>
-      <a href="../contact.html" class="nav__mobile-link" role="menuitem">Contact</a>
+    <div class="nav__mobile">
+      <a href="../index.html#solutions" class="nav__mobile-link">Solutions</a>
+      <a href="../index.html#integrations" class="nav__mobile-link">Integrations</a>
+      <a href="../index.html#pricing" class="nav__mobile-link">Pricing</a>
+      <a href="../index.html#trust" class="nav__mobile-link">Trust</a>
+      <a href="../competitors.html" class="nav__mobile-link">Compare</a>
+      <a href="../contact.html" class="nav__mobile-link">Contact</a>
       <div class="nav__mobile-lang">
         <a href="/" class="nav__lang-link nav__lang-link--active">EN</a>
         <a href="/de/" class="nav__lang-link">DE</a>
@@ -263,11 +144,6 @@
         <a href="/fr/" class="nav__lang-link">FR</a>
         <a href="/pt/" class="nav__lang-link">PT</a>
         <a href="/nl/" class="nav__lang-link">NL</a>
-        <a href="/lb/" class="nav__lang-link">LB</a>
-        <a href="/da/" class="nav__lang-link">DA</a>
-        <a href="/sv/" class="nav__lang-link">SV</a>
-        <a href="/no/" class="nav__lang-link">NO</a>
-        <a href="/fi/" class="nav__lang-link">FI</a>
       </div>
       <div class="nav__mobile-cta">
         <a href="https://anonym.legal" target="_blank" class="btn btn--primary">Start Free</a>
@@ -275,24 +151,21 @@
     </div>
   </nav>
 
-  <section class="hero">
-    <div class="hero__inner">
-      <span class="hero__badge">Comparison</span>
-      <h1 class="hero__title">Anonymize.Education vs BigID: <span>48 Languages, Offline Mode</span></h1>
-      <p class="hero__subtitle">BigID discovers where data lives. Anonymize.Education protects it. See why schools choose purpose-built anonymization over enterprise data catalogs.</p>
-    </div>
+  <section class="compare-hero">
+    <span class="compare-hero__badge">Comparison</span>
+    <h1 class="compare-hero__title">Anonymize.Education vs BigID: <span>48 Languages, Offline Mode</span></h1>
+    <p class="compare-hero__subtitle">BigID discovers where data lives. Anonymize.Education protects it. See why schools choose purpose-built anonymization over enterprise data catalogs.</p>
   </section>
 
-  <main class="content">
-
+  <main id="main" class="compare-content">
     <div class="savings-banner">
       <div class="savings-banner__amount">$99,412/year</div>
       <div class="savings-banner__text">Average annual savings vs BigID</div>
     </div>
 
-    <section class="section">
-      <h2 class="section__title">Side-by-Side Comparison</h2>
-      <table class="comparison-table">
+    <section class="compare-section">
+      <h2 class="compare-section__title">Side-by-Side Comparison</h2>
+      <table class="compare-table">
         <thead>
           <tr>
             <th>Feature</th>
@@ -301,76 +174,24 @@
           </tr>
         </thead>
         <tbody>
-          <tr>
-            <td>Annual Cost</td>
-            <td class="highlight">$588/year</td>
-            <td>$100,000+/year</td>
-          </tr>
-          <tr>
-            <td>Languages Supported</td>
-            <td class="highlight">48 languages</td>
-            <td>Enterprise (varies by deployment)</td>
-          </tr>
-          <tr>
-            <td>Offline Mode</td>
-            <td class="yes">Yes (Desktop App)</td>
-            <td class="no">No</td>
-          </tr>
-          <tr>
-            <td>Zero-Knowledge Architecture</td>
-            <td class="yes">Yes - client-side encryption</td>
-            <td class="no">No - server-side processing</td>
-          </tr>
-          <tr>
-            <td>Reversible Encryption</td>
-            <td class="yes">Yes (unique feature)</td>
-            <td class="no">No</td>
-          </tr>
-          <tr>
-            <td>Education Focus</td>
-            <td class="yes">Built-in FERPA/COPPA support</td>
-            <td class="no">Not designed for education</td>
-          </tr>
-          <tr>
-            <td>Implementation Time</td>
-            <td class="highlight">Minutes</td>
-            <td>Months</td>
-          </tr>
-          <tr>
-            <td>Free Tier</td>
-            <td class="yes">Yes (500 docs/month)</td>
-            <td class="no">No</td>
-          </tr>
-          <tr>
-            <td>Primary Function</td>
-            <td>PII Anonymization</td>
-            <td>Data Discovery & Classification</td>
-          </tr>
-          <tr>
-            <td>LMS Integration</td>
-            <td class="yes">Canvas, Blackboard, Moodle</td>
-            <td class="no">Not available</td>
-          </tr>
-          <tr>
-            <td>SSO (Clever/ClassLink)</td>
-            <td class="yes">Yes</td>
-            <td>Enterprise SSO only</td>
-          </tr>
-          <tr>
-            <td>Target Users</td>
-            <td>Teachers, Administrators</td>
-            <td>Privacy Engineering Teams</td>
-          </tr>
+          <tr><td>Annual Cost (School)</td><td class="highlight">$588/year</td><td>$100,000+/year</td></tr>
+          <tr><td>Free Tier</td><td class="yes">Yes (500 docs/month)</td><td class="no">No</td></tr>
+          <tr><td>Languages Supported</td><td class="highlight">48 languages</td><td>Enterprise (varies)</td></tr>
+          <tr><td>Offline Mode</td><td class="yes">Yes (Desktop App)</td><td class="no">Cloud only</td></tr>
+          <tr><td>Zero-Knowledge Architecture</td><td class="yes">Yes - client-side encryption</td><td class="no">No - server-side</td></tr>
+          <tr><td>Reversible Encryption</td><td class="yes">Yes (unique)</td><td class="no">No</td></tr>
+          <tr><td>FERPA Support</td><td class="yes">Built-in</td><td class="no">Not designed for education</td></tr>
+          <tr><td>LMS Integration</td><td class="yes">Canvas, Blackboard, Moodle</td><td class="no">Not available</td></tr>
+          <tr><td>Setup Time</td><td class="highlight">Minutes</td><td>Months</td></tr>
+          <tr><td>Primary Function</td><td>PII Anonymization</td><td>Data Discovery</td></tr>
         </tbody>
       </table>
     </section>
 
-    <section class="section">
-      <h2 class="section__title">Price Comparison</h2>
-      <p class="section__subtitle">Enterprise data discovery vs education-focused anonymization</p>
-
-      <div class="price-comparison">
-        <div class="price-card price-card--us">
+    <section class="compare-section">
+      <h2 class="compare-section__title">Price Comparison</h2>
+      <div class="price-grid">
+        <div class="price-card price-card--featured">
           <div class="price-card__name">Anonymize.Education</div>
           <div class="price-card__price">$49<span>/month</span></div>
           <div class="price-card__note">School Plan - 10,000 docs/month</div>
@@ -381,91 +202,31 @@
           <div class="price-card__note">Enterprise sales + implementation</div>
         </div>
       </div>
-
-      <div class="card">
-        <h3 class="card__title"><span class="card__icon">&#128176;</span> What Schools Can Do With $99,412 Savings</h3>
-        <ul style="margin: 1rem 0; padding-left: 1.5rem; color: var(--color-slate-600);">
-          <li>Hire two full-time educational technology specialists</li>
-          <li>Purchase 400 Chromebooks for students</li>
-          <li>Fund district-wide professional development programs</li>
-          <li>Upgrade entire school network infrastructure</li>
-        </ul>
-      </div>
     </section>
 
-    <section class="section">
-      <h2 class="section__title">Different Tools for Different Jobs</h2>
-      <p class="section__subtitle">Understanding what each platform actually does</p>
-
-      <div class="card">
-        <h3 class="card__title"><span class="card__icon">&#128269;</span> BigID: Data Discovery & Classification</h3>
-        <p class="card__text">BigID excels at finding sensitive data across hundreds of data sources in large enterprises. It scans databases, file shares, cloud storage, and applications to create a data catalog showing where PII, financial data, and other sensitive information lives.</p>
-        <p class="card__text" style="margin-top: 1rem;"><strong>BigID is designed for:</strong> Enterprise privacy teams managing data inventories across global organizations.</p>
-      </div>
-
-      <div class="card card--highlight">
-        <h3 class="card__title"><span class="card__icon">&#128274;</span> Anonymize.Education: Data Protection & Anonymization</h3>
-        <p class="card__text">Anonymize.Education focuses on protecting student data through advanced anonymization. It detects PII in 48 languages, offers reversible encryption for legal compliance, and works offline for maximum security.</p>
-        <p class="card__text" style="margin-top: 1rem;"><strong>Anonymize.Education is designed for:</strong> Schools, teachers, and administrators who need to protect student data quickly and affordably.</p>
-      </div>
-    </section>
-
-    <section class="section">
-      <h2 class="section__title">Why Schools Choose Anonymize.Education</h2>
-
+    <section class="compare-section">
+      <h2 class="compare-section__title">Why Schools Switch</h2>
       <div class="features-grid">
-        <div class="feature feature--unique">
-          <div class="feature__icon">&#127757;</div>
-          <div class="feature__title">48 Language Support</div>
-          <div class="feature__desc">Detect PII in any language your students or families speak. CJK, Arabic, Cyrillic, Hindi, and 44 more languages included.</div>
+        <div class="feature-card">
+          <div class="feature-card__icon">&#127757;</div>
+          <h3 class="feature-card__title">48 Languages</h3>
+          <p class="feature-card__desc">Detect PII in any language. CJK, Arabic, Cyrillic, Hindi included.</p>
         </div>
-        <div class="feature feature--unique">
-          <div class="feature__icon">&#128187;</div>
-          <div class="feature__title">Air-Gapped Offline Mode</div>
-          <div class="feature__desc">Desktop App works completely offline. Perfect for districts with strict data localization requirements or limited connectivity.</div>
+        <div class="feature-card">
+          <div class="feature-card__icon">&#128187;</div>
+          <h3 class="feature-card__title">Offline Mode</h3>
+          <p class="feature-card__desc">Desktop App works air-gapped. No cloud dependency.</p>
         </div>
-        <div class="feature feature--unique">
-          <div class="feature__icon">&#128275;</div>
-          <div class="feature__title">Reversible Encryption</div>
-          <div class="feature__desc">Unique feature: decrypt anonymized data later for legal discovery, audits, or when the original is needed. BigID cannot do this.</div>
+        <div class="feature-card">
+          <div class="feature-card__icon">&#128275;</div>
+          <h3 class="feature-card__title">Reversible Encryption</h3>
+          <p class="feature-card__desc">Decrypt when needed for audits or legal discovery.</p>
         </div>
-        <div class="feature">
-          <div class="feature__icon">&#128274;</div>
-          <div class="feature__title">Zero-Knowledge Architecture</div>
-          <div class="feature__desc">Data is encrypted on your device before leaving. We mathematically cannot see student data - even if subpoenaed.</div>
+        <div class="feature-card">
+          <div class="feature-card__icon">&#9889;</div>
+          <h3 class="feature-card__title">Minutes, Not Months</h3>
+          <p class="feature-card__desc">Start protecting data immediately. No consultants needed.</p>
         </div>
-        <div class="feature">
-          <div class="feature__icon">&#127891;</div>
-          <div class="feature__title">Education-Native</div>
-          <div class="feature__desc">Built for schools from day one. FERPA, COPPA, IEP/504 awareness, Canvas/Blackboard/Moodle integration.</div>
-        </div>
-        <div class="feature">
-          <div class="feature__icon">&#9889;</div>
-          <div class="feature__title">Minutes, Not Months</div>
-          <div class="feature__desc">Sign up and start protecting data immediately. No weeks of implementation, consultants, or dedicated engineering teams.</div>
-        </div>
-      </div>
-    </section>
-
-    <section class="section">
-      <h2 class="section__title">When BigID Makes Sense</h2>
-      <div class="card">
-        <p class="card__text">BigID is a comprehensive data discovery and classification platform designed for Fortune 500 companies managing privacy programs across hundreds of data sources with dedicated privacy engineering teams.</p>
-        <p class="card__text" style="margin-top: 1rem;"><strong>Choose BigID if you:</strong></p>
-        <ul style="margin: 1rem 0; padding-left: 1.5rem; color: var(--color-slate-600);">
-          <li>Are a large enterprise needing data catalog and classification across hundreds of sources</li>
-          <li>Have a privacy program spanning hundreds of data sources and multiple regulations</li>
-          <li>Need integration with governance workflows and data management platforms</li>
-          <li>Have budget for a dedicated privacy engineering team</li>
-        </ul>
-        <p class="card__text" style="margin-top: 1rem;"><strong>Choose Anonymize.Education if you:</strong></p>
-        <ul style="margin: 1rem 0; padding-left: 1.5rem; color: var(--color-slate-600);">
-          <li>Need to protect student data quickly and affordably</li>
-          <li>Require support for multiple languages in your diverse student population</li>
-          <li>Need offline capability for air-gapped environments</li>
-          <li>Want reversible encryption for compliance and legal requirements</li>
-          <li>Need teachers to use it without IT support or training</li>
-        </ul>
       </div>
     </section>
 
@@ -475,71 +236,51 @@
         <a href="vs-onetrust.html" class="related__card">
           <span class="related__icon">&#128273;</span>
           <span class="related__name">vs OneTrust</span>
-          <span class="related__desc">Enterprise privacy platform</span>
+          <span class="related__desc">Enterprise privacy</span>
         </a>
         <a href="vs-private-ai.html" class="related__card">
           <span class="related__icon">&#129302;</span>
           <span class="related__name">vs Private AI</span>
-          <span class="related__desc">AI-focused PII protection</span>
+          <span class="related__desc">AI PII protection</span>
         </a>
         <a href="vs-manual-redaction.html" class="related__card">
           <span class="related__icon">&#9997;</span>
-          <span class="related__name">vs Manual Redaction</span>
-          <span class="related__desc">Time & accuracy comparison</span>
-        </a>
-        <a href="../competitors.html" class="related__card">
-          <span class="related__icon">&#128200;</span>
-          <span class="related__name">Full Comparison</span>
-          <span class="related__desc">All competitors compared</span>
+          <span class="related__name">vs Manual</span>
+          <span class="related__desc">Time & accuracy</span>
         </a>
       </div>
     </section>
-
   </main>
 
-  <section class="cta">
-    <h2 class="cta__title">Ready to Save $99,000/Year?</h2>
-    <p class="cta__desc">Join schools that chose purpose-built anonymization over enterprise data discovery tools.</p>
+  <section class="compare-cta">
+    <h2 class="compare-cta__title">Ready to Save $99,000/Year?</h2>
+    <p class="compare-cta__desc">Join schools switching from enterprise data discovery to education-native anonymization.</p>
     <a href="https://anonym.legal" target="_blank" class="btn btn--white">Start Free Trial</a>
   </section>
 
   <footer class="footer">
-    <div class="footer__inner">
-      <div class="footer__grid">
-        <div>
-          <h4 class="footer__title">Compare</h4>
-          <a href="vs-onetrust.html" class="footer__link">vs OneTrust</a>
-          <a href="vs-bigid.html" class="footer__link">vs BigID</a>
-          <a href="vs-private-ai.html" class="footer__link">vs Private AI</a>
-          <a href="vs-manual-redaction.html" class="footer__link">vs Manual</a>
-        </div>
-        <div>
-          <h4 class="footer__title">Use Cases</h4>
-          <a href="../use-cases/us.html" class="footer__link">US Education</a>
-          <a href="../use-cases/eu.html" class="footer__link">EU GDPR</a>
-          <a href="../use-cases/healthcare.html" class="footer__link">Healthcare</a>
-        </div>
-        <div>
-          <h4 class="footer__title">Legal</h4>
-          <a href="../datenschutz.html" class="footer__link">Privacy Policy</a>
-          <a href="../impressum.html" class="footer__link">Imprint</a>
-        </div>
+    <div class="footer__grid">
+      <div class="footer__brand">
+        <div class="footer__logo">Anonymize.Education</div>
+        <p class="footer__tagline">Zero-knowledge student data protection.</p>
       </div>
-      <div class="footer__bottom">
-        &copy; 2026 Anonymize.Education by curta.solutions
+      <div>
+        <h4 class="footer__title">Compare</h4>
+        <a href="vs-onetrust.html" class="footer__link">vs OneTrust</a>
+        <a href="vs-bigid.html" class="footer__link">vs BigID</a>
+        <a href="vs-private-ai.html" class="footer__link">vs Private AI</a>
       </div>
+      <div>
+        <h4 class="footer__title">Legal</h4>
+        <a href="../datenschutz.html" class="footer__link">Privacy</a>
+        <a href="../impressum.html" class="footer__link">Imprint</a>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p class="footer__copyright">&copy; 2026 Anonymize.Education</p>
     </div>
   </footer>
 
-  <script>
-    const toggle = document.querySelector('.nav__toggle');
-    const nav = document.querySelector('.nav');
-    if (toggle) {
-      toggle.addEventListener('click', () => {
-        nav.classList.toggle('nav--open');
-        toggle.setAttribute('aria-expanded', nav.classList.contains('nav--open'));
-      });
-    }
-  </script>
+  <script src="../js/main.min.js"></script>
 </body>
 </html>
