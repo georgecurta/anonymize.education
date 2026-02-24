@@ -199,6 +199,16 @@ We focus on TEXT in documents. For faces/video, look elsewhere.
 
 ---
 
+## Compare Solutions
+
+- vs OneTrust: https://anonymize.education/comparisons/vs-onetrust.html
+- vs BigID: https://anonymize.education/comparisons/vs-bigid.html
+- vs Private AI: https://anonymize.education/comparisons/vs-private-ai.html
+- vs Manual Redaction: https://anonymize.education/comparisons/vs-manual-redaction.html
+- All Comparisons: https://anonymize.education/competitors.html
+
+---
+
 ## Links
 
 - Website: https://anonymize.education
