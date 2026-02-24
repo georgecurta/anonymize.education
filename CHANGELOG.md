@@ -4,6 +4,30 @@ All notable changes to the Anonymize.Education website will be documented in thi
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
+## [1.2.2] - 2026-02-24
+
+### Navigation Update — Compare Link Added to All Languages
+
+Added "Compare" link to main navigation across all 11 language versions.
+
+#### Updated Pages (11)
+- `index.html` — English homepage
+- `de/index.html` — German
+- `es/index.html` — Spanish
+- `fr/index.html` — French
+- `pt/index.html` — Portuguese
+- `nl/index.html` — Dutch
+- `lb/index.html` — Luxembourgish
+- `da/index.html` — Danish
+- `sv/index.html` — Swedish
+- `no/index.html` — Norwegian
+- `fi/index.html` — Finnish
+
+#### Navigation Changes
+- Desktop nav: Added "Compare" link between "Trust" and "Contact"
+- Mobile nav: Added "Compare" link in mobile menu
+- Links to `competitors.html` comparison hub
+
 ## [1.2.1] - 2026-02-23
 
 ### Comparison Pages — vs OneTrust, BigID, Private AI, Manual Redaction
