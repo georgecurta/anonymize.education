@@ -1,7 +1,7 @@
 /* TEAM */
 Owner: George Curta
 Company: curta.solutions (operating as Anonymize.Education)
-Location: Saarbruecken, Germany
+Location: Saarbrücken, Germany
 Founded: 2024
 Contact: https://anonymize.education/contact
 

@@ -1644,7 +1644,7 @@ Saadan virker det
 Beskyttede skoler
 
 0
-Databraek
+Databræk
 
 SOC 2
 Type II Certificeret
@@ -1655,13 +1655,13 @@ Certificeret
 PowerSchool 62M poster
 Illuminate Education 820K elever
 Blackbaud 13K+ institutioner
-55% af K-12 braek via leverandoerer
+55% af K-12 braek via leverandører
 96% af EdTech-apps deler data med tredjeparter
 130+ databeskyttelseslove at overholde
 PowerSchool 62M poster
 Illuminate Education 820K elever
 Blackbaud 13K+ institutioner
-55% af K-12 braek via leverandoerer
+55% af K-12 braek via leverandører
 96% af EdTech-apps deler data med tredjeparter
 130+ databeskyttelseslove at overholde
 
@@ -1671,13 +1671,13 @@ Problemet
 
 55%
 
-##### Braek via leverandoerer
+##### Bræk via leverandører
 
-Mere end halvdelen af alle K-12 databraek skyldes tredjepartsleverandoerer, ikke skolerne selv.
+Mere end halvdelen af alle K-12 databraek skyldes tredjepartsleverandører, ikke skolerne selv.
 
 1.449
 
-##### Vaerktoejer pr. skole
+##### Værktøjer pr. skole
 
 Den gennemsnitlige skole bruger 1.449 EdTech-vaerktoejer. Med begraenset personale og budget kan du ikke kontrollere dem alle ordentligt.
 
@@ -1709,7 +1709,7 @@ Deterministisk hybrid-detektion (Regex + NLP + ML) - ingen probabilistisk AI-gae
 
 Behandling sker i hukommelsen, intet gemmes
 
-Uafhaengigt revideret af SOC 2-revisorer
+Uafhængigt revideret af SOC 2-revisorer
 
 1
 Dine elevdata (krypteret paa din enhed)
@@ -1727,13 +1727,13 @@ Hvad vi loeser
 
 #### Enhver databeskyttelsesudfordring i uddannelse
 
-Vaelg dit problem. Vi har loesningen.
+Vælg dit problem. Vi har løsningen.
 
 📜
 
-##### Bestaa GDPR-revisioner
+##### Bestå GDPR-revisioner
 
-Faerdige GDPR-arbejdsgange, databehandleraftaler og komplette revisionslogfiler. Bestaa enhver compliance-kontrol uden konsulenter.
+Færdige GDPR-arbejdsgange, databehandleraftaler og komplette revisionslogfiler. Bestå enhver compliance-kontrol uden konsulenter.
 
 [
 GDPR-loesning
@@ -1775,7 +1775,7 @@ Global compliance
 
 🔍
 
-##### Bestaa leverandoervurderinger
+##### Bestå leverandoervurderinger
 
 Forudfyldte sikkerhedsspoergeskemaer til download. SIG, HECVAT, landsspecifikke formularer. Indsend til din kommune paa minutter.
 
@@ -1791,7 +1791,7 @@ Vurderingsklar
 Besvar offentlige aktindsigtsanmodninger uden at afslore personlige elevdata. Behandl hundredvis af dokumenter i batches. Overhold deadlines uden manuel sloering.
 
 [
-Aktindsigtsloesning
+Aktindsigtsløsning
 
 ](../use-cases.html#foia)
 
@@ -1829,7 +1829,7 @@ Uddannelsesorienterede priser
 
 Enterprise-sikkerhed uden enterprise-priser. Start gratis, skaler som du vokser.
 
-##### Laerer
+##### Lærer
 
 0 kr
 /for altid
@@ -1874,9 +1874,9 @@ AI-beskyttelse (MCP Server)
 
 For skolekommuner
 
-Ubegraensede dokumenter
+Ubegrænsede dokumenter
 
-Ubegraensede SSO-pladser
+Ubegrænsede SSO-pladser
 
 SCIM-provisionering
 
@@ -2042,22 +2042,22 @@ For privacy-related inquiries, please use our [contact form](contact.html) or re
 
 ---
 
-## Anonymize.Education | Schuelerdatenschutz Ohne Komplexitaet
+## Anonymize.Education | Schülerdatenschutz Ohne Komplexität
 URL: https://anonymize.education/de/index.html
-> Schuetzen Sie Schuelerdaten weltweit. Zero-Knowledge-Architektur bedeutet, dass wir Ihre Daten nie sehen. FERPA, COPPA, DSGVO bereit. Kostenlos starten.
+> Schützen Sie Schülerdaten weltweit. Zero-Knowledge-Architektur bedeutet, dass wir Ihre Daten nie sehen. FERPA, COPPA, DSGVO bereit. Kostenlos starten.
 
-62 Millionen Schuelerdaten 2024 kompromittiert
+62 Millionen Schülerdaten 2024 kompromittiert
 
 ###
-Schuetzen Sie Schuelerdaten.
+Schützen Sie Schülerdaten.
 
 Eliminieren Sie Risiken. Schaffen Sie Vertrauen.
 
-Anonymize.Education schuetzt Schuelerdaten mit Zero-Knowledge-Architektur.
+Anonymize.Education schützt Schülerdaten mit Zero-Knowledge-Architektur.
 Wir sehen Ihre Daten nie. Hacker auch nicht.
 
 [
-Schueler kostenlos schuetzen
+Schüler kostenlos schützen
 
 ](https://anonym.legal)
 [
@@ -2065,7 +2065,7 @@ So funktioniert es
 ](../contact.html)
 
 1.200+
-Geschuetzte Schulen
+Geschützte Schulen
 
 0
 Datenpannen
@@ -2076,14 +2076,14 @@ Type II Zertifiziert
 ISO 27001
 Zertifiziert
 
-PowerSchool 62M Datensaetze
-Illuminate Education 820K Schueler
+PowerSchool 62M Datensätze
+Illuminate Education 820K Schüler
 Blackbaud 13K+ Institutionen
 55% der K-12 Verletzungen durch Anbieter
 96% der EdTech-Apps teilen Daten mit Dritten
 130+ Landesdatenschutzgesetze einzuhalten
-PowerSchool 62M Datensaetze
-Illuminate Education 820K Schueler
+PowerSchool 62M Datensätze
+Illuminate Education 820K Schüler
 Blackbaud 13K+ Institutionen
 55% der K-12 Verletzungen durch Anbieter
 96% der EdTech-Apps teilen Daten mit Dritten
@@ -2097,35 +2097,35 @@ Das Problem
 
 ##### Verletzungen durch Anbieter
 
-Mehr als die Haelfte aller K-12-Datenverletzungen werden durch Drittanbieter verursacht, nicht durch die Schulen selbst.
+Mehr als die Hälfte aller K-12-Datenverletzungen werden durch Drittanbieter verursacht, nicht durch die Schulen selbst.
 
 1.449
 
 ##### Tools pro Schule
 
-Die durchschnittliche Schule nutzt 1.449 EdTech-Tools. Mit begrenztem Personal und Budget koennen Sie sie nicht alle richtig pruefen.
+Die durchschnittliche Schule nutzt 1.449 EdTech-Tools. Mit begrenztem Personal und Budget können Sie sie nicht alle richtig prüfen.
 
 96%
 
 ##### Apps teilen Daten
 
-96% der EdTech-Apps teilen Schuelerdaten mit Dritten und verstossen wahrscheinlich gegen COPPA und FERPA.
+96% der EdTech-Apps teilen Schülerdaten mit Dritten und verstoßen wahrscheinlich gegen COPPA und FERPA.
 
 50.000+
 
 ##### Enterprise-Tool Kosten
 
-Enterprise-Datenschutztools wie OneTrust kosten ueber 50.000 Euro pro Jahr. Bildungsbudgets koennen das nicht absorbieren.
+Enterprise-Datenschutztools wie OneTrust kosten über 50.000 Euro pro Jahr. Bildungsbudgets können das nicht absorbieren.
 
-Unsere Loesung
+Unsere Lösung
 
 #### Zero-Knowledge-Architektur
 
-Wir koennen Ihre Schuelerdaten nicht sehen. Nicht wegen Richtlinien, sondern wegen Mathematik.
-Ihre Daten werden verschluesselt, bevor sie unsere Server erreichen. Selbst wenn wir
-gehackt wuerden, wuerden Angreifer nichts bekommen.
+Wir können Ihre Schülerdaten nicht sehen. Nicht wegen Richtlinien, sondern wegen Mathematik.
+Ihre Daten werden verschlüsselt, bevor sie unsere Server erreichen. Selbst wenn wir
+gehackt würden, würden Angreifer nichts bekommen.
 
-Ende-zu-Ende-Verschluesselung mit Schluesseln, die Sie kontrollieren
+Ende-zu-Ende-Verschlüsselung mit Schlüsseln, die Sie kontrollieren
 
 Keine Klartextdaten auf unseren Servern
 
@@ -2133,45 +2133,45 @@ Deterministische Hybrid-Erkennung (Regex + NLP + ML) - kein probabilistisches KI
 
 Verarbeitung findet im Speicher statt, nichts wird gespeichert
 
-Unabhaengig geprueft von SOC 2-Pruefern
+Unabhängig geprüft von SOC 2-Prüfern
 
 1
-Ihre Schuelerdaten (auf Ihrem Geraet verschluesselt)
+Ihre Schülerdaten (auf Ihrem Gerät verschlüsselt)
 
 2
-Anonymisierung erfolgt (wir sehen nur verschluesselte Blobs)
+Anonymisierung erfolgt (wir sehen nur verschlüsselte Blobs)
 
 3
-Geschuetzte Ausgabe wird an Sie zurueckgegeben
+Geschützte Ausgabe wird an Sie zurückgegeben
 
 4
 Sicher mit jedem teilen
 
-Was wir loesen
+Was wir lösen
 
 #### Jede Datenschutzherausforderung im Bildungsbereich
 
-Waehlen Sie Ihr Problem. Wir haben die Loesung.
+Wählen Sie Ihr Problem. Wir haben die Lösung.
 
 📜
 
 ##### DSGVO-Audits bestehen
 
-Vorgefertigte DSGVO-Workflows, AVV-Vertraege und vollstaendige Audit-Trails. Bestehen Sie jede Compliance-Pruefung ohne Berater.
+Vorgefertigte DSGVO-Workflows, AVV-Verträge und vollständige Audit-Trails. Bestehen Sie jede Compliance-Prüfung ohne Berater.
 
 [
-DSGVO-Loesung
+DSGVO-Lösung
 
 ](../use-cases.html#ferpa)
 
 👶
 
-##### Schueler unter 13 schuetzen
+##### Schüler unter 13 schützen
 
-Von Grund auf COPPA-konform. Schuleinwilligungs-Workflows integriert. Keine Datenweitergabe an Dritte. Sicher fuer K-12 vom ersten Tag an.
+Von Grund auf COPPA-konform. Schuleinwilligungs-Workflows integriert. Keine Datenweitergabe an Dritte. Sicher für K-12 vom ersten Tag an.
 
 [
-COPPA-Loesung
+COPPA-Lösung
 
 ](../use-cases.html#k12)
 
@@ -2179,18 +2179,18 @@ COPPA-Loesung
 
 ##### KI ohne Risiko nutzen
 
-Lassen Sie Lehrer ChatGPT und Claude sicher nutzen. Schuelerdaten werden anonymisiert, bevor die KI sie sieht. KI-Vorteile ohne Datenschutzprobleme.
+Lassen Sie Lehrer ChatGPT und Claude sicher nutzen. Schülerdaten werden anonymisiert, bevor die KI sie sieht. KI-Vorteile ohne Datenschutzprobleme.
 
 [
-KI-Sicherheitsloesung
+KI-Sicherheitslösung
 
 ](../use-cases.html#ai-safety)
 
 🌎
 
-##### Ueberall konform
+##### Überall konform
 
-DSGVO, UK GDPR, LGPD, PIPL und 130+ US-Landesgesetze. Eine Loesung, die in jeder Jurisdiktion funktioniert, in der Ihre Schule taetig ist.
+DSGVO, UK GDPR, LGPD, PIPL und 130+ US-Landesgesetze. Eine Lösung, die in jeder Jurisdiktion funktioniert, in der Ihre Schule tätig ist.
 
 [
 Globale Compliance
@@ -2201,7 +2201,7 @@ Globale Compliance
 
 ##### Anbieter-Assessments bestehen
 
-Vorab ausgefuellte Sicherheitsfrageboegen zum Download. SIG, HECVAT, laenderspezifische Formulare. In Minuten an Ihren Bezirk uebermitteln.
+Vorab ausgefüllte Sicherheitsfragebögen zum Download. SIG, HECVAT, länderspezifische Formulare. In Minuten an Ihren Bezirk übermitteln.
 
 [
 Assessment-bereit
@@ -2212,14 +2212,14 @@ Assessment-bereit
 
 ##### IFG-Anfragen bearbeiten
 
-Auf oeffentliche Auskunftsanfragen reagieren, ohne personenbezogene Schuelerdaten preiszugeben. Hunderte Dokumente stapelweise verarbeiten. Fristen ohne manuelle Schwaerzung einhalten.
+Auf öffentliche Auskunftsanfragen reagieren, ohne personenbezogene Schülerdaten preiszugeben. Hunderte Dokumente stapelweise verarbeiten. Fristen ohne manuelle Schwärzung einhalten.
 
 [
-IFG-Loesung
+IFG-Lösung
 
 ](../use-cases.html#foia)
 
-Funktioniert ueberall
+Funktioniert überall
 
 #### Eingebaut in die Tools, die Sie bereits nutzen
 
@@ -2249,16 +2249,16 @@ PowerSchool
 
 Bildungsorientierte Preise
 
-#### Fuer Bildungsbudgets gemacht
+#### Für Bildungsbudgets gemacht
 
 Enterprise-Sicherheit ohne Enterprise-Preise. Kostenlos starten, skalieren wie Sie wachsen.
 
 ##### Lehrer
 
 0 Euro
-/fuer immer
+/für immer
 
-Kostenlos fuer einzelne Paedagogen
+Kostenlos für einzelne Pädagogen
 
 500 Dokumente pro Monat
 
@@ -2277,13 +2277,13 @@ Am beliebtesten
 49 Euro
 /Monat
 
-Fuer K-12 Schulen
+Für K-12 Schulen
 
 10.000 Dokumente pro Monat
 
 LMS-Integration (Canvas, etc.)
 
-25 SSO-Plaetze (Clever, ClassLink)
+25 SSO-Plätze (Clever, ClassLink)
 
 Admin-Dashboard
 
@@ -2296,11 +2296,11 @@ KI-Schutz (MCP Server)
 199 Euro
 /Monat
 
-Fuer Schulbezirke
+Für Schulbezirke
 
 Unbegrenzte Dokumente
 
-Unbegrenzte SSO-Plaetze
+Unbegrenzte SSO-Plätze
 
 SCIM-Bereitstellung
 
@@ -2312,19 +2312,19 @@ Individueller AVV
 
 Vertrauen & Sicherheit
 
-#### Enterprise-Sicherheit, die Sie verifizieren koennen
+#### Enterprise-Sicherheit, die Sie verifizieren können
 
 🔐
 
 ##### Zero-Knowledge
 
-Wir koennen mathematisch nicht auf Ihre Daten zugreifen
+Wir können mathematisch nicht auf Ihre Daten zugreifen
 
 ✅
 
 ##### SOC 2 Type II
 
-Jaehrlich unabhaengig geprueft
+Jährlich unabhängig geprüft
 
 🎯
 
@@ -2336,13 +2336,13 @@ Zertifiziertes Sicherheitsmanagement
 
 ##### EU-Datenresidenz
 
-Deutsche Server verfuegbar
+Deutsche Server verfügbar
 
 🇺🇸
 
 ##### US-Datenresidenz
 
-AWS GovCloud verfuegbar
+AWS GovCloud verfügbar
 
 📋
 
@@ -2350,10 +2350,10 @@ AWS GovCloud verfuegbar
 
 Vorab unterzeichneter AVV
 
-#### Beginnen Sie heute mit dem Schutz von Schuelern
+#### Beginnen Sie heute mit dem Schutz von Schülern
 
-Schliessen Sie sich ueber 1.200 Schulen an, die Anonymize.Education nutzen.
-Kostenlos fuer einzelne Lehrer. Keine Kreditkarte erforderlich.
+Schließen Sie sich über 1.200 Schulen an, die Anonymize.Education nutzen.
+Kostenlos für einzelne Lehrer. Keine Kreditkarte erforderlich.
 
 [
 Jetzt kostenlos starten
@@ -2445,7 +2445,7 @@ Nuestra Solucion
 #### Arquitectura de Conocimiento Cero
 
 No podemos ver los datos de sus estudiantes. No por politica, sino por matematicas.
-Sus datos se cifran antes de llegar a nuestros servidores. Incluso si fueramos
+Sus datos se cifran antes de llegar a nuestros servidores. Incluso si füramos
 hackeados, los atacantes no obtendrian nada.
 
 Cifrado de extremo a extremo con claves que usted controla
@@ -4250,16 +4250,16 @@ Schedule Demo
 
 ## Anonymize.Education | Dateschutz fir Schüler
 URL: https://anonymize.education/lb/index.html
-> Schuetzt Schuelerdaten weltweit. Zero-Knowledge-Architektur bedeit, datt mir Är Daten ni gesinn. FERPA, COPPA, DSGVO prett. Gratis ufänken.
+> Schützt Schülerdaten weltweit. Zero-Knowledge-Architektur bedeit, datt mir Är Daten ni gesinn. FERPA, COPPA, DSGVO prett. Gratis ufänken.
 
-62 Milliounen Schuelerdaten 2024 kompromittéiert
+62 Milliounen Schülerdaten 2024 kompromittéiert
 
 ###
-Schuetzt Schuelerdaten.
+Schützt Schülerdaten.
 
 Eliminéiert Risiken. Schafft Vertrauen.
 
-Anonymize.Education schuetzt Schuelerdaten mat Zero-Knowledge-Architektur.
+Anonymize.Education schützt Schülerdaten mat Zero-Knowledge-Architektur.
 Mir gesinn Är Daten ni. Hacker och net.
 
 [
@@ -4315,7 +4315,7 @@ Déi duerchschnëttlech Schoul benotzt 1.449 EdTech-Tools. Mat limitéiertem Per
 
 ##### Apps deelen Daten
 
-96% vun EdTech-Apps deelen Schuelerdaten mat Drëtten a verletzen wahrscheinlech COPPA an FERPA.
+96% vun EdTech-Apps deelen Schülerdaten mat Drëtten a verletzen wahrscheinlech COPPA an FERPA.
 
 50.000+
 
@@ -4327,7 +4327,7 @@ Eis Léisung
 
 #### Zero-Knowledge-Architektur
 
-Mir kënnen Är Schuelerdaten net gesinn. Net wéinst Richtlinnen, mee wéinst Mathematik.
+Mir kënnen Är Schülerdaten net gesinn. Net wéinst Richtlinnen, mee wéinst Mathematik.
 Är Daten ginn verschlësselt ier se eis Server erreechen. Och wann mir
 gehackt géife ginn, géifen Ugräifer näischt kréien.
 
@@ -4342,7 +4342,7 @@ Veraarbechtung geschitt am Späicher, näischt gëtt gespäichert
 Onofhängeg gepréift vun SOC 2-Auditoren
 
 1
-Är Schuelerdaten (op Ärem Apparat verschlësselt)
+Är Schülerdaten (op Ärem Apparat verschlësselt)
 
 2
 Anonymiséierung geschitt (mir gesinn nëmme verschlësselt Blobs)
@@ -4355,7 +4355,7 @@ Sécher mat jidderengem deelen
 
 Wat mir léisen
 
-#### All Dateschutz-Erausfuerderung am Bildungsberäich
+#### All Dateschutz-Erausfürderung am Bildungsberäich
 
 Wielt Äert Problem. Mir hunn d'Léisung.
 
@@ -4385,7 +4385,7 @@ COPPA-Léisung
 
 ##### KI ouni Risiko benotzen
 
-Loosst Enseignanten ChatGPT a Claude sécher benotzen. Schuelerdaten ginn anonymiséiert ier d'KI se gesäit. KI-Virdeeler ouni Dateschutzproblemer.
+Loosst Enseignanten ChatGPT a Claude sécher benotzen. Schülerdaten ginn anonymiséiert ier d'KI se gesäit. KI-Virdeeler ouni Dateschutzproblemer.
 
 [
 KI-Sécherheetsléisung
@@ -4418,7 +4418,7 @@ Assessment-prett
 
 ##### Informatiounsfräiheet-Ufroen beäntwerten
 
-Op ëffentlech Auskunftsufroe reagéieren ouni perséinlech Schuelerdaten preiszeginn. Honnerte Dokumenter am Batch veraarbechten. Frist anhalen ouni manuell Schwaarzung.
+Op ëffentlech Auskunftsufroe reagéieren ouni perséinlech Schülerdaten preiszeginn. Honnerte Dokumenter am Batch veraarbechten. Frist anhalen ouni manuell Schwärzung.
 
 [
 Informatiounsfräiheet-Léisung
@@ -4559,7 +4559,7 @@ Viraus ënnerschriwwenen AVV
 #### Fänkt haut un Schüler ze schützen
 
 Schléisst Iech iwwer 1.200 Schoulen un, déi Anonymize.Education benotzen.
-Gratis fir eenzel Enseignanten. Keng Kreditkaart erfuerderlech.
+Gratis fir eenzel Enseignanten. Keng Kreditkaart erfürderlech.
 
 [
 Elo gratis ufänken
@@ -4931,13 +4931,13 @@ Sertifisert
 PowerSchool 62M poster
 Illuminate Education 820K elever
 Blackbaud 13K+ institusjoner
-55% av K-12-brudd skyldes leverandoerer
+55% av K-12-brudd skyldes leverandører
 96% av EdTech-apper deler data med tredjeparter
 130+ statlige personvernlover aa overholde
 PowerSchool 62M poster
 Illuminate Education 820K elever
 Blackbaud 13K+ institusjoner
-55% av K-12-brudd skyldes leverandoerer
+55% av K-12-brudd skyldes leverandører
 96% av EdTech-apper deler data med tredjeparter
 130+ statlige personvernlover aa overholde
 
@@ -4947,9 +4947,9 @@ Problemet
 
 55%
 
-##### Brudd via leverandoerer
+##### Brudd via leverandører
 
-Mer enn halvparten av alle K-12-databrudd foraarsakses av tredjepartsleverandoerer, ikke skolene selv.
+Mer enn halvparten av alle K-12-databrudd foraarsakses av tredjepartsleverandører, ikke skolene selv.
 
 1 449
 
@@ -5003,13 +5003,13 @@ Hva vi loeser
 
 #### Enhver personvernutfordring innen utdanning
 
-Velg problemet ditt. Vi har loesningen.
+Velg problemet ditt. Vi har løsningen.
 
 📜
 
-##### Bestaa GDPR-revisjoner
+##### Bestå GDPR-revisjoner
 
-Ferdige GDPR-arbeidsflyter, DPA-kontrakter og fullstendige revisjonslogger. Bestaa enhver samsvarssjekk uten konsulenter.
+Ferdige GDPR-arbeidsflyter, DPA-kontrakter og fullstendige revisjonslogger. Bestå enhver samsvarssjekk uten konsulenter.
 
 [
 GDPR-loesning
@@ -5051,7 +5051,7 @@ Globalt samsvar
 
 🔍
 
-##### Bestaa leverandoervurderinger
+##### Bestå leverandoervurderinger
 
 Ferdigutfylte sikkerhetssjemaer for nedlasting. SIG, HECVAT, delstatsspesifikke skjemaer. Send til kommunen paa minutter.
 
@@ -5105,7 +5105,7 @@ Utdanningsvennlige priser
 
 Enterprise-sikkerhet uten enterprise-priser. Start gratis, skaler etter behov.
 
-##### Laerer
+##### Lærer
 
 0 kr
 /for alltid

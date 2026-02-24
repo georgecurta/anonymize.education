@@ -53,7 +53,7 @@ Anonymiser elevdata for deling. Leverandorer modtager funktionelle data til test
 Se: https://anonymize.education/use-cases/eu.html
 
 ### Hvordan anonymiserer jeg forskningsdata fra studerende?
-Upload sporgeskemasvar, interviewudskrifter eller formularer. Automatisk genkendelse af elev-, skole- og laerernavne. Eksporter med ensartede pseudonymer (Elev_001, Laerer_A).
+Upload sporgeskemasvar, interviewudskrifter eller formularer. Automatisk genkendelse af elev-, skole- og lærernavne. Eksporter med ensartede pseudonymer (Elev_001, Lærer_A).
 
 ### Hvordan handterer jeg graenseoverskridende elevdataoverforsler?
 EU-elever -> anonymiser for USA-overforsel. GDPR vs CLOUD Act konflikt lost. Forskningssamarbejder uden compliance-overtraedelser.
