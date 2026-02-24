@@ -5,7 +5,7 @@
 **Domain**: anonymize.education
 **Purpose**: Marketing website for education-focused data anonymization platform
 **Backend**: cloak.business (serves the PII detection/anonymization API)
-**Status**: Live in production (v1.2.2, deployed 2026-02-24)
+**Status**: Live in production (v1.2.3, deployed 2026-02-24)
 
 ### Architecture
 ```
@@ -470,6 +470,7 @@ node tests/production-check.js
 | Version | Date | Changes |
 |---------|------|---------|
 | 2.0.0 | TBD | Education worldwide compatibility update |
+| 1.2.3 | 2026-02-24 | Navigation consistency: all 35 pages standardized with full 6-link nav |
 | 1.2.2 | 2026-02-24 | Navigation update: Compare link added to all 11 languages |
 | 1.2.1 | 2026-02-23 | Comparison pages (vs OneTrust, BigID, Private AI, Manual) |
 | 1.2.0 | 2026-02-23 | SEO enhancement: FAQPage + BreadcrumbList + internal linking |

@@ -4,6 +4,23 @@ All notable changes to the Anonymize.Education website will be documented in thi
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
+## [1.2.3] - 2026-02-24
+
+### Navigation Consistency Fix — All 35 Pages Updated
+
+Standardized navigation across all pages to match main site structure.
+
+#### Files Updated (23)
+- **Top-level pages (6):** contact, use-cases, glossary, case-studies, datenschutz, impressum
+- **Comparison pages (4):** vs-onetrust, vs-bigid, vs-private-ai, vs-manual-redaction
+- **Use-cases subpages (11):** us, eu, uk, apac, latam, international, healthcare, hr, legal, finance, government, ai-safety
+- **Compare hub (1):** competitors.html (active state)
+
+#### Navigation Changes
+- All pages now have consistent 6-link navigation: Solutions, Integrations, Pricing, Trust, Compare, Contact
+- Comparison pages: Added Trust link + Compare marked as active
+- Use-cases subpages: Replaced 4-link nav with full 6-link nav
+
 ## [1.2.2] - 2026-02-24
 
 ### Navigation Update — Compare Link Added to All Languages
