@@ -192,17 +192,25 @@
     .cta-box .btn:hover { background: #f0fdfa; }
 
     /* Footer */
-    .footer { background: #0d5c63; color: white; padding: 3rem 1.5rem; margin-top: 4rem; }
-    .footer__inner { max-width: var(--max-width); margin: 0 auto; display: grid; grid-template-columns: 1fr; gap: 2rem; }
-    @media (min-width: 768px) { .footer__inner { grid-template-columns: 2fr 1fr 1fr; } }
-    .footer__brand { font-weight: 700; font-size: 1.25rem; margin-bottom: 0.5rem; }
-    .footer__tagline { opacity: 0.8; font-size: 0.875rem; }
-    .footer__heading { font-weight: 600; margin-bottom: 1rem; }
-    .footer__links { list-style: none; }
-    .footer__links li { margin-bottom: 0.5rem; }
-    .footer__links a { opacity: 0.8; transition: opacity 0.2s; }
-    .footer__links a:hover { opacity: 1; }
-    .footer__bottom { max-width: var(--max-width); margin: 2rem auto 0; padding-top: 1.5rem; border-top: 1px solid rgba(255,255,255,0.1); text-align: center; font-size: 0.875rem; opacity: 0.7; }
+    /* Footer */
+    .footer { background: var(--color-slate); color: white; padding: 4rem 0 2rem; }
+    .footer .container { max-width: var(--max-width); margin: 0 auto; padding: 0 var(--space-lg); }
+    .footer__grid { display: grid; grid-template-columns: 2fr repeat(3, 1fr); gap: 3rem; margin-bottom: 3rem; }
+    @media (max-width: 768px) { .footer__grid { grid-template-columns: 1fr 1fr; gap: 2rem; } }
+    .footer__brand { grid-column: span 2; }
+    @media (min-width: 768px) { .footer__brand { grid-column: span 1; } }
+    .footer__logo { display: flex; align-items: center; gap: var(--space-sm); font-weight: 700; font-size: 1.125rem; margin-bottom: var(--space-md); }
+    .footer__desc { font-size: 0.875rem; opacity: 0.7; line-height: 1.6; max-width: 280px; }
+    .footer__title { font-size: 0.875rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: var(--space-md); opacity: 0.5; }
+    .footer__links { display: flex; flex-direction: column; gap: var(--space-sm); }
+    .footer__link { font-size: 0.9375rem; opacity: 0.8; transition: opacity var(--transition-fast); }
+    .footer__link:hover { opacity: 1; }
+    .footer__bottom { display: flex; flex-direction: column; gap: var(--space-md); padding-top: var(--space-xl); border-top: 1px solid rgba(255,255,255,0.1); }
+    @media (min-width: 768px) { .footer__bottom { flex-direction: row; justify-content: space-between; align-items: center; } }
+    .footer__copyright { font-size: 0.875rem; opacity: 0.5; }
+    .footer__legal { display: flex; gap: var(--space-lg); }
+    .footer__legal a { font-size: 0.875rem; opacity: 0.5; transition: opacity var(--transition-fast); }
+    .footer__legal a:hover { opacity: 1; }
   </style>
   <script type="application/ld+json">
   {
@@ -256,7 +264,7 @@
             <a href="/fi/" class="nav__lang-link">Suomi</a>
           </div>
         </div>
-        <a href="https://anonym.legal" class="btn btn--primary" target="_blank">Start Free</a>
+        
       </div>
       <button class="nav__toggle" aria-expanded="false" aria-controls="mobile-menu" aria-label="Open menu">
         <svg class="menu-open" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -288,7 +296,7 @@
         <a href="/fi/" class="nav__lang-link">FI</a>
       </div>
       <div class="nav__mobile-cta">
-        <a href="https://anonym.legal" class="btn btn--primary" target="_blank">Start Free</a>
+        
       </div>
     </div>
   </nav>
@@ -890,37 +898,55 @@
   </main>
 
   <footer class="footer">
-    <div class="footer__grid">
-      <div class="footer__brand">
-        <a href="/" class="footer__logo">Anonymize.Education</a>
-        <p class="footer__tagline">Zero-knowledge student data privacy. Used by 1,200+ schools worldwide.</p>
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <div class="footer__logo">
+            <span class="nav__logo-mark">A</span>
+            Anonymize.Education
+          </div>
+          <p class="footer__desc">
+            Zero-knowledge student data privacy.
+            Used by 1,200+ schools worldwide.
+          </p>
+        </div>
+
+        <div>
+          <h4 class="footer__title">Solutions</h4>
+          <div class="footer__links">
+            <a href="index.html#solutions" class="footer__link">FERPA Compliance</a>
+            <a href="index.html#solutions" class="footer__link">COPPA Protection</a>
+            <a href="index.html#solutions" class="footer__link">AI Safety</a>
+            <a href="index.html#solutions" class="footer__link">FOIA Requests</a>
+          </div>
+        </div>
+
+        <div>
+          <h4 class="footer__title">Resources</h4>
+          <div class="footer__links">
+            <a href="glossary.html" class="footer__link">Glossary</a>
+            <a href="use-cases.html" class="footer__link">Use Cases</a>
+            <a href="case-studies.html" class="footer__link">Case Studies</a>
+            <a href="competitors.html" class="footer__link">Compare</a>
+          </div>
+        </div>
+
+        <div>
+          <h4 class="footer__title">Trust</h4>
+          <div class="footer__links">
+            <a href="index.html#trust" class="footer__link">Security</a>
+            <a href="contact.html" class="footer__link">Contact Us</a>
+            <a href="https://anonymize.solutions" class="footer__link" target="_blank">Enterprise</a>
+          </div>
+        </div>
       </div>
-      <div>
-        <h2 class="footer__title">Solutions</h2>
-        <a href="index.html#solutions" class="footer__link">FERPA Compliance</a>
-        <a href="index.html#solutions" class="footer__link">COPPA Protection</a>
-        <a href="index.html#solutions" class="footer__link">AI Safety</a>
-        <a href="index.html#solutions" class="footer__link">FOIA Requests</a>
-      </div>
-      <div>
-        <h2 class="footer__title">Resources</h2>
-        <a href="glossary.html" class="footer__link">Glossary</a>
-        <a href="use-cases.html" class="footer__link">Use Cases</a>
-        <a href="case-studies.html" class="footer__link">Case Studies</a>
-        <a href="competitors.html" class="footer__link">Compare</a>
-      </div>
-      <div>
-        <h2 class="footer__title">Trust</h2>
-        <a href="index.html#trust" class="footer__link">Security</a>
-        <a href="contact.html" class="footer__link">Contact Us</a>
-        <a href="https://anonymize.solutions" class="footer__link" target="_blank">Enterprise</a>
-      </div>
-    </div>
-    <div class="footer__bottom">
-      <p class="footer__copyright">&copy; 2026 Anonymize.Education. All rights reserved.</p>
-      <div class="footer__legal">
-        <a href="datenschutz.html">Privacy Policy</a>
-        <a href="impressum.html">Imprint</a>
+
+      <div class="footer__bottom">
+        <p class="footer__copyright">&copy; 2026 Anonymize.Education. All rights reserved.</p>
+        <div class="footer__legal">
+          <a href="datenschutz.html">Privacy Policy</a>
+          <a href="impressum.html">Imprint</a>
+        </div>
       </div>
     </div>
   </footer>
