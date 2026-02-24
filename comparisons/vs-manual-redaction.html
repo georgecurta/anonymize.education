@@ -130,6 +130,22 @@
     .calculation__row:last-child { border-bottom: none; font-weight: 700; color: var(--color-trust); }
     .calculation__label { color: var(--color-slate-600); }
     .calculation__value { font-weight: 600; color: var(--color-slate); }
+
+    .nav__cta { display: none; }
+    @media (min-width: 768px) { .nav__cta { display: flex; } }
+    .nav__cta .btn { padding: 0.5rem 1rem; font-size: 0.875rem; }
+    .btn--primary { background: var(--color-trust); color: white; border: none; }
+    .btn--primary:hover { background: var(--color-trust-dark); }
+
+    .nav__toggle { display: flex; flex-direction: column; gap: 4px; padding: 8px; background: none; border: none; cursor: pointer; }
+    .nav__toggle span { display: block; width: 20px; height: 2px; background: var(--color-slate); transition: 0.2s; }
+    @media (min-width: 768px) { .nav__toggle { display: none; } }
+
+    .nav__mobile { display: none; position: absolute; top: 100%; left: 0; right: 0; background: white; padding: 1rem; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+    .nav--open .nav__mobile { display: block; }
+    .nav__mobile-link { display: block; padding: 0.75rem 1rem; color: var(--color-slate-600); font-weight: 500; }
+    .nav__mobile-link:hover { background: #f8fafc; color: var(--color-trust); }
+    .nav__mobile-link--cta { background: var(--color-trust); color: white; border-radius: 8px; text-align: center; margin-top: 0.5rem; }
   </style>
   <script type="application/ld+json">
   {
@@ -199,18 +215,38 @@
   </script>
 </head>
 <body>
-  <nav class="nav">
+  <nav class="nav" role="navigation" aria-label="Main navigation">
     <div class="nav__inner">
       <a href="../" class="nav__logo">
         <span class="nav__logo-mark">A</span>
         Anonymize.Education
       </a>
+
       <div class="nav__links">
         <a href="../index.html#solutions" class="nav__link">Solutions</a>
+        <a href="../index.html#integrations" class="nav__link">Integrations</a>
         <a href="../index.html#pricing" class="nav__link">Pricing</a>
         <a href="../competitors.html" class="nav__link">Compare</a>
         <a href="../contact.html" class="nav__link">Contact</a>
       </div>
+
+      <div class="nav__cta">
+        <a href="https://anonym.legal" target="_blank" class="btn btn--primary">Start Free</a>
+      </div>
+
+      <button class="nav__toggle" aria-expanded="false" aria-controls="mobile-menu" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+
+    <!-- Mobile Menu -->
+    <div id="mobile-menu" class="nav__mobile" role="menu" aria-hidden="true">
+      <a href="../index.html#solutions" class="nav__mobile-link" role="menuitem">Solutions</a>
+      <a href="../index.html#integrations" class="nav__mobile-link" role="menuitem">Integrations</a>
+      <a href="../index.html#pricing" class="nav__mobile-link" role="menuitem">Pricing</a>
+      <a href="../competitors.html" class="nav__mobile-link" role="menuitem">Compare</a>
+      <a href="../contact.html" class="nav__mobile-link" role="menuitem">Contact</a>
+      <a href="https://anonym.legal" target="_blank" class="nav__mobile-link nav__mobile-link--cta" role="menuitem">Start Free</a>
     </div>
   </nav>
 
@@ -542,5 +578,16 @@
       </div>
     </div>
   </footer>
+
+  <script>
+    const toggle = document.querySelector('.nav__toggle');
+    const nav = document.querySelector('.nav');
+    if (toggle) {
+      toggle.addEventListener('click', () => {
+        nav.classList.toggle('nav--open');
+        toggle.setAttribute('aria-expanded', nav.classList.contains('nav--open'));
+      });
+    }
+  </script>
 </body>
 </html>
