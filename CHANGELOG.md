@@ -4,6 +4,22 @@ All notable changes to the Anonymize.Education website will be documented in thi
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
+## [1.2.4] - 2026-02-24
+
+### Language Switcher + Factual Accuracy Fixes
+
+- Added language dropdown (11 languages) to all subpages
+- Added mobile menu with language links to all subpages
+- Fixed inaccurate competitor claims (BigID/OneTrust language support)
+- Added qualifiers to manual redaction statistics
+- Added comparison pages to llms.txt
+
+#### Files Updated (24)
+- Top-level pages (6): contact, use-cases, glossary, case-studies, datenschutz, impressum
+- Comparison pages (4): vs-onetrust, vs-bigid, vs-private-ai, vs-manual-redaction
+- Use-cases subpages (11): all regional and industry pages
+- competitors.html, llms.txt
+
 ## [1.2.3] - 2026-02-24
 
 ### Navigation Consistency Fix — All 35 Pages Updated
