@@ -4,6 +4,38 @@ All notable changes to the Anonymize.Education website will be documented in thi
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
+## [1.2.7] - 2026-02-24
+
+### Pricing Alignment with anonym.legal Token Model
+
+Fixed pricing across all 11 languages to match actual anonym.legal backend costs.
+
+#### Pricing Model (Token Math)
+- Anonymization: ~2 tokens per 100 characters
+- 1 page ≈ 2,500 characters → ~50 tokens per page
+- Prices now reflect real per-page costs
+
+#### New Pricing Structure
+| Tier | Price | Example |
+|------|-------|---------|
+| Teacher | €0 (free) | ~4 pages/month (200 tokens) |
+| School | €0.12/page | 500 pages = €60/month |
+| District | €0.10/page | 2,500 pages = €250/month |
+
+#### Changes (All 11 Languages)
+- **Currency:** Unified to EUR (€) across all versions
+- **Pricing model:** Per-page rates instead of fake document limits
+- **Removed:** Unverified "500 documents" and "10,000 documents" claims
+- **Added:** Clear examples (e.g., "500 pages = €60/month")
+- **Features:** Updated to match actual anonym.legal capabilities
+- **JSON-LD:** Updated FAQ schema with accurate pricing info
+
+#### Files Updated
+- `index.html` + JSON-LD schema
+- All 10 language versions: de, es, fr, pt, nl, lb, da, sv, no, fi
+
+---
+
 ## [1.2.6] - 2026-02-24
 
 ### Education Licensing CTAs
