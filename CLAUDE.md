@@ -5,7 +5,7 @@
 **Domain**: anonymize.education
 **Purpose**: Marketing website for education-focused data anonymization platform
 **Backend**: cloak.business (serves the PII detection/anonymization API)
-**Status**: Live in production (v1.2.8, deployed 2026-02-24)
+**Status**: Live in production (v1.2.9, deployed 2026-02-24)
 
 ### Architecture
 ```
@@ -470,6 +470,7 @@ node tests/production-check.js
 | Version | Date | Changes |
 |---------|------|---------|
 | 2.0.0 | TBD | Education worldwide compatibility update |
+| 1.2.9 | 2026-02-24 | Character-based pricing (€0.05/1K chars) replaces page-based model |
 | 1.2.8 | 2026-02-24 | Comprehensive pricing update across SEO, docs, AI files (40+ files) |
 | 1.2.7 | 2026-02-24 | Pricing aligned with anonym.legal token model (€0.12/page) |
 | 1.2.6 | 2026-02-24 | Education licensing CTAs across all 11 languages |

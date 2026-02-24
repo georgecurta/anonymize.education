@@ -145,10 +145,10 @@ ISO 27001:2022, SOC 2 Type II, jaarlijkse penetratietests.
 ## Prijzen
 
 ### Is er een gratis versie?
-Ja. Voor altijd gratis voor persoonlijk gebruik. Geen creditcard. ~4 pagina's/maand (200 tokens).
+Ja. Voor altijd gratis voor persoonlijk gebruik. Geen creditcard. ~10.000 tekens/maand (200 tokens).
 
 ### Hoeveel kost het voor scholen?
-Prijs per pagina: Docent (gratis, ~4 pagina's/maand), School (€0,12/pagina, bijv. 500 pagina's = €60/maand), District (€0,10/pagina, bijv. 2.500 pagina's = €250/maand). 100x goedkoper dan OneTrust (€50.000+/jaar).
+Per teken: Docent (gratis, ~10.000 tekens/maand), School (€0,05/1K tekens, bijv. 1M tekens = €50/maand), District (€0,04/1K tekens, bijv. 2,5M tekens = €100/maand). 100x goedkoper dan OneTrust (€50.000+/jaar).
 
 ---
 

@@ -151,11 +151,11 @@
     "school": {
       "name": "Escuela",
       "badge": "Mas Popular",
-      "price": "€0,12",
-      "period": "/pagina",
+      "price": "€0,05",
+      "period": "/1K chars",
       "desc": "Para escuelas K-12",
       "features": {
-        "docs": "ej. 500 paginas = €60/mes",
+        "docs": "ej. 1M chars = €50/mes",
         "lms": "Integracion LMS (Canvas, etc.)",
         "sso": "25 usuarios SSO (Clever, ClassLink)",
         "admin": "Panel de administracion",

@@ -8,9 +8,9 @@ How Anonymize.Education compares to other privacy tools for education.
 
 | Feature | Anonymize.Education | Microsoft Presidio | Private AI | OneTrust | Manual Review |
 |---------|---------------------|-------------------|------------|----------|---------------|
-| **Pricing** | €0-€0.10/page | Free + hosting | Enterprise ($$$) | $50,000+ | Staff time |
-| **Free tier** | Yes (~4 pages/mo) | Yes (DIY) | No | No | N/A |
-| **School plan** | €0.12/page | N/A | Contact sales | Contact sales | N/A |
+| **Pricing** | €0-€0.04/1K chars | Free + hosting | Enterprise ($$$) | $50,000+ | Staff time |
+| **Free tier** | Yes (~10,000 chars/mo) | Yes (DIY) | No | No | N/A |
+| **School plan** | €0.05/1K chars | N/A | Contact sales | Contact sales | N/A |
 | **Ready to use** | Immediate | Requires setup | Days/weeks | Weeks/months | Immediate |
 | **Entity types** | 320+ | ~50 | 50+ | 200+ | Human judgment |
 | **Languages** | 48 | Limited | 30+ | 100+ | Staff languages |
@@ -58,7 +58,7 @@ How Anonymize.Education compares to other privacy tools for education.
 | Solution | Year 1 Cost | Includes |
 |----------|-------------|----------|
 | Presidio + Azure | $3,000-15,000+ | Hosting, engineering time |
-| Anonymize.Education School | €0.12/page | Everything, ready to use |
+| Anonymize.Education School | €0.05/1K chars | Everything, ready to use |
 
 ---
 
@@ -82,7 +82,7 @@ How Anonymize.Education compares to other privacy tools for education.
 **Why Schools Choose Anonymize.Education:**
 - 320+ entity types (6x more than Private AI)
 - Free tier for individual teachers
-- Affordable school pricing (€0.12/page vs. enterprise quotes)
+- Affordable school pricing (€0.05/1K chars vs. enterprise quotes)
 - Reversible encryption for legal compliance
 - Education-native design with FERPA/COPPA workflows
 
@@ -171,7 +171,7 @@ How Anonymize.Education compares to other privacy tools for education.
 **The Calculation:**
 | Scenario | Cost |
 |----------|------|
-| Monthly protection (500 pages) | €60 |
+| Monthly protection (1M chars) | €50 |
 | Single FERPA investigation | $10,000+ |
 | Single GDPR fine (small violation) | EUR 100,000+ |
 | Breach notification + monitoring | $500,000+ |
@@ -245,7 +245,7 @@ Research shows most tools "perform significantly better for English." Internatio
 ## Migration Guide
 
 ### Moving from Manual Review
-1. Start with free tier (~4 pages/month)
+1. Start with free tier (~10,000 chars/month)
 2. Process historical backlog
 3. Establish baseline consistency
 4. Staff shifts to review mode (verify flagged items)
@@ -271,8 +271,8 @@ Research shows most tools "perform significantly better for English." Internatio
 
 | If you need... | Choose... | Because... |
 |----------------|-----------|------------|
-| Free for teachers | Anonymize.Education | ~4 pages/month free |
-| Affordable school solution | Anonymize.Education | €0.12/page, not $50,000/yr |
+| Free for teachers | Anonymize.Education | ~10,000 chars/month free |
+| Affordable school solution | Anonymize.Education | €0.05/1K chars, not $50,000/yr |
 | Reversible protection | Anonymize.Education | Only option |
 | AI tool safety | Anonymize.Education | MCP Server + Chrome Extension |
 | 48 languages | Anonymize.Education | Consistent multilingual quality |

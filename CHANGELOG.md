@@ -4,6 +4,52 @@ All notable changes to the Anonymize.Education website will be documented in thi
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
+## [1.2.9] - 2026-02-24
+
+### Character-Based Pricing Model
+
+Changed pricing from per-page to per-character model for greater accuracy and precision.
+
+#### New Pricing Structure
+| Tier | Price | Example |
+|------|-------|---------|
+| Teacher | €0 (free) | ~10,000 chars/month |
+| School | €0.05/1K chars | 1M chars = €50/month |
+| District | €0.04/1K chars | 2.5M chars = €100/month |
+
+#### Files Updated (40+)
+
+**Homepage Pricing (11 languages):**
+- `index.html` + all 10 language versions (de, es, fr, pt, nl, lb, da, sv, no, fi)
+- Updated pricing cards, JSON-LD FAQ schemas
+
+**SEO/AI Files:**
+- `llms.txt` + all 10 language versions
+- `ai.txt` — FAQ-price and pricing section
+- `llms-full.txt` — 25+ pricing references
+
+**Comparison Pages:**
+- `comparisons/vs-onetrust.html`
+- `comparisons/vs-bigid.html`
+- `comparisons/vs-private-ai.html`
+- `comparisons/vs-manual-redaction.html`
+
+**Documentation:**
+- `competitors.html` — Pricing matrix
+- `case-studies.html` — Prevention costs
+- `humans.txt` — Pricing section
+- `resources/competitors.md`
+- `resources/case-studies.md`
+- `locales/en.json`, `locales/es.json`
+
+#### Why Character-Based?
+- More precise than page estimates (~2,500 chars/page varies widely)
+- Matches backend token model (1 token ≈ 50 characters)
+- Clearer cost calculation for users
+- Volume discount: 20% off for District tier (€0.04 vs €0.05)
+
+---
+
 ## [1.2.8] - 2026-02-24
 
 ### Comprehensive Pricing Update (SEO, Documentation, AI Files)

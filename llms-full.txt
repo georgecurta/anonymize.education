@@ -340,7 +340,7 @@ Prevention Cost
 
 Vendor breach
 Notification + monitoring + legal
-€0.12/page anonymization
+€0.05/1K chars anonymization
 
 AI data leak
 Investigation + potential fine
@@ -371,7 +371,7 @@ Anonymize.Education provides:
 - **Consistent application** - Same rules, every time
 - **Appropriate methods** - Reversible when needed, irreversible when not
 - **Audit trails** - Document compliance
-- **Affordable pricing** - €0 for teachers, €0.12/page for schools, €0.10/page for districts
+- **Affordable pricing** - €0 for teachers, €0.05/1K chars for schools, €0.04/1K chars for districts
 
 These case studies are based on documented incidents, industry research, and compliance literature. Specific details may be generalized to protect involved parties.
 
@@ -402,7 +402,7 @@ Anonymize.Education
 BigID
 
 Annual Cost
-€0.12/page (e.g., 500 pages = €60/mo)
+€0.05/1K chars (e.g., 1M chars = €50/mo)
 $100,000+/year
 
 Languages Supported
@@ -430,7 +430,7 @@ Minutes
 Months
 
 Free Tier
-Yes (~4 pages/month)
+Yes (~10,000 chars/month)
 No
 
 Primary Function
@@ -454,8 +454,8 @@ Privacy Engineering Teams
 Enterprise data discovery vs education-focused anonymization
 
 Anonymize.Education
-€0.12/page
-School Plan - e.g., 500 pages = €60/month
+€0.05/1K chars
+School Plan - e.g., 1M chars = €50/month
 
 BigID
 $100K+/year
@@ -599,7 +599,7 @@ Audit Trail
 Complete processing logs
 None
 
-Cost (500 pages/month)
+Cost (1M chars/month)
 €60/month
 $2,500+ staff time
 
@@ -649,7 +649,7 @@ Annual staff cost
 $99,600 - $199,200
 
 Anonymize.Education
-€0.12/page (e.g., 500 pages = €60/mo)
+€0.05/1K chars (e.g., 1M chars = €50/mo)
 School Plan - unlimited documents
 
 Manual Redaction
@@ -725,7 +725,7 @@ Student_001 is always Student_001 across all documents. Track entities without e
 
 💰
 Predictable Costs
-€0.12/page vs unpredictable staff hours. Budget accurately and scale without hiring.
+€0.05/1K chars vs unpredictable staff hours. Budget accurately and scale without hiring.
 
 #### When Manual Review Makes Sense
 
@@ -777,11 +777,11 @@ Anonymize.Education
 OneTrust
 
 Annual Cost (School)
-€0.12/page (e.g., 500 pages = €60/mo)
+€0.05/1K chars (e.g., 1M chars = €50/mo)
 $50,000+/year
 
 Free Tier
-Yes (~4 pages/month)
+Yes (~10,000 chars/month)
 No
 
 Zero-Knowledge Architecture
@@ -829,8 +829,8 @@ Required (additional cost)
 What $50,000 buys you vs what schools actually need
 
 Anonymize.Education
-€0.12/page
-School Plan - e.g., 500 pages = €60/month
+€0.05/1K chars
+School Plan - e.g., 1M chars = €50/month
 
 OneTrust
 $50K+/year
@@ -914,10 +914,10 @@ All competitors compared
 
 ## Anonymize.Education vs Private AI | Education-Native Privacy
 URL: https://anonymize.education/comparisons/vs-private-ai.html
-> Anonymize.Education vs Private AI comparison: Education-native with FERPA/COPPA, LMS integrations, Clever/ClassLink SSO at €0.12/page vs enterprise pricing.
+> Anonymize.Education vs Private AI comparison: Education-native with FERPA/COPPA, LMS integrations, Clever/ClassLink SSO at €0.05/1K chars vs enterprise pricing.
 
-€0.12/page
-Transparent per-page pricing vs contact-sales enterprise model
+€0.05/1K chars
+Transparent per-character pricing vs contact-sales enterprise model
 
 #### Side-by-Side Comparison
 
@@ -926,11 +926,11 @@ Anonymize.Education
 Private AI
 
 Annual Cost
-€0.12/page (e.g., 500 pages = €60/mo)
+€0.05/1K chars (e.g., 1M chars = €50/mo)
 Enterprise (contact sales)
 
 Free Tier
-Yes (~4 pages/month)
+Yes (~10,000 chars/month)
 No
 
 Zero-Knowledge Architecture
@@ -975,11 +975,11 @@ Enterprise ML teams
 
 #### Price Comparison
 
-Transparent per-page pricing vs enterprise sales process
+Transparent per-character pricing vs enterprise sales process
 
 Anonymize.Education
-€0.12/page
-School Plan - e.g., 500 pages = €60/month
+€0.05/1K chars
+School Plan - e.g., 1M chars = €50/month
 
 Private AI
 Contact sales
@@ -988,9 +988,9 @@ Enterprise pricing - no public rates
 ##### 💰 Why Transparent Pricing Matters for Schools
 
 - Budget planning without lengthy sales negotiations
-- Try before you buy with a free tier (~4 pages/month)
-- No surprise costs - transparent per-page pricing
-- Scale predictably as your needs grow (€0.12/page School, €0.10/page District)
+- Try before you buy with a free tier (~10,000 chars/month)
+- No surprise costs - transparent per-character pricing
+- Scale predictably as your needs grow (€0.05/1K chars School, €0.04/1K chars District)
 
 #### Why Schools Choose Anonymize.Education
 
@@ -1034,9 +1034,9 @@ Private AI is a powerful PII detection platform designed for enterprises buildin
 - Need to protect student data with FERPA/COPPA compliance
 - Want LMS integrations (Canvas, Blackboard, Moodle)
 - Need education SSO via Clever or ClassLink
-- Prefer transparent per-page pricing without sales negotiations
+- Prefer transparent per-character pricing without sales negotiations
 - Want reversible encryption for legal discovery needs
-- Need a free tier (~4 pages/month) to test before committing
+- Need a free tier (~10,000 chars/month) to test before committing
 
 #### More Comparisons
 
@@ -1089,7 +1089,7 @@ Dive deep into how Anonymize.Education compares to specific alternatives:
 
 [
 **vs OneTrust**
-100x more affordable. Per-page pricing.
+100x more affordable. Per-character pricing.
 ](comparisons/vs-onetrust.html)
 [
 **vs BigID**
@@ -1114,21 +1114,21 @@ OneTrust
 Manual Review
 
 Price
-**€0-€0.10/page**
+**€0-€0.04/1K chars**
 Free + hosting
 Enterprise ($$$)
 $50,000+
 Staff time
 
 Free tier
-Yes (~4 pages/mo)
+Yes (~10,000 chars/mo)
 Yes (DIY)
 No
 No
 N/A
 
 School plan
-**€0.12/page**
+**€0.05/1K chars**
 N/A
 Contact sales
 Contact sales
@@ -1251,7 +1251,7 @@ Cost Comparison
 
 SolutionYear 1 CostIncludes
 Presidio + Azure$3,000-15,000+Hosting, engineering time
-Anonymize.Education School€0.12/page (e.g., €720/yr)Everything, ready to use
+Anonymize.Education School€0.05/1K chars (e.g., €600/yr)Everything, ready to use
 
 #### vs. Private AI Enterprise
 
@@ -1275,8 +1275,8 @@ Private AI Weaknesses
 Why Schools Choose Anonymize.Education:
 
 - 320+ entity types (6x more than Private AI)
-- Free tier for individual teachers (~4 pages/month)
-- Affordable school pricing (€0.12/page vs. enterprise quotes)
+- Free tier for individual teachers (~10,000 chars/month)
+- Affordable school pricing (€0.05/1K chars vs. enterprise quotes)
 - Reversible encryption for legal compliance
 - Education-native design with FERPA/COPPA workflows
 
@@ -1284,7 +1284,7 @@ Cost Comparison
 
 SolutionPricingBest For
 Private AI$15,000+ (estimated)Large enterprises
-Anonymize.Education School€0.12/pageAny K-12 school
+Anonymize.Education School€0.05/1K charsAny K-12 school
 
 #### vs. OneTrust Enterprise Platform
 
@@ -1319,7 +1319,7 @@ Cost Comparison
 
 SolutionPricingImplementation
 OneTrust$50,000+3-6 months
-Anonymize.Education District€0.10/pageSame day
+Anonymize.Education District€0.04/1K charsSame day
 
 #### vs. Manual Review Traditional
 
@@ -1345,13 +1345,13 @@ Why Schools Add Anonymize.Education:
 - Staff reviews flagged items only
 - Consistent rules across all documents
 - Handles volume that manual review cannot
-- ~4 pages/month free tier
+- ~10,000 chars/month free tier
 
-Time Comparison (500 pages)
+Time Comparison (1M chars)
 
 ApproachTime RequiredStaff Cost
 Manual review83+ hours$2,500-6,000
-Anonymize.EducationMinutes + review€60 (500 pages @ €0.12)
+Anonymize.EducationMinutes + review€50 (1M chars @ €0.05/1K)
 
 #### vs. Doing Nothing The Risk
 
@@ -1366,7 +1366,7 @@ The Risk of Inaction
 The Calculation
 
 ScenarioCost
-Monthly protection (500 pages)€60
+Monthly protection (1M chars)€50
 Single FERPA investigation$10,000+
 Single GDPR fine (small violation)EUR 100,000+
 Breach notification + monitoring$500,000+
@@ -1397,7 +1397,7 @@ Built for schools from day one:
 - COPPA-compliant by design
 - SDPC DPA pre-signed
 - School consent mechanisms built in
-- Per-page pricing for education budgets (€0.12/page School, €0.10/page District)
+- Per-character pricing for education budgets (€0.05/1K chars School, €0.04/1K chars District)
 
 *Competitors adapted enterprise tools. We built for education.*
 
@@ -1447,11 +1447,11 @@ Full quality detection in:
 
 Moving from Manual Review
 
-- Start with free tier (~4 pages/month)
+- Start with free tier (~10,000 chars/month)
 - Process historical backlog
 - Establish baseline consistency
 - Staff shifts to review mode (verify flagged items)
-- Scale to School plan (€0.12/page) when ready
+- Scale to School plan (€0.05/1K chars) when ready
 
 Moving from Enterprise Tools
 
@@ -1477,11 +1477,11 @@ Because...
 
 Free for teachers
 Anonymize.Education
-~4 pages/month free
+~10,000 chars/month free
 
 Affordable school solution
 Anonymize.Education
-€0.12/page, not $50,000/year
+€0.05/1K chars, not $50,000/year
 
 Reversible protection
 Anonymize.Education
@@ -2597,12 +2597,12 @@ Mas Popular
 
 ##### Escuela
 
-€0,12
-/pagina
+€0,05
+/1K chars
 
 Para escuelas K-12
 
-ej. 500 paginas = €60/mes
+ej. 1M chars = €50/mes
 
 Integracion LMS (Canvas, etc.)
 
@@ -3820,7 +3820,7 @@ Enterprise security without enterprise pricing. Start free, scale as you grow.
 
 Free for individual educators
 
-~4 pages/month (200 tokens)
+~10,000 chars/month (200 tokens)
 
 Desktop & Web apps
 
@@ -3834,12 +3834,12 @@ Most Popular
 
 ##### School
 
-€0.12
-/page
+€0.05
+/1K chars
 
 For K-12 schools
 
-e.g., 500 pages = €60/month
+e.g., 1M chars = €50/month
 
 LMS integration (Canvas, etc.)
 
@@ -3853,12 +3853,12 @@ AI protection (MCP Server)
 
 ##### District
 
-€0.10
-/page
+€0.04
+/1K chars
 
 For school districts
 
-e.g., 2,500 pages = €250/month
+e.g., 2.5M chars = €100/month
 
 Unlimited SSO seats
 
@@ -4143,7 +4143,7 @@ Enterprise security without enterprise pricing. Start free, scale as you grow.
 
 Free for individual educators
 
-~4 pages/month (200 tokens)
+~10,000 chars/month (200 tokens)
 
 Desktop & Web apps
 
@@ -4157,12 +4157,12 @@ Most Popular
 
 ##### School
 
-€0.12
-/page
+€0.05
+/1K chars
 
 For K-12 schools
 
-e.g., 500 pages = €60/month
+e.g., 1M chars = €50/month
 
 LMS integration (Canvas, etc.)
 
@@ -4176,12 +4176,12 @@ AI protection (MCP Server)
 
 ##### District
 
-€0.10
-/page
+€0.04
+/1K chars
 
 For school districts
 
-e.g., 2,500 pages = €250/month
+e.g., 2.5M chars = €100/month
 
 Unlimited SSO seats
 

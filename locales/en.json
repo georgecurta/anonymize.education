@@ -151,11 +151,11 @@
     "school": {
       "name": "School",
       "badge": "Most Popular",
-      "price": "€0.12",
-      "period": "/page",
+      "price": "€0.05",
+      "period": "/1K chars",
       "desc": "For K-12 schools",
       "features": {
-        "docs": "e.g., 500 pages = €60/month",
+        "docs": "e.g., 1M chars = €50/month",
         "lms": "LMS integration (Canvas, etc.)",
         "sso": "25 SSO seats (Clever, ClassLink)",
         "admin": "Admin dashboard",
