@@ -4,6 +4,38 @@ All notable changes to the Anonymize.Education website will be documented in thi
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
+## [1.2.6] - 2026-02-24
+
+### Education Licensing CTAs
+
+Updated all call-to-action buttons across 11 language versions to reflect education licensing model.
+
+#### CTA Changes (English homepage)
+- **Hero primary:** "Start Protecting Students Free" → "Try Free at anonym.legal"
+- **Hero secondary:** "See How It Works" → "Request Education License"
+- **Pricing Pro tier:** "Start 30-Day Trial" → "Request School License"
+- **Bottom CTA:** Removed unverified "1,200+ schools" claim
+- **Bottom CTA:** Reworded to direct schools to request education licenses
+
+#### Pricing CTA Updates (All Languages)
+Changed Pro tier CTA from "30-day trial" to "Request School License":
+- **DE:** "30-Tage-Test starten" → "Schullizenz anfragen"
+- **ES:** "Iniciar Prueba 30 Dias" → "Solicitar Licencia Escolar"
+- **FR:** "Essai Gratuit 30 Jours" → "Demander Licence Scolaire"
+- **PT:** "Iniciar teste de 30 dias" → "Solicitar Licença Escolar"
+- **NL:** "30-dagen proefperiode starten" → "Schoollicentie aanvragen"
+- **LB:** "30-Deeg-Test ufänken" → "Schoullizenz ufroen"
+- **DA:** "Start 30-dages proeve" → "Anmod om skolelicens"
+- **SV:** "Starta 30-dagars provperiod" → "Begär skollicens"
+- **NO:** "Start 30-dagers proeve" → "Be om skolelisens"
+- **FI:** "Aloita 30 paivan kokeilu" → "Pyydä koulun lisenssi"
+
+#### Link Updates
+- Pro tier CTAs now link to `contact.html?plan=school`
+- Education license CTAs link to `contact.html?plan=education`
+
+---
+
 ## [1.2.5] - 2026-02-24
 
 ### Character Encoding & Design Consistency Update
