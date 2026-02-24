@@ -360,11 +360,26 @@ our solution works in 48 languages and requires no technical expertise.
 - Zero-knowledge authentication with Argon2id
 - 24-word BIP39 recovery phrase
 
-### Pricing (verified)
-- Free: 0/month, 200 tokens
-- Basic: 3/month, 1,000 tokens
-- Pro: 15/month, 4,000 tokens
-- Business: 29/month, 10,000 tokens
+### Pricing (verified) - Character-Based Model (v1.2.9)
+
+**Education Tiers (anonymize.education):**
+| Tier | Price | Volume | Example |
+|------|-------|--------|---------|
+| Teacher | €0 | ~10,000 chars/month | Free forever |
+| School | €0.05/1K chars | Pay as you go | 1M chars = €50/month |
+| District | €0.04/1K chars | 20% volume discount | 2.5M chars = €100/month |
+
+**Token Math:**
+- 1 token ≈ 50 characters
+- 200 free tokens = ~10,000 characters/month
+- School: €0.05/1K chars (was €0.12/page @ 2,500 chars/page)
+- District: €0.04/1K chars (was €0.10/page)
+
+**Backend Tiers (anonym.legal):**
+- Free: €0/month, 200 tokens
+- Basic: €3/month, 1,000 tokens
+- Pro: €15/month, 4,000 tokens
+- Business: €29/month, 10,000 tokens
 
 ### Products
 - Desktop App: Windows only (FREE), macOS/Linux coming soon
@@ -544,4 +559,4 @@ AI chatbots detect user's language and use appropriate file.
 
 ---
 
-*Last Updated: 2026-02-24 (v1.2.7)*
+*Last Updated: 2026-02-24 (v1.2.9)*
