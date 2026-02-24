@@ -145,10 +145,10 @@ ISO 27001:2022, SOC 2 Type II, testes de penetração anuais.
 ## Preços
 
 ### Existe versão gratuita?
-Sim. Gratuito para sempre para uso pessoal. Sem cartão de crédito. Sem limites para documentos pessoais.
+Sim. Gratuito para sempre para uso pessoal. Sem cartão de crédito. ~4 páginas/mês (200 tokens).
 
-### Quanto custa para equipas?
-€3/mês Básico, €15/mês Pro, €29/mês Empresarial. 100x mais barato que OneTrust (50.000€+/ano).
+### Quanto custa para escolas?
+Preço por página: Professor (grátis, ~4 páginas/mês), Escola (€0,12/página, ex. 500 páginas = €60/mês), Distrito (€0,10/página, ex. 2.500 páginas = €250/mês). 100x mais barato que OneTrust (50.000€+/ano).
 
 ---
 

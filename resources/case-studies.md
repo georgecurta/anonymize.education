@@ -287,7 +287,7 @@ Every case study shows: **prevention is dramatically cheaper than response.**
 
 | Scenario | Response Cost | Prevention Cost |
 |----------|--------------|-----------------|
-| Vendor breach | Notification + monitoring + legal | $49/month anonymization |
+| Vendor breach | Notification + monitoring + legal | €0.12/page anonymization |
 | AI data leak | Investigation + potential fine | MCP Server included in School plan |
 | FOIA backlog | $15K+ in staff time per request | Overnight batch processing |
 | IRB failure | 3+ month delay + reputation | Automated de-identification |
@@ -305,7 +305,7 @@ Anonymize.Education provides:
 - **Consistent application** - Same rules, every time
 - **Appropriate methods** - Reversible when needed, irreversible when not
 - **Audit trails** - Document compliance
-- **Affordable pricing** - $0 for teachers, $49/month for schools
+- **Affordable pricing** - €0 for teachers, €0.12/page for schools, €0.10/page for districts
 
 ---
 

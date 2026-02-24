@@ -145,10 +145,10 @@ ISO 27001:2022, SOC 2 Type II, jährlech Penetratiounstester.
 ## Präisser
 
 ### Gëtt et eng gratis Versioun?
-Jo. Fir ëmmer gratis fir perséinlech Benotzung. Keng Kreditkaart. Keng Limiten fir perséinlech Dokumenter.
+Jo. Fir ëmmer gratis fir perséinlech Benotzung. Keng Kreditkaart. ~4 Säiten/Mount (200 Token).
 
-### Wéi vill kascht et fir Teams?
-3 Euro/Mount Basic, 15 Euro/Mount Pro, 29 Euro/Mount Enterprise. 100x méi bëlleg wéi OneTrust (50.000 Euro+/Joer).
+### Wéi vill kascht et fir Schoulen?
+Präis pro Säit: Enseignant (gratis, ~4 Säiten/Mount), Schoul (0,12 Euro/Säit, z.B. 500 Säiten = 60 Euro/Mount), Distrikt (0,10 Euro/Säit, z.B. 2.500 Säiten = 250 Euro/Mount). 100x méi bëlleg wéi OneTrust (50.000 Euro+/Joer).
 
 ---
 

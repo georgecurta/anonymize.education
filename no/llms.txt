@@ -145,10 +145,10 @@ ISO 27001:2022, SOC 2 Type II, årlige penetrasjonstester.
 ## Priser
 
 ### Finnes det en gratis versjon?
-Ja. Gratis for alltid for personlig bruk. Ingen kredittkort. Ingen begrensninger for personlige dokumenter.
+Ja. Gratis for alltid for personlig bruk. Ingen kredittkort. ~4 sider/måned (200 tokens).
 
-### Hvor mye koster det for team?
-€3/måned Basic, €15/måned Pro, €29/måned Enterprise. 100x billigere enn OneTrust (50.000€+/år).
+### Hvor mye koster det for skoler?
+Pris per side: Lærer (gratis, ~4 sider/måned), Skole (€0,12/side, f.eks. 500 sider = €60/måned), Distrikt (€0,10/side, f.eks. 2.500 sider = €250/måned). 100x billigere enn OneTrust (50.000€+/år).
 
 ---
 

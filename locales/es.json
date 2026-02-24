@@ -151,17 +151,17 @@
     "school": {
       "name": "Escuela",
       "badge": "Mas Popular",
-      "price": "$49",
-      "period": "/mes",
+      "price": "€0,12",
+      "period": "/pagina",
       "desc": "Para escuelas K-12",
       "features": {
-        "docs": "10.000 documentos al mes",
+        "docs": "ej. 500 paginas = €60/mes",
         "lms": "Integracion LMS (Canvas, etc.)",
         "sso": "25 usuarios SSO (Clever, ClassLink)",
         "admin": "Panel de administracion",
         "ai": "Proteccion IA (Servidor MCP)"
       },
-      "cta": "Prueba 30 Dias"
+      "cta": "Solicitar Licencia"
     },
     "district": {
       "name": "Distrito",

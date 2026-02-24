@@ -145,10 +145,10 @@ ISO 27001:2022, SOC 2 Type II, jährliche Penetrationstests.
 ## Preise
 
 ### Gibt es eine kostenlose Version?
-Ja. Für immer kostenlos für persönliche Nutzung. Keine Kreditkarte. Keine Limits für persönliche Dokumente.
+Ja. Für immer kostenlos für persönliche Nutzung. Keine Kreditkarte. ~4 Seiten/Monat (200 Token).
 
-### Wie viel kostet es für Teams?
-€3/Monat Basic, €15/Monat Pro, €29/Monat Enterprise. 100x günstiger als OneTrust (50.000€+/Jahr).
+### Wie viel kostet es für Schulen?
+Pro-Seite-Preise: Lehrer (kostenlos, ~4 Seiten/Monat), Schule (€0,12/Seite, z.B. 500 Seiten = €60/Monat), Schulbezirk (€0,10/Seite, z.B. 2.500 Seiten = €250/Monat). 100x günstiger als OneTrust (50.000€+/Jahr).
 
 ---
 

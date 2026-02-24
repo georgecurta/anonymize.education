@@ -145,10 +145,10 @@ ISO 27001:2022, SOC 2 Type II, vuosittaiset tunkeutumistestit.
 ## Hinnoittelu
 
 ### Onko ilmaista versiota?
-Kylla. Ikuisesti ilmainen henkilokohtaiseen kayttoon. Ei luottokorttia. Ei rajoituksia henkilokohtaisille asiakirjoille.
+Kylla. Ikuisesti ilmainen henkilokohtaiseen kayttoon. Ei luottokorttia. ~4 sivua/kk (200 tokenia).
 
-### Paljonko se maksaa tiimeille?
-3€/kk Basic, 15€/kk Pro, 29€/kk Enterprise. 100x edullisempi kuin OneTrust (50 000€+/vuosi).
+### Paljonko se maksaa kouluille?
+Hinta per sivu: Opettaja (ilmainen, ~4 sivua/kk), Koulu (0,12€/sivu, esim. 500 sivua = 60€/kk), Piiri (0,10€/sivu, esim. 2 500 sivua = 250€/kk). 100x edullisempi kuin OneTrust (50 000€+/vuosi).
 
 ---
 

@@ -4,6 +4,48 @@ All notable changes to the Anonymize.Education website will be documented in thi
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
+## [1.2.8] - 2026-02-24
+
+### Comprehensive Pricing Update (SEO, Documentation, AI Files)
+
+Extended pricing update to all SEO files, AI crawler files, documentation, and comparison pages.
+
+#### Files Updated
+
+**SEO/AI Files:**
+- `llms.txt` — Updated pricing section with per-page model
+- `ai.txt` — Updated FAQ-price and pricing section
+- `llms-full.txt` — 25+ pricing references updated
+- All language `llms.txt` files (de, es, fr, pt, nl, lb, da, sv, no, fi)
+
+**Comparison Pages:**
+- `comparisons/vs-private-ai.html` — €0.12/page vs enterprise pricing
+- `comparisons/vs-onetrust.html` — Per-page vs $50K+/year
+- `comparisons/vs-bigid.html` — Per-page vs $100K+/year
+- `comparisons/vs-manual-redaction.html` — €60/month for 500 pages
+
+**Documentation:**
+- `competitors.html` — Pricing matrix updated
+- `case-studies.html` — Prevention cost examples
+- `humans.txt` — Pricing section updated
+- `resources/competitors.md` — Full competitor comparison
+- `resources/case-studies.md` — ROI calculations
+
+**Localization:**
+- `locales/en.json` — School pricing schema
+- `locales/es.json` — Spanish pricing schema
+- `es/index.html` — JSON-LD FAQ schema
+- `fr/index.html` — JSON-LD FAQ schema
+
+#### Pricing Model Applied
+| Tier | Price | Example |
+|------|-------|---------|
+| Teacher | €0 (free) | ~4 pages/month |
+| School | €0.12/page | 500 pages = €60/month |
+| District | €0.10/page | 2,500 pages = €250/month |
+
+---
+
 ## [1.2.7] - 2026-02-24
 
 ### Pricing Alignment with anonym.legal Token Model
