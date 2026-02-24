@@ -4,6 +4,41 @@ All notable changes to the Anonymize.Education website will be documented in thi
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
+## [1.2.5] - 2026-02-24
+
+### Character Encoding & Design Consistency Update
+
+Comprehensive umlaut/special character encoding fixes across all language versions, plus design system unification.
+
+#### Character Encoding Fixes (14 files)
+Fixed German, Danish, and Luxembourgish character encoding - replaced ASCII alternatives with proper Unicode:
+- **German (ä, ö, ü, ß):** Schüler, Lösung, für, schützen, Prüfung, etc.
+- **Danish (æ, ø):** Lærer, Værktøjer, Vælg, løsningen, Ubegrænsede, etc.
+- **City name:** Saarbrücken fixed in all 13 language files
+
+Files updated:
+- `de/index.html` — 20+ German word fixes
+- `lb/index.html` — Luxembourgish/German fixes
+- `da/index.html`, `da/llms.txt` — Danish character fixes
+- `no/index.html` — Norwegian character fixes
+- `llms-full.txt` — German and Danish sections
+- All language homepages — Saarbrücken city name
+
+#### Design System Unification
+- **Header consistency:** All pages now use DM Sans font, nav__logo-mark class
+- **Footer consistency:** competitors.html, contact.html updated to match homepage grid layout
+- **Mobile menu fix:** main.min.js updated to toggle nav--open class on parent element
+- **"Start Free" button removed:** Removed from nav CTAs, mobile CTAs, and footers (25+ files)
+
+#### Files Updated Summary
+- 14 files: Character encoding fixes
+- 25+ files: "Start Free" button removal
+- 8 pages: Header design unification
+- 2 pages: Footer design unification
+- 1 file: Mobile menu JavaScript fix
+
+---
+
 ## [1.2.4] - 2026-02-24
 
 ### Language Switcher + Factual Accuracy Fixes

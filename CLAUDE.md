@@ -5,7 +5,7 @@
 **Domain**: anonymize.education
 **Purpose**: Marketing website for education-focused data anonymization platform
 **Backend**: cloak.business (serves the PII detection/anonymization API)
-**Status**: Live in production (v1.2.4, deployed 2026-02-24)
+**Status**: Live in production (v1.2.5, deployed 2026-02-24)
 
 ### Architecture
 ```
@@ -387,9 +387,9 @@ our solution works in 48 languages and requires no technical expertise.
 - Slate Wisdom: #475569 (body text)
 
 **Typography**:
-- Headers: Work Sans Bold
-- Body: Work Sans Regular
-- Code: IBM Plex Mono
+- Headers: DM Sans Bold (primary), Work Sans Bold (legacy)
+- Body: DM Sans Regular
+- Code: JetBrains Mono, IBM Plex Mono
 
 ---
 
@@ -470,6 +470,7 @@ node tests/production-check.js
 | Version | Date | Changes |
 |---------|------|---------|
 | 2.0.0 | TBD | Education worldwide compatibility update |
+| 1.2.5 | 2026-02-24 | Character encoding fixes (DE/DA/LB) + design unification |
 | 1.2.4 | 2026-02-24 | Language switcher + factual accuracy fixes (24 files) |
 | 1.2.3 | 2026-02-24 | Navigation consistency: all 35 pages standardized with full 6-link nav |
 | 1.2.2 | 2026-02-24 | Navigation update: Compare link added to all 11 languages |
@@ -539,4 +540,4 @@ AI chatbots detect user's language and use appropriate file.
 
 ---
 
-*Last Updated: 2026-02-24*
+*Last Updated: 2026-02-24 (v1.2.5)*
