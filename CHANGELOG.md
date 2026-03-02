@@ -4,6 +4,58 @@ All notable changes to the Anonymize.Education website will be documented in thi
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
+## [1.3.1] - 2026-03-02
+
+### IndexNow Submission
+
+Submitted all changed URLs from v1.3.0 company information update to IndexNow API for instant search engine indexing.
+
+#### Submission Details
+
+**IndexNow Key**: `c5d9e3f7a4b2601018cd3ef5a1789012` (existing key)
+
+**URLs Submitted (18 total)**:
+
+**Legal & SEO Core Files:**
+- impressum.html
+- ai.txt
+- humans.txt
+- llms-full.txt
+- sitemap.xml
+
+**Multilingual Homepage (12 files):**
+- index.html
+- de/index.html
+- es/index.html
+- fr/index.html
+- pt/index.html
+- nl/index.html
+- lb/index.html
+- da/index.html
+- sv/index.html
+- no/index.html
+- fi/index.html
+- index-v2.html
+
+**Content Pages:**
+- use-cases/eu.html
+
+#### Search Engines Notified
+
+- **Bing**: Microsoft's search engine
+- **Yandex**: Russian search engine
+- **Naver**: Korean search engine
+- **Seznam**: Czech search engine
+- **Yep**: Privacy-focused search engine
+
+#### Context
+
+- IndexNow protocol enables instant notification to search engines about content updates
+- Complements sitemap.xml crawling with push-based indexing for faster content discovery
+- Typically results in indexing within minutes to hours (vs. days with traditional crawling)
+
+---
+
 ## [1.3.0] - 2026-03-02
 
 ### Company Information Update
