@@ -1,7 +1,7 @@
 /* TEAM */
-Owner: George Curta
-Company: curta.solutions (operating as Anonymize.Education)
-Location: Saarbrücken, Germany
+Operator: Zenya Renewables B.V.
+Location: Amsterdam, Netherlands
+Built by: curta.solutions (George Curta)
 Founded: 2024
 Contact: https://anonymize.education/contact
 

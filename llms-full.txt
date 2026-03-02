@@ -6776,7 +6776,7 @@ Your school uses Microsoft 365 or Google Workspace. A US court issues a subpoena
 
 **Risk:** Hyperscaler "sovereign cloud" claims were exposed as insufficient in Summer 2025. The International Criminal Court replaced Microsoft with EU alternatives (OpenDesk/ZenDiS).
 
-**Solution:** Anonymize.Education: German company (curta.solutions), German servers (Hetzner), zero-knowledge architecture. Even if compelled, we cannot provide data we cannot decrypt.
+**Solution:** Anonymize.Education: Operated by Zenya Renewables B.V. (Netherlands), German servers (Hetzner), zero-knowledge architecture. Even if compelled, we cannot provide data we cannot decrypt.
 
 Source: [Wire - CLOUD Act vs EU Data Sovereignty](https://wire.com/en/blog/cloud-act-eu-data-sovereignty)
 
