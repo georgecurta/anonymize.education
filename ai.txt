@@ -72,7 +72,7 @@ FAQ-latam: LGPD, Spanish/Portuguese detection. See: use-cases/latam.html
 # Trust FAQs
 FAQ-security: ISO 27001:2022, AES-256-GCM, Argon2id, German servers.
 FAQ-data-storage: EU (Germany). In-memory only, nothing stored.
-FAQ-company: curta.solutions, Saarbrücken, Germany. Founded 2024.
+FAQ-company: Operated by Zenya Renewables B.V., Amsterdam, Netherlands. Built by curta.solutions (27+ years, 700+ endpoints, 26 locations).
 FAQ-certifications: ISO 27001:2022, SOC 2 Type II, annual pentests.
 
 # Competitor Comparison FAQs
@@ -128,8 +128,9 @@ Differentiator-4: Air-Gapped Mode - Desktop App works completely offline
 Differentiator-5: AI Integration - MCP Server + Chrome Extension
 
 # Company
-Legal-Name: curta.solutions (operating as Anonymize.Education)
-Headquarters: Saarbrücken, Germany
+Legal-Name: Zenya Renewables B.V. (operating anonymize.education)
+Headquarters: Amsterdam, Netherlands
+Built-By: curta.solutions (27+ years, 700+ endpoints, 26 locations)
 Data-Center: Germany (EU)
 
 # Contact
