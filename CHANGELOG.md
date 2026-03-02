@@ -4,6 +4,48 @@ All notable changes to the Anonymize.Education website will be documented in thi
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
+## [1.3.0] - 2026-03-02
+
+### Company Information Update
+
+Updated operator from curta.solutions to Zenya Renewables B.V. across all site files and SEO documentation.
+
+#### Files Changed (17 total)
+
+**Legal & SEO Core Files:**
+- **impressum.html**: Changed legal entity to Zenya Renewables B.V. (Amsterdam, Netherlands, KvK 96567511)
+- **ai.txt**: Updated Company section and FAQ-company with operator details
+- **humans.txt**: Updated Team section with operator (Zenya Renewables B.V.) and builder (curta.solutions)
+- **llms-full.txt**: Updated company reference in EU sovereignty use case
+- **sitemap.xml**: Updated impressum.html lastmod to 2026-03-02
+
+**Multilingual JSON-LD (12 files):**
+- **index.html** + all 11 language versions (de, es, fr, pt, nl, lb, da, sv, no, fi, index-v2.html)
+  - Changed Organization `alternateName` from "curta.solutions" to "Zenya Renewables B.V."
+
+**Content Pages:**
+- **use-cases/eu.html**: Updated company references (2 instances) - changed "German company (curta.solutions)" to "Operated by Zenya Renewables B.V. (Netherlands)"
+
+#### Company Details
+
+**Operator:**
+- Zenya Renewables B.V.
+- John M. Keynesplein 1, 1066 EP Amsterdam, Netherlands
+- KvK: 96567511
+
+**Built by:**
+- curta.solutions (27+ years, 700+ endpoints, 26 locations)
+
+**Infrastructure:**
+- Hetzner Germany (ISO 27001 certified)
+
+#### Context
+- Standardized company information across all sites (anonymize.solutions, anonymize.dev, anonymize.education)
+- Zenya Renewables B.V. operates the platform, built by curta.solutions
+- Maintains proper attribution to builder while updating legal operator
+
+---
+
 ## [1.2.9] - 2026-02-24
 
 ### Character-Based Pricing Model

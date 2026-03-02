@@ -408,6 +408,22 @@ our solution works in 48 languages and requires no technical expertise.
 
 ---
 
+## Company Information
+
+**Operator**: Zenya Renewables B.V.
+**Location**: Amsterdam, Netherlands
+**Address**: John M. Keynesplein 1, 1066 EP Amsterdam
+**Registration**: KvK 96567511
+
+**Built by**: curta.solutions (George Curta)
+- 27+ years experience (founded 1998)
+- 700+ managed endpoints
+- 26 international locations
+
+**Infrastructure**: Hetzner Germany (ISO 27001 certified)
+
+---
+
 ## Deployment
 
 ### Remotes
@@ -485,6 +501,7 @@ node tests/production-check.js
 | Version | Date | Changes |
 |---------|------|---------|
 | 2.0.0 | TBD | Education worldwide compatibility update |
+| 1.3.0 | 2026-03-02 | Company info update: Zenya Renewables B.V. (impressum, ai.txt, humans.txt, llms-full.txt, JSON-LD, use-cases/eu.html, sitemap) |
 | 1.2.9 | 2026-02-24 | Character-based pricing (€0.05/1K chars) replaces page-based model |
 | 1.2.8 | 2026-02-24 | Comprehensive pricing update across SEO, docs, AI files (40+ files) |
 | 1.2.7 | 2026-02-24 | Pricing aligned with anonym.legal token model (€0.12/page) |
