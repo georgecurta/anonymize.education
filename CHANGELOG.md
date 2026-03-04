@@ -4,6 +4,88 @@ All notable changes to the Anonymize.Education website will be documented in thi
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
+## [1.3.7] - 2026-03-04
+
+### Content - About Page & Founder Statement Integration
+
+Added comprehensive About page and integrated founder statement across the site, establishing https://anonym.legal/about/founder-statement as the authoritative source for company philosophy and technical architecture.
+
+#### New Pages
+
+**about.html** - Complete About page with:
+- Hero section: "Student Data Privacy Without Compromise"
+- Why We Exist: Zero-knowledge architecture context
+- Eight Architectural Commitments adapted for education
+- Who We Are: George Curta (founder), Zenya Renewables B.V. (operator), curta.solutions (builder)
+- Education-Specific Commitment: 48 languages, pricing, compliance
+- Ecosystem Overview: 5 interconnected products
+- Prominent link to founder statement as authoritative source
+- Breadcrumb navigation (Home › About)
+- Complete SEO meta tags + JSON-LD AboutPage schema
+
+#### Updated Pages
+
+**impressum.html** - Added Founder Statement section:
+- Conviction statement: privacy rights for everyone
+- Link to https://anonym.legal/about/founder-statement
+- Legal note about authoritative source
+- Custom styling (trust-light background, trust border)
+
+**Navigation Updates (35 files)**:
+- Added "About" link to main navigation on all pages
+- Streamlined homepage nav: removed #solutions, #integrations, #trust anchor links
+- New navigation order: About, Pricing, Compare, Contact
+- Updated both desktop and mobile menus
+- Root files use "about.html", subdirectories use "../about.html"
+
+**Footer Updates (35 files)**:
+- Added "About" link to Company/Trust sections
+- Added "Founder Statement" external link with ↗ icon
+- Links to https://anonym.legal/about/founder-statement
+- Security attributes: target="_blank" rel="noopener"
+- Multilingual translations for all 11 language versions
+
+#### SEO Updates
+
+**sitemap.xml**:
+- Added about.html entry (priority 0.8, lastmod 2026-03-04)
+
+**llms.txt**:
+- Added About page link to main navigation section
+
+**llms-full.txt**:
+- Added complete About page content (900+ words)
+- Positioned before Contact section
+
+#### Implementation Documentation
+
+**ABOUT-IMPRINT-ADAPTATION-PLAN.md** - Complete 6.5-7.5 hour implementation plan with:
+- Content structure and guidelines
+- SEO requirements
+- Navigation and footer update strategy
+- Success metrics
+- Single source of truth principle
+
+#### Files Modified (36 total)
+
+**New**:
+- about.html
+- ABOUT-IMPRINT-ADAPTATION-PLAN.md
+
+**Updated**:
+- impressum.html (founder statement section)
+- sitemap.xml (about.html entry)
+- llms.txt (about link)
+- llms-full.txt (about content)
+- 12 homepage language versions (nav + footer)
+- 7 root content pages (nav + footer)
+- 12 use-case pages (nav + footer)
+- 4 comparison pages (nav + footer)
+
+#### Key Principle
+
+**Single Source of Truth**: All content about founder philosophy, technical architecture, and company commitments links to https://anonym.legal/about/founder-statement as the authoritative source. Anonymize.education adapts these principles for education-specific context.
+
 ## [1.3.6] - 2026-03-04
 
 ### UX & SEO Enhancement - Visible Breadcrumb Navigation (Phase 3.2)
