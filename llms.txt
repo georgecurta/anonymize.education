@@ -212,6 +212,7 @@ We focus on TEXT in documents. For faces/video, look elsewhere.
 ## Links
 
 - Website: https://anonymize.education
+- About: https://anonymize.education/about.html
 - Contact: https://anonymize.education/contact.html
 - Use Cases: https://anonymize.education/use-cases.html
 - Glossary: https://anonymize.education/glossary.html

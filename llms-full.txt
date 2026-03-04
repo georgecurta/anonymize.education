@@ -1523,6 +1523,90 @@ Start free with 500 documents/month. No credit card required.
 
 ---
 
+## About Anonymize.Education | Our Mission & Founder Statement
+URL: https://anonymize.education/about.html
+> Student privacy through architecture, not promises. Founded by George Curta (28 years security). Zero-knowledge. ISO 27001. Free tier available.
+
+### About Anonymize.Education
+
+Student Data Privacy Without Compromise
+
+Built on the conviction that schools deserve enterprise-grade privacy tools without enterprise-grade complexity.
+
+#### Why We Exist
+
+US law reaches any data held by US companies globally through the CLOUD Act. Schools are increasingly required to use AI tools for education, but student data is at risk when processed by commercial platforms.
+
+Zero-knowledge architecture makes student data technically inaccessible—even to us, even if subpoenaed. This isn't a contractual promise; it's a technical guarantee.
+
+**Privacy rights must be practically exercisable by every teacher**—not just IT departments with compliance teams. We built Anonymize.Education to make FERPA, COPPA, and GDPR compliance achievable through architecture, not paperwork.
+
+#### Our Technical Approach: Eight Architectural Commitments
+
+1. **Zero-Knowledge Authentication** — Teachers control their data, not us. We can't see student names even if subpoenaed.
+
+2. **Local-First Processing** — Desktop app works offline. Perfect for school networks with restricted internet access.
+
+3. **User-Held Encryption Keys** — 24-word recovery phrase. You hold the keys, not us. Your data remains yours.
+
+4. **Offline Capability** — No internet required for core features. Process IEP documents on air-gapped systems.
+
+5. **No Vendor Lock-In** — Export your data anytime. Standard formats. Complete data portability.
+
+6. **EU Jurisdiction Only** — German Hetzner servers. GDPR compliant. Beyond CLOUD Act reach.
+
+7. **Air-Gap Compatibility** — Sensitive school data stays on-premise. Desktop app works completely offline.
+
+8. **Reversible Anonymization** — Teachers can de-anonymize when needed. You maintain control over the process.
+
+#### Who We Are
+
+**Founder:** George Curta
+- 28 years experience in information security
+- ISO 27001 certified
+- Penetration testing specialist
+- Built privacy tools for 26 countries
+
+**Operator:** Zenya Renewables B.V.
+- Amsterdam, Netherlands
+- European jurisdiction ensures data protection beyond US legal reach
+
+**Builder:** curta.solutions
+- Founded 1998
+- Serving 26 international locations
+- Decades of experience in enterprise security
+
+**Read the Complete Founder Statement:** For the complete statement on technical architecture, privacy commitments, and company philosophy, visit https://anonym.legal/about/founder-statement
+
+#### Our Education-Specific Commitment
+
+- **48 languages** for multilingual schools and international education
+- **Character-based pricing** (not per-student, no seat licenses) from €0/month free tier to €0.05/1K chars
+- **Free tier for individual teachers** — no credit card required, 10,000 characters/month
+- **ISO 27001 certified infrastructure** — independently audited security management
+- **German servers** (EU jurisdiction) — Hetzner data centers, GDPR compliant
+- **FERPA & COPPA supportive** — architecture designed to help schools meet privacy obligations
+- **Desktop app** — works completely offline for air-gapped school systems
+- **Office integration** — Microsoft Word, Excel, PowerPoint add-ins included
+
+#### Part of a Larger Ecosystem
+
+Anonymize.Education is one of five interconnected products, each designed for specific use cases while sharing the same zero-knowledge architecture:
+
+1. **anonymize.education** — Education-focused (this site) — Student data privacy for K-12 and higher education
+
+2. **anonym.legal** — Cloud-first accessibility — Professional privacy tools for legal, healthcare, finance
+
+3. **anonymize.solutions** — Enterprise umbrella — Comprehensive privacy platform for large organizations
+
+4. **cloak.business** — Air-gapped for sensitive data — Maximum security for classified information
+
+5. **anonym.plus** — Desktop-first perpetual licensing — One-time purchase, offline forever
+
+For the complete ecosystem explanation and technical architecture principles, read the founder statement on anonym.legal: https://anonym.legal/about/founder-statement
+
+---
+
 ## Contact | Anonymize.Education
 URL: https://anonymize.education/contact.html
 > Contact Anonymize.Education - Get in touch for education data protection solutions, enterprise inquiries, or support.

@@ -231,6 +231,14 @@
     <priority>0.8</priority>
   </url>
 
+  <!-- About Page -->
+  <url>
+    <loc>https://anonymize.education/about.html</loc>
+    <lastmod>2026-03-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
   <!-- Resource Pages -->
   <url>
     <loc>https://anonymize.education/glossary.html</loc>
