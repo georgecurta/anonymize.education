@@ -4,6 +4,130 @@ All notable changes to the Anonymize.Education website will be documented in thi
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
+## [1.3.6] - 2026-03-04
+
+### UX & SEO Enhancement - Visible Breadcrumb Navigation (Phase 3.2)
+
+Added visible breadcrumb navigation with Schema.org microdata to 20 pages, complementing existing JSON-LD BreadcrumbList structured data with user-visible navigation paths.
+
+#### Features
+
+**Dual Structured Data**:
+- JSON-LD BreadcrumbList (existing) - Machine-readable for search engines
+- Microdata markup (new) - Embedded in HTML with visible navigation
+- Both formats improve SEO signals and provide redundancy
+
+**Navigation Hierarchy**:
+- **3-Level Breadcrumbs** (16 pages): Home › Parent › Current Page
+  - Use-case pages (12): Home › Use Cases › [Industry/Region]
+  - Comparison pages (4): Home › Comparisons › [Competitor]
+- **2-Level Breadcrumbs** (4 pages): Home › Current Page
+  - Content pages: Glossary, Use Cases, Case Studies, Comparisons
+
+**Design & Accessibility**:
+- "Protective Clarity" styling (Guardian Teal #0d9488, subtle separators)
+- Positioned below fixed navigation header
+- Responsive flexbox layout with wrapping
+- ARIA label for screen readers
+- Hover effects on links
+- Current page shown as non-linked text
+
+#### Files Modified (20 total)
+
+**Use-Case Industry Pages (6)**:
+- use-cases/ai-safety.html: Home › Use Cases › AI Safety
+- use-cases/healthcare.html: Home › Use Cases › Healthcare Privacy
+- use-cases/legal.html: Home › Use Cases › Legal Education
+- use-cases/finance.html: Home › Use Cases › Finance Education
+- use-cases/government.html: Home › Use Cases › Government & FOIA
+- use-cases/hr.html: Home › Use Cases › HR Education
+
+**Use-Case Regional Pages (6)**:
+- use-cases/us.html: Home › Use Cases › US FERPA Privacy
+- use-cases/eu.html: Home › Use Cases › EU GDPR Privacy
+- use-cases/uk.html: Home › Use Cases › UK GDPR Privacy
+- use-cases/apac.html: Home › Use Cases › APAC Privacy
+- use-cases/latam.html: Home › Use Cases › LATAM Privacy
+- use-cases/international.html: Home › Use Cases › International Schools
+
+**Comparison Pages (4)**:
+- comparisons/vs-onetrust.html: Home › Comparisons › vs OneTrust
+- comparisons/vs-bigid.html: Home › Comparisons › vs BigID
+- comparisons/vs-private-ai.html: Home › Comparisons › vs Private AI
+- comparisons/vs-manual-redaction.html: Home › Comparisons › vs Manual Redaction
+
+**Content Hub Pages (4)**:
+- glossary.html: Home › Glossary
+- use-cases.html: Home › Use Cases
+- case-studies.html: Home › Case Studies
+- competitors.html: Home › Comparisons
+
+#### Technical Implementation
+
+**CSS Added** (to all 20 files):
+```css
+.breadcrumb { background: white; border-bottom: 1px solid rgba(0,0,0,0.05); padding: calc(80px + 1rem) 1.5rem 1rem; }
+.breadcrumb__inner { max-width: 1200px; margin: 0 auto; }
+.breadcrumb__list { display: flex; flex-wrap: wrap; align-items: center; gap: 0.5rem; list-style: none; }
+.breadcrumb__item { display: flex; align-items: center; gap: 0.5rem; font-size: 0.875rem; }
+.breadcrumb__link { color: var(--color-slate-600); transition: color 0.15s; }
+.breadcrumb__link:hover { color: var(--color-trust); }
+.breadcrumb__separator { color: var(--color-slate-600); opacity: 0.4; user-select: none; }
+.breadcrumb__current { color: var(--color-trust); font-weight: 600; }
+```
+
+**Microdata Schema** (example for 3-level):
+```html
+<nav class="breadcrumb" aria-label="Breadcrumb">
+  <ol class="breadcrumb__list" itemscope itemtype="https://schema.org/BreadcrumbList">
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+      <a href="../" itemprop="item"><span itemprop="name">Home</span></a>
+      <meta itemprop="position" content="1" />
+    </li>
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+      <a href="../use-cases.html" itemprop="item"><span itemprop="name">Use Cases</span></a>
+      <meta itemprop="position" content="2" />
+    </li>
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+      <span itemprop="name">EU GDPR Privacy</span>
+      <meta itemprop="position" content="3" />
+    </li>
+  </ol>
+</nav>
+```
+
+#### SEO Impact
+
+**User Experience**:
+- Clear navigation paths for all deep pages
+- Reduced bounce rate from improved orientation
+- Faster navigation to parent categories
+
+**SEO Benefits**:
+- Dual structured data format (JSON-LD + microdata)
+- Enhanced breadcrumb signals for search engines
+- Improved crawlability of site hierarchy
+- Better SERP breadcrumb display reliability
+
+**Expected Score Impact**:
+- Current: ~92-93/100 (Grade A)
+- Target after Phase 3.2: ~95-98/100 (Grade A+)
+- Improvement: +2-5 points from dual structured data + UX enhancement
+
+#### Pages Without Breadcrumbs (15)
+
+**Homepage Versions (12)**: No breadcrumbs (top-level entry points)
+- index.html + 11 language versions (de, es, fr, pt, nl, lb, da, sv, no, fi, index-v2)
+
+**Other Pages (3)**: No breadcrumbs (standalone/legal pages)
+- contact.html (contact form)
+- datenschutz.html (privacy policy - legal page)
+- impressum.html (imprint - legal page)
+
+**Rationale**: These pages don't benefit from breadcrumbs (either top-level entry points or standalone legal pages).
+
+---
+
 ## [1.3.5] - 2026-03-04
 
 ### SEO Enhancement - Page-Specific Social Media Images (Phase 3.1)

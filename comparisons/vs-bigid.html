@@ -142,6 +142,16 @@ a { color: inherit; text-decoration: none; }
     .compare-cta__desc { font-size: 1.125rem; opacity: 0.9; max-width: 600px; margin: 0 auto 2rem; }
     .btn--white { background: white; color: var(--primary); }
     .btn--white:hover { background: #f8fafc; }
+
+    /* Breadcrumb Navigation */
+    .breadcrumb { background: white; border-bottom: 1px solid rgba(0,0,0,0.05); padding: calc(80px + 1rem) 1.5rem 1rem; }
+    .breadcrumb__inner { max-width: 1200px; margin: 0 auto; }
+    .breadcrumb__list { display: flex; flex-wrap: wrap; align-items: center; gap: 0.5rem; list-style: none; }
+    .breadcrumb__item { display: flex; align-items: center; gap: 0.5rem; font-size: 0.875rem; }
+    .breadcrumb__link { color: var(--color-slate-600); transition: color 0.15s; }
+    .breadcrumb__link:hover { color: var(--color-trust); }
+    .breadcrumb__separator { color: var(--color-slate-600); opacity: 0.4; user-select: none; }
+    .breadcrumb__current { color: var(--color-trust); font-weight: 600; }
   </style>
   <script type="application/ld+json">
   {
@@ -224,6 +234,32 @@ a { color: inherit; text-decoration: none; }
       <div class="nav__mobile-cta">
         
       </div>
+    </div>
+  </nav>
+
+  <!-- Breadcrumb Navigation -->
+  <nav class="breadcrumb" aria-label="Breadcrumb">
+    <div class="breadcrumb__inner">
+      <ol class="breadcrumb__list" itemscope itemtype="https://schema.org/BreadcrumbList">
+        <li class="breadcrumb__item" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="../" class="breadcrumb__link" itemprop="item">
+            <span itemprop="name">Home</span>
+          </a>
+          <meta itemprop="position" content="1" />
+          <span class="breadcrumb__separator" aria-hidden="true">›</span>
+        </li>
+        <li class="breadcrumb__item" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="../competitors.html" class="breadcrumb__link" itemprop="item">
+            <span itemprop="name">Comparisons</span>
+          </a>
+          <meta itemprop="position" content="2" />
+          <span class="breadcrumb__separator" aria-hidden="true">›</span>
+        </li>
+        <li class="breadcrumb__item" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <span class="breadcrumb__current" itemprop="name">vs BigID</span>
+          <meta itemprop="position" content="3" />
+        </li>
+      </ol>
     </div>
   </nav>
 
