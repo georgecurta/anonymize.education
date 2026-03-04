@@ -4,6 +4,139 @@ All notable changes to the Anonymize.Education website will be documented in thi
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
+## [1.3.5] - 2026-03-04
+
+### SEO Enhancement - Page-Specific Social Media Images (Phase 3.1)
+
+Created 26 custom Open Graph images (1200×630px) for improved social media sharing. Each page now displays contextually relevant preview images on Facebook, LinkedIn, Twitter, and other platforms.
+
+#### Assets Created
+
+**og:image Generator Script**:
+- brand/generate_og_images.py: Automated generation of all social media preview images
+- Based on "Protective Clarity" design philosophy
+- Concentric circles motif representing layers of protection
+- Guardian Teal (#0d9488), Deep Knowledge (#134e4a), Safe Cream (#f0fdfa) color palette
+
+**Images Generated (26 total)**:
+
+**Generic Image (1)**:
+- images/og-image.png: Default for non-customized pages
+  - "Student Data Privacy Without Complexity"
+  - "FERPA & GDPR Compliant • 48 Languages • ISO 27001"
+
+**Homepage Language Versions (11)**:
+- og-image-en.png: English - "Student Data Privacy / Without Complexity"
+- og-image-de.png: German - "Schülerdatenschutz / Ohne Komplexität"
+- og-image-es.png: Spanish - "Privacidad de Datos / Estudiantiles Sin Complejidad"
+- og-image-fr.png: French - "Confidentialité des Données / Étudiantes Sans Complexité"
+- og-image-pt.png: Portuguese - "Privacidade de Dados / Estudantis Sem Complexidade"
+- og-image-nl.png: Dutch - "Privacy van Studentgegevens / Zonder Complexiteit"
+- og-image-lb.png: Luxembourgish - "Schueler-Dateschutz / Ouni Komplexitéit"
+- og-image-da.png: Danish - "Elevdatabeskyttelse / Uden Kompleksitet"
+- og-image-sv.png: Swedish - "Elevdataskydd / Utan Komplexitet"
+- og-image-no.png: Norwegian - "Elevdatabeskyttelse / Uten Kompleksitet"
+- og-image-fi.png: Finnish - "Opiskelijatietosuoja / Ilman Monimutkaisuutta"
+
+**Use-Case Industry Images (6)**:
+- og-image-ai-safety.png: "AI Safety in Education / Protect Student Data from LLMs"
+- og-image-healthcare.png: "Healthcare Education / HIPAA-Compliant Student Health Records"
+- og-image-legal.png: "Legal Education Privacy / Protect Case Studies & Client Data"
+- og-image-finance.png: "Finance Education Security / Secure Financial Training Data"
+- og-image-government.png: "Government & FOIA / Public Records Compliance"
+- og-image-hr.png: "HR Education Privacy / Confidential Personnel Training"
+
+**Use-Case Regional Images (4)**:
+- og-image-us-ferpa.png: "US Education Privacy / FERPA & COPPA Compliant Solutions"
+- og-image-eu-gdpr.png: "EU Education Privacy / GDPR Compliant • German Servers • ISO 27001"
+- og-image-uk.png: "UK Education Privacy / UK GDPR Compliant Data Protection"
+- og-image-international.png: "International Schools / Global Privacy Compliance in 48 Languages"
+
+**Comparison Images (4)**:
+- og-image-vs-onetrust.png: "vs OneTrust / Education-Focused • 48 Languages • €0.05/1K chars"
+- og-image-vs-bigid.png: "vs BigID / Zero-Knowledge • Offline Desktop App • Fair Pricing"
+- og-image-vs-private-ai.png: "vs Private AI / ISO 27001 Certified • Free Tier • EU Servers"
+- og-image-vs-manual.png: "vs Manual Redaction / 320+ Entity Types • Instant Processing • Reversible"
+
+#### HTML Files Updated (25 total)
+
+Updated both og:image and twitter:image meta tags:
+
+**Homepage Language Versions (11 files)**:
+- index.html, de/index.html, es/index.html, fr/index.html, pt/index.html
+- nl/index.html, lb/index.html, da/index.html, sv/index.html, no/index.html, fi/index.html
+
+**Use-Case Pages (10 files)**:
+- use-cases/ai-safety.html, use-cases/healthcare.html, use-cases/legal.html
+- use-cases/finance.html, use-cases/government.html, use-cases/hr.html
+- use-cases/us.html, use-cases/eu.html, use-cases/uk.html, use-cases/international.html
+
+**Comparison Pages (4 files)**:
+- comparisons/vs-onetrust.html, comparisons/vs-bigid.html
+- comparisons/vs-private-ai.html, comparisons/vs-manual-redaction.html
+
+#### SEO Impact
+
+**Social Sharing Improvements**:
+- Before: Generic image for all pages
+- After: Contextually relevant images for 71% of site (25/35 pages)
+- Languages: Proper localized branding for all 11 language versions
+- Click-through: Expected +15-30% CTR improvement on social media shares
+
+**Expected Score Impact**:
+- Current: ~87-88/100 (Grade A-)
+- Target after Phase 3.1: ~92-93/100 (Grade A)
+- Improvement: +5 points from page-specific social media assets
+
+**Pages Using Generic Image (10)**:
+- contact.html, glossary.html, use-cases.html, case-studies.html, competitors.html
+- datenschutz.html, impressum.html, index-v2.html
+- use-cases/apac.html, use-cases/latam.html
+
+---
+
+## [1.3.4] - 2026-03-04
+
+### SEO Refinements - Complete Social Media Description Sync (Phase 2.8)
+
+Synchronized og:description and twitter:description tags with Phase 1 optimized meta descriptions for all 12 use-case pages.
+
+#### Files Modified (12 total)
+
+**Industry Use-Cases (6 files)**:
+- use-cases/ai-safety.html: Synced descriptions (meta = og = twitter)
+- use-cases/healthcare.html: Synced descriptions
+- use-cases/legal.html: Synced descriptions
+- use-cases/finance.html: Synced descriptions
+- use-cases/government.html: Synced descriptions
+- use-cases/hr.html: Synced descriptions
+
+**Regional Use-Cases (6 files)**:
+- use-cases/us.html: Synced descriptions
+- use-cases/eu.html: Synced descriptions
+- use-cases/uk.html: Synced descriptions
+- use-cases/apac.html: Synced descriptions
+- use-cases/latam.html: Synced descriptions
+- use-cases/international.html: Synced descriptions
+
+#### SEO Improvements
+
+**Description Mismatch Warnings**:
+- Before: 24 warnings (12 pages × 2 tags each)
+- After: 0 warnings
+- Improvement: 100% resolution
+
+**Audit Results**:
+- Meta Tag Consistency: ✅ PASS - All 35 pages
+- Infrastructure Files: ✅ All passing
+- Remaining Warnings: 3 (informational only)
+
+**Expected Score Impact**:
+- Before Phase 2.8: ~85/100 (Grade A-)
+- After Phase 2.8: ~87-88/100 (Grade A-)
+
+---
+
 ## [1.3.3] - 2026-03-04
 
 ### SEO Refinements - Tag Consistency & Homepage Optimization (Phase 2)
