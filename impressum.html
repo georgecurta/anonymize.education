@@ -589,6 +589,40 @@
     .resource-page a { color: #0d5c63; }
     .resource-page a:hover { text-decoration: underline; }
     hr { border: none; border-top: 1px solid #e2e8f0; margin: 2rem 0; }
+
+    /* Founder Statement Section */
+    .founder-statement {
+      background: var(--color-trust-light);
+      border-left: 4px solid var(--color-trust);
+      padding: 2rem;
+      margin: 2rem 0;
+      border-radius: 8px;
+    }
+
+    .statement-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      background: var(--color-trust);
+      color: white;
+      padding: 0.75rem 1.5rem;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: all 0.15s;
+    }
+
+    .statement-link:hover {
+      background: var(--color-trust-dark);
+      transform: translateY(-1px);
+      box-shadow: var(--shadow-md);
+    }
+
+    .legal-note {
+      font-size: 0.875rem;
+      color: var(--color-slate-600);
+      margin-top: 1rem;
+    }
   </style>
   <script type="application/ld+json">
   {
@@ -758,6 +792,29 @@
       <li>LibreOffice is a trademark of The Document Foundation</li>
       <li>Claude is a trademark of Anthropic</li>
     </ul>
+
+    <section class="founder-statement">
+      <h2>Founder Statement</h2>
+      <p>
+        Anonymize.Education is part of a larger ecosystem built on the conviction
+        that privacy rights must be practically exercisable by everyone — not only
+        by organizations with compliance departments.
+      </p>
+      <p>
+        Read the complete founder statement, architectural principles, and company
+        philosophy:
+      </p>
+      <p>
+        <a href="https://anonym.legal/about/founder-statement" class="statement-link" target="_blank" rel="noopener">
+          Founder Statement on anonym.legal
+          <span aria-hidden="true">→</span>
+        </a>
+      </p>
+      <p class="legal-note">
+        The founder statement serves as the authoritative source for our technical
+        approach, privacy commitments, and ecosystem architecture.
+      </p>
+    </section>
 
   </main>
 
