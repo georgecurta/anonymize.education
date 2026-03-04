@@ -5,7 +5,8 @@
 **Domain**: anonymize.education
 **Purpose**: Marketing website for education-focused data anonymization platform
 **Backend**: cloak.business (serves the PII detection/anonymization API)
-**Status**: Live in production (v1.2.9, deployed 2026-02-24)
+**Status**: Live in production (v1.3.7, deployed 2026-03-04)
+**SEO Score**: A+ (EXCELLENT) - Claude crawler audit: 35/35 pages passed, 0 errors, 0 warnings
 
 ### Architecture
 ```
@@ -17,6 +18,43 @@ cloak.business (Backend API)
 ```
 
 **Goal**: Position anonymize.education as THE worldwide education privacy solution
+
+---
+
+## Recent Updates (v1.3.7 - 2026-03-04)
+
+### About Page & Founder Statement Integration
+
+**New About Page** (`/about.html`):
+- Comprehensive About page establishing company philosophy and technical architecture
+- Eight Architectural Commitments adapted for education context
+- Founder information: George Curta (28 years security experience)
+- Company structure: Zenya Renewables B.V. (operator), curta.solutions (builder)
+- Ecosystem overview: 5 interconnected products
+- **Key principle**: Links to https://anonym.legal/about/founder-statement as authoritative source
+- Complete SEO implementation: AboutPage schema, breadcrumbs, meta tags
+
+**Impressum Update**:
+- Added Founder Statement section linking to https://anonym.legal/about/founder-statement
+- Establishes single source of truth for company philosophy
+
+**Site-Wide Navigation Updates** (35 files):
+- Added "About" link to main navigation on all pages
+- Streamlined homepage nav: removed #solutions, #integrations, #trust anchor links
+- New order: About, Pricing, Compare, Contact
+- Updated both desktop and mobile menus
+
+**Site-Wide Footer Updates** (35 files):
+- Added "About" link to Company/Trust sections
+- Added "Founder Statement" external link with ↗ icon (target="_blank" rel="noopener")
+- Multilingual translations for all 11 language versions
+
+**SEO Validation**:
+- Claude crawler perspective audit: **Grade A+ (EXCELLENT)**
+- 35/35 pages passed, 0 errors, 0 warnings
+- Perfect tag consistency, complete hreflang, valid JSON-LD
+- All meta descriptions 120-160 characters
+- Report: `C:\Dev\MacXpress\reports\claude-crawler-audit-anonymize-education-2026-03-04.txt`
 
 ---
 
@@ -501,6 +539,8 @@ node tests/production-check.js
 | Version | Date | Changes |
 |---------|------|---------|
 | 2.0.0 | TBD | Education worldwide compatibility update |
+| 1.3.7 | 2026-03-04 | About page & founder statement integration (36 files). Navigation/footer updates (35 files). Claude crawler audit: A+ grade, 35/35 passed |
+| 1.3.6 | 2026-03-04 | Visible breadcrumb navigation with Schema.org microdata (20 pages). Dual structured data (JSON-LD + microdata) |
 | 1.3.0 | 2026-03-02 | Company info update: Zenya Renewables B.V. (impressum, ai.txt, humans.txt, llms-full.txt, JSON-LD, use-cases/eu.html, sitemap) |
 | 1.2.9 | 2026-02-24 | Character-based pricing (€0.05/1K chars) replaces page-based model |
 | 1.2.8 | 2026-02-24 | Comprehensive pricing update across SEO, docs, AI files (40+ files) |
@@ -576,4 +616,4 @@ AI chatbots detect user's language and use appropriate file.
 
 ---
 
-*Last Updated: 2026-02-24 (v1.2.9)*
+*Last Updated: 2026-03-04 (v1.3.7)*
