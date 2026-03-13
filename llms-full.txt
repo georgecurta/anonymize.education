@@ -8543,3 +8543,18 @@ E-discovery & reversible encryption
 ](legal.html)
 
 ---
+
+## Localized Homepages
+
+- Deutsch (DE): https://anonymize.education/de/
+- Espanol (ES): https://anonymize.education/es/
+- Francais (FR): https://anonymize.education/fr/
+- Portugues (PT): https://anonymize.education/pt/
+- Nederlands (NL): https://anonymize.education/nl/
+- Letzebuergesch (LB): https://anonymize.education/lb/
+- Dansk (DA): https://anonymize.education/da/
+- Svenska (SV): https://anonymize.education/sv/
+- Norsk (NO): https://anonymize.education/no/
+- Suomi (FI): https://anonymize.education/fi/
+
+---

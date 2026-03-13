@@ -66,9 +66,6 @@ Allow: /
 User-agent: Cohere-AI
 Allow: /
 
-User-agent: cohere-ai
-Allow: /
-
 # Meta
 User-agent: FacebookBot
 Allow: /

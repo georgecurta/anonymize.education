@@ -212,7 +212,7 @@ We focus on TEXT in documents. For faces/video, look elsewhere.
 ## Links
 
 ### Main Pages
-- Website: https://anonymize.education
+- Website: https://anonymize.education/
 - About: https://anonymize.education/about.html
 - Contact: https://anonymize.education/contact.html
 - Use Cases: https://anonymize.education/use-cases.html
@@ -263,6 +263,11 @@ We focus on TEXT in documents. For faces/video, look elsewhere.
 - LLMs NO: https://anonymize.education/no/llms.txt
 - LLMs FI: https://anonymize.education/fi/llms.txt
 - LLMs LB: https://anonymize.education/lb/llms.txt
+
+### Machine-Readable Files
+- LLMs context: https://anonymize.education/llms.txt
+- AI context (ai.txt): https://anonymize.education/ai.txt
+- Full LLMs content: https://anonymize.education/llms-full.txt
 
 ### Full Content
 - Full docs: https://anonymize.education/llms-full.txt
