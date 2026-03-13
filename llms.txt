@@ -211,9 +211,58 @@ We focus on TEXT in documents. For faces/video, look elsewhere.
 
 ## Links
 
+### Main Pages
 - Website: https://anonymize.education
 - About: https://anonymize.education/about.html
 - Contact: https://anonymize.education/contact.html
 - Use Cases: https://anonymize.education/use-cases.html
+- Case Studies: https://anonymize.education/case-studies.html
 - Glossary: https://anonymize.education/glossary.html
+- Competitors: https://anonymize.education/competitors.html
+
+### Legal
+- Privacy Policy: https://anonymize.education/datenschutz.html
+- Imprint: https://anonymize.education/impressum.html
+
+### Industry Use Cases
+- AI Safety: https://anonymize.education/use-cases/ai-safety.html
+- Healthcare (HIPAA): https://anonymize.education/use-cases/healthcare.html
+- Legal & e-Discovery: https://anonymize.education/use-cases/legal.html
+- Finance & Banking: https://anonymize.education/use-cases/finance.html
+- Government & FOIA: https://anonymize.education/use-cases/government.html
+- Human Resources: https://anonymize.education/use-cases/hr.html
+
+### Regional Compliance
+- United States (FERPA/COPPA): https://anonymize.education/use-cases/us.html
+- European Union (GDPR): https://anonymize.education/use-cases/eu.html
+- United Kingdom (UK GDPR): https://anonymize.education/use-cases/uk.html
+- Asia-Pacific (APAC): https://anonymize.education/use-cases/apac.html
+- Latin America: https://anonymize.education/use-cases/latam.html
+- International: https://anonymize.education/use-cases/international.html
+
+### Localized Homepages
+- Deutsch (DE): https://anonymize.education/de/
+- Español (ES): https://anonymize.education/es/
+- Français (FR): https://anonymize.education/fr/
+- Nederlands (NL): https://anonymize.education/nl/
+- Português (PT): https://anonymize.education/pt/
+- Svenska (SV): https://anonymize.education/sv/
+- Dansk (DA): https://anonymize.education/da/
+- Norsk (NO): https://anonymize.education/no/
+- Suomi (FI): https://anonymize.education/fi/
+- Lëtzebuergesch (LB): https://anonymize.education/lb/
+
+### Localized LLM Context Files
+- LLMs DE: https://anonymize.education/de/llms.txt
+- LLMs ES: https://anonymize.education/es/llms.txt
+- LLMs FR: https://anonymize.education/fr/llms.txt
+- LLMs NL: https://anonymize.education/nl/llms.txt
+- LLMs PT: https://anonymize.education/pt/llms.txt
+- LLMs SV: https://anonymize.education/sv/llms.txt
+- LLMs DA: https://anonymize.education/da/llms.txt
+- LLMs NO: https://anonymize.education/no/llms.txt
+- LLMs FI: https://anonymize.education/fi/llms.txt
+- LLMs LB: https://anonymize.education/lb/llms.txt
+
+### Full Content
 - Full docs: https://anonymize.education/llms-full.txt
