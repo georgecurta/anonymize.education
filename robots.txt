@@ -1,12 +1,15 @@
 # robots.txt for anonymize.education
 # Zero-knowledge student data privacy for schools worldwide
-# Updated: 2026-02-18
+# Updated: 2026-03-13
 
 User-agent: *
 Allow: /
+Disallow: /api/
 
 # Sitemaps
 Sitemap: https://anonymize.education/sitemap.xml
+
+# IndexNow: https://anonymize.education/183b0798aecf64b90d1baf017bb0266a.txt
 
 # AI/LLM Context Files (llmstxt.org specification)
 # llms.txt: https://anonymize.education/llms.txt
@@ -32,11 +35,20 @@ Allow: /
 User-agent: ClaudeBot
 Allow: /
 
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
 User-agent: Anthropic-AI
 Allow: /
 
 # Google AI
 User-agent: Google-Extended
+Allow: /
+
+User-agent: Google-CloudVertexBot
 Allow: /
 
 User-agent: Googlebot
@@ -54,11 +66,17 @@ Allow: /
 User-agent: Cohere-AI
 Allow: /
 
+User-agent: cohere-ai
+Allow: /
+
 # Meta
 User-agent: FacebookBot
 Allow: /
 
 User-agent: Meta-ExternalAgent
+Allow: /
+
+User-agent: Meta-ExternalFetcher
 Allow: /
 
 # Amazon
@@ -84,6 +102,9 @@ Allow: /
 User-agent: DuckDuckBot
 Allow: /
 
+User-agent: DuckAssistBot
+Allow: /
+
 # Neeva
 User-agent: NeevaBot
 Allow: /
@@ -102,10 +123,75 @@ Allow: /
 User-agent: ImagesiftBot
 Allow: /
 
-User-agent: Omgilibot
+User-agent: webzio-extended
 Allow: /
 
 User-agent: Bytespider
+Allow: /
+
+User-agent: Diffbot
+Allow: /
+
+User-agent: AI2Bot
+Allow: /
+
+User-agent: MistralAI-User
+Allow: /
+
+# Social media
+User-agent: Twitterbot
+Allow: /
+
+User-agent: LinkedInBot
+Allow: /
+
+User-agent: WhatsApp
+Allow: /
+
+# Search engines
+User-agent: Slurp
+Allow: /
+
+User-agent: Baiduspider
+Allow: /
+
+User-agent: Sogou
+Allow: /
+
+User-agent: Exabot
+Allow: /
+
+User-agent: PetalBot
+Allow: /
+
+User-agent: Timpibot
+Allow: /
+
+# SEO crawlers
+User-agent: MJ12bot
+Allow: /
+
+User-agent: AhrefsBot
+Allow: /
+
+User-agent: SemrushBot
+Allow: /
+
+User-agent: DotBot
+Allow: /
+
+User-agent: rogerbot
+Allow: /
+
+# Internet Archive
+User-agent: ia_archiver
+Allow: /
+
+User-agent: archive.org_bot
+Allow: /
+
+# Alexa
+User-agent: alexa
 Allow: /
 
 # Static assets - explicitly allow
