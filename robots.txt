@@ -5,6 +5,8 @@
 User-agent: *
 Allow: /
 Disallow: /api/
+Disallow: /.git/
+Disallow: /*.env
 
 # Sitemaps
 Sitemap: https://anonymize.education/sitemap.xml
@@ -189,6 +191,89 @@ Allow: /
 
 # Alexa
 User-agent: alexa
+Allow: /
+
+# Google specialized bots
+User-agent: Googlebot-Image
+Allow: /
+
+User-agent: Googlebot-Video
+Allow: /
+
+User-agent: Googlebot-News
+Allow: /
+
+User-agent: Storebot-Google
+Allow: /
+
+User-agent: Google-InspectionTool
+Allow: /
+
+User-agent: GoogleOther
+Allow: /
+
+User-agent: GoogleOther-Image
+Allow: /
+
+User-agent: GoogleOther-Video
+Allow: /
+
+# xAI / Grok
+User-agent: Grokbot
+Allow: /
+
+User-agent: xAI-Grok
+Allow: /
+
+User-agent: Grok-DeepSearch
+Allow: /
+
+# DeepSeek
+User-agent: DeepSeekBot
+Allow: /
+
+# Google Gemini
+User-agent: Gemini-Deep-Research
+Allow: /
+
+# Naver (South Korea)
+User-agent: Naverbot
+Allow: /
+
+# TikTok
+User-agent: TikTokSpider
+Allow: /
+
+# AI2 Dolma dataset
+User-agent: AI2Bot-Dolma
+Allow: /
+
+# Img2Dataset
+User-agent: Img2Dataset
+Allow: /
+
+# Perplexity User
+User-agent: Perplexity-User
+Allow: /
+
+# Amazon Buyforme
+User-agent: AmazonBuyforme
+Allow: /
+
+# iAsk.ai
+User-agent: iAskSpider
+Allow: /
+
+# Slack
+User-agent: Slackbot
+Allow: /
+
+# Firecrawl
+User-agent: FirecrawlAgent
+Allow: /
+
+# Seznam (Czech)
+User-agent: SeznamBot
 Allow: /
 
 # Static assets - explicitly allow
